@@ -37,7 +37,7 @@ WATCH_APPS = [
         "name": "楓之谷M",
         "apple_ids": [],
         "google_packages": [],
-        "keywords": ["楓之谷M"],
+        "keywords": ["楓之谷M", "楓之谷"],
     },
     {
         "name": "RO仙境傳說：愛如初見",
@@ -58,5 +58,9 @@ WATCH_APPS = [
         "keywords": ["Last War", "最後的戰爭"],
     },
 ]
+
+TOP_N = 20
+ALERT_RISE_THRESHOLD = 10
+ALERT_DROP_THRESHOLD = 10
 
 FEISHU_WEBHOOK = ""
