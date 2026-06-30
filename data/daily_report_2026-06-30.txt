@@ -1,4 +1,4 @@
-【台湾手游榜单监控日报 V2.2】
+【台湾手游榜单监控日报 V2.3】
 日期：2026-06-30
 
 ========== 台湾 ==========
@@ -112,5 +112,10 @@
 暂无历史数据，今日仅建立基准，明日起开始预警。
 
 ========== 重点产品趋势图 ==========
-已生成 6 张趋势图，保存在 data/charts/。
-如需飞书直接推送图片，请配置 FEISHU_APP_ID 和 FEISHU_APP_SECRET。
+已生成 6 张趋势图：
+1. 新熱血江湖：世界｜iOS畅销榜：https://github.com/zhouyao-cloud/game-rank-monitor/blob/main/data/charts/2026-06-30_新熱血江湖_世界_ios_top-grossing.png
+2. 楓之谷M｜iOS畅销榜：https://github.com/zhouyao-cloud/game-rank-monitor/blob/main/data/charts/2026-06-30_楓之谷M_ios_top-grossing.png
+3. 寒霜啟示錄｜iOS畅销榜：https://github.com/zhouyao-cloud/game-rank-monitor/blob/main/data/charts/2026-06-30_寒霜啟示錄_ios_top-grossing.png
+4. 寒霜啟示錄｜Google畅销榜：https://github.com/zhouyao-cloud/game-rank-monitor/blob/main/data/charts/2026-06-30_寒霜啟示錄_android_grossing.png
+5. Last War: Survival｜iOS畅销榜：https://github.com/zhouyao-cloud/game-rank-monitor/blob/main/data/charts/2026-06-30_Last_War_Survival_ios_top-grossing.png
+6. Last War: Survival｜Google畅销榜：https://github.com/zhouyao-cloud/game-rank-monitor/blob/main/data/charts/2026-06-30_Last_War_Survival_android_grossing.png
