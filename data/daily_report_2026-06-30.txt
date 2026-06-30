@@ -1,4 +1,4 @@
-【台湾手游榜单日报 V1.1】
+【台湾手游榜单监控日报 V2.0】
 日期：2026-06-30
 
 ========== 台湾 ==========
@@ -48,10 +48,48 @@
 20. 楓之谷：放置冒險記 新入榜
 
 【Google免费榜 TOP20】
-暂无数据
+1. Meowdoku: Brain Puzzle Games 新入榜
+2. Arrows – Puzzle Escape 新入榜
+3. Roblox 新入榜
+4. Vita Mahjong 新入榜
+5. Amaze GO! 新入榜
+6. Block Blast! 新入榜
+7. Arrow Puzzle: Tap Puzzle Games 新入榜
+8. Tile Explorer - Triple Match 新入榜
+9. Color Block: Combo Blast 新入榜
+10. Magic Sort! 新入榜
+11. Bus Traffic Fever! 新入榜
+12. Jewel Coloring 新入榜
+13. Yarn Loop 新入榜
+14. Paper.io 2 新入榜
+15. Level Devil - NOT A Troll Game 新入榜
+16. Pixel Flow! 新入榜
+17. MONOPOLY GO! 新入榜
+18. Snake Clash! 新入榜
+19. Zen Word® - Relax Puzzle Game 新入榜
+20. Melon Sandbox 新入榜
 
 【Google畅销榜 TOP20】
-暂无数据
+1. MONOPOLY GO! 新入榜
+2. Roblox 新入榜
+3. Royal Match 新入榜
+4. Candy Crush Saga 新入榜
+5. Kingshot 新入榜
+6. Gossip Harbor: Merge & Story 新入榜
+7. Whiteout Survival 新入榜
+8. Royal Kingdom 新入榜
+9. Last War:Survival Game 新入榜
+10. Township 新入榜
+11. Coin Master 新入榜
+12. Last Z: Survival Shooter 新入榜
+13. Pokémon GO 新入榜
+14. Total Battle: War Strategy 新入榜
+15. Evony: The King's Return 新入榜
+16. Toon Blast 新入榜
+17. Disney Solitaire 新入榜
+18. Jackpot Party Casino Slots 新入榜
+19. Gardenscapes 新入榜
+20. Sword x Staff 新入榜
 
 ========== 重点产品监控 ==========
 
@@ -59,11 +97,47 @@
 台湾｜iOS｜iOS畅销榜：65（新入榜）
 
 【楓之谷M】
+台湾｜iOS｜iOS免费榜：71（新入榜）
 台湾｜iOS｜iOS畅销榜：61（新入榜）
+台湾｜iOS｜iOS畅销榜：20（新入榜）
 
 【寒霜啟示錄】
+台湾｜Google｜Google畅销榜：7（新入榜）
 台湾｜iOS｜iOS免费榜：17（新入榜）
 台湾｜iOS｜iOS畅销榜：1（新入榜）
 
 【Last War: Survival】
+台湾｜Google｜Google畅销榜：9（新入榜）
 台湾｜iOS｜iOS畅销榜：7（新入榜）
+
+========== 榜单异动预警 ==========
+🆕 新进榜TOP50｜台湾｜iOS免费榜｜1. Pikmin Bloom
+🆕 新进榜TOP50｜台湾｜iOS免费榜｜2. JUMP 全明星亂鬥
+🆕 新进榜TOP50｜台湾｜iOS免费榜｜3. 從前有條街
+🆕 新进榜TOP50｜台湾｜iOS免费榜｜4. Pokémon Champions
+🆕 新进榜TOP50｜台湾｜iOS免费榜｜5. Smash Fest!
+🆕 新进榜TOP50｜台湾｜iOS免费榜｜6. 練氣3000層：墮落女帝逼我飛升
+🆕 新进榜TOP50｜台湾｜iOS免费榜｜7. 雙面神姬
+🆕 新进榜TOP50｜台湾｜iOS免费榜｜8. 口袋神兵
+🆕 新进榜TOP50｜台湾｜iOS免费榜｜9. 生存33天
+🆕 新进榜TOP50｜台湾｜iOS免费榜｜10. Bus Traffic Fever!
+🆕 新进榜TOP50｜台湾｜iOS免费榜｜11. Block Blast!
+🆕 新进榜TOP50｜台湾｜iOS免费榜｜12. 緋聞港口：合併&故事
+🆕 新进榜TOP50｜台湾｜iOS免费榜｜13. 星絆之旅
+🆕 新进榜TOP50｜台湾｜iOS免费榜｜14. Family Style: Co-op Kitchen
+🆕 新进榜TOP50｜台湾｜iOS免费榜｜15. Roblox
+🆕 新进榜TOP50｜台湾｜iOS免费榜｜16. 粉彩世界：合作逃生
+🆕 新进榜TOP50｜台湾｜iOS免费榜｜17. 寒霜啟示錄
+🆕 新进榜TOP50｜台湾｜iOS免费榜｜18. 《荒野亂鬥》
+🆕 新进榜TOP50｜台湾｜iOS免费榜｜19. 食光旅行
+🆕 新进榜TOP50｜台湾｜iOS免费榜｜20. Royal Kingdom
+🆕 新进榜TOP50｜台湾｜iOS免费榜｜21. Vita 麻將
+🆕 新进榜TOP50｜台湾｜iOS免费榜｜22. Magic Sort!
+🆕 新进榜TOP50｜台湾｜iOS免费榜｜23. Coin Master - Board Adventure
+🆕 新进榜TOP50｜台湾｜iOS免费榜｜24. Jewel Coloring
+🆕 新进榜TOP50｜台湾｜iOS免费榜｜25. 點點大作戰
+🆕 新进榜TOP50｜台湾｜iOS免费榜｜26. Block Out! - Color Sort Puzzle
+🆕 新进榜TOP50｜台湾｜iOS免费榜｜27. Amaze GO! - 箭頭解謎
+🆕 新进榜TOP50｜台湾｜iOS免费榜｜28. 戰爭誓言
+🆕 新进榜TOP50｜台湾｜iOS免费榜｜29. 青丘世界：緣起
+🆕 新进榜TOP50｜台湾｜iOS免费榜｜30. 超能戰爭
