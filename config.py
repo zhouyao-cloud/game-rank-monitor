@@ -2,8 +2,6 @@
 
 REGIONS = {
     "tw": "台湾",
-    "hk": "香港",
-    "mo": "澳门",
 }
 
 IOS_CHARTS = {
