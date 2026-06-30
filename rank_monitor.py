@@ -15,6 +15,7 @@ from config import (
     TOP_N,
     ALERT_RISE_THRESHOLD,
     ALERT_DROP_THRESHOLD,
+    NEW_ENTRY_ALERT_RANK,
     FEISHU_WEBHOOK,
 )
 
@@ -105,6 +106,7 @@ def fetch_android_chart(region, chart_type, limit=200):
                 continue
 
             package_name = href.split("/")[-1].strip()
+
             if not package_name or package_name in seen:
                 continue
 
@@ -161,6 +163,14 @@ def load_history():
     return pd.read_csv(HISTORY_FILE)
 
 
+def has_previous_history(history):
+    if history.empty:
+        return False
+
+    old = history[history["date"] < TODAY]
+    return not old.empty
+
+
 def get_previous_rank(history, platform, region, chart_type, app_id):
     if history.empty:
         return None
@@ -210,12 +220,25 @@ def get_chart_name(platform, chart_type):
     return ANDROID_CHARTS.get(chart_type, chart_type)
 
 
+def match_keyword_exact_or_contains(app_name, keyword):
+    app_name = str(app_name).strip()
+    keyword = str(keyword).strip()
+
+    if not app_name or not keyword:
+        return False
+
+    if app_name == keyword:
+        return True
+
+    return keyword.lower() in app_name.lower()
+
+
 def match_watch_app(today_df, watch):
     matched_parts = []
 
-    apple_ids = [str(x) for x in watch.get("apple_ids", [])]
-    google_packages = [str(x) for x in watch.get("google_packages", [])]
-    keywords = watch.get("keywords", [])
+    apple_ids = [str(x) for x in watch.get("apple_ids", []) if str(x).strip()]
+    google_packages = [str(x) for x in watch.get("google_packages", []) if str(x).strip()]
+    keywords = [str(x) for x in watch.get("keywords", []) if str(x).strip()]
 
     if apple_ids:
         matched_parts.append(
@@ -234,16 +257,10 @@ def match_watch_app(today_df, watch):
         )
 
     for keyword in keywords:
-        matched_parts.append(
-            today_df[
-                today_df["app_name"].astype(str).str.contains(
-                    re.escape(keyword),
-                    case=False,
-                    na=False,
-                    regex=True
-                )
-            ]
+        mask = today_df["app_name"].apply(
+            lambda x: match_keyword_exact_or_contains(x, keyword)
         )
+        matched_parts.append(today_df[mask])
 
     if not matched_parts:
         return pd.DataFrame()
@@ -305,7 +322,7 @@ def build_watch_section(lines, today_df, history):
         has_watch_result = True
         lines.append(f"\n【{watch['name']}】")
 
-        for _, row in matched.sort_values(["region", "platform", "chart_type"]).iterrows():
+        for _, row in matched.sort_values(["region", "platform", "chart_type", "rank"]).iterrows():
             previous_rank = get_previous_rank(
                 history,
                 row["platform"],
@@ -331,6 +348,10 @@ def build_alert_section(lines, today_df, history):
     lines.append("")
     lines.append("========== 榜单异动预警 ==========")
 
+    if not has_previous_history(history):
+        lines.append("暂无历史数据，今日仅建立基准，明日起开始预警。")
+        return
+
     alerts = []
 
     for _, row in today_df.iterrows():
@@ -345,9 +366,9 @@ def build_alert_section(lines, today_df, history):
         diff = change_value(int(row["rank"]), previous_rank)
 
         if diff is None:
-            if int(row["rank"]) <= 50:
+            if int(row["rank"]) <= NEW_ENTRY_ALERT_RANK:
                 alerts.append(
-                    f"🆕 新进榜TOP50｜{row['region_name']}｜{get_chart_name(row['platform'], row['chart_type'])}｜"
+                    f"🆕 新进榜TOP{NEW_ENTRY_ALERT_RANK}｜{row['region_name']}｜{get_chart_name(row['platform'], row['chart_type'])}｜"
                     f"{int(row['rank'])}. {row['app_name']}"
                 )
             continue
@@ -376,7 +397,7 @@ def build_report(today_rows):
     today_df = pd.DataFrame(today_rows)
 
     lines = []
-    lines.append("【台湾手游榜单监控日报 V2.0】")
+    lines.append("【台湾手游榜单监控日报 V2.1】")
     lines.append(f"日期：{TODAY}")
     lines.append("")
 
