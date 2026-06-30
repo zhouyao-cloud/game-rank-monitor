@@ -20,8 +20,6 @@ from config import (
     ALERT_DROP_THRESHOLD,
     NEW_ENTRY_ALERT_RANK,
     FEISHU_WEBHOOK,
-    FEISHU_APP_ID,
-    FEISHU_APP_SECRET,
 )
 
 
@@ -34,12 +32,28 @@ os.makedirs(DATA_DIR, exist_ok=True)
 os.makedirs(CHART_DIR, exist_ok=True)
 
 
-def get_env_or_config(key, config_value=""):
-    return os.getenv(key) or config_value
-
-
 def get_feishu_webhook():
-    return get_env_or_config("FEISHU_WEBHOOK", FEISHU_WEBHOOK)
+    return os.getenv("FEISHU_WEBHOOK") or FEISHU_WEBHOOK
+
+
+def get_github_base_url():
+    repo = os.getenv("GITHUB_REPOSITORY", "")
+    branch = os.getenv("GITHUB_REF_NAME", "main")
+
+    if not repo:
+        return ""
+
+    return f"https://github.com/{repo}/blob/{branch}"
+
+
+def to_github_file_url(file_path):
+    base_url = get_github_base_url()
+
+    if not base_url:
+        return ""
+
+    normalized_path = file_path.replace("\\", "/")
+    return f"{base_url}/{normalized_path}"
 
 
 def fetch_ios_chart(region, chart_type, limit=200):
@@ -243,7 +257,7 @@ def match_keyword_exact_or_contains(app_name, keyword):
     return keyword.lower() in app_name.lower()
 
 
-def match_watch_app(today_df, watch):
+def match_watch_app(df, watch):
     matched_parts = []
 
     apple_ids = [str(x) for x in watch.get("apple_ids", []) if str(x).strip()]
@@ -252,25 +266,25 @@ def match_watch_app(today_df, watch):
 
     if apple_ids:
         matched_parts.append(
-            today_df[
-                (today_df["platform"] == "ios") &
-                (today_df["app_id"].astype(str).isin(apple_ids))
+            df[
+                (df["platform"] == "ios") &
+                (df["app_id"].astype(str).isin(apple_ids))
             ]
         )
 
     if google_packages:
         matched_parts.append(
-            today_df[
-                (today_df["platform"] == "android") &
-                (today_df["app_id"].astype(str).isin(google_packages))
+            df[
+                (df["platform"] == "android") &
+                (df["app_id"].astype(str).isin(google_packages))
             ]
         )
 
     for keyword in keywords:
-        mask = today_df["app_name"].apply(
+        mask = df["app_name"].apply(
             lambda x: match_keyword_exact_or_contains(x, keyword)
         )
-        matched_parts.append(today_df[mask])
+        matched_parts.append(df[mask])
 
     if not matched_parts:
         return pd.DataFrame()
@@ -378,7 +392,8 @@ def build_alert_section(lines, today_df, history):
         if diff is None:
             if int(row["rank"]) <= NEW_ENTRY_ALERT_RANK:
                 alerts.append(
-                    f"🆕 新进榜TOP{NEW_ENTRY_ALERT_RANK}｜{row['region_name']}｜{get_chart_name(row['platform'], row['chart_type'])}｜"
+                    f"🆕 新进榜TOP{NEW_ENTRY_ALERT_RANK}｜{row['region_name']}｜"
+                    f"{get_chart_name(row['platform'], row['chart_type'])}｜"
                     f"{int(row['rank'])}. {row['app_name']}"
                 )
             continue
@@ -406,45 +421,14 @@ def generate_trend_charts(history):
     if history.empty:
         return []
 
-    chart_paths = []
+    chart_infos = []
     start_date = (datetime.now() - timedelta(days=TREND_DAYS - 1)).strftime("%Y-%m-%d")
 
     for watch in WATCH_APPS:
-        matched_history_parts = []
+        app_history = match_watch_app(history, watch)
 
-        apple_ids = [str(x) for x in watch.get("apple_ids", []) if str(x).strip()]
-        google_packages = [str(x) for x in watch.get("google_packages", []) if str(x).strip()]
-        keywords = [str(x) for x in watch.get("keywords", []) if str(x).strip()]
-
-        if apple_ids:
-            matched_history_parts.append(
-                history[
-                    (history["platform"] == "ios") &
-                    (history["app_id"].astype(str).isin(apple_ids))
-                ]
-            )
-
-        if google_packages:
-            matched_history_parts.append(
-                history[
-                    (history["platform"] == "android") &
-                    (history["app_id"].astype(str).isin(google_packages))
-                ]
-            )
-
-        for keyword in keywords:
-            mask = history["app_name"].apply(
-                lambda x: match_keyword_exact_or_contains(x, keyword)
-            )
-            matched_history_parts.append(history[mask])
-
-        if not matched_history_parts:
+        if app_history.empty:
             continue
-
-        app_history = pd.concat(matched_history_parts, ignore_index=True)
-        app_history = app_history.drop_duplicates(
-            subset=["date", "platform", "region", "chart_type", "app_id"]
-        )
 
         app_history = app_history[app_history["date"] >= start_date]
 
@@ -452,7 +436,9 @@ def generate_trend_charts(history):
             continue
 
         for platform in ["ios", "android"]:
-            for chart_type in ["top-grossing", "grossing"]:
+            chart_types = ["top-grossing"] if platform == "ios" else ["grossing"]
+
+            for chart_type in chart_types:
                 sub = app_history[
                     (app_history["platform"] == platform) &
                     (app_history["chart_type"] == chart_type)
@@ -481,60 +467,38 @@ def generate_trend_charts(history):
                 plt.savefig(file_path, dpi=160)
                 plt.close()
 
-                chart_paths.append(file_path)
+                chart_infos.append({
+                    "watch_name": watch["name"],
+                    "platform": platform,
+                    "chart_type": chart_type,
+                    "chart_name": get_chart_name(platform, chart_type),
+                    "file_path": file_path,
+                    "github_url": to_github_file_url(file_path),
+                })
 
-    print(f"[OK] 趋势图生成数量：{len(chart_paths)}")
-    return chart_paths
-
-
-def get_feishu_tenant_token():
-    app_id = get_env_or_config("FEISHU_APP_ID", FEISHU_APP_ID)
-    app_secret = get_env_or_config("FEISHU_APP_SECRET", FEISHU_APP_SECRET)
-
-    if not app_id or not app_secret:
-        return None
-
-    url = "https://open.feishu.cn/open-apis/auth/v3/tenant_access_token/internal"
-    payload = {
-        "app_id": app_id,
-        "app_secret": app_secret
-    }
-
-    try:
-        resp = requests.post(url, json=payload, timeout=30)
-        data = resp.json()
-        return data.get("tenant_access_token")
-    except Exception as e:
-        print(f"[ERROR] 获取飞书 tenant_access_token 失败: {e}")
-        return None
+    print(f"[OK] 趋势图生成数量：{len(chart_infos)}")
+    return chart_infos
 
 
-def upload_feishu_image(image_path):
-    token = get_feishu_tenant_token()
+def build_trend_section(lines, chart_infos):
+    lines.append("")
+    lines.append("========== 重点产品趋势图 ==========")
 
-    if not token:
-        return None
+    if not chart_infos:
+        lines.append("暂无足够历史数据生成趋势图。")
+        return
 
-    url = "https://open.feishu.cn/open-apis/im/v1/images"
-    headers = {
-        "Authorization": f"Bearer {token}",
-    }
+    lines.append(f"已生成 {len(chart_infos)} 张趋势图：")
 
-    with open(image_path, "rb") as f:
-        files = {
-            "image": f
-        }
-        data = {
-            "image_type": "message"
-        }
-
-        try:
-            resp = requests.post(url, headers=headers, files=files, data=data, timeout=30)
-            result = resp.json()
-            return result.get("data", {}).get("image_key")
-        except Exception as e:
-            print(f"[ERROR] 上传飞书图片失败 {image_path}: {e}")
-            return None
+    for idx, item in enumerate(chart_infos[:20], start=1):
+        if item["github_url"]:
+            lines.append(
+                f"{idx}. {item['watch_name']}｜{item['chart_name']}：{item['github_url']}"
+            )
+        else:
+            lines.append(
+                f"{idx}. {item['watch_name']}｜{item['chart_name']}：{item['file_path']}"
+            )
 
 
 def send_feishu_text(text):
@@ -561,72 +525,27 @@ def send_feishu_text(text):
         print(text)
 
 
-def send_feishu_image_by_webhook(image_key):
-    webhook = get_feishu_webhook()
-
-    if not webhook or not image_key:
-        return
-
-    payload = {
-        "msg_type": "image",
-        "content": {
-            "image_key": image_key
-        }
-    }
-
-    try:
-        resp = requests.post(webhook, json=payload, timeout=30)
-        resp.raise_for_status()
-        print("[OK] 飞书图片推送成功")
-    except Exception as e:
-        print(f"[ERROR] 飞书图片推送失败: {e}")
-
-
-def send_feishu_images(chart_paths, max_images=5):
-    if not chart_paths:
-        return
-
-    token = get_feishu_tenant_token()
-    if not token:
-        print("[WARN] 未配置 FEISHU_APP_ID / FEISHU_APP_SECRET，趋势图已生成但不会推送图片。")
-        return
-
-    for image_path in chart_paths[:max_images]:
-        image_key = upload_feishu_image(image_path)
-        if image_key:
-            send_feishu_image_by_webhook(image_key)
-
-
 def build_report(today_rows):
     history = load_history()
     today_df = pd.DataFrame(today_rows)
 
     lines = []
-    lines.append("【台湾手游榜单监控日报 V2.2】")
+    lines.append("【台湾手游榜单监控日报 V2.3】")
     lines.append(f"日期：{TODAY}")
     lines.append("")
 
     if today_df.empty:
         lines.append("今日未抓取到榜单数据，请检查 GitHub Actions 日志。")
-        return "\n".join(lines), []
+        return "\n".join(lines)
 
     build_top_section(lines, today_df, history)
     build_watch_section(lines, today_df, history)
     build_alert_section(lines, today_df, history)
 
-    chart_paths = generate_trend_charts(history)
+    chart_infos = generate_trend_charts(history)
+    build_trend_section(lines, chart_infos)
 
-    if chart_paths:
-        lines.append("")
-        lines.append("========== 重点产品趋势图 ==========")
-        lines.append(f"已生成 {len(chart_paths)} 张趋势图，保存在 data/charts/。")
-        lines.append("如需飞书直接推送图片，请配置 FEISHU_APP_ID 和 FEISHU_APP_SECRET。")
-    else:
-        lines.append("")
-        lines.append("========== 重点产品趋势图 ==========")
-        lines.append("暂无足够历史数据生成趋势图。")
-
-    return "\n".join(lines), chart_paths
+    return "\n".join(lines)
 
 
 def main():
@@ -643,14 +562,13 @@ def main():
 
     save_rows(all_rows)
 
-    report, chart_paths = build_report(all_rows)
+    report = build_report(all_rows)
 
     report_path = os.path.join(DATA_DIR, f"daily_report_{TODAY}.txt")
     with open(report_path, "w", encoding="utf-8") as f:
         f.write(report)
 
     send_feishu_text(report)
-    send_feishu_images(chart_paths)
 
 
 if __name__ == "__main__":
