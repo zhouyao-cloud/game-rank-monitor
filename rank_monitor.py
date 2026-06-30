@@ -6,13 +6,22 @@ import requests
 import pandas as pd
 from datetime import datetime
 from bs4 import BeautifulSoup
-from google_play_scraper import app as gp_app
 
-from config import REGIONS, IOS_CHARTS, ANDROID_CHARTS, WATCH_APPS, FEISHU_WEBHOOK
+from config import (
+    REGIONS,
+    IOS_CHARTS,
+    ANDROID_CHARTS,
+    WATCH_APPS,
+    TOP_N,
+    ALERT_RISE_THRESHOLD,
+    ALERT_DROP_THRESHOLD,
+    FEISHU_WEBHOOK,
+)
 
 
 TODAY = datetime.now().strftime("%Y-%m-%d")
 DATA_DIR = "data"
+HISTORY_FILE = os.path.join(DATA_DIR, "rank_history.csv")
 os.makedirs(DATA_DIR, exist_ok=True)
 
 
@@ -27,30 +36,23 @@ def fetch_ios_chart(region, chart_type, limit=200):
     }
 
     rss_type = chart_map.get(chart_type)
-
     if not rss_type:
         return []
 
     url = f"https://itunes.apple.com/{region}/rss/{rss_type}/limit={limit}/genre=6014/json"
 
     try:
-        resp = requests.get(url, timeout=20)
+        resp = requests.get(url, timeout=30)
         resp.raise_for_status()
         data = resp.json()
 
         entries = data.get("feed", {}).get("entry", [])
-
         if isinstance(entries, dict):
             entries = [entries]
 
         rows = []
 
         for idx, item in enumerate(entries, start=1):
-            app_name = item.get("im:name", {}).get("label", "")
-            app_id = item.get("id", {}).get("attributes", {}).get("im:id", "")
-            developer = item.get("im:artist", {}).get("label", "")
-            app_url = item.get("id", {}).get("label", "")
-
             rows.append({
                 "date": TODAY,
                 "platform": "ios",
@@ -58,10 +60,10 @@ def fetch_ios_chart(region, chart_type, limit=200):
                 "region_name": REGIONS.get(region, region),
                 "chart_type": chart_type,
                 "rank": idx,
-                "app_name": app_name,
-                "app_id": str(app_id),
-                "developer": developer,
-                "url": app_url,
+                "app_name": item.get("im:name", {}).get("label", ""),
+                "app_id": str(item.get("id", {}).get("attributes", {}).get("im:id", "")),
+                "developer": item.get("im:artist", {}).get("label", ""),
+                "url": item.get("id", {}).get("label", ""),
             })
 
         print(f"[OK] iOS {region} {chart_type}: {len(rows)}")
@@ -73,57 +75,40 @@ def fetch_ios_chart(region, chart_type, limit=200):
 
 
 def fetch_android_chart(region, chart_type, limit=200):
-    chart_url_map = {
-        "free": f"https://play.google.com/store/apps/category/GAME/collection/topselling_free?hl=zh_TW&gl={region.upper()}",
-        "grossing": f"https://play.google.com/store/apps/category/GAME/collection/topgrossing?hl=zh_TW&gl={region.upper()}",
+    chart_map = {
+        "free": f"https://www.appbrain.com/stats/google-play-rankings/top_free/game/{region}",
+        "grossing": f"https://www.appbrain.com/stats/google-play-rankings/top_grossing/game/{region}",
     }
 
-    url = chart_url_map.get(chart_type)
-
+    url = chart_map.get(chart_type)
     if not url:
         return []
 
-    headers = {
-        "User-Agent": "Mozilla/5.0"
-    }
-
     try:
-        resp = requests.get(url, headers=headers, timeout=20)
+        headers = {
+            "User-Agent": "Mozilla/5.0",
+            "Accept-Language": "zh-TW,zh;q=0.9,en;q=0.8",
+        }
+
+        resp = requests.get(url, headers=headers, timeout=30)
         resp.raise_for_status()
 
-        html = resp.text
-
-        package_ids = re.findall(r"/store/apps/details\?id=([a-zA-Z0-9._]+)", html)
-
-        seen = set()
-        unique_packages = []
-
-        for pkg in package_ids:
-            if pkg not in seen:
-                seen.add(pkg)
-                unique_packages.append(pkg)
-
-            if len(unique_packages) >= limit:
-                break
-
+        soup = BeautifulSoup(resp.text, "lxml")
         rows = []
+        seen = set()
 
-        for idx, package_id in enumerate(unique_packages, start=1):
-            try:
-                detail = gp_app(
-                    package_id,
-                    lang="zh_TW",
-                    country=region
-                )
+        for link in soup.select("a[href*='/app/']"):
+            href = link.get("href", "")
+            text = link.get_text(strip=True)
 
-                app_name = detail.get("title", "")
-                developer = detail.get("developer", "")
-                app_url = detail.get("url", f"https://play.google.com/store/apps/details?id={package_id}")
+            if not text:
+                continue
 
-            except Exception:
-                app_name = package_id
-                developer = ""
-                app_url = f"https://play.google.com/store/apps/details?id={package_id}"
+            package_name = href.split("/")[-1].strip()
+            if not package_name or package_name in seen:
+                continue
+
+            seen.add(package_name)
 
             rows.append({
                 "date": TODAY,
@@ -131,12 +116,15 @@ def fetch_android_chart(region, chart_type, limit=200):
                 "region": region,
                 "region_name": REGIONS.get(region, region),
                 "chart_type": chart_type,
-                "rank": idx,
-                "app_name": app_name,
-                "app_id": package_id,
-                "developer": developer,
-                "url": app_url,
+                "rank": len(rows) + 1,
+                "app_name": text,
+                "app_id": package_name,
+                "developer": "",
+                "url": "https://www.appbrain.com" + href,
             })
+
+            if len(rows) >= limit:
+                break
 
         print(f"[OK] Android {region} {chart_type}: {len(rows)}")
         return rows
@@ -152,10 +140,9 @@ def save_rows(rows):
         return
 
     df = pd.DataFrame(rows)
-    file_path = os.path.join(DATA_DIR, "rank_history.csv")
 
-    if os.path.exists(file_path):
-        old = pd.read_csv(file_path)
+    if os.path.exists(HISTORY_FILE):
+        old = pd.read_csv(HISTORY_FILE)
         new_df = pd.concat([old, df], ignore_index=True)
         new_df = new_df.drop_duplicates(
             subset=["date", "platform", "region", "chart_type", "app_id"],
@@ -164,28 +151,26 @@ def save_rows(rows):
     else:
         new_df = df
 
-    new_df.to_csv(file_path, index=False, encoding="utf-8-sig")
-    print(f"[OK] 数据已保存：{file_path}")
+    new_df.to_csv(HISTORY_FILE, index=False, encoding="utf-8-sig")
+    print(f"[OK] 数据已保存：{HISTORY_FILE}")
 
 
 def load_history():
-    file_path = os.path.join(DATA_DIR, "rank_history.csv")
-    if not os.path.exists(file_path):
+    if not os.path.exists(HISTORY_FILE):
         return pd.DataFrame()
+    return pd.read_csv(HISTORY_FILE)
 
-    return pd.read_csv(file_path)
 
-
-def get_previous_rank(df, platform, region, chart_type, app_id):
-    if df.empty:
+def get_previous_rank(history, platform, region, chart_type, app_id):
+    if history.empty:
         return None
 
-    sub = df[
-        (df["platform"] == platform) &
-        (df["region"] == region) &
-        (df["chart_type"] == chart_type) &
-        (df["app_id"].astype(str) == str(app_id)) &
-        (df["date"] < TODAY)
+    sub = history[
+        (history["platform"] == platform) &
+        (history["region"] == region) &
+        (history["chart_type"] == chart_type) &
+        (history["app_id"].astype(str) == str(app_id)) &
+        (history["date"] < TODAY)
     ]
 
     if sub.empty:
@@ -208,10 +193,15 @@ def format_change(today_rank, previous_rank):
 
     if diff > 0:
         return f"↑{diff}"
-    elif diff < 0:
+    if diff < 0:
         return f"↓{abs(diff)}"
-    else:
-        return "→"
+    return "→"
+
+
+def change_value(today_rank, previous_rank):
+    if previous_rank is None:
+        return None
+    return previous_rank - today_rank
 
 
 def get_chart_name(platform, chart_type):
@@ -221,11 +211,11 @@ def get_chart_name(platform, chart_type):
 
 
 def match_watch_app(today_df, watch):
+    matched_parts = []
+
     apple_ids = [str(x) for x in watch.get("apple_ids", [])]
     google_packages = [str(x) for x in watch.get("google_packages", [])]
     keywords = watch.get("keywords", [])
-
-    matched_parts = []
 
     if apple_ids:
         matched_parts.append(
@@ -246,7 +236,12 @@ def match_watch_app(today_df, watch):
     for keyword in keywords:
         matched_parts.append(
             today_df[
-                today_df["app_name"].astype(str).str.contains(keyword, case=False, na=False)
+                today_df["app_name"].astype(str).str.contains(
+                    re.escape(keyword),
+                    case=False,
+                    na=False,
+                    regex=True
+                )
             ]
         )
 
@@ -261,19 +256,7 @@ def match_watch_app(today_df, watch):
     return matched
 
 
-def build_report(today_rows):
-    history = load_history()
-    today_df = pd.DataFrame(today_rows)
-
-    lines = []
-    lines.append("【台湾手游榜单日报 V1.1】")
-    lines.append(f"日期：{TODAY}")
-    lines.append("")
-
-    if today_df.empty:
-        lines.append("今日未抓取到榜单数据，请检查 GitHub Actions 日志。")
-        return "\n".join(lines)
-
+def build_top_section(lines, today_df, history):
     for region, region_name in REGIONS.items():
         lines.append(f"========== {region_name} ==========")
 
@@ -288,13 +271,13 @@ def build_report(today_rows):
                     (today_df["chart_type"] == chart_type)
                 ].sort_values("rank")
 
-                lines.append(f"\n【{chart_name} TOP20】")
+                lines.append(f"\n【{chart_name} TOP{TOP_N}】")
 
                 if sub.empty:
                     lines.append("暂无数据")
                     continue
 
-                for _, row in sub.head(20).iterrows():
+                for _, row in sub.head(TOP_N).iterrows():
                     previous_rank = get_previous_rank(
                         history,
                         row["platform"],
@@ -307,6 +290,8 @@ def build_report(today_rows):
 
         lines.append("")
 
+
+def build_watch_section(lines, today_df, history):
     lines.append("========== 重点产品监控 ==========")
 
     has_watch_result = False
@@ -341,6 +326,68 @@ def build_report(today_rows):
     if not has_watch_result:
         lines.append("今日重点产品未进入已抓取榜单范围。")
 
+
+def build_alert_section(lines, today_df, history):
+    lines.append("")
+    lines.append("========== 榜单异动预警 ==========")
+
+    alerts = []
+
+    for _, row in today_df.iterrows():
+        previous_rank = get_previous_rank(
+            history,
+            row["platform"],
+            row["region"],
+            row["chart_type"],
+            row["app_id"]
+        )
+
+        diff = change_value(int(row["rank"]), previous_rank)
+
+        if diff is None:
+            if int(row["rank"]) <= 50:
+                alerts.append(
+                    f"🆕 新进榜TOP50｜{row['region_name']}｜{get_chart_name(row['platform'], row['chart_type'])}｜"
+                    f"{int(row['rank'])}. {row['app_name']}"
+                )
+            continue
+
+        if diff >= ALERT_RISE_THRESHOLD:
+            alerts.append(
+                f"🔥 大幅上涨｜{row['region_name']}｜{get_chart_name(row['platform'], row['chart_type'])}｜"
+                f"{row['app_name']}：{int(row['rank'])}（↑{diff}）"
+            )
+
+        if diff <= -ALERT_DROP_THRESHOLD:
+            alerts.append(
+                f"⚠️ 大幅下跌｜{row['region_name']}｜{get_chart_name(row['platform'], row['chart_type'])}｜"
+                f"{row['app_name']}：{int(row['rank'])}（↓{abs(diff)}）"
+            )
+
+    if not alerts:
+        lines.append("暂无明显异动。")
+    else:
+        for item in alerts[:30]:
+            lines.append(item)
+
+
+def build_report(today_rows):
+    history = load_history()
+    today_df = pd.DataFrame(today_rows)
+
+    lines = []
+    lines.append("【台湾手游榜单监控日报 V2.0】")
+    lines.append(f"日期：{TODAY}")
+    lines.append("")
+
+    if today_df.empty:
+        lines.append("今日未抓取到榜单数据，请检查 GitHub Actions 日志。")
+        return "\n".join(lines)
+
+    build_top_section(lines, today_df, history)
+    build_watch_section(lines, today_df, history)
+    build_alert_section(lines, today_df, history)
+
     return "\n".join(lines)
 
 
@@ -360,7 +407,7 @@ def send_feishu(text):
     }
 
     try:
-        resp = requests.post(webhook, json=payload, timeout=20)
+        resp = requests.post(webhook, json=payload, timeout=30)
         resp.raise_for_status()
         print("[OK] 飞书推送成功")
     except Exception as e:
