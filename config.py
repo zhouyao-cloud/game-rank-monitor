@@ -14,17 +14,49 @@ ANDROID_CHARTS = {
     "grossing": "Google畅销榜",
 }
 
-WATCH_LIST = [
-    "新熱血江湖：世界",
-    "尋夢絲路",
-    "天堂W",
-    "楓之谷M",
-    "RO仙境傳說：愛如初見",
-    "奇蹟MU：經典之戰",
-    "Last War: Survival",
-    "Whiteout Survival",
-    "菇勇者傳說",
-    "寒霜啟示錄",
+WATCH_APPS = [
+    {
+        "name": "新熱血江湖：世界",
+        "apple_ids": [],
+        "google_packages": [],
+        "keywords": ["新熱血江湖：世界", "熱血江湖"],
+    },
+    {
+        "name": "尋夢絲路",
+        "apple_ids": [],
+        "google_packages": [],
+        "keywords": ["尋夢絲路", "寻梦丝路"],
+    },
+    {
+        "name": "天堂W",
+        "apple_ids": [],
+        "google_packages": [],
+        "keywords": ["天堂W"],
+    },
+    {
+        "name": "楓之谷M",
+        "apple_ids": [],
+        "google_packages": [],
+        "keywords": ["楓之谷M"],
+    },
+    {
+        "name": "RO仙境傳說：愛如初見",
+        "apple_ids": [],
+        "google_packages": [],
+        "keywords": ["RO仙境傳說：愛如初見", "愛如初見"],
+    },
+    {
+        "name": "寒霜啟示錄",
+        "apple_ids": [],
+        "google_packages": [],
+        "keywords": ["寒霜啟示錄", "Whiteout Survival"],
+    },
+    {
+        "name": "Last War: Survival",
+        "apple_ids": [],
+        "google_packages": [],
+        "keywords": ["Last War", "最後的戰爭"],
+    },
 ]
 
 FEISHU_WEBHOOK = ""
