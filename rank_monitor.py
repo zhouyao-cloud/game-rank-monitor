@@ -1,11 +1,14 @@
 # -*- coding: utf-8 -*-
 
 import os
+import re
 import requests
 import pandas as pd
 from datetime import datetime
+from bs4 import BeautifulSoup
+from google_play_scraper import app as gp_app
 
-from config import REGIONS, IOS_CHARTS, ANDROID_CHARTS, WATCH_LIST, FEISHU_WEBHOOK
+from config import REGIONS, IOS_CHARTS, ANDROID_CHARTS, WATCH_APPS, FEISHU_WEBHOOK
 
 
 TODAY = datetime.now().strftime("%Y-%m-%d")
@@ -18,12 +21,6 @@ def get_feishu_webhook():
 
 
 def fetch_ios_chart(region, chart_type, limit=200):
-    """
-    iOS 台湾手游榜单
-    使用旧版 iTunes RSS 接口
-    genre=6014 代表 Games
-    """
-
     chart_map = {
         "top-free": "topfreeapplications",
         "top-grossing": "topgrossingapplications",
@@ -32,7 +29,6 @@ def fetch_ios_chart(region, chart_type, limit=200):
     rss_type = chart_map.get(chart_type)
 
     if not rss_type:
-        print(f"[SKIP] Unknown iOS chart_type: {chart_type}")
         return []
 
     url = f"https://itunes.apple.com/{region}/rss/{rss_type}/limit={limit}/genre=6014/json"
@@ -63,7 +59,7 @@ def fetch_ios_chart(region, chart_type, limit=200):
                 "chart_type": chart_type,
                 "rank": idx,
                 "app_name": app_name,
-                "app_id": app_id,
+                "app_id": str(app_id),
                 "developer": developer,
                 "url": app_url,
             })
@@ -77,12 +73,77 @@ def fetch_ios_chart(region, chart_type, limit=200):
 
 
 def fetch_android_chart(region, chart_type, limit=200):
-    """
-    V1.0 暂时跳过 Google Play 榜单。
-    先确保台湾 iOS 免费榜 / 畅销榜跑通。
-    """
-    print(f"[SKIP] Android {region} {chart_type}: V1暂不抓取")
-    return []
+    chart_url_map = {
+        "free": f"https://play.google.com/store/apps/category/GAME/collection/topselling_free?hl=zh_TW&gl={region.upper()}",
+        "grossing": f"https://play.google.com/store/apps/category/GAME/collection/topgrossing?hl=zh_TW&gl={region.upper()}",
+    }
+
+    url = chart_url_map.get(chart_type)
+
+    if not url:
+        return []
+
+    headers = {
+        "User-Agent": "Mozilla/5.0"
+    }
+
+    try:
+        resp = requests.get(url, headers=headers, timeout=20)
+        resp.raise_for_status()
+
+        html = resp.text
+
+        package_ids = re.findall(r"/store/apps/details\?id=([a-zA-Z0-9._]+)", html)
+
+        seen = set()
+        unique_packages = []
+
+        for pkg in package_ids:
+            if pkg not in seen:
+                seen.add(pkg)
+                unique_packages.append(pkg)
+
+            if len(unique_packages) >= limit:
+                break
+
+        rows = []
+
+        for idx, package_id in enumerate(unique_packages, start=1):
+            try:
+                detail = gp_app(
+                    package_id,
+                    lang="zh_TW",
+                    country=region
+                )
+
+                app_name = detail.get("title", "")
+                developer = detail.get("developer", "")
+                app_url = detail.get("url", f"https://play.google.com/store/apps/details?id={package_id}")
+
+            except Exception:
+                app_name = package_id
+                developer = ""
+                app_url = f"https://play.google.com/store/apps/details?id={package_id}"
+
+            rows.append({
+                "date": TODAY,
+                "platform": "android",
+                "region": region,
+                "region_name": REGIONS.get(region, region),
+                "chart_type": chart_type,
+                "rank": idx,
+                "app_name": app_name,
+                "app_id": package_id,
+                "developer": developer,
+                "url": app_url,
+            })
+
+        print(f"[OK] Android {region} {chart_type}: {len(rows)}")
+        return rows
+
+    except Exception as e:
+        print(f"[ERROR] Android {region} {chart_type}: {e}")
+        return []
 
 
 def save_rows(rows):
@@ -159,12 +220,53 @@ def get_chart_name(platform, chart_type):
     return ANDROID_CHARTS.get(chart_type, chart_type)
 
 
+def match_watch_app(today_df, watch):
+    apple_ids = [str(x) for x in watch.get("apple_ids", [])]
+    google_packages = [str(x) for x in watch.get("google_packages", [])]
+    keywords = watch.get("keywords", [])
+
+    matched_parts = []
+
+    if apple_ids:
+        matched_parts.append(
+            today_df[
+                (today_df["platform"] == "ios") &
+                (today_df["app_id"].astype(str).isin(apple_ids))
+            ]
+        )
+
+    if google_packages:
+        matched_parts.append(
+            today_df[
+                (today_df["platform"] == "android") &
+                (today_df["app_id"].astype(str).isin(google_packages))
+            ]
+        )
+
+    for keyword in keywords:
+        matched_parts.append(
+            today_df[
+                today_df["app_name"].astype(str).str.contains(keyword, case=False, na=False)
+            ]
+        )
+
+    if not matched_parts:
+        return pd.DataFrame()
+
+    matched = pd.concat(matched_parts, ignore_index=True)
+    matched = matched.drop_duplicates(
+        subset=["platform", "region", "chart_type", "app_id"]
+    )
+
+    return matched
+
+
 def build_report(today_rows):
     history = load_history()
     today_df = pd.DataFrame(today_rows)
 
     lines = []
-    lines.append("【台湾手游榜单日报】")
+    lines.append("【台湾手游榜单日报 V1.1】")
     lines.append(f"日期：{TODAY}")
     lines.append("")
 
@@ -209,16 +311,14 @@ def build_report(today_rows):
 
     has_watch_result = False
 
-    for watch in WATCH_LIST:
-        matched = today_df[
-            today_df["app_name"].astype(str).str.contains(watch, case=False, na=False)
-        ]
+    for watch in WATCH_APPS:
+        matched = match_watch_app(today_df, watch)
 
         if matched.empty:
             continue
 
         has_watch_result = True
-        lines.append(f"\n【{watch}】")
+        lines.append(f"\n【{watch['name']}】")
 
         for _, row in matched.sort_values(["region", "platform", "chart_type"]).iterrows():
             previous_rank = get_previous_rank(
@@ -273,12 +373,10 @@ def main():
 
     for region in REGIONS.keys():
         for chart_type in IOS_CHARTS.keys():
-            rows = fetch_ios_chart(region, chart_type)
-            all_rows.extend(rows)
+            all_rows.extend(fetch_ios_chart(region, chart_type))
 
         for chart_type in ANDROID_CHARTS.keys():
-            rows = fetch_android_chart(region, chart_type)
-            all_rows.extend(rows)
+            all_rows.extend(fetch_android_chart(region, chart_type))
 
     print(f"TOTAL ROWS: {len(all_rows)}")
 
