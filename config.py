@@ -19,13 +19,13 @@ WATCH_APPS = [
         "name": "新熱血江湖：世界",
         "apple_ids": [],
         "google_packages": [],
-        "keywords": ["新熱血江湖：世界", "熱血江湖"],
+        "keywords": ["新熱血江湖：世界"],
     },
     {
         "name": "尋夢絲路",
         "apple_ids": [],
         "google_packages": [],
-        "keywords": ["尋夢絲路", "寻梦丝路"],
+        "keywords": ["尋夢絲路"],
     },
     {
         "name": "天堂W",
@@ -37,7 +37,7 @@ WATCH_APPS = [
         "name": "楓之谷M",
         "apple_ids": [],
         "google_packages": [],
-        "keywords": ["楓之谷M", "楓之谷"],
+        "keywords": ["楓之谷M"],
     },
     {
         "name": "RO仙境傳說：愛如初見",
@@ -62,5 +62,6 @@ WATCH_APPS = [
 TOP_N = 20
 ALERT_RISE_THRESHOLD = 10
 ALERT_DROP_THRESHOLD = 10
+NEW_ENTRY_ALERT_RANK = 50
 
 FEISHU_WEBHOOK = ""
