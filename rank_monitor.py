@@ -4,8 +4,6 @@ import os
 import requests
 import pandas as pd
 from datetime import datetime
-from google_play_scraper import collection
-from google_play_scraper.constants.google_play import Collection, Category
 
 from config import REGIONS, IOS_CHARTS, ANDROID_CHARTS, WATCH_LIST, FEISHU_WEBHOOK
 
@@ -44,6 +42,7 @@ def fetch_ios_chart(region, chart_type, limit=200):
                 "url": item.get("url", ""),
             })
 
+        print(f"[OK] iOS {region} {chart_type}: {len(rows)}")
         return rows
 
     except Exception as e:
@@ -52,41 +51,17 @@ def fetch_ios_chart(region, chart_type, limit=200):
 
 
 def fetch_android_chart(region, chart_type, limit=200):
-    try:
-        chart = Collection.TOP_FREE if chart_type == "free" else Collection.TOP_GROSSING
-
-        results = collection(
-            collection=chart,
-            category=Category.GAME,
-            country=region,
-            lang="zh-TW",
-            results=limit,
-        )
-
-        rows = []
-        for idx, item in enumerate(results, start=1):
-            rows.append({
-                "date": TODAY,
-                "platform": "android",
-                "region": region,
-                "region_name": REGIONS.get(region, region),
-                "chart_type": chart_type,
-                "rank": idx,
-                "app_name": item.get("title", ""),
-                "app_id": item.get("appId", ""),
-                "developer": item.get("developer", ""),
-                "url": item.get("url", ""),
-            })
-
-        return rows
-
-    except Exception as e:
-        print(f"[ERROR] Android {region} {chart_type}: {e}")
-        return []
+    """
+    V1.0 暂时跳过 Google Play 榜单。
+    先确保 iOS 榜单 + 飞书推送 + 历史数据保存跑通。
+    """
+    print(f"[SKIP] Android {region} {chart_type}: V1暂不抓取")
+    return []
 
 
 def save_rows(rows):
     if not rows:
+        print("[WARN] 无数据可保存")
         return
 
     df = pd.DataFrame(rows)
@@ -103,6 +78,7 @@ def save_rows(rows):
         new_df = df
 
     new_df.to_csv(file_path, index=False, encoding="utf-8-sig")
+    print(f"[OK] 数据已保存：{file_path}")
 
 
 def load_history():
@@ -121,7 +97,7 @@ def get_previous_rank(df, platform, region, chart_type, app_id):
         (df["platform"] == platform) &
         (df["region"] == region) &
         (df["chart_type"] == chart_type) &
-        (df["app_id"] == app_id) &
+        (df["app_id"].astype(str) == str(app_id)) &
         (df["date"] < TODAY)
     ]
 
@@ -151,6 +127,12 @@ def format_change(today_rank, previous_rank):
         return "→"
 
 
+def get_chart_name(platform, chart_type):
+    if platform == "ios":
+        return IOS_CHARTS.get(chart_type, chart_type)
+    return ANDROID_CHARTS.get(chart_type, chart_type)
+
+
 def build_report(today_rows):
     history = load_history()
     today_df = pd.DataFrame(today_rows)
@@ -161,7 +143,7 @@ def build_report(today_rows):
     lines.append("")
 
     if today_df.empty:
-        lines.append("今日未抓取到榜单数据，请检查数据源或 GitHub Actions 日志。")
+        lines.append("今日未抓取到榜单数据，请检查 GitHub Actions 日志。")
         return "\n".join(lines)
 
     for region, region_name in REGIONS.items():
@@ -202,7 +184,9 @@ def build_report(today_rows):
     has_watch_result = False
 
     for watch in WATCH_LIST:
-        matched = today_df[today_df["app_name"].str.contains(watch, case=False, na=False)]
+        matched = today_df[
+            today_df["app_name"].astype(str).str.contains(watch, case=False, na=False)
+        ]
 
         if matched.empty:
             continue
@@ -221,11 +205,7 @@ def build_report(today_rows):
             change = format_change(int(row["rank"]), previous_rank)
 
             platform_name = "iOS" if row["platform"] == "ios" else "Google"
-            chart_name = (
-                IOS_CHARTS.get(row["chart_type"])
-                if row["platform"] == "ios"
-                else ANDROID_CHARTS.get(row["chart_type"])
-            )
+            chart_name = get_chart_name(row["platform"], row["chart_type"])
 
             lines.append(
                 f"{row['region_name']}｜{platform_name}｜{chart_name}："
