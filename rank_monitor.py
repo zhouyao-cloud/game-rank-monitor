@@ -18,17 +18,43 @@ def get_feishu_webhook():
 
 
 def fetch_ios_chart(region, chart_type, limit=200):
-    url = f"https://rss.applemarketingtools.com/api/v2/{region}/apps/{chart_type}/{limit}/apps.json"
+    """
+    iOS 台湾手游榜单
+    使用旧版 iTunes RSS 接口
+    genre=6014 代表 Games
+    """
+
+    chart_map = {
+        "top-free": "topfreeapplications",
+        "top-grossing": "topgrossingapplications",
+    }
+
+    rss_type = chart_map.get(chart_type)
+
+    if not rss_type:
+        print(f"[SKIP] Unknown iOS chart_type: {chart_type}")
+        return []
+
+    url = f"https://itunes.apple.com/{region}/rss/{rss_type}/limit={limit}/genre=6014/json"
 
     try:
         resp = requests.get(url, timeout=20)
         resp.raise_for_status()
         data = resp.json()
 
-        results = data.get("feed", {}).get("results", [])
+        entries = data.get("feed", {}).get("entry", [])
+
+        if isinstance(entries, dict):
+            entries = [entries]
 
         rows = []
-        for idx, item in enumerate(results, start=1):
+
+        for idx, item in enumerate(entries, start=1):
+            app_name = item.get("im:name", {}).get("label", "")
+            app_id = item.get("id", {}).get("attributes", {}).get("im:id", "")
+            developer = item.get("im:artist", {}).get("label", "")
+            app_url = item.get("id", {}).get("label", "")
+
             rows.append({
                 "date": TODAY,
                 "platform": "ios",
@@ -36,10 +62,10 @@ def fetch_ios_chart(region, chart_type, limit=200):
                 "region_name": REGIONS.get(region, region),
                 "chart_type": chart_type,
                 "rank": idx,
-                "app_name": item.get("name", ""),
-                "app_id": item.get("id", ""),
-                "developer": item.get("artistName", ""),
-                "url": item.get("url", ""),
+                "app_name": app_name,
+                "app_id": app_id,
+                "developer": developer,
+                "url": app_url,
             })
 
         print(f"[OK] iOS {region} {chart_type}: {len(rows)}")
@@ -53,7 +79,7 @@ def fetch_ios_chart(region, chart_type, limit=200):
 def fetch_android_chart(region, chart_type, limit=200):
     """
     V1.0 暂时跳过 Google Play 榜单。
-    先确保 iOS 榜单 + 飞书推送 + 历史数据保存跑通。
+    先确保台湾 iOS 免费榜 / 畅销榜跑通。
     """
     print(f"[SKIP] Android {region} {chart_type}: V1暂不抓取")
     return []
@@ -138,7 +164,7 @@ def build_report(today_rows):
     today_df = pd.DataFrame(today_rows)
 
     lines = []
-    lines.append("【港澳台手游榜单日报】")
+    lines.append("【台湾手游榜单日报】")
     lines.append(f"日期：{TODAY}")
     lines.append("")
 
@@ -160,13 +186,13 @@ def build_report(today_rows):
                     (today_df["chart_type"] == chart_type)
                 ].sort_values("rank")
 
-                lines.append(f"\n【{chart_name} TOP10】")
+                lines.append(f"\n【{chart_name} TOP20】")
 
                 if sub.empty:
                     lines.append("暂无数据")
                     continue
 
-                for _, row in sub.head(10).iterrows():
+                for _, row in sub.head(20).iterrows():
                     previous_rank = get_previous_rank(
                         history,
                         row["platform"],
@@ -247,10 +273,14 @@ def main():
 
     for region in REGIONS.keys():
         for chart_type in IOS_CHARTS.keys():
-            all_rows.extend(fetch_ios_chart(region, chart_type))
+            rows = fetch_ios_chart(region, chart_type)
+            all_rows.extend(rows)
 
         for chart_type in ANDROID_CHARTS.keys():
-            all_rows.extend(fetch_android_chart(region, chart_type))
+            rows = fetch_android_chart(region, chart_type)
+            all_rows.extend(rows)
+
+    print(f"TOTAL ROWS: {len(all_rows)}")
 
     save_rows(all_rows)
 
