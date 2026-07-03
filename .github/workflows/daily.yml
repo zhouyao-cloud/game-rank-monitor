@@ -2,9 +2,6 @@ name: Daily Rank Monitor
 
 on:
   workflow_dispatch:
-  push:
-    branches:
-      - codex-improve-rank-monitor
   schedule:
     - cron: '0 1 * * *'
 
