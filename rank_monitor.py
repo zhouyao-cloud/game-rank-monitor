@@ -101,7 +101,7 @@ def fetch_ios_chart(region, chart_type, limit=200):
         return []
 
 
-def fetch_android_chart(region, chart_type, limit=200):
+def fetch_android_chart(region, chart_type, limit=100):
     chart_map = {
         "free": f"https://www.appbrain.com/stats/google-play-rankings/top_free/game/{region}",
         "grossing": f"https://www.appbrain.com/stats/google-play-rankings/top_grossing/game/{region}",
@@ -124,16 +124,19 @@ def fetch_android_chart(region, chart_type, limit=200):
         rows = []
         seen = set()
 
-        for link in soup.select("a[href*='/app/']"):
+        for link in soup.select("a[href^='/app/']"):
             href = link.get("href", "")
             text = link.get_text(strip=True)
 
-            if not text:
+            if not text or text.startswith("View "):
                 continue
 
-            package_name = href.split("/")[-1].strip()
+            package_name = href.split("?")[0].rstrip("/").split("/")[-1].strip()
 
-            if not package_name or package_name in seen:
+            if not re.match(r"^[A-Za-z][A-Za-z0-9_]*(\.[A-Za-z0-9_]+)+$", package_name):
+                continue
+
+            if package_name in seen:
                 continue
 
             seen.add(package_name)
@@ -376,9 +379,29 @@ def build_alert_section(lines, today_df, history):
         lines.append("暂无历史数据，今日仅建立基准，明日起开始预警。")
         return
 
+    watch_keys = set()
+    for watch in WATCH_APPS:
+        matched = match_watch_app(today_df, watch)
+        for _, watch_row in matched.iterrows():
+            watch_keys.add((
+                watch_row["platform"],
+                watch_row["region"],
+                watch_row["chart_type"],
+                str(watch_row["app_id"]),
+            ))
+
     alerts = []
 
     for _, row in today_df.iterrows():
+        rank = int(row["rank"])
+        chart_name = get_chart_name(row["platform"], row["chart_type"])
+        is_watch_app = (
+            row["platform"],
+            row["region"],
+            row["chart_type"],
+            str(row["app_id"]),
+        ) in watch_keys
+
         previous_rank = get_previous_rank(
             history,
             row["platform"],
@@ -387,34 +410,60 @@ def build_alert_section(lines, today_df, history):
             row["app_id"]
         )
 
-        diff = change_value(int(row["rank"]), previous_rank)
+        diff = change_value(rank, previous_rank)
 
         if diff is None:
-            if int(row["rank"]) <= NEW_ENTRY_ALERT_RANK:
-                alerts.append(
-                    f"🆕 新进榜TOP{NEW_ENTRY_ALERT_RANK}｜{row['region_name']}｜"
-                    f"{get_chart_name(row['platform'], row['chart_type'])}｜"
-                    f"{int(row['rank'])}. {row['app_name']}"
-                )
+            if rank <= NEW_ENTRY_ALERT_RANK:
+                alerts.append({
+                    "text": (
+                        f"🆕 新进榜TOP{NEW_ENTRY_ALERT_RANK}｜{row['region_name']}｜"
+                        f"{chart_name}｜{rank}. {row['app_name']}"
+                    ),
+                    "is_watch_app": is_watch_app,
+                    "magnitude": NEW_ENTRY_ALERT_RANK - rank + 1,
+                    "rank": rank,
+                })
             continue
 
         if diff >= ALERT_RISE_THRESHOLD:
-            alerts.append(
-                f"🔥 大幅上涨｜{row['region_name']}｜{get_chart_name(row['platform'], row['chart_type'])}｜"
-                f"{row['app_name']}：{int(row['rank'])}（↑{diff}）"
-            )
+            alerts.append({
+                "text": (
+                    f"🔥 大幅上涨｜{row['region_name']}｜{chart_name}｜"
+                    f"{row['app_name']}：{rank}（↑{diff}）"
+                ),
+                "is_watch_app": is_watch_app,
+                "magnitude": abs(diff),
+                "rank": rank,
+            })
 
         if diff <= -ALERT_DROP_THRESHOLD:
-            alerts.append(
-                f"⚠️ 大幅下跌｜{row['region_name']}｜{get_chart_name(row['platform'], row['chart_type'])}｜"
-                f"{row['app_name']}：{int(row['rank'])}（↓{abs(diff)}）"
-            )
+            alerts.append({
+                "text": (
+                    f"⚠️ 大幅下跌｜{row['region_name']}｜{chart_name}｜"
+                    f"{row['app_name']}：{rank}（↓{abs(diff)}）"
+                ),
+                "is_watch_app": is_watch_app,
+                "magnitude": abs(diff),
+                "rank": rank,
+            })
 
     if not alerts:
         lines.append("暂无明显异动。")
     else:
-        for item in alerts[:30]:
-            lines.append(item)
+        alerts = sorted(
+            alerts,
+            key=lambda item: (
+                0 if item["is_watch_app"] else 1,
+                -item["magnitude"],
+                item["rank"],
+            )
+        )
+        display_limit = 30
+        for item in alerts[:display_limit]:
+            lines.append(item["text"])
+
+        if len(alerts) > display_limit:
+            lines.append(f"另有 {len(alerts) - display_limit} 条异动未展示。")
 
 
 def generate_trend_charts(history):
@@ -435,46 +484,52 @@ def generate_trend_charts(history):
         if app_history.empty:
             continue
 
-        for platform in ["ios", "android"]:
-            chart_types = ["top-grossing"] if platform == "ios" else ["grossing"]
+        for region in sorted(app_history["region"].dropna().unique()):
+            region_history = app_history[app_history["region"] == region]
+            region_name = REGIONS.get(region, region)
 
-            for chart_type in chart_types:
-                sub = app_history[
-                    (app_history["platform"] == platform) &
-                    (app_history["chart_type"] == chart_type)
-                ].copy()
+            for platform in ["ios", "android"]:
+                chart_types = ["top-grossing"] if platform == "ios" else ["grossing"]
 
-                if sub.empty:
-                    continue
+                for chart_type in chart_types:
+                    sub = region_history[
+                        (region_history["platform"] == platform) &
+                        (region_history["chart_type"] == chart_type)
+                    ].copy()
 
-                sub = sub.sort_values("date")
-                sub["rank"] = sub["rank"].astype(int)
+                    if sub.empty:
+                        continue
 
-                chart_title = f"{watch['name']} - {get_chart_name(platform, chart_type)} - 近{TREND_DAYS}日"
-                safe_name = re.sub(r"[^\w\u4e00-\u9fff]+", "_", watch["name"])
-                file_name = f"{TODAY}_{safe_name}_{platform}_{chart_type}.png"
-                file_path = os.path.join(CHART_DIR, file_name)
+                    sub = sub.sort_values("date")
+                    sub["rank"] = sub["rank"].astype(int)
 
-                plt.figure(figsize=(10, 5))
-                plt.plot(sub["date"], sub["rank"], marker="o")
-                plt.gca().invert_yaxis()
-                plt.title(chart_title)
-                plt.xlabel("日期")
-                plt.ylabel("排名")
-                plt.xticks(rotation=45)
-                plt.grid(True, linestyle="--", alpha=0.4)
-                plt.tight_layout()
-                plt.savefig(file_path, dpi=160)
-                plt.close()
+                    chart_title = f"{watch['name']} - {region_name} - {get_chart_name(platform, chart_type)} - 近{TREND_DAYS}日"
+                    safe_name = re.sub(r"[^\w\u4e00-\u9fff]+", "_", watch["name"])
+                    file_name = f"{TODAY}_{region}_{safe_name}_{platform}_{chart_type}.png"
+                    file_path = os.path.join(CHART_DIR, file_name)
 
-                chart_infos.append({
-                    "watch_name": watch["name"],
-                    "platform": platform,
-                    "chart_type": chart_type,
-                    "chart_name": get_chart_name(platform, chart_type),
-                    "file_path": file_path,
-                    "github_url": to_github_file_url(file_path),
-                })
+                    plt.figure(figsize=(10, 5))
+                    plt.plot(sub["date"], sub["rank"], marker="o")
+                    plt.gca().invert_yaxis()
+                    plt.title(chart_title)
+                    plt.xlabel("日期")
+                    plt.ylabel("排名")
+                    plt.xticks(rotation=45)
+                    plt.grid(True, linestyle="--", alpha=0.4)
+                    plt.tight_layout()
+                    plt.savefig(file_path, dpi=160)
+                    plt.close()
+
+                    chart_infos.append({
+                        "watch_name": watch["name"],
+                        "region": region,
+                        "region_name": region_name,
+                        "platform": platform,
+                        "chart_type": chart_type,
+                        "chart_name": get_chart_name(platform, chart_type),
+                        "file_path": file_path,
+                        "github_url": to_github_file_url(file_path),
+                    })
 
     print(f"[OK] 趋势图生成数量：{len(chart_infos)}")
     return chart_infos
@@ -493,11 +548,11 @@ def build_trend_section(lines, chart_infos):
     for idx, item in enumerate(chart_infos[:20], start=1):
         if item["github_url"]:
             lines.append(
-                f"{idx}. {item['watch_name']}｜{item['chart_name']}：{item['github_url']}"
+                f"{idx}. {item['watch_name']}｜{item['region_name']}｜{item['chart_name']}：{item['github_url']}"
             )
         else:
             lines.append(
-                f"{idx}. {item['watch_name']}｜{item['chart_name']}：{item['file_path']}"
+                f"{idx}. {item['watch_name']}｜{item['region_name']}｜{item['chart_name']}：{item['file_path']}"
             )
 
 
