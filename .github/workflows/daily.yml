@@ -8,6 +8,10 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: daily-rank-monitor
+  cancel-in-progress: false
+
 jobs:
   rank-monitor:
     runs-on: ubuntu-latest
@@ -35,6 +39,7 @@ jobs:
         run: |
           git config --global user.name "github-actions"
           git config --global user.email "github-actions@github.com"
-          git add .
+          git add data/rank_history.csv data/daily_report_*.txt
+          find data/charts -type f -name '*.png' -print0 | xargs -0 -r git add
           git commit -m "update rank data" || echo "nothing to commit"
           git push
