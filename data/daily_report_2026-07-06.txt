@@ -1,6 +1,73 @@
-【台湾手游榜单监控日报 V2.3】
+【台湾手游榜单监控日报 V2.4】
 日期：2026-07-06
 
+========== 今日业务摘要 ==========
+重点风险/机会：发现 1 条 P0 级重点异动，需要优先关注。
+重点产品：新熱血江湖：世界：iOS iOS畅销榜第78（↑3，近3日连续上升）；天堂W：iOS iOS畅销榜第22（↓10）；楓之谷M：iOS iOS畅销榜第35（↑4）；寒霜啟示錄：Google Google畅销榜第9（↓2，近7日新低）
+另有 1 个重点产品在下方详情中展示。
+优先查看：
+P0｜⚠️ 大幅下跌｜台湾｜iOS畅销榜｜天堂W：22（↓10）
+P1｜🔥 大幅上涨｜台湾｜iOS畅销榜｜Pokémon GO：4（↑14）
+
+========== 重点产品监控 ==========
+
+【新熱血江湖：世界】
+台湾｜iOS｜iOS畅销榜：78（↑3；近3日连续上升）
+
+【天堂W】
+台湾｜iOS｜iOS畅销榜：22（↓10）
+
+【楓之谷M】
+台湾｜iOS｜iOS畅销榜：35（↑4）
+
+【寒霜啟示錄】
+台湾｜Google｜Google免费榜：97（新入榜）
+台湾｜Google｜Google畅销榜：9（↓2；近7日新低）
+台湾｜iOS｜iOS免费榜：17（↑1；近3日连续上升）
+台湾｜iOS｜iOS畅销榜：6（↓1；近7日新低）
+
+【Last War: Survival】
+台湾｜Google｜Google畅销榜：8（→；近7日新高）
+台湾｜iOS｜iOS畅销榜：16（↑1）
+
+========== 榜单异动预警 ==========
+
+【P0｜重点产品大幅波动】
+⚠️ 大幅下跌｜台湾｜iOS畅销榜｜天堂W：22（↓10）
+
+【P1｜重点关注异动】
+🔥 大幅上涨｜台湾｜iOS畅销榜｜Pokémon GO：4（↑14）
+
+【P2｜普通榜单异动】
+⚠️ 大幅下跌｜台湾｜iOS畅销榜｜信長之野望 真戰：66（↓30）
+⚠️ 大幅下跌｜台湾｜iOS畅销榜｜神魔之塔：59（↓27）
+🔥 大幅上涨｜台湾｜iOS免费榜｜Colony Flow!：32（↑26）
+⚠️ 大幅下跌｜台湾｜iOS畅销榜｜棕色塵埃2- 冒汗心跳的RPG：87（↓26）
+🔥 大幅上涨｜台湾｜Google免费榜｜MONOPOLY: Bingo!：73（↑25）
+⚠️ 大幅下跌｜台湾｜Google免费榜｜Star Sailors：76（↓24）
+🔥 大幅上涨｜台湾｜iOS免费榜｜Brain Puzzle 3: Crazy Mind：45（↑23）
+🔥 大幅上涨｜台湾｜Google免费榜｜Music Piano 7: Rush Song Games：53（↑23）
+⚠️ 大幅下跌｜台湾｜Google免费榜｜Color Block Jam：68（↓23）
+⚠️ 大幅下跌｜台湾｜iOS畅销榜｜Sky光·遇：86（↓23）
+⚠️ 大幅下跌｜台湾｜Google免费榜｜Coin Master - Board Adventure：95（↓23）
+⚠️ 大幅下跌｜台湾｜iOS畅销榜｜怪物彈珠：99（↓23）
+🔥 大幅上涨｜台湾｜iOS免费榜｜瑞利昂(RELLION)：NPC的生存記：68（↑22）
+⚠️ 大幅下跌｜台湾｜Google免费榜｜RAID: Shadow Legends：71（↓22）
+🔥 大幅上涨｜台湾｜iOS畅销榜｜燕雲十六聲：41（↑21）
+⚠️ 大幅下跌｜台湾｜Google免费榜｜Brain Puzzle 2: Logic Twist：58（↓21）
+🔥 大幅上涨｜台湾｜Google免费榜｜Clash of Critters：69（↑20）
+⚠️ 大幅下跌｜台湾｜Google免费榜｜Solitaire Associations Journey：85（↓20）
+⚠️ 大幅下跌｜台湾｜Google免费榜｜Solitaire - Classic Card Games：50（↓19）
+🔥 大幅上涨｜台湾｜Google免费榜｜Coin Master：63（↑19）
+🔥 大幅上涨｜台湾｜iOS畅销榜｜王國之歌（Top Heroes）：73（↑19）
+🔥 大幅上涨｜台湾｜Google免费榜｜Sled Surfers：25（↑18）
+🔥 大幅上涨｜台湾｜Google免费榜｜Annoying Uncle Punch Game®：60（↑18）
+🔥 大幅上涨｜台湾｜iOS畅销榜｜我的花園世界：68（↑18）
+⚠️ 大幅下跌｜台湾｜iOS免费榜｜LINE Rangers 放置戰爭：91（↓18）
+⚠️ 大幅下跌｜台湾｜iOS畅销榜｜Garena 極速領域：矩陣突破：93（↓18）
+⚠️ 大幅下跌｜台湾｜Google免费榜｜Search It - Hidden Objects：93（↓18）
+⚠️ 大幅下跌｜台湾｜Google免费榜｜Solitaire Grand Harvest：27（↓17）
+另有 40 条异动未展示。
 ========== 台湾 ==========
 
 【iOS免费榜 TOP20】
@@ -91,59 +158,6 @@
 19. Evony: The King's Return ↓4
 20. Clash of Clans →
 
-========== 重点产品监控 ==========
-
-【新熱血江湖：世界】
-台湾｜iOS｜iOS畅销榜：78（↑3）
-
-【天堂W】
-台湾｜iOS｜iOS畅销榜：22（↓10）
-
-【楓之谷M】
-台湾｜iOS｜iOS畅销榜：35（↑4）
-
-【寒霜啟示錄】
-台湾｜Google｜Google免费榜：97（新入榜）
-台湾｜Google｜Google畅销榜：9（↓2）
-台湾｜iOS｜iOS免费榜：17（↑1）
-台湾｜iOS｜iOS畅销榜：6（↓1）
-
-【Last War: Survival】
-台湾｜Google｜Google畅销榜：8（→）
-台湾｜iOS｜iOS畅销榜：16（↑1）
-
-========== 榜单异动预警 ==========
-⚠️ 大幅下跌｜台湾｜iOS畅销榜｜天堂W：22（↓10）
-⚠️ 大幅下跌｜台湾｜iOS畅销榜｜信長之野望 真戰：66（↓30）
-⚠️ 大幅下跌｜台湾｜iOS畅销榜｜神魔之塔：59（↓27）
-🔥 大幅上涨｜台湾｜iOS免费榜｜Colony Flow!：32（↑26）
-⚠️ 大幅下跌｜台湾｜iOS畅销榜｜棕色塵埃2- 冒汗心跳的RPG：87（↓26）
-🔥 大幅上涨｜台湾｜Google免费榜｜MONOPOLY: Bingo!：73（↑25）
-⚠️ 大幅下跌｜台湾｜Google免费榜｜Star Sailors：76（↓24）
-🔥 大幅上涨｜台湾｜iOS免费榜｜Brain Puzzle 3: Crazy Mind：45（↑23）
-🔥 大幅上涨｜台湾｜Google免费榜｜Music Piano 7: Rush Song Games：53（↑23）
-⚠️ 大幅下跌｜台湾｜Google免费榜｜Color Block Jam：68（↓23）
-⚠️ 大幅下跌｜台湾｜iOS畅销榜｜Sky光·遇：86（↓23）
-⚠️ 大幅下跌｜台湾｜Google免费榜｜Coin Master - Board Adventure：95（↓23）
-⚠️ 大幅下跌｜台湾｜iOS畅销榜｜怪物彈珠：99（↓23）
-🔥 大幅上涨｜台湾｜iOS免费榜｜瑞利昂(RELLION)：NPC的生存記：68（↑22）
-⚠️ 大幅下跌｜台湾｜Google免费榜｜RAID: Shadow Legends：71（↓22）
-🔥 大幅上涨｜台湾｜iOS畅销榜｜燕雲十六聲：41（↑21）
-⚠️ 大幅下跌｜台湾｜Google免费榜｜Brain Puzzle 2: Logic Twist：58（↓21）
-🔥 大幅上涨｜台湾｜Google免费榜｜Clash of Critters：69（↑20）
-⚠️ 大幅下跌｜台湾｜Google免费榜｜Solitaire Associations Journey：85（↓20）
-⚠️ 大幅下跌｜台湾｜Google免费榜｜Solitaire - Classic Card Games：50（↓19）
-🔥 大幅上涨｜台湾｜Google免费榜｜Coin Master：63（↑19）
-🔥 大幅上涨｜台湾｜iOS畅销榜｜王國之歌（Top Heroes）：73（↑19）
-🔥 大幅上涨｜台湾｜Google免费榜｜Sled Surfers：25（↑18）
-🔥 大幅上涨｜台湾｜Google免费榜｜Annoying Uncle Punch Game®：60（↑18）
-🔥 大幅上涨｜台湾｜iOS畅销榜｜我的花園世界：68（↑18）
-⚠️ 大幅下跌｜台湾｜iOS免费榜｜LINE Rangers 放置戰爭：91（↓18）
-⚠️ 大幅下跌｜台湾｜iOS畅销榜｜Garena 極速領域：矩陣突破：93（↓18）
-⚠️ 大幅下跌｜台湾｜Google免费榜｜Search It - Hidden Objects：93（↓18）
-⚠️ 大幅下跌｜台湾｜Google免费榜｜Solitaire Grand Harvest：27（↓17）
-⚠️ 大幅下跌｜台湾｜Google免费榜｜Tile Explorer - Triple Match：32（↓17）
-另有 40 条异动未展示。
 
 ========== 重点产品趋势图 ==========
 已生成 7 张趋势图：
