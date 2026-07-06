@@ -41,6 +41,20 @@ KEY_CHARTS = {
 
 SUMMARY_ALERT_LIMIT = 5
 ALERT_DISPLAY_LIMIT = 30
+ANDROID_NON_GAME_KEYWORDS = [
+    "all email",
+    "app dual space",
+    "claim - make them pay",
+    "dual cloner",
+    "emailcenter",
+    "funny videos",
+    "gamecloner",
+    "megalol",
+    "on-demand",
+    "rideco",
+    "russellinvestments",
+    "super tracker",
+]
 
 os.makedirs(DATA_DIR, exist_ok=True)
 os.makedirs(CHART_DIR, exist_ok=True)
@@ -143,6 +157,8 @@ def fetch_android_chart(region, chart_type, limit=100):
                 package_name = href.split("?")[0].rstrip("/").split("/")[-1].strip()
                 if not re.match(r"^[A-Za-z][A-Za-z0-9_]*(\.[A-Za-z0-9_]+)+$", package_name):
                     continue
+                if not is_android_game_candidate(text, package_name):
+                    continue
                 if package_name in seen:
                     continue
 
@@ -170,6 +186,11 @@ def fetch_android_chart(region, chart_type, limit=100):
     except Exception as e:
         print(f"[ERROR] Android {region} {chart_type}: {e}")
         return []
+
+
+def is_android_game_candidate(app_name, package_name):
+    value = f"{app_name} {package_name}".lower()
+    return not any(keyword in value for keyword in ANDROID_NON_GAME_KEYWORDS)
 
 
 def get_chart_rank_limit(platform, chart_type):
@@ -503,10 +524,9 @@ def build_business_summary(lines, today_df, history):
         change = format_change(int(row["rank"]), previous_rank)
         trend_note = format_trend_note(history, row)
         chart_name = get_chart_name(row["platform"], row["chart_type"])
-        platform_name = "iOS" if row["platform"] == "ios" else "Google"
         suffix = f"，{trend_note}" if trend_note else ""
         watch_highlights.append(
-            f"{watch['name']}：{platform_name} {chart_name}第{int(row['rank'])}（{change}{suffix}）"
+            f"{watch['name']}：{chart_name}第{int(row['rank'])}（{change}{suffix}）"
         )
 
     if watch_highlights:
@@ -592,11 +612,13 @@ def build_alert_section(lines, today_df, history):
 
     if not has_previous_history(history):
         lines.append("暂无历史数据，今日仅建立基准，明日起开始预警。")
+        lines.append("")
         return
 
     alerts = collect_alerts(today_df, history)
     if not alerts:
         lines.append("暂无明显异动。")
+        lines.append("")
         return
 
     shown = 0
@@ -621,6 +643,8 @@ def build_alert_section(lines, today_df, history):
 
     if len(alerts) > shown:
         lines.append(f"另有 {len(alerts) - shown} 条异动未展示。")
+
+    lines.append("")
 
 
 def generate_trend_charts(history):
@@ -721,7 +745,7 @@ def build_report(today_rows):
     history = load_history()
     today_df = pd.DataFrame(today_rows)
 
-    lines = ["【台湾手游榜单监控日报 V2.4】", f"日期：{TODAY}", ""]
+    lines = ["【台湾手游榜单监控日报 V2.5】", f"日期：{TODAY}", ""]
     if today_df.empty:
         lines.append("今日未抓取到榜单数据，请检查 GitHub Actions 日志。")
         return "\n".join(lines)
