@@ -34,6 +34,14 @@ CHART_RANK_LIMITS = {
     ("android", "grossing"): 100,
 }
 
+KEY_CHARTS = {
+    ("ios", "top-grossing"),
+    ("android", "grossing"),
+}
+
+SUMMARY_ALERT_LIMIT = 5
+ALERT_DISPLAY_LIMIT = 30
+
 os.makedirs(DATA_DIR, exist_ok=True)
 os.makedirs(CHART_DIR, exist_ok=True)
 
@@ -271,6 +279,10 @@ def get_chart_name(platform, chart_type):
     return ANDROID_CHARTS.get(chart_type, chart_type)
 
 
+def is_key_chart(platform, chart_type):
+    return (platform, chart_type) in KEY_CHARTS
+
+
 def match_keyword_exact_or_contains(app_name, keyword):
     app_name = str(app_name).strip()
     keyword = str(keyword).strip()
@@ -297,6 +309,222 @@ def match_watch_app(df, watch):
 
     matched = pd.concat(matched_parts, ignore_index=True)
     return matched.drop_duplicates(subset=["platform", "region", "chart_type", "app_id"])
+
+
+def row_identity(row):
+    return (
+        row["platform"],
+        row["region"],
+        row["chart_type"],
+        str(row["app_id"]),
+    )
+
+
+def build_watch_lookup(today_df):
+    watch_lookup = {}
+    for watch in WATCH_APPS:
+        matched = match_watch_app(today_df, watch)
+        for _, watch_row in matched.iterrows():
+            watch_lookup[row_identity(watch_row)] = watch["name"]
+    return watch_lookup
+
+
+def get_rank_series(history, row, days=TREND_DAYS):
+    if history.empty:
+        return pd.DataFrame()
+
+    start_date = (datetime.now() - timedelta(days=days - 1)).strftime("%Y-%m-%d")
+    sub = history[
+        (history["platform"] == row["platform"]) &
+        (history["region"] == row["region"]) &
+        (history["chart_type"] == row["chart_type"]) &
+        (history["app_id"].astype(str) == str(row["app_id"])) &
+        (history["date"] >= start_date)
+    ].copy()
+
+    if sub.empty:
+        return sub
+
+    sub["rank"] = pd.to_numeric(sub["rank"], errors="coerce")
+    sub = sub.dropna(subset=["rank"])
+    sub["rank"] = sub["rank"].astype(int)
+    return sub.sort_values("date")
+
+
+def format_trend_note(history, row):
+    series = get_rank_series(history, row, days=TREND_DAYS)
+    if len(series) < 2:
+        return ""
+
+    notes = []
+    recent = series.tail(3)
+    if len(recent) == 3:
+        ranks = recent["rank"].tolist()
+        if ranks[0] > ranks[1] > ranks[2]:
+            notes.append("近3日连续上升")
+        elif ranks[0] < ranks[1] < ranks[2]:
+            notes.append("近3日连续下滑")
+
+    today_rank = int(series.iloc[-1]["rank"])
+    if len(series) >= 3:
+        best_rank = int(series["rank"].min())
+        worst_rank = int(series["rank"].max())
+        if today_rank == best_rank:
+            notes.append(f"近{TREND_DAYS}日新高")
+        elif today_rank == worst_rank:
+            notes.append(f"近{TREND_DAYS}日新低")
+
+    return "；".join(notes[:2])
+
+
+def classify_alert(rank, diff, is_watch_app, is_key_chart_value):
+    if diff is None:
+        if is_watch_app and rank <= NEW_ENTRY_ALERT_RANK:
+            return "P1"
+        if rank <= 10 and is_key_chart_value:
+            return "P1"
+        return "P2"
+
+    magnitude = abs(diff)
+    if is_watch_app and magnitude >= 10:
+        return "P0"
+    if is_watch_app and magnitude >= 5:
+        return "P1"
+    if is_key_chart_value and rank <= 20 and magnitude >= 15:
+        return "P1"
+    if rank <= 10 and magnitude >= 10:
+        return "P1"
+    return "P2"
+
+
+def collect_alerts(today_df, history):
+    if not has_previous_history(history):
+        return []
+
+    watch_lookup = build_watch_lookup(today_df)
+    alerts = []
+    for _, row in today_df.iterrows():
+        rank = int(row["rank"])
+        previous_rank = get_previous_rank(
+            history,
+            row["platform"],
+            row["region"],
+            row["chart_type"],
+            row["app_id"],
+        )
+        diff = change_value(rank, previous_rank)
+
+        if diff is None and rank > NEW_ENTRY_ALERT_RANK:
+            continue
+        if diff is not None and abs(diff) < min(ALERT_RISE_THRESHOLD, ALERT_DROP_THRESHOLD):
+            continue
+
+        chart_name = get_chart_name(row["platform"], row["chart_type"])
+        watch_name = watch_lookup.get(row_identity(row))
+        is_watch_app = bool(watch_name)
+        is_key_chart_value = is_key_chart(row["platform"], row["chart_type"])
+        priority = classify_alert(rank, diff, is_watch_app, is_key_chart_value)
+
+        if diff is None:
+            text = f"🆕 新进榜TOP{NEW_ENTRY_ALERT_RANK}｜{row['region_name']}｜{chart_name}｜{rank}. {row['app_name']}"
+            magnitude = NEW_ENTRY_ALERT_RANK - rank + 1
+        elif diff > 0:
+            text = f"🔥 大幅上涨｜{row['region_name']}｜{chart_name}｜{row['app_name']}：{rank}（↑{diff}）"
+            magnitude = abs(diff)
+        else:
+            text = f"⚠️ 大幅下跌｜{row['region_name']}｜{chart_name}｜{row['app_name']}：{rank}（↓{abs(diff)}）"
+            magnitude = abs(diff)
+
+        alerts.append({
+            "text": text,
+            "priority": priority,
+            "watch_name": watch_name,
+            "is_watch_app": is_watch_app,
+            "is_key_chart": is_key_chart_value,
+            "magnitude": magnitude,
+            "rank": rank,
+        })
+
+    return sorted(
+        alerts,
+        key=lambda item: (
+            {"P0": 0, "P1": 1, "P2": 2}.get(item["priority"], 3),
+            0 if item["is_watch_app"] else 1,
+            -item["magnitude"],
+            item["rank"],
+        ),
+    )
+
+
+def build_business_summary(lines, today_df, history):
+    lines.append("========== 今日业务摘要 ==========")
+    if today_df.empty:
+        lines.append("今日未抓取到榜单数据，暂无法判断业务异动。")
+        lines.append("")
+        return
+
+    alerts = collect_alerts(today_df, history)
+    p0_alerts = [item for item in alerts if item["priority"] == "P0"]
+    p1_alerts = [item for item in alerts if item["priority"] == "P1"]
+
+    if not has_previous_history(history):
+        lines.append("今日主要用于建立历史基准，明日起可输出涨跌和连续趋势判断。")
+    elif p0_alerts:
+        lines.append(f"重点风险/机会：发现 {len(p0_alerts)} 条 P0 级重点异动，需要优先关注。")
+    elif p1_alerts:
+        lines.append(f"重点风险/机会：发现 {len(p1_alerts)} 条 P1 级异动，建议关注是否由活动或投放导致。")
+    else:
+        lines.append("重点风险/机会：暂无高优先级异动，整体波动处于常规范围。")
+
+    watch_highlights = []
+    for watch in WATCH_APPS:
+        matched = match_watch_app(today_df, watch)
+        if matched.empty:
+            continue
+
+        matched = matched.copy()
+        matched["is_key_chart"] = matched.apply(
+            lambda row: is_key_chart(row["platform"], row["chart_type"]),
+            axis=1,
+        )
+        matched = matched.sort_values(
+            ["is_key_chart", "platform", "rank"],
+            ascending=[False, True, True],
+        )
+
+        row = matched.iloc[0]
+        previous_rank = get_previous_rank(
+            history,
+            row["platform"],
+            row["region"],
+            row["chart_type"],
+            row["app_id"],
+        )
+        change = format_change(int(row["rank"]), previous_rank)
+        trend_note = format_trend_note(history, row)
+        chart_name = get_chart_name(row["platform"], row["chart_type"])
+        platform_name = "iOS" if row["platform"] == "ios" else "Google"
+        suffix = f"，{trend_note}" if trend_note else ""
+        watch_highlights.append(
+            f"{watch['name']}：{platform_name} {chart_name}第{int(row['rank'])}（{change}{suffix}）"
+        )
+
+    if watch_highlights:
+        lines.append("重点产品：" + "；".join(watch_highlights[:4]))
+        if len(watch_highlights) > 4:
+            lines.append(f"另有 {len(watch_highlights) - 4} 个重点产品在下方详情中展示。")
+    else:
+        lines.append("重点产品：今日重点产品未进入已抓取榜单范围。")
+
+    key_alerts = p0_alerts + p1_alerts
+    if key_alerts:
+        lines.append("优先查看：")
+        for item in key_alerts[:SUMMARY_ALERT_LIMIT]:
+            lines.append(f"{item['priority']}｜{item['text']}")
+    else:
+        lines.append("优先查看：暂无 P0/P1 级预警。")
+
+    lines.append("")
 
 
 def build_top_section(lines, today_df, history):
@@ -350,7 +578,9 @@ def build_watch_section(lines, today_df, history):
             change = format_change(int(row["rank"]), previous_rank)
             platform_name = "iOS" if row["platform"] == "ios" else "Google"
             chart_name = get_chart_name(row["platform"], row["chart_type"])
-            lines.append(f"{row['region_name']}｜{platform_name}｜{chart_name}：{int(row['rank'])}（{change}）")
+            trend_note = format_trend_note(history, row)
+            trend_text = f"；{trend_note}" if trend_note else ""
+            lines.append(f"{row['region_name']}｜{platform_name}｜{chart_name}：{int(row['rank'])}（{change}{trend_text}）")
 
     if not has_watch_result:
         lines.append("今日重点产品未进入已抓取榜单范围。")
@@ -364,75 +594,33 @@ def build_alert_section(lines, today_df, history):
         lines.append("暂无历史数据，今日仅建立基准，明日起开始预警。")
         return
 
-    watch_keys = set()
-    for watch in WATCH_APPS:
-        matched = match_watch_app(today_df, watch)
-        for _, watch_row in matched.iterrows():
-            watch_keys.add((
-                watch_row["platform"],
-                watch_row["region"],
-                watch_row["chart_type"],
-                str(watch_row["app_id"]),
-            ))
-
-    alerts = []
-    for _, row in today_df.iterrows():
-        rank = int(row["rank"])
-        chart_name = get_chart_name(row["platform"], row["chart_type"])
-        is_watch_app = (
-            row["platform"],
-            row["region"],
-            row["chart_type"],
-            str(row["app_id"]),
-        ) in watch_keys
-
-        previous_rank = get_previous_rank(
-            history,
-            row["platform"],
-            row["region"],
-            row["chart_type"],
-            row["app_id"],
-        )
-        diff = change_value(rank, previous_rank)
-
-        if diff is None:
-            if rank <= NEW_ENTRY_ALERT_RANK:
-                alerts.append({
-                    "text": f"🆕 新进榜TOP{NEW_ENTRY_ALERT_RANK}｜{row['region_name']}｜{chart_name}｜{rank}. {row['app_name']}",
-                    "is_watch_app": is_watch_app,
-                    "magnitude": NEW_ENTRY_ALERT_RANK - rank + 1,
-                    "rank": rank,
-                })
-            continue
-
-        if diff >= ALERT_RISE_THRESHOLD:
-            alerts.append({
-                "text": f"🔥 大幅上涨｜{row['region_name']}｜{chart_name}｜{row['app_name']}：{rank}（↑{diff}）",
-                "is_watch_app": is_watch_app,
-                "magnitude": abs(diff),
-                "rank": rank,
-            })
-        if diff <= -ALERT_DROP_THRESHOLD:
-            alerts.append({
-                "text": f"⚠️ 大幅下跌｜{row['region_name']}｜{chart_name}｜{row['app_name']}：{rank}（↓{abs(diff)}）",
-                "is_watch_app": is_watch_app,
-                "magnitude": abs(diff),
-                "rank": rank,
-            })
-
+    alerts = collect_alerts(today_df, history)
     if not alerts:
         lines.append("暂无明显异动。")
         return
 
-    alerts = sorted(
-        alerts,
-        key=lambda item: (0 if item["is_watch_app"] else 1, -item["magnitude"], item["rank"]),
-    )
-    display_limit = 30
-    for item in alerts[:display_limit]:
-        lines.append(item["text"])
-    if len(alerts) > display_limit:
-        lines.append(f"另有 {len(alerts) - display_limit} 条异动未展示。")
+    shown = 0
+    for priority, title in [
+        ("P0", "P0｜重点产品大幅波动"),
+        ("P1", "P1｜重点关注异动"),
+        ("P2", "P2｜普通榜单异动"),
+    ]:
+        priority_alerts = [item for item in alerts if item["priority"] == priority]
+        if not priority_alerts:
+            continue
+
+        lines.append(f"\n【{title}】")
+        for item in priority_alerts:
+            if shown >= ALERT_DISPLAY_LIMIT:
+                break
+            lines.append(item["text"])
+            shown += 1
+
+        if shown >= ALERT_DISPLAY_LIMIT:
+            break
+
+    if len(alerts) > shown:
+        lines.append(f"另有 {len(alerts) - shown} 条异动未展示。")
 
 
 def generate_trend_charts(history):
@@ -533,14 +721,15 @@ def build_report(today_rows):
     history = load_history()
     today_df = pd.DataFrame(today_rows)
 
-    lines = ["【台湾手游榜单监控日报 V2.3】", f"日期：{TODAY}", ""]
+    lines = ["【台湾手游榜单监控日报 V2.4】", f"日期：{TODAY}", ""]
     if today_df.empty:
         lines.append("今日未抓取到榜单数据，请检查 GitHub Actions 日志。")
         return "\n".join(lines)
 
-    build_top_section(lines, today_df, history)
+    build_business_summary(lines, today_df, history)
     build_watch_section(lines, today_df, history)
     build_alert_section(lines, today_df, history)
+    build_top_section(lines, today_df, history)
     build_trend_section(lines, generate_trend_charts(history))
     return "\n".join(lines)
 
