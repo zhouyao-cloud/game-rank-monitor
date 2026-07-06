@@ -54,7 +54,8 @@ def to_github_file_url(file_path):
     base_url = get_github_base_url()
     if not base_url:
         return ""
-    return f"{base_url}/{file_path.replace('\\\\', '/')}"
+    normalized_path = file_path.replace(os.sep, "/")
+    return f"{base_url}/{normalized_path}"
 
 
 def fetch_ios_chart(region, chart_type, limit=200):
