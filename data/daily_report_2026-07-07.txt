@@ -1,0 +1,170 @@
+【台湾手游榜单监控日报 V2.5】
+日期：2026-07-07
+
+========== 今日业务摘要 ==========
+重点风险/机会：发现 2 条 P0 级重点异动，需要优先关注。
+重点产品：新熱血江湖：世界：iOS畅销榜第55（↑23，近3日连续上升；近7日新高）；天堂W：iOS畅销榜第89（↓69，近3日连续下滑；近7日新低）；楓之谷M：iOS畅销榜第40（↓2，近7日新低）；RO仙境傳說：愛如初見：iOS畅销榜第95（新入榜）
+另有 2 个重点产品在下方详情中展示。
+优先查看：
+P0｜⚠️ 大幅下跌｜台湾｜iOS畅销榜｜天堂W：89（↓69）
+P0｜🔥 大幅上涨｜台湾｜iOS畅销榜｜新熱血江湖：世界：55（↑23）
+P1｜🔥 大幅上涨｜台湾｜Google畅销榜｜Fate/Grand Order (English)：14（↑24）
+
+========== 重点产品监控 ==========
+
+【新熱血江湖：世界】
+台湾｜iOS｜iOS畅销榜：55（↑23；近3日连续上升；近7日新高）
+
+【天堂W】
+台湾｜iOS｜iOS畅销榜：89（↓69；近3日连续下滑；近7日新低）
+
+【楓之谷M】
+台湾｜iOS｜iOS畅销榜：40（↓2；近7日新低）
+
+【RO仙境傳說：愛如初見】
+台湾｜iOS｜iOS畅销榜：95（新入榜）
+
+【寒霜啟示錄】
+台湾｜Google｜Google免费榜：88（↑9）
+台湾｜Google｜Google畅销榜：10（↓1；近3日连续下滑；近7日新低）
+台湾｜iOS｜iOS免费榜：16（↑2）
+台湾｜iOS｜iOS畅销榜：4（→）
+
+【Last War: Survival】
+台湾｜Google｜Google畅销榜：9（↓1；近7日新低）
+台湾｜iOS｜iOS畅销榜：10（↑5；近3日连续上升）
+
+========== 榜单异动预警 ==========
+
+【P0｜重点产品大幅波动】
+⚠️ 大幅下跌｜台湾｜iOS畅销榜｜天堂W：89（↓69）
+🔥 大幅上涨｜台湾｜iOS畅销榜｜新熱血江湖：世界：55（↑23）
+
+【P1｜重点关注异动】
+🔥 大幅上涨｜台湾｜Google畅销榜｜Fate/Grand Order (English)：14（↑24）
+
+【P2｜普通榜单异动】
+🆕 新进榜TOP50｜台湾｜iOS免费榜｜2. 世界之外
+🔥 大幅上涨｜台湾｜iOS免费榜｜我的法杖有點強：放置RPG：35（↑41）
+⚠️ 大幅下跌｜台湾｜iOS畅销榜｜神魔之塔：99（↓34）
+⚠️ 大幅下跌｜台湾｜iOS免费榜｜Dark War:Survival：67（↓28）
+🔥 大幅上涨｜台湾｜iOS免费榜｜Coin Master：56（↑27）
+🔥 大幅上涨｜台湾｜iOS畅销榜｜超能戰爭：66（↑27）
+⚠️ 大幅下跌｜台湾｜Google免费榜｜Block Color Mania, Puzzle Game：89（↓27）
+🆕 新进榜TOP50｜台湾｜iOS畅销榜｜26. Clash Royale
+⚠️ 大幅下跌｜台湾｜iOS免费榜｜好萊塢合成：星夢逆襲：69（↓23）
+🔥 大幅上涨｜台湾｜iOS畅销榜｜逆水寒：74（↑23）
+⚠️ 大幅下跌｜台湾｜Google免费榜｜Coin Master：85（↓22）
+⚠️ 大幅下跌｜台湾｜iOS畅销榜｜棒球殿堂Live：92（↓22）
+🔥 大幅上涨｜台湾｜iOS免费榜｜摩奇料理 主題餐廳：48（↑21）
+⚠️ 大幅下跌｜台湾｜Google畅销榜｜Summoners War X Frieren：64（↓21）
+⚠️ 大幅下跌｜台湾｜Google免费榜｜RAID: Shadow Legends：92（↓21）
+⚠️ 大幅下跌｜台湾｜Google畅销榜｜Merge Mansion: Puzzles & Story：94（↓21）
+⚠️ 大幅下跌｜台湾｜iOS畅销榜｜變身傳奇：98（↓21）
+⚠️ 大幅下跌｜台湾｜Google免费榜｜Color by Number：Coloring Games：42（↓20）
+⚠️ 大幅下跌｜台湾｜Google免费榜｜Bingo Blitz™️ - Bingo Games：94（↓20）
+⚠️ 大幅下跌｜台湾｜iOS畅销榜｜LINE Rangers - 率領熊大和兔兔來大戰一番吧！：100（↓20）
+⚠️ 大幅下跌｜台湾｜iOS免费榜｜狂化啟示錄：45（↓18）
+🔥 大幅上涨｜台湾｜iOS畅销榜｜NBA巔峰對決：50（↑18）
+🔥 大幅上涨｜台湾｜Google免费榜｜Jigsaw Drop: Solitaire Puzzle：64（↑18）
+🔥 大幅上涨｜台湾｜iOS畅销榜｜叫我大掌櫃：80（↑18）
+🔥 大幅上涨｜台湾｜Google免费榜｜Royal Kingdom：61（↑17）
+🔥 大幅上涨｜台湾｜iOS畅销榜｜錢街Online-賽特3、捕魚機、老虎機、紅包雨、娛樂城：81（↑17）
+⚠️ 大幅下跌｜台湾｜Google免费榜｜Game of Thrones: Dragonfire：98（↓17）
+另有 44 条异动未展示。
+
+========== 台湾 ==========
+
+【iOS免费榜 TOP20】
+1. 天天拼詞王 →
+2. 世界之外 新入榜
+3. Pikmin Bloom →
+4. Smash Fest! ↑1
+5. 從前有條街 ↓1
+6. 龍族幻想：勇者集結 ↓4
+7. 超能戰爭 →
+8. 緋聞港口：合併&故事 ↑5
+9. 練氣3000層：墮落女帝逼我飛升 ↓3
+10. Block Blast! →
+11. Bus Traffic Fever! ↑3
+12. Roblox ↑3
+13. 雙面神姬 ↓5
+14. 生存33天 ↓2
+15. JUMP 全明星亂鬥 ↓4
+16. 寒霜啟示錄 ↑2
+17. 口袋學院物語2 ↓8
+18. Royal Kingdom ↑2
+19. Pokémon Champions ↓3
+20. 我的花園世界 ↑15
+
+【iOS畅销榜 TOP20】
+1. Pokémon GO ↑2
+2. 星城-歡慶77幸運日 ↓1
+3. Pikmin Bloom ↓1
+4. 寒霜啟示錄 →
+5. Kingshot →
+6. 麻將明星3缺1 ↑1
+7. Garena 傳說對決：冥定王牌版本 ↓1
+8. Coin Master ↑1
+9. PUBG MOBILE：絕地求生M ↓1
+10. 最後的戰爭 - Last War ↑5
+11. 包你發-王識賢、安心亞推薦休閒娛樂城-老虎機、捕魚機多款遊戲 →
+12. 緋聞港口：合併&故事 ↓2
+13. 楓之谷：放置冒險記 ↑3
+14. 豪神娛樂城 ↓2
+15. 金好運 ↑2
+16. 糖果傳奇 ↓2
+17. 嚦咕麻將-戰神賽特、雷神之錘、超八、賽馬、麻將、魚機、老虎機 ↑2
+18. 貓咪大戰爭 ↓5
+19. RO仙境傳説：世界之旅 ↑4
+20. 決勝時刻: Mobile - Garena ↑2
+
+【Google免费榜 TOP20】
+1. Meowdoku: Brain Puzzle Games →
+2. Hole Stars: Puzzle Game →
+3. Roblox ↑1
+4. Vita Mahjong ↑1
+5. Arrows – Puzzle Escape ↓2
+6. Amaze GO! →
+7. Block Craft 3D：Building Game ↑2
+8. Block Blast! ↓1
+9. Kingshot ↓1
+10. Woodoku Blast →
+11. Bus Traffic Fever! ↑2
+12. Color Block: Combo Blast ↑3
+13. MONOPOLY GO! ↓1
+14. Magic Sort! ↓3
+15. Arrow Puzzle: Tap Puzzle Games ↓1
+16. Township →
+17. Gossip Harbor: Merge & Story ↑3
+18. Soccer Superstar ↑3
+19. Pixel Flow! ↑5
+20. Paper.io 2 ↓1
+
+【Google畅销榜 TOP20】
+1. MONOPOLY GO! →
+2. Roblox →
+3. Coin Master ↑1
+4. Royal Match ↑1
+5. Candy Crush Saga ↓2
+6. Pokémon GO ↑7
+7. Gossip Harbor: Merge & Story ↓1
+8. Kingshot ↓1
+9. Last War:Survival Game ↓1
+10. Whiteout Survival ↓1
+11. Township ↓1
+12. Royal Kingdom ↓1
+13. Toon Blast ↓1
+14. Fate/Grand Order (English) ↑24
+15. Last Z: Survival Shooter ↓1
+16. Free Fire: 9th Anniversary ↓1
+17. Jackpot Party Casino Slots →
+18. Total Battle: War Strategy ↓2
+19. Clash of Clans ↑1
+20. Disney Solitaire ↑1
+
+
+========== 重点产品趋势图 ==========
+已生成 2 张趋势图：
+1. 天堂W｜台湾｜iOS畅销榜：https://github.com/zhouyao-cloud/game-rank-monitor/blob/main/data/charts/2026-07-07_tw_天堂W_ios_top-grossing.png
+2. RO仙境傳說：愛如初見｜台湾｜iOS畅销榜：https://github.com/zhouyao-cloud/game-rank-monitor/blob/main/data/charts/2026-07-07_tw_RO仙境傳說_愛如初見_ios_top-grossing.png
