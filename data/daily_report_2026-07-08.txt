@@ -1,0 +1,163 @@
+【台湾手游榜单监控日报 V2.5】
+日期：2026-07-08
+
+========== 今日业务摘要 ==========
+重点风险/机会：发现 2 条 P0 级重点异动，需要优先关注。
+重点产品：新熱血江湖：世界：iOS畅销榜第67（↓12）；天堂W：iOS畅销榜第86（↑3）；楓之谷M：iOS畅销榜第26（↑14，近7日新高）；寒霜啟示錄：Google畅销榜第10（→，近7日新低）
+另有 1 个重点产品在下方详情中展示。
+优先查看：
+P0｜🔥 大幅上涨｜台湾｜iOS畅销榜｜楓之谷M - 奇幻冒險MMORPG：26（↑14）
+P0｜⚠️ 大幅下跌｜台湾｜iOS畅销榜｜新熱血江湖：世界：67（↓12）
+
+========== 重点产品监控 ==========
+
+【新熱血江湖：世界】
+台湾｜iOS｜iOS畅销榜：67（↓12）
+
+【天堂W】
+台湾｜iOS｜iOS畅销榜：86（↑3）
+
+【楓之谷M】
+台湾｜iOS｜iOS畅销榜：26（↑14；近7日新高）
+
+【寒霜啟示錄】
+台湾｜Google｜Google免费榜：91（↓3）
+台湾｜Google｜Google畅销榜：10（→；近7日新低）
+台湾｜iOS｜iOS免费榜：24（↓8；近7日新低）
+台湾｜iOS｜iOS畅销榜：4（→）
+
+【Last War: Survival】
+台湾｜Google｜Google畅销榜：9（→；近7日新低）
+台湾｜iOS｜iOS畅销榜：8（↑2；近3日连续上升；近7日新高）
+
+========== 榜单异动预警 ==========
+
+【P0｜重点产品大幅波动】
+🔥 大幅上涨｜台湾｜iOS畅销榜｜楓之谷M - 奇幻冒險MMORPG：26（↑14）
+⚠️ 大幅下跌｜台湾｜iOS畅销榜｜新熱血江湖：世界：67（↓12）
+
+【P2｜普通榜单异动】
+🆕 新进榜TOP50｜台湾｜iOS免费榜｜2. 肥鵝美食街
+🔥 大幅上涨｜台湾｜iOS畅销榜｜信長之野望 真戰：31（↑45）
+🔥 大幅上涨｜台湾｜iOS免费榜｜Goods Master 3D: 收納遊戲 貨櫃整理達人：45（↑42）
+🔥 大幅上涨｜台湾｜iOS免费榜｜誰來救救我：55（↑38）
+🔥 大幅上涨｜台湾｜iOS畅销榜｜EA SPORTS FC™ 足球 Mobile 2026：24（↑34）
+⚠️ 大幅下跌｜台湾｜iOS免费榜｜瘋狂餐廳(Cooking Madness)：86（↓31）
+🆕 新进榜TOP50｜台湾｜iOS畅销榜｜21. Fate/Grand Order
+🔥 大幅上涨｜台湾｜Google免费榜｜Game of Thrones: Dragonfire：69（↑29）
+⚠️ 大幅下跌｜台湾｜Google免费榜｜Beach Bliss: Merge Puzzle：55（↓25）
+⚠️ 大幅下跌｜台湾｜iOS免费榜｜Dark War:Survival：91（↓24）
+⚠️ 大幅下跌｜台湾｜iOS畅销榜｜點點大作戰：90（↓23）
+⚠️ 大幅下跌｜台湾｜iOS免费榜｜狂化啟示錄：67（↓22）
+⚠️ 大幅下跌｜台湾｜iOS免费榜｜暗影英雄：突襲：98（↓22）
+🔥 大幅上涨｜台湾｜Google免费榜｜Colorful Soda Sort：60（↑21）
+⚠️ 大幅下跌｜台湾｜iOS畅销榜｜三國：謀定天下 - 年度紀念慶典：93（↓21）
+⚠️ 大幅下跌｜台湾｜Google免费榜｜82-0.com：54（↓20）
+🔥 大幅上涨｜台湾｜Google免费榜｜Animals & Coins Adventure Game：36（↑19）
+⚠️ 大幅下跌｜台湾｜iOS畅销榜｜決勝時刻: Mobile - Garena：39（↓19）
+⚠️ 大幅下跌｜台湾｜iOS免费榜｜瑞利昂(RELLION)：NPC的生存記：81（↓19）
+🔥 大幅上涨｜台湾｜Google免费榜｜Tiles Survive!：81（↑18）
+⚠️ 大幅下跌｜台湾｜Google免费榜｜Solitaire Associations Journey：88（↓18）
+⚠️ 大幅下跌｜台湾｜Google免费榜｜Block Crazy Robo World Craft：89（↓18）
+⚠️ 大幅下跌｜台湾｜iOS畅销榜｜燕雲十六聲：48（↓17）
+⚠️ 大幅下跌｜台湾｜iOS畅销榜｜三國志・戰略版：80（↓17）
+⚠️ 大幅下跌｜台湾｜Google免费榜｜Search It - Hidden Objects：97（↓17）
+🔥 大幅上涨｜台湾｜iOS免费榜｜EA SPORTS FC™ 足球 Mobile 2026：50（↑16）
+⚠️ 大幅下跌｜台湾｜iOS免费榜｜Coin Master：72（↓16）
+⚠️ 大幅下跌｜台湾｜iOS免费榜｜龍族幻想：勇者集結：21（↓15）
+另有 43 条异动未展示。
+
+========== 台湾 ==========
+
+【iOS免费榜 TOP20】
+1. 天天拼詞王 →
+2. 肥鵝美食街 新入榜
+3. Pikmin Bloom →
+4. 世界之外 ↓2
+5. Smash Fest! ↓1
+6. 從前有條街 ↓1
+7. 練氣3000層：墮落女帝逼我飛升 ↑2
+8. Block Blast! ↑2
+9. 緋聞港口：合併&故事 ↓1
+10. 超能戰爭 ↓3
+11. Bus Traffic Fever! →
+12. 點點大作戰 ↑12
+13. Roblox ↓1
+14. 生存33天 →
+15. Block Out! - Color Sort Puzzle ↑6
+16. Vita 麻將 ↑7
+17. JUMP 全明星亂鬥 ↓2
+18. Kingshot ↑9
+19. Royal Kingdom ↓1
+20. Coin Master - Board Adventure ↑12
+
+【iOS畅销榜 TOP20】
+1. Pokémon GO →
+2. 星城-歡慶77幸運日 →
+3. Pikmin Bloom →
+4. 寒霜啟示錄 →
+5. 麻將明星3缺1 ↑1
+6. Kingshot ↓1
+7. Garena 傳說對決：冥定王牌版本 →
+8. 最後的戰爭 - Last War ↑2
+9. PUBG MOBILE：絕地求生M →
+10. 緋聞港口：合併&故事 ↑2
+11. 包你發-王識賢、安心亞推薦休閒娛樂城-老虎機、捕魚機多款遊戲 →
+12. 豪神娛樂城 ↑2
+13. 糖果傳奇 ↑3
+14. 楓之谷：放置冒險記 ↓1
+15. 金好運 →
+16. Coin Master ↓8
+17. 嚦咕麻將-戰神賽特、雷神之錘、超八、賽馬、麻將、魚機、老虎機 →
+18. 老子有錢 - 曾國城 X 籃籃唯一推薦 大獎爆不停 ↑5
+19. RO仙境傳説：世界之旅 →
+20. 麻將 神來也麻將－台灣16張、麻雀 ↑2
+
+【Google免费榜 TOP20】
+1. Meowdoku: Brain Puzzle Games →
+2. Hole Stars: Puzzle Game →
+3. Roblox →
+4. Vita Mahjong →
+5. Arrows – Puzzle Escape →
+6. Amaze GO! →
+7. Block Craft 3D：Building Game →
+8. Block Blast! →
+9. Gossip Harbor: Merge & Story ↑8
+10. Woodoku Blast →
+11. Kingshot ↓2
+12. Bus Traffic Fever! ↓1
+13. Color Block: Combo Blast ↓1
+14. Township ↑2
+15. Magic Sort! ↓1
+16. MONOPOLY GO! ↓3
+17. Soccer Superstar ↑1
+18. Arrow Puzzle: Tap Puzzle Games ↓3
+19. Paper.io 2 ↑1
+20. Yarn Loop ↑1
+
+【Google畅销榜 TOP20】
+1. MONOPOLY GO! →
+2. Roblox →
+3. Coin Master →
+4. Royal Match →
+5. Candy Crush Saga →
+6. Pokémon GO →
+7. Gossip Harbor: Merge & Story →
+8. Kingshot →
+9. Last War:Survival Game →
+10. Whiteout Survival →
+11. Township →
+12. Royal Kingdom →
+13. Toon Blast →
+14. Fate/Grand Order (English) →
+15. Last Z: Survival Shooter →
+16. Free Fire: 9th Anniversary →
+17. Jackpot Party Casino Slots →
+18. Total Battle: War Strategy →
+19. Clash of Clans →
+20. Disney Solitaire →
+
+
+========== 重点产品趋势图 ==========
+已生成 1 张趋势图：
+1. RO仙境傳說：愛如初見｜台湾｜iOS畅销榜：https://github.com/zhouyao-cloud/game-rank-monitor/blob/main/data/charts/2026-07-08_tw_RO仙境傳說_愛如初見_ios_top-grossing.png
