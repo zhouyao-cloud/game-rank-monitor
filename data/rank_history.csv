@@ -4397,3 +4397,403 @@
 2026-07-10,android,tw,台湾,grossing,98,Star Wars™: Galaxy of Heroes,com.ea.game.starwarscapital_row,,https://www.appbrain.com/app/star-wars%E2%84%A2-galaxy-of-heroes/com.ea.game.starwarscapital_row
 2026-07-10,android,tw,台湾,grossing,99,CommonHealth Developer Edition,org.thecommonsproject.android.phr.developer,,https://www.appbrain.com/app/commonhealth-developer-edition/org.thecommonsproject.android.phr.developer
 2026-07-10,android,tw,台湾,grossing,100,Student Portal Java Institute,lk.exon.javainstitute,,https://www.appbrain.com/app/student-portal-java-institute/lk.exon.javainstitute
+2026-07-11,ios,tw,台湾,top-free,1,天天拼詞王,6771681142,Miracle Game,https://apps.apple.com/tw/app/%E5%A4%A9%E5%A4%A9%E6%8B%BC%E8%A9%9E%E7%8E%8B/id6771681142?uo=2
+2026-07-11,ios,tw,台湾,top-free,2,Pikmin Bloom,1556357398,"Niantic, Inc.",https://apps.apple.com/tw/app/pikmin-bloom/id1556357398?uo=2
+2026-07-11,ios,tw,台湾,top-free,3,龍族幻想：勇者集結,6740021133,Focent Technology Limited,https://apps.apple.com/tw/app/%E9%BE%8D%E6%97%8F%E5%B9%BB%E6%83%B3-%E5%8B%87%E8%80%85%E9%9B%86%E7%B5%90/id6740021133?uo=2
+2026-07-11,ios,tw,台湾,top-free,4,Smash Fest!,6748084174,Flow Games Bilisim Yazilim ve Pazarlama Anonim Sirketi,https://apps.apple.com/tw/app/smash-fest/id6748084174?uo=2
+2026-07-11,ios,tw,台湾,top-free,5,Towaga: Among Shadows,1637913311,Sunnyside Games,https://apps.apple.com/tw/app/towaga-among-shadows/id1637913311?uo=2
+2026-07-11,ios,tw,台湾,top-free,6,守護！森友家園,6760751542,"ZeroBound Creative Tech Co., Ltd.",https://apps.apple.com/tw/app/%E5%AE%88%E8%AD%B7-%E6%A3%AE%E5%8F%8B%E5%AE%B6%E5%9C%92/id6760751542?uo=2
+2026-07-11,ios,tw,台湾,top-free,7,從前有條街,6769718022,THANH AN SON DONG COMPANY LIMITED,https://apps.apple.com/tw/app/%E5%BE%9E%E5%89%8D%E6%9C%89%E6%A2%9D%E8%A1%97/id6769718022?uo=2
+2026-07-11,ios,tw,台湾,top-free,8,點點大作戰,6738109752,FunPlus International AG,https://apps.apple.com/tw/app/%E9%BB%9E%E9%BB%9E%E5%A4%A7%E4%BD%9C%E6%88%B0/id6738109752?uo=2
+2026-07-11,ios,tw,台湾,top-free,9,肥鵝美食街,6756707358,THE HORTOR TECHNOLOGY PTE.LTD.,https://apps.apple.com/tw/app/%E8%82%A5%E9%B5%9D%E7%BE%8E%E9%A3%9F%E8%A1%97/id6756707358?uo=2
+2026-07-11,ios,tw,台湾,top-free,10,超能戰爭,6749109328,9z Games(HK),https://apps.apple.com/tw/app/%E8%B6%85%E8%83%BD%E6%88%B0%E7%88%AD/id6749109328?uo=2
+2026-07-11,ios,tw,台湾,top-free,11,緋聞港口：合併&故事,1623318294,Microfun Limited,https://apps.apple.com/tw/app/%E7%B7%8B%E8%81%9E%E6%B8%AF%E5%8F%A3-%E5%90%88%E4%BD%B5-%E6%95%85%E4%BA%8B/id1623318294?uo=2
+2026-07-11,ios,tw,台湾,top-free,12,Block Blast!,1617391485,Hungry Studio,https://apps.apple.com/tw/app/block-blast/id1617391485?uo=2
+2026-07-11,ios,tw,台湾,top-free,13,Roblox,431946152,Roblox Corporation,https://apps.apple.com/tw/app/roblox/id431946152?uo=2
+2026-07-11,ios,tw,台湾,top-free,14,三國志呂布傳,6770487182,Chengdu Xinyue Network Technology Co Ltd,https://apps.apple.com/tw/app/%E4%B8%89%E5%9C%8B%E5%BF%97%E5%91%82%E5%B8%83%E5%82%B3/id6770487182?uo=2
+2026-07-11,ios,tw,台湾,top-free,15,世界之外,6760813873,Envoy Interactive Entertainment Co.Ltd.,https://apps.apple.com/tw/app/%E4%B8%96%E7%95%8C%E4%B9%8B%E5%A4%96/id6760813873?uo=2
+2026-07-11,ios,tw,台湾,top-free,16,Colony Flow!,6779167923,ABI GLOBAL LTD.,https://apps.apple.com/tw/app/colony-flow/id6779167923?uo=2
+2026-07-11,ios,tw,台湾,top-free,17,Bus Traffic Fever!,6759763476,"GOODROID,Inc.",https://apps.apple.com/tw/app/bus-traffic-fever/id6759763476?uo=2
+2026-07-11,ios,tw,台湾,top-free,18,Kingshot,6739554056,Century Games Pte. Ltd.,https://apps.apple.com/tw/app/kingshot/id6739554056?uo=2
+2026-07-11,ios,tw,台湾,top-free,19,食光旅行,6471045672,Century Games Pte. Ltd.,https://apps.apple.com/tw/app/%E9%A3%9F%E5%85%89%E6%97%85%E8%A1%8C/id6471045672?uo=2
+2026-07-11,ios,tw,台湾,top-free,20,CookieRun Classic,6759596824,Devsisters,https://apps.apple.com/tw/app/cookierun-classic/id6759596824?uo=2
+2026-07-11,ios,tw,台湾,top-free,21,練氣3000層：墮落女帝逼我飛升,6759955644,Sky Entertainment Network Limited,https://apps.apple.com/tw/app/%E7%B7%B4%E6%B0%A33000%E5%B1%A4-%E5%A2%AE%E8%90%BD%E5%A5%B3%E5%B8%9D%E9%80%BC%E6%88%91%E9%A3%9B%E5%8D%87/id6759955644?uo=2
+2026-07-11,ios,tw,台湾,top-free,22,車車屍搭普 - 足球狂歡季來臨！,6760377678,"HIGGS TECHNOLOGY CO., LIMITED",https://apps.apple.com/tw/app/%E8%BB%8A%E8%BB%8A%E5%B1%8D%E6%90%AD%E6%99%AE-%E8%B6%B3%E7%90%83%E7%8B%82%E6%AD%A1%E5%AD%A3%E4%BE%86%E8%87%A8/id6760377678?uo=2
+2026-07-11,ios,tw,台湾,top-free,23,Block Out! - Color Sort Puzzle,6752672568,Grand Games A.Ş.,https://apps.apple.com/tw/app/block-out-color-sort-puzzle/id6752672568?uo=2
+2026-07-11,ios,tw,台湾,top-free,24,雙面神姬,6760099690,GOAT GAMES COMPANY LIMITED,https://apps.apple.com/tw/app/%E9%9B%99%E9%9D%A2%E7%A5%9E%E5%A7%AC/id6760099690?uo=2
+2026-07-11,ios,tw,台湾,top-free,25,Royal Kingdom,1606549505,Dream Games,https://apps.apple.com/tw/app/royal-kingdom/id1606549505?uo=2
+2026-07-11,ios,tw,台湾,top-free,26,Vita 麻將,6468921495,Vita Studio,https://apps.apple.com/tw/app/vita-%E9%BA%BB%E5%B0%87/id6468921495?uo=2
+2026-07-11,ios,tw,台湾,top-free,27,生存33天,6760992149,"Fun Journey Network Technology Co., Limited",https://apps.apple.com/tw/app/%E7%94%9F%E5%AD%9833%E5%A4%A9/id6760992149?uo=2
+2026-07-11,ios,tw,台湾,top-free,28,Astro Arena : 恆星激鬥 PvP,6473492526,KRAFTON Inc,https://apps.apple.com/tw/app/astro-arena-%E6%81%86%E6%98%9F%E6%BF%80%E9%AC%A5-pvp/id6473492526?uo=2
+2026-07-11,ios,tw,台湾,top-free,29,Family Style: Co-op Kitchen,1484208629,Co-op Kitchen LLC,https://apps.apple.com/tw/app/family-style-co-op-kitchen/id1484208629?uo=2
+2026-07-11,ios,tw,台湾,top-free,30,《荒野亂鬥》,1229016807,Supercell,https://apps.apple.com/tw/app/%E8%8D%92%E9%87%8E%E4%BA%82%E9%AC%A5/id1229016807?uo=2
+2026-07-11,ios,tw,台湾,top-free,31,找不同 - 發現並找出所有不同,6504279468,Guru Smart Holding Limited,https://apps.apple.com/tw/app/%E6%89%BE%E4%B8%8D%E5%90%8C-%E7%99%BC%E7%8F%BE%E4%B8%A6%E6%89%BE%E5%87%BA%E6%89%80%E6%9C%89%E4%B8%8D%E5%90%8C/id6504279468?uo=2
+2026-07-11,ios,tw,台湾,top-free,32,寒霜啟示錄,6443575749,Century Games Pte. Ltd.,https://apps.apple.com/tw/app/%E5%AF%92%E9%9C%9C%E5%95%9F%E7%A4%BA%E9%8C%84/id6443575749?uo=2
+2026-07-11,ios,tw,台湾,top-free,33,Magic Sort!,6499209744,Grand Games A.Ş.,https://apps.apple.com/tw/app/magic-sort/id6499209744?uo=2
+2026-07-11,ios,tw,台湾,top-free,34,Pokémon Champions,6741503079,The Pokemon Company,https://apps.apple.com/tw/app/pok%C3%A9mon-champions/id6741503079?uo=2
+2026-07-11,ios,tw,台湾,top-free,35,玩星派對,6448721818,"GAMEJOY TECHNOLOGY CO., LTD.",https://apps.apple.com/tw/app/%E7%8E%A9%E6%98%9F%E6%B4%BE%E5%B0%8D/id6448721818?uo=2
+2026-07-11,ios,tw,台湾,top-free,36,Screw All Out - Jam Master,6737022506,Chengdu Warrior Tech Limited,https://apps.apple.com/tw/app/screw-all-out-jam-master/id6737022506?uo=2
+2026-07-11,ios,tw,台湾,top-free,37,JUMP 全明星亂鬥,6762765238,Tadpole Entertainment Company Limited,https://apps.apple.com/tw/app/jump-%E5%85%A8%E6%98%8E%E6%98%9F%E4%BA%82%E9%AC%A5/id6762765238?uo=2
+2026-07-11,ios,tw,台湾,top-free,38,誰來救救我,6752369665,WhaleJoy Game Limited,https://apps.apple.com/tw/app/%E8%AA%B0%E4%BE%86%E6%95%91%E6%95%91%E6%88%91/id6752369665?uo=2
+2026-07-11,ios,tw,台湾,top-free,39,Jewel Coloring,6759081967,Ta Ta Game Technology Limited,https://apps.apple.com/tw/app/jewel-coloring/id6759081967?uo=2
+2026-07-11,ios,tw,台湾,top-free,40,粉彩世界：合作逃生,6733252780,Erwin .,https://apps.apple.com/tw/app/%E7%B2%89%E5%BD%A9%E4%B8%96%E7%95%8C-%E5%90%88%E4%BD%9C%E9%80%83%E7%94%9F/id6733252780?uo=2
+2026-07-11,ios,tw,台湾,top-free,41,Rummikub,1015322991,Kinkajoo Ltd,https://apps.apple.com/tw/app/rummikub/id1015322991?uo=2
+2026-07-11,ios,tw,台湾,top-free,42,解憂小食光：餐廳模擬經營,6773322250,JOYGLOBE PTE. LTD.,https://apps.apple.com/tw/app/%E8%A7%A3%E6%86%82%E5%B0%8F%E9%A3%9F%E5%85%89-%E9%A4%90%E5%BB%B3%E6%A8%A1%E6%93%AC%E7%B6%93%E7%87%9F/id6773322250?uo=2
+2026-07-11,ios,tw,台湾,top-free,43,Aimy - 自由捏臉換裝的 AI 戀愛聊天對話 App,6450537255,aisaac inc.,https://apps.apple.com/tw/app/aimy-%E8%87%AA%E7%94%B1%E6%8D%8F%E8%87%89%E6%8F%9B%E8%A3%9D%E7%9A%84-ai-%E6%88%80%E6%84%9B%E8%81%8A%E5%A4%A9%E5%B0%8D%E8%A9%B1-app/id6450537255?uo=2
+2026-07-11,ios,tw,台湾,top-free,44,刃與三國：烽火爭霸,6769617371,EVISTA PTE. LTD.,https://apps.apple.com/tw/app/%E5%88%83%E8%88%87%E4%B8%89%E5%9C%8B-%E7%83%BD%E7%81%AB%E7%88%AD%E9%9C%B8/id6769617371?uo=2
+2026-07-11,ios,tw,台湾,top-free,45,PUBG MOBILE：絕地求生M,1453363650,MAINSTREAM UNIVERSAL CO. LTD.,https://apps.apple.com/tw/app/pubg-mobile-%E7%B5%95%E5%9C%B0%E6%B1%82%E7%94%9Fm/id1453363650?uo=2
+2026-07-11,ios,tw,台湾,top-free,46,Pokémon GO,1094591345,"Niantic, Inc.",https://apps.apple.com/tw/app/pok%C3%A9mon-go/id1094591345?uo=2
+2026-07-11,ios,tw,台湾,top-free,47,Coin Master - Board Adventure,6745761596,Moon Active,https://apps.apple.com/tw/app/coin-master-board-adventure/id6745761596?uo=2
+2026-07-11,ios,tw,台湾,top-free,48,Tiny Bookshop Mobile,6766267906,Skystone Games Inc.,https://apps.apple.com/tw/app/tiny-bookshop-mobile/id6766267906?uo=2
+2026-07-11,ios,tw,台湾,top-free,49,Garena® 三角洲行動,6670604287,Garena Mobile Games Private Ltd.,https://apps.apple.com/tw/app/garena-%E4%B8%89%E8%A7%92%E6%B4%B2%E8%A1%8C%E5%8B%95/id6670604287?uo=2
+2026-07-11,ios,tw,台湾,top-free,50,Garena 傳說對決：冥定王牌版本,1089079153,Garena Online Private Ltd,https://apps.apple.com/tw/app/garena-%E5%82%B3%E8%AA%AA%E5%B0%8D%E6%B1%BA-%E5%86%A5%E5%AE%9A%E7%8E%8B%E7%89%8C%E7%89%88%E6%9C%AC/id1089079153?uo=2
+2026-07-11,ios,tw,台湾,top-free,51,點點英雄：骰子傳說,6740966864,HABBY,https://apps.apple.com/tw/app/%E9%BB%9E%E9%BB%9E%E8%8B%B1%E9%9B%84-%E9%AA%B0%E5%AD%90%E5%82%B3%E8%AA%AA/id6740966864?uo=2
+2026-07-11,ios,tw,台湾,top-free,52,迷霧小鎮: 合成遊戲 (Mystery Town),6503603603,Cedar Games Studio,https://apps.apple.com/tw/app/%E8%BF%B7%E9%9C%A7%E5%B0%8F%E9%8E%AE-%E5%90%88%E6%88%90%E9%81%8A%E6%88%B2-mystery-town/id6503603603?uo=2
+2026-07-11,ios,tw,台湾,top-free,53,Raid Plaza,6449651527,Evermore Labs,https://apps.apple.com/tw/app/raid-plaza/id6449651527?uo=2
+2026-07-11,ios,tw,台湾,top-free,54,Castle Busters,6746328263,Voodoo,https://apps.apple.com/tw/app/castle-busters/id6746328263?uo=2
+2026-07-11,ios,tw,台湾,top-free,55,Angry Birds 2,880047117,Rovio Entertainment Oyj,https://apps.apple.com/tw/app/angry-birds-2/id880047117?uo=2
+2026-07-11,ios,tw,台湾,top-free,56,蟋蟀江湖,6780728088,未来电视有限公司,https://apps.apple.com/tw/app/%E8%9F%8B%E8%9F%80%E6%B1%9F%E6%B9%96/id6780728088?uo=2
+2026-07-11,ios,tw,台湾,top-free,57,Travel Town - Merge Adventure,1521236603,Moon Active,https://apps.apple.com/tw/app/travel-town-merge-adventure/id1521236603?uo=2
+2026-07-11,ios,tw,台湾,top-free,58,無盡輪迴：鬼域摸金,6759596187,POPJOY (H.K.) LIMITED,https://apps.apple.com/tw/app/%E7%84%A1%E7%9B%A1%E8%BC%AA%E8%BF%B4-%E9%AC%BC%E5%9F%9F%E6%91%B8%E9%87%91/id6759596187?uo=2
+2026-07-11,ios,tw,台湾,top-free,59,EA SPORTS FC™ 足球 Mobile 2026,1094930513,Electronic Arts,https://apps.apple.com/tw/app/ea-sports-fc-%E8%B6%B3%E7%90%83-mobile-2026/id1094930513?uo=2
+2026-07-11,ios,tw,台湾,top-free,60,進化吧! 我的人生,6504609086,Su Wei-Cheng,https://apps.apple.com/tw/app/%E9%80%B2%E5%8C%96%E5%90%A7-%E6%88%91%E7%9A%84%E4%BA%BA%E7%94%9F/id6504609086?uo=2
+2026-07-11,ios,tw,台湾,top-free,61,Color Block Jam,6504332779,Rollic Games,https://apps.apple.com/tw/app/color-block-jam/id6504332779?uo=2
+2026-07-11,ios,tw,台湾,top-free,62,我的花園世界,6751560944,FLORAL GAMES LIMITED,https://apps.apple.com/tw/app/%E6%88%91%E7%9A%84%E8%8A%B1%E5%9C%92%E4%B8%96%E7%95%8C/id6751560944?uo=2
+2026-07-11,ios,tw,台湾,top-free,63,Brain Puzzle: Tricky Quest,6670789598,SmallStep Dev Team,https://apps.apple.com/tw/app/brain-puzzle-tricky-quest/id6670789598?uo=2
+2026-07-11,ios,tw,台湾,top-free,64,褪色界域: 瑟匹亞,6738079182,Unicorn Whale Technology Limited,https://apps.apple.com/tw/app/%E8%A4%AA%E8%89%B2%E7%95%8C%E5%9F%9F-%E7%91%9F%E5%8C%B9%E4%BA%9E/id6738079182?uo=2
+2026-07-11,ios,tw,台湾,top-free,65,偶像帝國,6747016315,Skyfun Games,https://apps.apple.com/tw/app/%E5%81%B6%E5%83%8F%E5%B8%9D%E5%9C%8B/id6747016315?uo=2
+2026-07-11,ios,tw,台湾,top-free,66,青丘世界：緣起,6759824994,"JOYSTAR GAME INFORMATION TECHNOLOGY CO.,LIMITED",https://apps.apple.com/tw/app/%E9%9D%92%E4%B8%98%E4%B8%96%E7%95%8C-%E7%B7%A3%E8%B5%B7/id6759824994?uo=2
+2026-07-11,ios,tw,台湾,top-free,67,楓之谷：放置冒險記,6739616715,NEXON Company,https://apps.apple.com/tw/app/%E6%A5%93%E4%B9%8B%E8%B0%B7-%E6%94%BE%E7%BD%AE%E5%86%92%E9%9A%AA%E8%A8%98/id6739616715?uo=2
+2026-07-11,ios,tw,台湾,top-free,68,麻將明星3缺1,501306812,"International Games System Co., Ltd.",https://apps.apple.com/tw/app/%E9%BA%BB%E5%B0%87%E6%98%8E%E6%98%9F3%E7%BC%BA1/id501306812?uo=2
+2026-07-11,ios,tw,台湾,top-free,69,Amaze GO! - 箭頭解謎,6758326278,Oakever Games,https://apps.apple.com/tw/app/amaze-go-%E7%AE%AD%E9%A0%AD%E8%A7%A3%E8%AC%8E/id6758326278?uo=2
+2026-07-11,ios,tw,台湾,top-free,70,不用網路的遊戲 - 無網路遊戲 - 離線 遊戲 - 無網遊戲,6448104157,Moreno Maio,https://apps.apple.com/tw/app/%E4%B8%8D%E7%94%A8%E7%B6%B2%E8%B7%AF%E7%9A%84%E9%81%8A%E6%88%B2-%E7%84%A1%E7%B6%B2%E8%B7%AF%E9%81%8A%E6%88%B2-%E9%9B%A2%E7%B7%9A-%E9%81%8A%E6%88%B2-%E7%84%A1%E7%B6%B2%E9%81%8A%E6%88%B2/id6448104157?uo=2
+2026-07-11,ios,tw,台湾,top-free,71,龍村 3,6499562253,Highbrow,https://apps.apple.com/tw/app/%E9%BE%8D%E6%9D%91-3/id6499562253?uo=2
+2026-07-11,ios,tw,台湾,top-free,72,Hole.io,1389111413,Voodoo,https://apps.apple.com/tw/app/hole-io/id1389111413?uo=2
+2026-07-11,ios,tw,台湾,top-free,73,石器之旅：神寵降臨,6766785918,俊杰 蔡,https://apps.apple.com/tw/app/%E7%9F%B3%E5%99%A8%E4%B9%8B%E6%97%85-%E7%A5%9E%E5%AF%B5%E9%99%8D%E8%87%A8/id6766785918?uo=2
+2026-07-11,ios,tw,台湾,top-free,74,細胞保衛戰 - 生存射擊大亂鬥,6746465127,Snap Brain Games,https://apps.apple.com/tw/app/%E7%B4%B0%E8%83%9E%E4%BF%9D%E8%A1%9B%E6%88%B0-%E7%94%9F%E5%AD%98%E5%B0%84%E6%93%8A%E5%A4%A7%E4%BA%82%E9%AC%A5/id6746465127?uo=2
+2026-07-11,ios,tw,台湾,top-free,75,Brain Puzzle 3: Crazy Mind,6756482832,SmallStep Dev Team,https://apps.apple.com/tw/app/brain-puzzle-3-crazy-mind/id6756482832?uo=2
+2026-07-11,ios,tw,台湾,top-free,76,摩奇料理 主題餐廳,1643509748,Happibits,https://apps.apple.com/tw/app/%E6%91%A9%E5%A5%87%E6%96%99%E7%90%86-%E4%B8%BB%E9%A1%8C%E9%A4%90%E5%BB%B3/id1643509748?uo=2
+2026-07-11,ios,tw,台湾,top-free,77,Meowdoku!,6761760135,Oakever Games,https://apps.apple.com/tw/app/meowdoku/id6761760135?uo=2
+2026-07-11,ios,tw,台湾,top-free,78,Sled Surfers,6744975195,Crazy Labs,https://apps.apple.com/tw/app/sled-surfers/id6744975195?uo=2
+2026-07-11,ios,tw,台湾,top-free,79,Food Hunt: Pixel Puzzle,6769314786,FUNFINITY PTE. LTD,https://apps.apple.com/tw/app/food-hunt-pixel-puzzle/id6769314786?uo=2
+2026-07-11,ios,tw,台湾,top-free,80,最終曙光（Last Light）,6754688265,BINGCHUAN NETWORK (HONG KONG) COMPANY LIMITED,https://apps.apple.com/tw/app/%E6%9C%80%E7%B5%82%E6%9B%99%E5%85%89-last-light/id6754688265?uo=2
+2026-07-11,ios,tw,台湾,top-free,81,字詞接龍 - 詞語分類解謎,6755509102,Astrasen Global,https://apps.apple.com/tw/app/%E5%AD%97%E8%A9%9E%E6%8E%A5%E9%BE%8D-%E8%A9%9E%E8%AA%9E%E5%88%86%E9%A1%9E%E8%A7%A3%E8%AC%8E/id6755509102?uo=2
+2026-07-11,ios,tw,台湾,top-free,82,好萊塢合成：星夢逆襲,6755455500,VoyagerOne,https://apps.apple.com/tw/app/%E5%A5%BD%E8%90%8A%E5%A1%A2%E5%90%88%E6%88%90-%E6%98%9F%E5%A4%A2%E9%80%86%E8%A5%B2/id6755455500?uo=2
+2026-07-11,ios,tw,台湾,top-free,83,Crossmath 數學謎題休閒益智遊戲,1671991909,Guru Smart Holding Limited,https://apps.apple.com/tw/app/crossmath-%E6%95%B8%E5%AD%B8%E8%AC%8E%E9%A1%8C%E4%BC%91%E9%96%92%E7%9B%8A%E6%99%BA%E9%81%8A%E6%88%B2/id1671991909?uo=2
+2026-07-11,ios,tw,台湾,top-free,84,Skull Hero : XP Farm RPG,6775685404,HORUS ENTERTAINMENT LIMITED,https://apps.apple.com/tw/app/skull-hero-xp-farm-rpg/id6775685404?uo=2
+2026-07-11,ios,tw,台湾,top-free,85,E.D.E.N：最終防線,6754559095,"Game Duo Co.,Ltd.",https://apps.apple.com/tw/app/e-d-e-n-%E6%9C%80%E7%B5%82%E9%98%B2%E7%B7%9A/id6754559095?uo=2
+2026-07-11,ios,tw,台湾,top-free,86,Jigsaw Drop: Solitaire Puzzle,6767091927,Runyou Game,https://apps.apple.com/tw/app/jigsaw-drop-solitaire-puzzle/id6767091927?uo=2
+2026-07-11,ios,tw,台湾,top-free,87,貓咪大戰爭,971601423,ponos corporation,https://apps.apple.com/tw/app/%E8%B2%93%E5%92%AA%E5%A4%A7%E6%88%B0%E7%88%AD/id971601423?uo=2
+2026-07-11,ios,tw,台湾,top-free,88,蛋仔派對,1673675970,Envoy Interactive Entertainment Co.Ltd.,https://apps.apple.com/tw/app/%E8%9B%8B%E4%BB%94%E6%B4%BE%E5%B0%8D/id1673675970?uo=2
+2026-07-11,ios,tw,台湾,top-free,89,紙牌接龍 – 文字遊戲,6748950306,Hitapps Games LTD,https://apps.apple.com/tw/app/%E7%B4%99%E7%89%8C%E6%8E%A5%E9%BE%8D-%E6%96%87%E5%AD%97%E9%81%8A%E6%88%B2/id6748950306?uo=2
+2026-07-11,ios,tw,台湾,top-free,90,超自然行動組,6754004606,Giant Network,https://apps.apple.com/tw/app/%E8%B6%85%E8%87%AA%E7%84%B6%E8%A1%8C%E5%8B%95%E7%B5%84/id6754004606?uo=2
+2026-07-11,ios,tw,台湾,top-free,91,戰爭誓言,6749140416,"Peachcat Online Co., Limited",https://apps.apple.com/tw/app/%E6%88%B0%E7%88%AD%E8%AA%93%E8%A8%80/id6749140416?uo=2
+2026-07-11,ios,tw,台湾,top-free,92,Goods Master 3D: 收納遊戲 貨櫃整理達人,1577533842,"HIGGS TECHNOLOGY CO., LIMITED",https://apps.apple.com/tw/app/goods-master-3d-%E6%94%B6%E7%B4%8D%E9%81%8A%E6%88%B2-%E8%B2%A8%E6%AB%83%E6%95%B4%E7%90%86%E9%81%94%E4%BA%BA/id1577533842?uo=2
+2026-07-11,ios,tw,台湾,top-free,93,Snipers Duel,6744592672,Voodoo,https://apps.apple.com/tw/app/snipers-duel/id6744592672?uo=2
+2026-07-11,ios,tw,台湾,top-free,94,Order Crazy - 顏色分類水排序拼圖小遊戲,6751222488,Snap Brain Games,https://apps.apple.com/tw/app/order-crazy-%E9%A1%8F%E8%89%B2%E5%88%86%E9%A1%9E%E6%B0%B4%E6%8E%92%E5%BA%8F%E6%8B%BC%E5%9C%96%E5%B0%8F%E9%81%8A%E6%88%B2/id6751222488?uo=2
+2026-07-11,ios,tw,台湾,top-free,95,異環,6751030003,Iwplay World,https://apps.apple.com/tw/app/%E7%95%B0%E7%92%B0/id6751030003?uo=2
+2026-07-11,ios,tw,台湾,top-free,96,麻將 神來也麻將－台灣16張、麻雀,455902495,Gamesofa Inc.,https://apps.apple.com/tw/app/%E9%BA%BB%E5%B0%87-%E7%A5%9E%E4%BE%86%E4%B9%9F%E9%BA%BB%E5%B0%87-%E5%8F%B0%E7%81%A316%E5%BC%B5-%E9%BA%BB%E9%9B%80/id455902495?uo=2
+2026-07-11,ios,tw,台湾,top-free,97,Top Tycoon: Coin Theme Empire,6739124364,BeheFun Games Limited,https://apps.apple.com/tw/app/top-tycoon-coin-theme-empire/id6739124364?uo=2
+2026-07-11,ios,tw,台湾,top-free,98,三國志KING,6754595303,TOPSPOT GAMES,https://apps.apple.com/tw/app/%E4%B8%89%E5%9C%8B%E5%BF%97king/id6754595303?uo=2
+2026-07-11,ios,tw,台湾,top-free,99,墮落之美：合成與故事,6758072393,KINETIC ENERGY WIRELESS(HONG KONG)LIMITED,https://apps.apple.com/tw/app/%E5%A2%AE%E8%90%BD%E4%B9%8B%E7%BE%8E-%E5%90%88%E6%88%90%E8%88%87%E6%95%85%E4%BA%8B/id6758072393?uo=2
+2026-07-11,ios,tw,台湾,top-free,100,Coin Master,406889139,Moon Active,https://apps.apple.com/tw/app/coin-master/id406889139?uo=2
+2026-07-11,ios,tw,台湾,top-grossing,1,星城-歡慶77幸運日,919043762,Wanin International Co. Ltd.,https://apps.apple.com/tw/app/%E6%98%9F%E5%9F%8E-%E6%AD%A1%E6%85%B677%E5%B9%B8%E9%81%8B%E6%97%A5/id919043762?uo=2
+2026-07-11,ios,tw,台湾,top-grossing,2,Pokémon GO,1094591345,"Niantic, Inc.",https://apps.apple.com/tw/app/pok%C3%A9mon-go/id1094591345?uo=2
+2026-07-11,ios,tw,台湾,top-grossing,3,PUBG MOBILE：絕地求生M,1453363650,MAINSTREAM UNIVERSAL CO. LTD.,https://apps.apple.com/tw/app/pubg-mobile-%E7%B5%95%E5%9C%B0%E6%B1%82%E7%94%9Fm/id1453363650?uo=2
+2026-07-11,ios,tw,台湾,top-grossing,4,寒霜啟示錄,6443575749,Century Games Pte. Ltd.,https://apps.apple.com/tw/app/%E5%AF%92%E9%9C%9C%E5%95%9F%E7%A4%BA%E9%8C%84/id6443575749?uo=2
+2026-07-11,ios,tw,台湾,top-grossing,5,鳴潮 - 前往玄方地界,6475033368,KURO GAMES,https://apps.apple.com/tw/app/%E9%B3%B4%E6%BD%AE-%E5%89%8D%E5%BE%80%E7%8E%84%E6%96%B9%E5%9C%B0%E7%95%8C/id6475033368?uo=2
+2026-07-11,ios,tw,台湾,top-grossing,6,Pikmin Bloom,1556357398,"Niantic, Inc.",https://apps.apple.com/tw/app/pikmin-bloom/id1556357398?uo=2
+2026-07-11,ios,tw,台湾,top-grossing,7,Kingshot,6739554056,Century Games Pte. Ltd.,https://apps.apple.com/tw/app/kingshot/id6739554056?uo=2
+2026-07-11,ios,tw,台湾,top-grossing,8,Garena 傳說對決：冥定王牌版本,1089079153,Garena Online Private Ltd,https://apps.apple.com/tw/app/garena-%E5%82%B3%E8%AA%AA%E5%B0%8D%E6%B1%BA-%E5%86%A5%E5%AE%9A%E7%8E%8B%E7%89%8C%E7%89%88%E6%9C%AC/id1089079153?uo=2
+2026-07-11,ios,tw,台湾,top-grossing,9,麻將明星3缺1,501306812,"International Games System Co., Ltd.",https://apps.apple.com/tw/app/%E9%BA%BB%E5%B0%87%E6%98%8E%E6%98%9F3%E7%BC%BA1/id501306812?uo=2
+2026-07-11,ios,tw,台湾,top-grossing,10,《英雄聯盟：激鬥峽谷》,1501301871,"Taiwan Mobile Co., Ltd.",https://apps.apple.com/tw/app/%E8%8B%B1%E9%9B%84%E8%81%AF%E7%9B%9F-%E6%BF%80%E9%AC%A5%E5%B3%BD%E8%B0%B7/id1501301871?uo=2
+2026-07-11,ios,tw,台湾,top-grossing,11,包你發-王識賢、安心亞推薦休閒娛樂城-老虎機、捕魚機多款遊戲,1339550728,"YILE TECHNOLOGY CO., LTD.",https://apps.apple.com/tw/app/%E5%8C%85%E4%BD%A0%E7%99%BC-%E7%8E%8B%E8%AD%98%E8%B3%A2-%E5%AE%89%E5%BF%83%E4%BA%9E%E6%8E%A8%E8%96%A6%E4%BC%91%E9%96%92%E5%A8%9B%E6%A8%82%E5%9F%8E-%E8%80%81%E8%99%8E%E6%A9%9F-%E6%8D%95%E9%AD%9A%E6%A9%9F%E5%A4%9A%E6%AC%BE%E9%81%8A%E6%88%B2/id1339550728?uo=2
+2026-07-11,ios,tw,台湾,top-grossing,12,豪神娛樂城,1441199787,FINGER INTERNATIONAL TECHNOLOGY CORP.,https://apps.apple.com/tw/app/%E8%B1%AA%E7%A5%9E%E5%A8%9B%E6%A8%82%E5%9F%8E/id1441199787?uo=2
+2026-07-11,ios,tw,台湾,top-grossing,13,糖果傳奇,553834731,King,https://apps.apple.com/tw/app/%E7%B3%96%E6%9E%9C%E5%82%B3%E5%A5%87/id553834731?uo=2
+2026-07-11,ios,tw,台湾,top-grossing,14,緋聞港口：合併&故事,1623318294,Microfun Limited,https://apps.apple.com/tw/app/%E7%B7%8B%E8%81%9E%E6%B8%AF%E5%8F%A3-%E5%90%88%E4%BD%B5-%E6%95%85%E4%BA%8B/id1623318294?uo=2
+2026-07-11,ios,tw,台湾,top-grossing,15,天堂M,1276508585,Gamania Digital Entertainment,https://apps.apple.com/tw/app/%E5%A4%A9%E5%A0%82m/id1276508585?uo=2
+2026-07-11,ios,tw,台湾,top-grossing,16,金好運,1267732467,ARC PLAY LTD CO.,https://apps.apple.com/tw/app/%E9%87%91%E5%A5%BD%E9%81%8B/id1267732467?uo=2
+2026-07-11,ios,tw,台湾,top-grossing,17,《荒野亂鬥》,1229016807,Supercell,https://apps.apple.com/tw/app/%E8%8D%92%E9%87%8E%E4%BA%82%E9%AC%A5/id1229016807?uo=2
+2026-07-11,ios,tw,台湾,top-grossing,18,最後的戰爭 - Last War,6448786147,FUNFLY PTE. LTD.,https://apps.apple.com/tw/app/%E6%9C%80%E5%BE%8C%E7%9A%84%E6%88%B0%E7%88%AD-last-war/id6448786147?uo=2
+2026-07-11,ios,tw,台湾,top-grossing,19,楓之谷：放置冒險記,6739616715,NEXON Company,https://apps.apple.com/tw/app/%E6%A5%93%E4%B9%8B%E8%B0%B7-%E6%94%BE%E7%BD%AE%E5%86%92%E9%9A%AA%E8%A8%98/id6739616715?uo=2
+2026-07-11,ios,tw,台湾,top-grossing,20,嚦咕麻將-戰神賽特、雷神之錘、超八、賽馬、麻將、魚機、老虎機,6449517782,BOGE NETWORK TECHNOLOGY LTD.,https://apps.apple.com/tw/app/%E5%9A%A6%E5%92%95%E9%BA%BB%E5%B0%87-%E6%88%B0%E7%A5%9E%E8%B3%BD%E7%89%B9-%E9%9B%B7%E7%A5%9E%E4%B9%8B%E9%8C%98-%E8%B6%85%E5%85%AB-%E8%B3%BD%E9%A6%AC-%E9%BA%BB%E5%B0%87-%E9%AD%9A%E6%A9%9F-%E8%80%81%E8%99%8E%E6%A9%9F/id6449517782?uo=2
+2026-07-11,ios,tw,台湾,top-grossing,21,楓之谷M - 奇幻冒險MMORPG,1290086677,NEXON Company,https://apps.apple.com/tw/app/%E6%A5%93%E4%B9%8B%E8%B0%B7m-%E5%A5%87%E5%B9%BB%E5%86%92%E9%9A%AAmmorpg/id1290086677?uo=2
+2026-07-11,ios,tw,台湾,top-grossing,22,RO仙境傳説：世界之旅,6749527002,Gravity Game Vision Limited,https://apps.apple.com/tw/app/ro%E4%BB%99%E5%A2%83%E5%82%B3%E8%AA%AC-%E4%B8%96%E7%95%8C%E4%B9%8B%E6%97%85/id6749527002?uo=2
+2026-07-11,ios,tw,台湾,top-grossing,23,勝利女神：妮姬,1630883882,MAINSTREAM UNIVERSAL CO. LTD.,https://apps.apple.com/tw/app/%E5%8B%9D%E5%88%A9%E5%A5%B3%E7%A5%9E-%E5%A6%AE%E5%A7%AC/id1630883882?uo=2
+2026-07-11,ios,tw,台湾,top-grossing,24,NBA巔峰對決,6737599263,WILD CALY PTE. LTD.,https://apps.apple.com/tw/app/nba%E5%B7%94%E5%B3%B0%E5%B0%8D%E6%B1%BA/id6737599263?uo=2
+2026-07-11,ios,tw,台湾,top-grossing,25,麻將 神來也麻將－台灣16張、麻雀,455902495,Gamesofa Inc.,https://apps.apple.com/tw/app/%E9%BA%BB%E5%B0%87-%E7%A5%9E%E4%BE%86%E4%B9%9F%E9%BA%BB%E5%B0%87-%E5%8F%B0%E7%81%A316%E5%BC%B5-%E9%BA%BB%E9%9B%80/id455902495?uo=2
+2026-07-11,ios,tw,台湾,top-grossing,26,Coin Master,406889139,Moon Active,https://apps.apple.com/tw/app/coin-master/id406889139?uo=2
+2026-07-11,ios,tw,台湾,top-grossing,27,決勝時刻: Mobile - Garena,1465688043,Garena Mobile Private,https://apps.apple.com/tw/app/%E6%B1%BA%E5%8B%9D%E6%99%82%E5%88%BB-mobile-garena/id1465688043?uo=2
+2026-07-11,ios,tw,台湾,top-grossing,28,夢幻花園 (Gardenscapes),1105855019,Playrix,https://apps.apple.com/tw/app/%E5%A4%A2%E5%B9%BB%E8%8A%B1%E5%9C%92-gardenscapes/id1105855019?uo=2
+2026-07-11,ios,tw,台湾,top-grossing,29,戀與深空,6443468077,INFOLD PTE. LTD.,https://apps.apple.com/tw/app/%E6%88%80%E8%88%87%E6%B7%B1%E7%A9%BA/id6443468077?uo=2
+2026-07-11,ios,tw,台湾,top-grossing,30,食光旅行,6471045672,Century Games Pte. Ltd.,https://apps.apple.com/tw/app/%E9%A3%9F%E5%85%89%E6%97%85%E8%A1%8C/id6471045672?uo=2
+2026-07-11,ios,tw,台湾,top-grossing,31,超時空街球對決,6757519748,LMD Games,https://apps.apple.com/tw/app/%E8%B6%85%E6%99%82%E7%A9%BA%E8%A1%97%E7%90%83%E5%B0%8D%E6%B1%BA/id6757519748?uo=2
+2026-07-11,ios,tw,台湾,top-grossing,32,滿貫大亨娛樂城 - 雷霆之錘II：諸神黃昏 強勢降臨！,1007924271,獅子科技,https://apps.apple.com/tw/app/%E6%BB%BF%E8%B2%AB%E5%A4%A7%E4%BA%A8%E5%A8%9B%E6%A8%82%E5%9F%8E-%E9%9B%B7%E9%9C%86%E4%B9%8B%E9%8C%98ii-%E8%AB%B8%E7%A5%9E%E9%BB%83%E6%98%8F-%E5%BC%B7%E5%8B%A2%E9%99%8D%E8%87%A8/id1007924271?uo=2
+2026-07-11,ios,tw,台湾,top-grossing,33,Garena® 三角洲行動,6670604287,Garena Mobile Games Private Ltd.,https://apps.apple.com/tw/app/garena-%E4%B8%89%E8%A7%92%E6%B4%B2%E8%A1%8C%E5%8B%95/id6670604287?uo=2
+2026-07-11,ios,tw,台湾,top-grossing,34,老子有錢 - 曾國城 X 籃籃唯一推薦 大獎爆不停,907432647,"Xiang Shang Games Co., Ltd.",https://apps.apple.com/tw/app/%E8%80%81%E5%AD%90%E6%9C%89%E9%8C%A2-%E6%9B%BE%E5%9C%8B%E5%9F%8E-x-%E7%B1%83%E7%B1%83%E5%94%AF%E4%B8%80%E6%8E%A8%E8%96%A6-%E5%A4%A7%E7%8D%8E%E7%88%86%E4%B8%8D%E5%81%9C/id907432647?uo=2
+2026-07-11,ios,tw,台湾,top-grossing,35,巔峰極速,6450006659,LongE Corporation,https://apps.apple.com/tw/app/%E5%B7%94%E5%B3%B0%E6%A5%B5%E9%80%9F/id6450006659?uo=2
+2026-07-11,ios,tw,台湾,top-grossing,36,青丘世界：緣起,6759824994,"JOYSTAR GAME INFORMATION TECHNOLOGY CO.,LIMITED",https://apps.apple.com/tw/app/%E9%9D%92%E4%B8%98%E4%B8%96%E7%95%8C-%E7%B7%A3%E8%B5%B7/id6759824994?uo=2
+2026-07-11,ios,tw,台湾,top-grossing,37,貓咪大戰爭,971601423,ponos corporation,https://apps.apple.com/tw/app/%E8%B2%93%E5%92%AA%E5%A4%A7%E6%88%B0%E7%88%AD/id971601423?uo=2
+2026-07-11,ios,tw,台湾,top-grossing,38,異環,6751030003,Iwplay World,https://apps.apple.com/tw/app/%E7%95%B0%E7%92%B0/id6751030003?uo=2
+2026-07-11,ios,tw,台湾,top-grossing,39,蛋仔派對,1673675970,Envoy Interactive Entertainment Co.Ltd.,https://apps.apple.com/tw/app/%E8%9B%8B%E4%BB%94%E6%B4%BE%E5%B0%8D/id1673675970?uo=2
+2026-07-11,ios,tw,台湾,top-grossing,40,運氣拚輸贏,6482291732,111%,https://apps.apple.com/tw/app/%E9%81%8B%E6%B0%A3%E6%8B%9A%E8%BC%B8%E8%B4%8F/id6482291732?uo=2
+2026-07-11,ios,tw,台湾,top-grossing,41,生存33天,6760992149,"Fun Journey Network Technology Co., Limited",https://apps.apple.com/tw/app/%E7%94%9F%E5%AD%9833%E5%A4%A9/id6760992149?uo=2
+2026-07-11,ios,tw,台湾,top-grossing,42,原神·空月之歌,1517783697,COGNOSPHERE PTE. LTD.,https://apps.apple.com/tw/app/%E5%8E%9F%E7%A5%9E-%E7%A9%BA%E6%9C%88%E4%B9%8B%E6%AD%8C/id1517783697?uo=2
+2026-07-11,ios,tw,台湾,top-grossing,43,同盟塔防戰：並肩作戰,6503702666,SuperMagic,https://apps.apple.com/tw/app/%E5%90%8C%E7%9B%9F%E5%A1%94%E9%98%B2%E6%88%B0-%E4%B8%A6%E8%82%A9%E4%BD%9C%E6%88%B0/id6503702666?uo=2
+2026-07-11,ios,tw,台湾,top-grossing,44,EA SPORTS FC™ 足球 Mobile 2026,1094930513,Electronic Arts,https://apps.apple.com/tw/app/ea-sports-fc-%E8%B6%B3%E7%90%83-mobile-2026/id1094930513?uo=2
+2026-07-11,ios,tw,台湾,top-grossing,45,Once Human,6477342989,LongE Corporation,https://apps.apple.com/tw/app/once-human/id6477342989?uo=2
+2026-07-11,ios,tw,台湾,top-grossing,46,點點英雄：骰子傳說,6740966864,HABBY,https://apps.apple.com/tw/app/%E9%BB%9E%E9%BB%9E%E8%8B%B1%E9%9B%84-%E9%AA%B0%E5%AD%90%E5%82%B3%E8%AA%AA/id6740966864?uo=2
+2026-07-11,ios,tw,台湾,top-grossing,47,杖劍傳說：坎斯汀之約,6504542886,LTGAMES GLOBAL,https://apps.apple.com/tw/app/%E6%9D%96%E5%8A%8D%E5%82%B3%E8%AA%AA-%E5%9D%8E%E6%96%AF%E6%B1%80%E4%B9%8B%E7%B4%84/id6504542886?uo=2
+2026-07-11,ios,tw,台湾,top-grossing,48,雙面神姬,6760099690,GOAT GAMES COMPANY LIMITED,https://apps.apple.com/tw/app/%E9%9B%99%E9%9D%A2%E7%A5%9E%E5%A7%AC/id6760099690?uo=2
+2026-07-11,ios,tw,台湾,top-grossing,49,練氣3000層：墮落女帝逼我飛升,6759955644,Sky Entertainment Network Limited,https://apps.apple.com/tw/app/%E7%B7%B4%E6%B0%A33000%E5%B1%A4-%E5%A2%AE%E8%90%BD%E5%A5%B3%E5%B8%9D%E9%80%BC%E6%88%91%E9%A3%9B%E5%8D%87/id6759955644?uo=2
+2026-07-11,ios,tw,台湾,top-grossing,50,第五人格,1370284166,LongE Corporation,https://apps.apple.com/tw/app/%E7%AC%AC%E4%BA%94%E4%BA%BA%E6%A0%BC/id1370284166?uo=2
+2026-07-11,ios,tw,台湾,top-grossing,51,新熱血江湖：世界,6756000886,Mover Games Limited,https://apps.apple.com/tw/app/%E6%96%B0%E7%86%B1%E8%A1%80%E6%B1%9F%E6%B9%96-%E4%B8%96%E7%95%8C/id6756000886?uo=2
+2026-07-11,ios,tw,台湾,top-grossing,52,弓箭傳說2,6502820653,HABBY,https://apps.apple.com/tw/app/%E5%BC%93%E7%AE%AD%E5%82%B3%E8%AA%AA2/id6502820653?uo=2
+2026-07-11,ios,tw,台湾,top-grossing,53,Royal Match,1482155847,Dream Games,https://apps.apple.com/tw/app/royal-match/id1482155847?uo=2
+2026-07-11,ios,tw,台湾,top-grossing,54,Royal Kingdom,1606549505,Dream Games,https://apps.apple.com/tw/app/royal-kingdom/id1606549505?uo=2
+2026-07-11,ios,tw,台湾,top-grossing,55,一念逍遙：涅槃重生,1572788053,LTGAMES GLOBAL,https://apps.apple.com/tw/app/%E4%B8%80%E5%BF%B5%E9%80%8D%E9%81%99-%E6%B6%85%E6%A7%83%E9%87%8D%E7%94%9F/id1572788053?uo=2
+2026-07-11,ios,tw,台湾,top-grossing,56,夢想小鎮 (Township),638689075,Playrix,https://apps.apple.com/tw/app/%E5%A4%A2%E6%83%B3%E5%B0%8F%E9%8E%AE-township/id638689075?uo=2
+2026-07-11,ios,tw,台湾,top-grossing,57,JUMP 全明星亂鬥,6762765238,Tadpole Entertainment Company Limited,https://apps.apple.com/tw/app/jump-%E5%85%A8%E6%98%8E%E6%98%9F%E4%BA%82%E9%AC%A5/id6762765238?uo=2
+2026-07-11,ios,tw,台湾,top-grossing,58,MLB：9局職棒26,1059665257,Com2uS Corp.,https://apps.apple.com/tw/app/mlb-9%E5%B1%80%E8%81%B7%E6%A3%9226/id1059665257?uo=2
+2026-07-11,ios,tw,台湾,top-grossing,59,心動小鎮,6746151928,"XD Entertainment Co., Ltd.",https://apps.apple.com/tw/app/%E5%BF%83%E5%8B%95%E5%B0%8F%E9%8E%AE/id6746151928?uo=2
+2026-07-11,ios,tw,台湾,top-grossing,60,天天玩樂園 (Play Together),1402384531,"HAEGIN Co., Ltd.",https://apps.apple.com/tw/app/%E5%A4%A9%E5%A4%A9%E7%8E%A9%E6%A8%82%E5%9C%92-play-together/id1402384531?uo=2
+2026-07-11,ios,tw,台湾,top-grossing,61,大福Online-老虎機、捕魚、推幣機、刮刮樂、拉霸 娛樂城,1356980152,SpinX Games Limited,https://apps.apple.com/tw/app/%E5%A4%A7%E7%A6%8Fonline-%E8%80%81%E8%99%8E%E6%A9%9F-%E6%8D%95%E9%AD%9A-%E6%8E%A8%E5%B9%A3%E6%A9%9F-%E5%88%AE%E5%88%AE%E6%A8%82-%E6%8B%89%E9%9C%B8-%E5%A8%9B%E6%A8%82%E5%9F%8E/id1356980152?uo=2
+2026-07-11,ios,tw,台湾,top-grossing,62,燕雲十六聲,6744796128,LongE Corporation,https://apps.apple.com/tw/app/%E7%87%95%E9%9B%B2%E5%8D%81%E5%85%AD%E8%81%B2/id6744796128?uo=2
+2026-07-11,ios,tw,台湾,top-grossing,63,無盡輪迴：鬼域摸金,6759596187,POPJOY (H.K.) LIMITED,https://apps.apple.com/tw/app/%E7%84%A1%E7%9B%A1%E8%BC%AA%E8%BF%B4-%E9%AC%BC%E5%9F%9F%E6%91%B8%E9%87%91/id6759596187?uo=2
+2026-07-11,ios,tw,台湾,top-grossing,64,MIR4,1566500955,"Wemade Co., Ltd.",https://apps.apple.com/tw/app/mir4/id1566500955?uo=2
+2026-07-11,ios,tw,台湾,top-grossing,65,雲上城之歌：勇者再出發,6747065546,"Lucky koi network technology Co.,Ltd",https://apps.apple.com/tw/app/%E9%9B%B2%E4%B8%8A%E5%9F%8E%E4%B9%8B%E6%AD%8C-%E5%8B%87%E8%80%85%E5%86%8D%E5%87%BA%E7%99%BC/id6747065546?uo=2
+2026-07-11,ios,tw,台湾,top-grossing,66,車車屍搭普 - 足球狂歡季來臨！,6760377678,"HIGGS TECHNOLOGY CO., LIMITED",https://apps.apple.com/tw/app/%E8%BB%8A%E8%BB%8A%E5%B1%8D%E6%90%AD%E6%99%AE-%E8%B6%B3%E7%90%83%E7%8B%82%E6%AD%A1%E5%AD%A3%E4%BE%86%E8%87%A8/id6760377678?uo=2
+2026-07-11,ios,tw,台湾,top-grossing,67,夢幻家園 (Homescapes),1195621598,Playrix,https://apps.apple.com/tw/app/%E5%A4%A2%E5%B9%BB%E5%AE%B6%E5%9C%92-homescapes/id1195621598?uo=2
+2026-07-11,ios,tw,台湾,top-grossing,68,世界之外,6760813873,Envoy Interactive Entertainment Co.Ltd.,https://apps.apple.com/tw/app/%E4%B8%96%E7%95%8C%E4%B9%8B%E5%A4%96/id6760813873?uo=2
+2026-07-11,ios,tw,台湾,top-grossing,69,信長之野望 真戰,6739514639,Sialia Games,https://apps.apple.com/tw/app/%E4%BF%A1%E9%95%B7%E4%B9%8B%E9%87%8E%E6%9C%9B-%E7%9C%9F%E6%88%B0/id6739514639?uo=2
+2026-07-11,ios,tw,台湾,top-grossing,70,忍者必須死-全球版,1628517224,Pandada Games,https://apps.apple.com/tw/app/%E5%BF%8D%E8%80%85%E5%BF%85%E9%A0%88%E6%AD%BB-%E5%85%A8%E7%90%83%E7%89%88/id1628517224?uo=2
+2026-07-11,ios,tw,台湾,top-grossing,71,賽馬娘Pretty Derby,1575861620,KOMOE TECHNOLOGY LIMITED,https://apps.apple.com/tw/app/%E8%B3%BD%E9%A6%AC%E5%A8%98pretty-derby/id1575861620?uo=2
+2026-07-11,ios,tw,台湾,top-grossing,72,漫遊小鎮®：合併&故事,6443755785,Microfun Limited,https://apps.apple.com/tw/app/%E6%BC%AB%E9%81%8A%E5%B0%8F%E9%8E%AE-%E5%90%88%E4%BD%B5-%E6%95%85%E4%BA%8B/id6443755785?uo=2
+2026-07-11,ios,tw,台湾,top-grossing,73,逆水寒,6474654939,Envoy Interactive Entertainment Co.Ltd.,https://apps.apple.com/tw/app/%E9%80%86%E6%B0%B4%E5%AF%92/id6474654939?uo=2
+2026-07-11,ios,tw,台湾,top-grossing,74,Last Z:Survival Shooter（倖存者逃亡）,6503272652,Omnilojo Pte Ltd,https://apps.apple.com/tw/app/last-z-survival-shooter-%E5%80%96%E5%AD%98%E8%80%85%E9%80%83%E4%BA%A1/id6503272652?uo=2
+2026-07-11,ios,tw,台湾,top-grossing,75,天堂W,1444980563,NC Corp.,https://apps.apple.com/tw/app/%E5%A4%A9%E5%A0%82w/id1444980563?uo=2
+2026-07-11,ios,tw,台湾,top-grossing,76,Dark War:Survival,6670441558,Omnilojo Pte Ltd,https://apps.apple.com/tw/app/dark-war-survival/id6670441558?uo=2
+2026-07-11,ios,tw,台湾,top-grossing,77,MLB 9局職棒 勁旅對決 26,1580691683,Com2uS Corp.,https://apps.apple.com/tw/app/mlb-9%E5%B1%80%E8%81%B7%E6%A3%92-%E5%8B%81%E6%97%85%E5%B0%8D%E6%B1%BA-26/id1580691683?uo=2
+2026-07-11,ios,tw,台湾,top-grossing,78,"拉斯維加斯娛樂城-捕魚,老虎機,拉霸,麻將,賭場遊戲",730209957,"Userjoy Technology Co., Ltd.",https://apps.apple.com/tw/app/%E6%8B%89%E6%96%AF%E7%B6%AD%E5%8A%A0%E6%96%AF%E5%A8%9B%E6%A8%82%E5%9F%8E-%E6%8D%95%E9%AD%9A-%E8%80%81%E8%99%8E%E6%A9%9F-%E6%8B%89%E9%9C%B8-%E9%BA%BB%E5%B0%87-%E8%B3%AD%E5%A0%B4%E9%81%8A%E6%88%B2/id730209957?uo=2
+2026-07-11,ios,tw,台湾,top-grossing,79,細胞保衛戰 - 生存射擊大亂鬥,6746465127,Snap Brain Games,https://apps.apple.com/tw/app/%E7%B4%B0%E8%83%9E%E4%BF%9D%E8%A1%9B%E6%88%B0-%E7%94%9F%E5%AD%98%E5%B0%84%E6%93%8A%E5%A4%A7%E4%BA%82%E9%AC%A5/id6746465127?uo=2
+2026-07-11,ios,tw,台湾,top-grossing,80,eFootball™,1117270703,KONAMI,https://apps.apple.com/tw/app/efootball/id1117270703?uo=2
+2026-07-11,ios,tw,台湾,top-grossing,81,夢幻茶樓,6749302379,HONGKONG HEILI LIMITED,https://apps.apple.com/tw/app/%E5%A4%A2%E5%B9%BB%E8%8C%B6%E6%A8%93/id6749302379?uo=2
+2026-07-11,ios,tw,台湾,top-grossing,82,三國志・戰略版,1530758357,Sialia Games,https://apps.apple.com/tw/app/%E4%B8%89%E5%9C%8B%E5%BF%97-%E6%88%B0%E7%95%A5%E7%89%88/id1530758357?uo=2
+2026-07-11,ios,tw,台湾,top-grossing,83,Travel Town - Merge Adventure,1521236603,Moon Active,https://apps.apple.com/tw/app/travel-town-merge-adventure/id1521236603?uo=2
+2026-07-11,ios,tw,台湾,top-grossing,84,江湖有詭,6743163616,sp_games,https://apps.apple.com/tw/app/%E6%B1%9F%E6%B9%96%E6%9C%89%E8%A9%AD/id6743163616?uo=2
+2026-07-11,ios,tw,台湾,top-grossing,85,超自然行動組,6754004606,Giant Network,https://apps.apple.com/tw/app/%E8%B6%85%E8%87%AA%E7%84%B6%E8%A1%8C%E5%8B%95%E7%B5%84/id6754004606?uo=2
+2026-07-11,ios,tw,台湾,top-grossing,86,點點大作戰,6738109752,FunPlus International AG,https://apps.apple.com/tw/app/%E9%BB%9E%E9%BB%9E%E5%A4%A7%E4%BD%9C%E6%88%B0/id6738109752?uo=2
+2026-07-11,ios,tw,台湾,top-grossing,87,龍村 3,6499562253,Highbrow,https://apps.apple.com/tw/app/%E9%BE%8D%E6%9D%91-3/id6499562253?uo=2
+2026-07-11,ios,tw,台湾,top-grossing,88,棒球殿堂Live,1212704444,NETMARBLE JOYBOMB INC,https://apps.apple.com/tw/app/%E6%A3%92%E7%90%83%E6%AE%BF%E5%A0%82live/id1212704444?uo=2
+2026-07-11,ios,tw,台湾,top-grossing,89,真人麻將 野蠻世界娛樂城-陳雷推薦,1037737746,SayYo,https://apps.apple.com/tw/app/%E7%9C%9F%E4%BA%BA%E9%BA%BB%E5%B0%87-%E9%87%8E%E8%A0%BB%E4%B8%96%E7%95%8C%E5%A8%9B%E6%A8%82%E5%9F%8E-%E9%99%B3%E9%9B%B7%E6%8E%A8%E8%96%A6/id1037737746?uo=2
+2026-07-11,ios,tw,台湾,top-grossing,90,王國之歌（Top Heroes）,6450953550,River Game HK Limited,https://apps.apple.com/tw/app/%E7%8E%8B%E5%9C%8B%E4%B9%8B%E6%AD%8C-top-heroes/id6450953550?uo=2
+2026-07-11,ios,tw,台湾,top-grossing,91,戀與製作人,1394359825,Paper Games,https://apps.apple.com/tw/app/%E6%88%80%E8%88%87%E8%A3%BD%E4%BD%9C%E4%BA%BA/id1394359825?uo=2
+2026-07-11,ios,tw,台湾,top-grossing,92,鬼雄三國：主公有夠鬼,6758817271,MAX GAME PTE.LTD.,https://apps.apple.com/tw/app/%E9%AC%BC%E9%9B%84%E4%B8%89%E5%9C%8B-%E4%B8%BB%E5%85%AC%E6%9C%89%E5%A4%A0%E9%AC%BC/id6758817271?uo=2
+2026-07-11,ios,tw,台湾,top-grossing,93,MLB 制勝時刻 26,6462846417,WILD CALY PTE. LTD.,https://apps.apple.com/tw/app/mlb-%E5%88%B6%E5%8B%9D%E6%99%82%E5%88%BB-26/id6462846417?uo=2
+2026-07-11,ios,tw,台湾,top-grossing,94,火辣餐廳：合併&烹飪,6618142292,Microfun Limited,https://apps.apple.com/tw/app/%E7%81%AB%E8%BE%A3%E9%A4%90%E5%BB%B3-%E5%90%88%E4%BD%B5-%E7%83%B9%E9%A3%AA/id6618142292?uo=2
+2026-07-11,ios,tw,台湾,top-grossing,95,魔靈召喚: 天空之役,852912420,Com2uS Corp.,https://apps.apple.com/tw/app/%E9%AD%94%E9%9D%88%E5%8F%AC%E5%96%9A-%E5%A4%A9%E7%A9%BA%E4%B9%8B%E5%BD%B9/id852912420?uo=2
+2026-07-11,ios,tw,台湾,top-grossing,96,跑跑卡丁車 Rush+,1466736988,NEXON Company,https://apps.apple.com/tw/app/%E8%B7%91%E8%B7%91%E5%8D%A1%E4%B8%81%E8%BB%8A-rush/id1466736988?uo=2
+2026-07-11,ios,tw,台湾,top-grossing,97,RO仙境傳說: 新世代的誕生,1545808948,Nuverse,https://apps.apple.com/tw/app/ro%E4%BB%99%E5%A2%83%E5%82%B3%E8%AA%AA-%E6%96%B0%E4%B8%96%E4%BB%A3%E7%9A%84%E8%AA%95%E7%94%9F/id1545808948?uo=2
+2026-07-11,ios,tw,台湾,top-grossing,98,SD鋼彈 G世代 永恆,6692615881,Bandai Namco Entertainment Inc.,https://apps.apple.com/tw/app/sd%E9%8B%BC%E5%BD%88-g%E4%B8%96%E4%BB%A3-%E6%B0%B8%E6%81%86/id6692615881?uo=2
+2026-07-11,ios,tw,台湾,top-grossing,99,錢街Online-賽特3、捕魚機、老虎機、紅包雨、娛樂城,1192272619,糖蛙線上娛樂股份有限公司,https://apps.apple.com/tw/app/%E9%8C%A2%E8%A1%97online-%E8%B3%BD%E7%89%B93-%E6%8D%95%E9%AD%9A%E6%A9%9F-%E8%80%81%E8%99%8E%E6%A9%9F-%E7%B4%85%E5%8C%85%E9%9B%A8-%E5%A8%9B%E6%A8%82%E5%9F%8E/id1192272619?uo=2
+2026-07-11,ios,tw,台湾,top-grossing,100,Garena 極速領域：矩陣突破,1416604843,Garena Online Private Ltd,https://apps.apple.com/tw/app/garena-%E6%A5%B5%E9%80%9F%E9%A0%98%E5%9F%9F-%E7%9F%A9%E9%99%A3%E7%AA%81%E7%A0%B4/id1416604843?uo=2
+2026-07-11,android,tw,台湾,free,1,Meowdoku: Brain Puzzle Games,com.oakever.meowdoku,,https://www.appbrain.com/app/meowdoku-brain-puzzle-games/com.oakever.meowdoku
+2026-07-11,android,tw,台湾,free,2,Arrows – Puzzle Escape,com.ecffri.arrows,,https://www.appbrain.com/app/arrows-puzzle-escape/com.ecffri.arrows
+2026-07-11,android,tw,台湾,free,3,Vita Mahjong,com.vitastudio.mahjong,,https://www.appbrain.com/app/vita-mahjong/com.vitastudio.mahjong
+2026-07-11,android,tw,台湾,free,4,Gossip Harbor: Merge & Story,com.mergegames.gossipharbor,,https://www.appbrain.com/app/gossip-harbor-merge-story/com.mergegames.gossipharbor
+2026-07-11,android,tw,台湾,free,5,Amaze GO!,com.oakever.arrows,,https://www.appbrain.com/app/amaze-go/com.oakever.arrows
+2026-07-11,android,tw,台湾,free,6,Roblox,com.roblox.client,,https://www.appbrain.com/app/roblox/com.roblox.client
+2026-07-11,android,tw,台湾,free,7,Block Blast!,com.block.juggle,,https://www.appbrain.com/app/block-blast/com.block.juggle
+2026-07-11,android,tw,台湾,free,8,Township,com.playrix.township,,https://www.appbrain.com/app/township/com.playrix.township
+2026-07-11,android,tw,台湾,free,9,Block Craft 3D：Building Game,com.fungames.blockcraft,,https://www.appbrain.com/app/block-craft-3d%EF%BC%9Abuilding-game/com.fungames.blockcraft
+2026-07-11,android,tw,台湾,free,10,Soccer Superstar,com.soccer.score.star,,https://www.appbrain.com/app/soccer-superstar/com.soccer.score.star
+2026-07-11,android,tw,台湾,free,11,Arrow Puzzle: Tap Puzzle Games,com.easybrain.arrow.puzzle.game,,https://www.appbrain.com/app/arrow-puzzle-tap-puzzle-games/com.easybrain.arrow.puzzle.game
+2026-07-11,android,tw,台湾,free,12,MONOPOLY GO!,com.scopely.monopolygo,,https://www.appbrain.com/app/monopoly-go/com.scopely.monopolygo
+2026-07-11,android,tw,台湾,free,13,Total Battle: War Strategy,com.totalbattle,,https://www.appbrain.com/app/total-battle-war-strategy/com.totalbattle
+2026-07-11,android,tw,台湾,free,14,Bus Traffic Fever!,jp.co.goodroid.hyper.busflow,,https://www.appbrain.com/app/bus-traffic-fever/jp.co.goodroid.hyper.busflow
+2026-07-11,android,tw,台湾,free,15,Yarn Loop,com.combo.yarnflow,,https://www.appbrain.com/app/yarn-loop/com.combo.yarnflow
+2026-07-11,android,tw,台湾,free,16,Animals & Coins Adventure Game,com.innplaylabs.animalkingdomraid,,https://www.appbrain.com/app/animals-coins-adventure-game/com.innplaylabs.animalkingdomraid
+2026-07-11,android,tw,台湾,free,17,Paper.io 2,io.voodoo.paper2,,https://www.appbrain.com/app/paper-io-2/io.voodoo.paper2
+2026-07-11,android,tw,台湾,free,18,Hole Stars: Puzzle Game,com.moonactive.holestars,,https://www.appbrain.com/app/hole-stars-puzzle-game/com.moonactive.holestars
+2026-07-11,android,tw,台湾,free,19,Melon Sandbox,com.studio27.MelonPlayground,,https://www.appbrain.com/app/melon-sandbox/com.studio27.MelonPlayground
+2026-07-11,android,tw,台湾,free,20,Last Asylum: Plague,com.phs.global,,https://www.appbrain.com/app/last-asylum-plague/com.phs.global
+2026-07-11,android,tw,台湾,free,21,Kingshot,com.run.tower.defense,,https://www.appbrain.com/app/kingshot/com.run.tower.defense
+2026-07-11,android,tw,台湾,free,22,Woodoku Blast,com.tripledot.blockbash,,https://www.appbrain.com/app/woodoku-blast/com.tripledot.blockbash
+2026-07-11,android,tw,台湾,free,23,DRAGON BALL Z DOKKAN BATTLE,com.bandainamcogames.dbzdokkanww,,https://www.appbrain.com/app/dragon-ball-z-dokkan-battle/com.bandainamcogames.dbzdokkanww
+2026-07-11,android,tw,台湾,free,24,Colony Flow!,com.abi.colony.flow,,https://www.appbrain.com/app/colony-flow/com.abi.colony.flow
+2026-07-11,android,tw,台湾,free,25,Snake Clash!,io.supercent.linkedcubic,,https://www.appbrain.com/app/snake-clash/io.supercent.linkedcubic
+2026-07-11,android,tw,台湾,free,26,Free Fire: 9th Anniversary,com.dts.freefireth,,https://www.appbrain.com/app/free-fire-9th-anniversary/com.dts.freefireth
+2026-07-11,android,tw,台湾,free,27,Magic Sort!,com.grandgames.magicsort,,https://www.appbrain.com/app/magic-sort/com.grandgames.magicsort
+2026-07-11,android,tw,台湾,free,28,Color Block: Combo Blast,com.puzzlegames.puzzlebrickslegend,,https://www.appbrain.com/app/color-block-combo-blast/com.puzzlegames.puzzlebrickslegend
+2026-07-11,android,tw,台湾,free,29,Carnival Knockdown,com.FortuneMine.CarnivalKnockdown,,https://www.appbrain.com/app/carnival-knockdown/com.FortuneMine.CarnivalKnockdown
+2026-07-11,android,tw,台湾,free,30,Pocket Sort: Coin Merge Puzzle,com.pocket.sort.coin.puzzle.game,,https://www.appbrain.com/app/pocket-sort-coin-merge-puzzle/com.pocket.sort.coin.puzzle.game
+2026-07-11,android,tw,台湾,free,31,Zen Word® - Relax Puzzle Game,kidultlovin.word.zen,,https://www.appbrain.com/app/zen-word%C2%AE-relax-puzzle-game/kidultlovin.word.zen
+2026-07-11,android,tw,台湾,free,32,Fortnite,com.epicgames.fortnite,,https://www.appbrain.com/app/fortnite/com.epicgames.fortnite
+2026-07-11,android,tw,台湾,free,33,Mob Control,com.vincentb.MobControl,,https://www.appbrain.com/app/mob-control/com.vincentb.MobControl
+2026-07-11,android,tw,台湾,free,34,Geometry Dash Lite,com.robtopx.geometryjumplite,,https://www.appbrain.com/app/geometry-dash-lite/com.robtopx.geometryjumplite
+2026-07-11,android,tw,台湾,free,35,Gardenscapes,com.playrix.gardenscapes,,https://www.appbrain.com/app/gardenscapes/com.playrix.gardenscapes
+2026-07-11,android,tw,台湾,free,36,Level Devil - NOT A Troll Game,com.unept.leveldevil,,https://www.appbrain.com/app/level-devil-not-a-troll-game/com.unept.leveldevil
+2026-07-11,android,tw,台湾,free,37,Color by Number：Coloring Games,com.tfgco.apps.coloring.free.color.by.number,,https://www.appbrain.com/app/color-by-number%EF%BC%9Acoloring-games/com.tfgco.apps.coloring.free.color.by.number
+2026-07-11,android,tw,台湾,free,38,EA SPORTS FC Soccer Mobile 26,com.ea.gp.fifamobile,,https://www.appbrain.com/app/ea-sports-fc-soccer-mobile-26/com.ea.gp.fifamobile
+2026-07-11,android,tw,台湾,free,39,Point Out: Color Escape Puzzle,com.arrow.out,,https://www.appbrain.com/app/point-out-color-escape-puzzle/com.arrow.out
+2026-07-11,android,tw,台湾,free,40,Mahjong Blast,com.nebula.mahjongtile,,https://www.appbrain.com/app/mahjong-blast/com.nebula.mahjongtile
+2026-07-11,android,tw,台湾,free,41,Sled Surfers,com.sled.surfers.game,,https://www.appbrain.com/app/sled-surfers/com.sled.surfers.game
+2026-07-11,android,tw,台湾,free,42,Word Search Explorer,in.playsimple.wordsearch,,https://www.appbrain.com/app/word-search-explorer/in.playsimple.wordsearch
+2026-07-11,android,tw,台湾,free,43,Mini Challenges: Calm Games,com.u1.relax.minigame3,,https://www.appbrain.com/app/mini-challenges-calm-games/com.u1.relax.minigame3
+2026-07-11,android,tw,台湾,free,44,Tasty Travels: Merge Game,com.fatmerge.global,,https://www.appbrain.com/app/tasty-travels-merge-game/com.fatmerge.global
+2026-07-11,android,tw,台湾,free,45,Jigsawcard Solitaire Puzzle,com.oakever.jigsawcard,,https://www.appbrain.com/app/jigsawcard-solitaire-puzzle/com.oakever.jigsawcard
+2026-07-11,android,tw,台湾,free,46,Magic Tiles 3™ - Piano Game,com.youmusic.magictiles,,https://www.appbrain.com/app/magic-tiles-3%E2%84%A2-piano-game/com.youmusic.magictiles
+2026-07-11,android,tw,台湾,free,47,Royal Kingdom,com.dreamgames.royalkingdom,,https://www.appbrain.com/app/royal-kingdom/com.dreamgames.royalkingdom
+2026-07-11,android,tw,台湾,free,48,Disney Solitaire,com.superplaystudios.disneysolitairedreams,,https://www.appbrain.com/app/disney-solitaire/com.superplaystudios.disneysolitairedreams
+2026-07-11,android,tw,台湾,free,49,8 Ball Pool,com.miniclip.eightballpool,,https://www.appbrain.com/app/8-ball-pool/com.miniclip.eightballpool
+2026-07-11,android,tw,台湾,free,50,I Am Cat,com.NewFolderGames.IAmCat,,https://www.appbrain.com/app/i-am-cat/com.NewFolderGames.IAmCat
+2026-07-11,android,tw,台湾,free,51,Royal Match,com.dreamgames.royalmatch,,https://www.appbrain.com/app/royal-match/com.dreamgames.royalmatch
+2026-07-11,android,tw,台湾,free,52,Bluey: Let's Play!,com.budgestudios.googleplay.BlueyBLU,,https://www.appbrain.com/app/bluey-lets-play/com.budgestudios.googleplay.BlueyBLU
+2026-07-11,android,tw,台湾,free,53,Among Us,com.innersloth.spacemafia,,https://www.appbrain.com/app/among-us/com.innersloth.spacemafia
+2026-07-11,android,tw,台湾,free,54,Tile Explorer - Triple Match,com.oakever.tiletrip,,https://www.appbrain.com/app/tile-explorer-triple-match/com.oakever.tiletrip
+2026-07-11,android,tw,台湾,free,55,Jewel Coloring,color.number.paint.pixle.art.sort.jigsaw,,https://www.appbrain.com/app/jewel-coloring/color.number.paint.pixle.art.sort.jigsaw
+2026-07-11,android,tw,台湾,free,56,Block Crazy Robo World Craft,com.cliffs.pro.cell.building.crazy.clever.craft,,https://www.appbrain.com/app/block-crazy-robo-world-craft/com.cliffs.pro.cell.building.crazy.clever.craft
+2026-07-11,android,tw,台湾,free,57,Angry Birds 2,com.rovio.baba,,https://www.appbrain.com/app/angry-birds-2/com.rovio.baba
+2026-07-11,android,tw,台湾,free,58,Whiteout Survival,com.gof.global,,https://www.appbrain.com/app/whiteout-survival/com.gof.global
+2026-07-11,android,tw,台湾,free,59,Annoying Uncle Punch Game®,com.gtsy.annoying.punch.game,,https://www.appbrain.com/app/annoying-uncle-punch-game%C2%AE/com.gtsy.annoying.punch.game
+2026-07-11,android,tw,台湾,free,60,Beach Bliss: Merge Puzzle,com.kite.beachblissgame,,https://www.appbrain.com/app/beach-bliss-merge-puzzle/com.kite.beachblissgame
+2026-07-11,android,tw,台湾,free,61,Delta Force,com.proxima.dfm,,https://www.appbrain.com/app/delta-force/com.proxima.dfm
+2026-07-11,android,tw,台湾,free,62,Coin Master,com.moonactive.coinmaster,,https://www.appbrain.com/app/coin-master/com.moonactive.coinmaster
+2026-07-11,android,tw,台湾,free,63,Bingo Blitz™️ - Bingo Games,air.com.buffalo_studios.newflashbingo,,https://www.appbrain.com/app/bingo-blitz%E2%84%A2%EF%B8%8F-bingo-games/air.com.buffalo_studios.newflashbingo
+2026-07-11,android,tw,台湾,free,64,Pokémon GO,com.nianticlabs.pokemongo,,https://www.appbrain.com/app/pok%C3%A9mon-go/com.nianticlabs.pokemongo
+2026-07-11,android,tw,台湾,free,65,Water Sort Puzzle - Sort Color,water.sort.puzzle.game.color.sorting.free,,https://www.appbrain.com/app/water-sort-puzzle-sort-color/water.sort.puzzle.game.color.sorting.free
+2026-07-11,android,tw,台湾,free,66,Solitaire Associations Journey,com.hitappsgames.wordsolitaire,,https://www.appbrain.com/app/solitaire-associations-journey/com.hitappsgames.wordsolitaire
+2026-07-11,android,tw,台湾,free,67,Pixel Flow!,com.loomgames.pixelflow,,https://www.appbrain.com/app/pixel-flow/com.loomgames.pixelflow
+2026-07-11,android,tw,台湾,free,68,Avatar World ®,com.pazugames.avatarworld,,https://www.appbrain.com/app/avatar-world-%C2%AE/com.pazugames.avatarworld
+2026-07-11,android,tw,台湾,free,69,Color Slide - Hexa Puzzle,com.awesome.puzzlehexasort,,https://www.appbrain.com/app/color-slide-hexa-puzzle/com.awesome.puzzlehexasort
+2026-07-11,android,tw,台湾,free,70,Football League 2026,com.football.soccer.league,,https://www.appbrain.com/app/football-league-2026/com.football.soccer.league
+2026-07-11,android,tw,台湾,free,71,Offline Games - No Wifi Games,com.JindoBlu.OfflineGames,,https://www.appbrain.com/app/offline-games-no-wifi-games/com.JindoBlu.OfflineGames
+2026-07-11,android,tw,台湾,free,72,Toca Boca World,com.tocaboca.tocalifeworld,,https://www.appbrain.com/app/toca-boca-world/com.tocaboca.tocalifeworld
+2026-07-11,android,tw,台湾,free,73,PUBG MOBILE,com.tencent.ig,,https://www.appbrain.com/app/pubg-mobile/com.tencent.ig
+2026-07-11,android,tw,台湾,free,74,Hidden Object Games: Seek It,hidden.object.find.seek.search.mystery.puzzle.games.free,,https://www.appbrain.com/app/hidden-object-games-seek-it/hidden.object.find.seek.search.mystery.puzzle.games.free
+2026-07-11,android,tw,台湾,free,75,Castle Busters,com.epicoro.castleclashers,,https://www.appbrain.com/app/castle-busters/com.epicoro.castleclashers
+2026-07-11,android,tw,台湾,free,76,Game of Thrones: Dragonfire,com.wb.goog.hotd.socialstrategy,,https://www.appbrain.com/app/game-of-thrones-dragonfire/com.wb.goog.hotd.socialstrategy
+2026-07-11,android,tw,台湾,free,77,Wool Crush™,wool.match.color.sort.jam.puzzle,,https://www.appbrain.com/app/wool-crush%E2%84%A2/wool.match.color.sort.jam.puzzle
+2026-07-11,android,tw,台湾,free,78,Candy Crush Saga,com.king.candycrushsaga,,https://www.appbrain.com/app/candy-crush-saga/com.king.candycrushsaga
+2026-07-11,android,tw,台湾,free,79,Brawl Stars,com.supercell.brawlstars,,https://www.appbrain.com/app/brawl-stars/com.supercell.brawlstars
+2026-07-11,android,tw,台湾,free,80,Offline Games No WiFi internet,com.media720.games2020,,https://www.appbrain.com/app/offline-games-no-wifi-internet/com.media720.games2020
+2026-07-11,android,tw,台湾,free,81,Jigsaw Drop: Solitaire Puzzle,jigsaw.solitaire.match.games.free,,https://www.appbrain.com/app/jigsaw-drop-solitaire-puzzle/jigsaw.solitaire.match.games.free
+2026-07-11,android,tw,台湾,free,82,Save The Pets,com.bravestars.savethedog.drawgame,,https://www.appbrain.com/app/save-the-pets/com.bravestars.savethedog.drawgame
+2026-07-11,android,tw,台湾,free,83,Solitaire - Classic Card Games,solitaire.patience.card.games.klondike.free,,https://www.appbrain.com/app/solitaire-classic-card-games/solitaire.patience.card.games.klondike.free
+2026-07-11,android,tw,台湾,free,84,"Block Color Mania, Puzzle Game",block.color.game.jam.blocks.sort.puzzle.games.slide.free,,https://www.appbrain.com/app/block-color-mania-puzzle-game/block.color.game.jam.blocks.sort.puzzle.games.slide.free
+2026-07-11,android,tw,台湾,free,85,Dream League Soccer 2026,com.firsttouchgames.dls7,,https://www.appbrain.com/app/dream-league-soccer-2026/com.firsttouchgames.dls7
+2026-07-11,android,tw,台湾,free,86,Perfect Makeover Cleaning ASMR,com.hmbl.perfect.makeover.cleaning.asmr,,https://www.appbrain.com/app/perfect-makeover-cleaning-asmr/com.hmbl.perfect.makeover.cleaning.asmr
+2026-07-11,android,tw,台湾,free,87,Top Tycoon: Coin Theme Empire,com.monopoly.dream.idle.king,,https://www.appbrain.com/app/top-tycoon-coin-theme-empire/com.monopoly.dream.idle.king
+2026-07-11,android,tw,台湾,free,88,Pokémon Champions,jp.pokemon.pokemonchampions,,https://www.appbrain.com/app/pok%C3%A9mon-champions/jp.pokemon.pokemonchampions
+2026-07-11,android,tw,台湾,free,89,Solitaire,com.smilerlee.klondike,,https://www.appbrain.com/app/solitaire/com.smilerlee.klondike
+2026-07-11,android,tw,台湾,free,90,Crossword Go!,in.playsimple.crossword.go,,https://www.appbrain.com/app/crossword-go/in.playsimple.crossword.go
+2026-07-11,android,tw,台湾,free,91,Clash of Critters,com.farlightgames.pgame.gp,,https://www.appbrain.com/app/clash-of-critters/com.farlightgames.pgame.gp
+2026-07-11,android,tw,台湾,free,92,Brain Puzzle 2: Logic Twist,com.brain.logic.joygame,,https://www.appbrain.com/app/brain-puzzle-2-logic-twist/com.brain.logic.joygame
+2026-07-11,android,tw,台湾,free,93,Colorful Soda Sort,com.colorrful.sunny.sodda.sort,,https://www.appbrain.com/app/colorful-soda-sort/com.colorrful.sunny.sodda.sort
+2026-07-11,android,tw,台湾,free,94,Glow Fashion Idol,com.crazylabs.fashion.squad,,https://www.appbrain.com/app/glow-fashion-idol/com.crazylabs.fashion.squad
+2026-07-11,android,tw,台湾,free,95,Happy Color®: Color by Number,com.pixel.art.coloring.color.number,,https://www.appbrain.com/app/happy-color%C2%AE-color-by-number/com.pixel.art.coloring.color.number
+2026-07-11,android,tw,台湾,free,96,Sword x Staff,com.zjcs.android.us,,https://www.appbrain.com/app/sword-x-staff/com.zjcs.android.us
+2026-07-11,android,tw,台湾,free,97,OneState RP - Role Play Life,com.Chillgaming.oneState,,https://www.appbrain.com/app/onestate-rp-role-play-life/com.Chillgaming.oneState
+2026-07-11,android,tw,台湾,free,98,Sniper 3D：Gun Shooting Games,com.fungames.sniper3d,,https://www.appbrain.com/app/sniper-3d%EF%BC%9Agun-shooting-games/com.fungames.sniper3d
+2026-07-11,android,tw,台湾,free,99,Goods Puzzle: 3D Sorting Games,sorting.games.goods.sort.triple.match3d.puzzle.stuff,,https://www.appbrain.com/app/goods-puzzle-3d-sorting-games/sorting.games.goods.sort.triple.match3d.puzzle.stuff
+2026-07-11,android,tw,台湾,free,100,Suguru Master: Logic Puzzles,space.manus.suguru.master.t20260216080221,,https://www.appbrain.com/app/suguru-master-logic-puzzles/space.manus.suguru.master.t20260216080221
+2026-07-11,android,tw,台湾,grossing,1,MONOPOLY GO!,com.scopely.monopolygo,,https://www.appbrain.com/app/monopoly-go/com.scopely.monopolygo
+2026-07-11,android,tw,台湾,grossing,2,Pokémon GO,com.nianticlabs.pokemongo,,https://www.appbrain.com/app/pok%C3%A9mon-go/com.nianticlabs.pokemongo
+2026-07-11,android,tw,台湾,grossing,3,Roblox,com.roblox.client,,https://www.appbrain.com/app/roblox/com.roblox.client
+2026-07-11,android,tw,台湾,grossing,4,Candy Crush Saga,com.king.candycrushsaga,,https://www.appbrain.com/app/candy-crush-saga/com.king.candycrushsaga
+2026-07-11,android,tw,台湾,grossing,5,Royal Match,com.dreamgames.royalmatch,,https://www.appbrain.com/app/royal-match/com.dreamgames.royalmatch
+2026-07-11,android,tw,台湾,grossing,6,Kingshot,com.run.tower.defense,,https://www.appbrain.com/app/kingshot/com.run.tower.defense
+2026-07-11,android,tw,台湾,grossing,7,Gossip Harbor: Merge & Story,com.mergegames.gossipharbor,,https://www.appbrain.com/app/gossip-harbor-merge-story/com.mergegames.gossipharbor
+2026-07-11,android,tw,台湾,grossing,8,Coin Master,com.moonactive.coinmaster,,https://www.appbrain.com/app/coin-master/com.moonactive.coinmaster
+2026-07-11,android,tw,台湾,grossing,9,Township,com.playrix.township,,https://www.appbrain.com/app/township/com.playrix.township
+2026-07-11,android,tw,台湾,grossing,10,Last War:Survival Game,com.fun.lastwar.gp,,https://www.appbrain.com/app/last-war-survival-game/com.fun.lastwar.gp
+2026-07-11,android,tw,台湾,grossing,11,Whiteout Survival,com.gof.global,,https://www.appbrain.com/app/whiteout-survival/com.gof.global
+2026-07-11,android,tw,台湾,grossing,12,Royal Kingdom,com.dreamgames.royalkingdom,,https://www.appbrain.com/app/royal-kingdom/com.dreamgames.royalkingdom
+2026-07-11,android,tw,台湾,grossing,13,Fate/Grand Order (English),com.aniplex.fategrandorder.en,,https://www.appbrain.com/app/fate-grand-order-english/com.aniplex.fategrandorder.en
+2026-07-11,android,tw,台湾,grossing,14,Last Z: Survival Shooter,com.readygo.barrel.gp,,https://www.appbrain.com/app/last-z-survival-shooter/com.readygo.barrel.gp
+2026-07-11,android,tw,台湾,grossing,15,Toon Blast,net.peakgames.toonblast,,https://www.appbrain.com/app/toon-blast/net.peakgames.toonblast
+2026-07-11,android,tw,台湾,grossing,16,Free Fire: 9th Anniversary,com.dts.freefireth,,https://www.appbrain.com/app/free-fire-9th-anniversary/com.dts.freefireth
+2026-07-11,android,tw,台湾,grossing,17,Evony: The King's Return,com.topgamesinc.evony,,https://www.appbrain.com/app/evony-the-kings-return/com.topgamesinc.evony
+2026-07-11,android,tw,台湾,grossing,18,Jackpot Party Casino Slots,com.williamsinteractive.jackpotparty,,https://www.appbrain.com/app/jackpot-party-casino-slots/com.williamsinteractive.jackpotparty
+2026-07-11,android,tw,台湾,grossing,19,Sword x Staff,com.zjcs.android.us,,https://www.appbrain.com/app/sword-x-staff/com.zjcs.android.us
+2026-07-11,android,tw,台湾,grossing,20,Gardenscapes,com.playrix.gardenscapes,,https://www.appbrain.com/app/gardenscapes/com.playrix.gardenscapes
+2026-07-11,android,tw,台湾,grossing,21,Total Battle: War Strategy,com.totalbattle,,https://www.appbrain.com/app/total-battle-war-strategy/com.totalbattle
+2026-07-11,android,tw,台湾,grossing,22,Disney Solitaire,com.superplaystudios.disneysolitairedreams,,https://www.appbrain.com/app/disney-solitaire/com.superplaystudios.disneysolitairedreams
+2026-07-11,android,tw,台湾,grossing,23,Lightning Link Casino Slots,com.productmadness.lightninglink,,https://www.appbrain.com/app/lightning-link-casino-slots/com.productmadness.lightninglink
+2026-07-11,android,tw,台湾,grossing,24,Match Factory!,net.peakgames.match,,https://www.appbrain.com/app/match-factory/net.peakgames.match
+2026-07-11,android,tw,台湾,grossing,25,Cashman Casino Slots Games,com.productmadness.cashmancasino,,https://www.appbrain.com/app/cashman-casino-slots-games/com.productmadness.cashmancasino
+2026-07-11,android,tw,台湾,grossing,26,Candy Crush Soda Saga,com.king.candycrushsodasaga,,https://www.appbrain.com/app/candy-crush-soda-saga/com.king.candycrushsodasaga
+2026-07-11,android,tw,台湾,grossing,27,PUBG MOBILE,com.tencent.ig,,https://www.appbrain.com/app/pubg-mobile/com.tencent.ig
+2026-07-11,android,tw,台湾,grossing,28,Bingo Blitz™️ - Bingo Games,air.com.buffalo_studios.newflashbingo,,https://www.appbrain.com/app/bingo-blitz%E2%84%A2%EF%B8%8F-bingo-games/air.com.buffalo_studios.newflashbingo
+2026-07-11,android,tw,台湾,grossing,29,Pixel Flow!,com.loomgames.pixelflow,,https://www.appbrain.com/app/pixel-flow/com.loomgames.pixelflow
+2026-07-11,android,tw,台湾,grossing,30,Fishdom,com.playrix.fishdomdd.gplay,,https://www.appbrain.com/app/fishdom/com.playrix.fishdomdd.gplay
+2026-07-11,android,tw,台湾,grossing,31,Tasty Travels: Merge Game,com.fatmerge.global,,https://www.appbrain.com/app/tasty-travels-merge-game/com.fatmerge.global
+2026-07-11,android,tw,台湾,grossing,32,GODDESS OF VICTORY: NIKKE,com.proximabeta.nikke,,https://www.appbrain.com/app/goddess-of-victory-nikke/com.proximabeta.nikke
+2026-07-11,android,tw,台湾,grossing,33,DRAGON BALL LEGENDS,com.bandainamcoent.dblegends_ww,,https://www.appbrain.com/app/dragon-ball-legends/com.bandainamcoent.dblegends_ww
+2026-07-11,android,tw,台湾,grossing,34,Dice Dreams™️,com.superplaystudios.dicedreams,,https://www.appbrain.com/app/dice-dreams%E2%84%A2%EF%B8%8F/com.superplaystudios.dicedreams
+2026-07-11,android,tw,台湾,grossing,35,Homescapes,com.playrix.homescapes,,https://www.appbrain.com/app/homescapes/com.playrix.homescapes
+2026-07-11,android,tw,台湾,grossing,36,Clash of Clans,com.supercell.clashofclans,,https://www.appbrain.com/app/clash-of-clans/com.supercell.clashofclans
+2026-07-11,android,tw,台湾,grossing,37,Lotsa Slots - Casino Games,com.diamondlife.slots.vegas.free,,https://www.appbrain.com/app/lotsa-slots-casino-games/com.diamondlife.slots.vegas.free
+2026-07-11,android,tw,台湾,grossing,38,Last Asylum: Plague,com.phs.global,,https://www.appbrain.com/app/last-asylum-plague/com.phs.global
+2026-07-11,android,tw,台湾,grossing,39,Clash Royale,com.supercell.clashroyale,,https://www.appbrain.com/app/clash-royale/com.supercell.clashroyale
+2026-07-11,android,tw,台湾,grossing,40,All in Hole: Black Hole Games,com.homagames.studio.allinhole,,https://www.appbrain.com/app/all-in-hole-black-hole-games/com.homagames.studio.allinhole
+2026-07-11,android,tw,台湾,grossing,41,Dark War Survival,com.readygo.dark.gp,,https://www.appbrain.com/app/dark-war-survival/com.readygo.dark.gp
+2026-07-11,android,tw,台湾,grossing,42,Yarn Loop,com.combo.yarnflow,,https://www.appbrain.com/app/yarn-loop/com.combo.yarnflow
+2026-07-11,android,tw,台湾,grossing,43,Travel Town - Merge Adventure,io.randomco.travel,,https://www.appbrain.com/app/travel-town-merge-adventure/io.randomco.travel
+2026-07-11,android,tw,台湾,grossing,44,Solitaire Grand Harvest,net.supertreat.solitaire,,https://www.appbrain.com/app/solitaire-grand-harvest/net.supertreat.solitaire
+2026-07-11,android,tw,台湾,grossing,45,Cash Frenzy™ - Casino Slots,slots.pcg.casino.games.free.android,,https://www.appbrain.com/app/cash-frenzy%E2%84%A2-casino-slots/slots.pcg.casino.games.free.android
+2026-07-11,android,tw,台湾,grossing,46,Merge Cooking®,com.merge.cooking.theme.restaurant.food,,https://www.appbrain.com/app/merge-cooking%C2%AE/com.merge.cooking.theme.restaurant.food
+2026-07-11,android,tw,台湾,grossing,47,Wuthering Waves - To Xuanfang,com.kurogame.wutheringwaves.global,,https://www.appbrain.com/app/wuthering-waves-to-xuanfang/com.kurogame.wutheringwaves.global
+2026-07-11,android,tw,台湾,grossing,48,Puzzles & Survival,com.global.ztmslg,,https://www.appbrain.com/app/puzzles-survival/com.global.ztmslg
+2026-07-11,android,tw,台湾,grossing,49,Coin Master - Board Adventure,com.moonactive.cmboard,,https://www.appbrain.com/app/coin-master-board-adventure/com.moonactive.cmboard
+2026-07-11,android,tw,台湾,grossing,50,Quick Hit Casino Slots Games,com.ballytechnologies.quickhitslots,,https://www.appbrain.com/app/quick-hit-casino-slots-games/com.ballytechnologies.quickhitslots
+2026-07-11,android,tw,台湾,grossing,51,Flambé®: Merge & Cook,com.cola.game,,https://www.appbrain.com/app/flamb%C3%A9%C2%AE-merge-cook/com.cola.game
+2026-07-11,android,tw,台湾,grossing,52,Slots: Heart of Vegas Casino,com.productmadness.hovmobile,,https://www.appbrain.com/app/slots-heart-of-vegas-casino/com.productmadness.hovmobile
+2026-07-11,android,tw,台湾,grossing,53,Clash of Critters,com.farlightgames.pgame.gp,,https://www.appbrain.com/app/clash-of-critters/com.farlightgames.pgame.gp
+2026-07-11,android,tw,台湾,grossing,54,POP! Slots™,com.playstudios.popslots,,https://www.appbrain.com/app/pop-slots%E2%84%A2/com.playstudios.popslots
+2026-07-11,android,tw,台湾,grossing,55,Bingo Voyage - Live Bingo Game,com.bingo.cruise.free.best.top.game,,https://www.appbrain.com/app/bingo-voyage-live-bingo-game/com.bingo.cruise.free.best.top.game
+2026-07-11,android,tw,台湾,grossing,56,Matching Story - Merge & Match,com.joycastle.mergematch,,https://www.appbrain.com/app/matching-story-merge-match/com.joycastle.mergematch
+2026-07-11,android,tw,台湾,grossing,57,RAID: Shadow Legends,com.plarium.raidlegends,,https://www.appbrain.com/app/raid-shadow-legends/com.plarium.raidlegends
+2026-07-11,android,tw,台湾,grossing,58,Brawl Stars,com.supercell.brawlstars,,https://www.appbrain.com/app/brawl-stars/com.supercell.brawlstars
+2026-07-11,android,tw,台湾,grossing,59,Mystery Town: Merge Games,com.cedargames.mysterytown,,https://www.appbrain.com/app/mystery-town-merge-games/com.cedargames.mysterytown
+2026-07-11,android,tw,台湾,grossing,60,Pokémon TCG Pocket - Card Game,jp.pokemon.pokemontcgp,,https://www.appbrain.com/app/pok%C3%A9mon-tcg-pocket-card-game/jp.pokemon.pokemontcgp
+2026-07-11,android,tw,台湾,grossing,61,Hay Day,com.supercell.hayday,,https://www.appbrain.com/app/hay-day/com.supercell.hayday
+2026-07-11,android,tw,台湾,grossing,62,Puzzles & Chaos: Frozen Castle,com.global.pnck,,https://www.appbrain.com/app/puzzles-chaos-frozen-castle/com.global.pnck
+2026-07-11,android,tw,台湾,grossing,63,Hole Stars: Puzzle Game,com.moonactive.holestars,,https://www.appbrain.com/app/hole-stars-puzzle-game/com.moonactive.holestars
+2026-07-11,android,tw,台湾,grossing,64,June's Journey: Hidden Objects,net.wooga.junes_journey_hidden_object_mystery_game,,https://www.appbrain.com/app/junes-journey-hidden-objects/net.wooga.junes_journey_hidden_object_mystery_game
+2026-07-11,android,tw,台湾,grossing,65,Piggy Kingdom,com.olleyo.piggy.king.free,,https://www.appbrain.com/app/piggy-kingdom/com.olleyo.piggy.king.free
+2026-07-11,android,tw,台湾,grossing,66,"Minecraft: Dream it, Build it!",com.mojang.minecraftpe,,https://www.appbrain.com/app/minecraft-dream-it-build-it/com.mojang.minecraftpe
+2026-07-11,android,tw,台湾,grossing,67,Bingo Frenzy: Live Bingo Games,com.cooking.bingo.ldkwh,,https://www.appbrain.com/app/bingo-frenzy-live-bingo-games/com.cooking.bingo.ldkwh
+2026-07-11,android,tw,台湾,grossing,68,Golf Clash - Golfing Simulator,com.playdemic.golf.android,,https://www.appbrain.com/app/golf-clash-golfing-simulator/com.playdemic.golf.android
+2026-07-11,android,tw,台湾,grossing,69,Toy Blast,net.peakgames.amy,,https://www.appbrain.com/app/toy-blast/net.peakgames.amy
+2026-07-11,android,tw,台湾,grossing,70,Magic Sort!,com.grandgames.magicsort,,https://www.appbrain.com/app/magic-sort/com.grandgames.magicsort
+2026-07-11,android,tw,台湾,grossing,71,Jackpot World™ - Slots Casino,com.grandegames.slots.dafu.casino,,https://www.appbrain.com/app/jackpot-world%E2%84%A2-slots-casino/com.grandegames.slots.dafu.casino
+2026-07-11,android,tw,台湾,grossing,72,DRAGON BALL Z DOKKAN BATTLE,com.bandainamcogames.dbzdokkanww,,https://www.appbrain.com/app/dragon-ball-z-dokkan-battle/com.bandainamcogames.dbzdokkanww
+2026-07-11,android,tw,台湾,grossing,73,Genshin Impact,com.miHoYo.GenshinImpact,,https://www.appbrain.com/app/genshin-impact/com.miHoYo.GenshinImpact
+2026-07-11,android,tw,台湾,grossing,74,Free Fire MAX,com.dts.freefiremax,,https://www.appbrain.com/app/free-fire-max/com.dts.freefiremax
+2026-07-11,android,tw,台湾,grossing,75,EA SPORTS FC Soccer Mobile 26,com.ea.gp.fifamobile,,https://www.appbrain.com/app/ea-sports-fc-soccer-mobile-26/com.ea.gp.fifamobile
+2026-07-11,android,tw,台湾,grossing,76,Domino Dreams™,com.screenshake.dominodreams,,https://www.appbrain.com/app/domino-dreams%E2%84%A2/com.screenshake.dominodreams
+2026-07-11,android,tw,台湾,grossing,77,Yahtzee® With Buddies Dice Fun,com.scopely.yux,,https://www.appbrain.com/app/yahtzee%C2%AE-with-buddies-dice-fun/com.scopely.yux
+2026-07-11,android,tw,台湾,grossing,78,Tiki Solitaire TriPeaks,com.gsn.android.tripeaks,,https://www.appbrain.com/app/tiki-solitaire-tripeaks/com.gsn.android.tripeaks
+2026-07-11,android,tw,台湾,grossing,79,WSOP Poker: Texas Holdem Game,com.playtika.wsop.gp,,https://www.appbrain.com/app/wsop-poker-texas-holdem-game/com.playtika.wsop.gp
+2026-07-11,android,tw,台湾,grossing,80,88 Fortunes™ Casino Slot Games,com.ballytechnologies.f88,,https://www.appbrain.com/app/88-fortunes%E2%84%A2-casino-slot-games/com.ballytechnologies.f88
+2026-07-11,android,tw,台湾,grossing,81,Jackpot Master™ Slots - Casino,com.jmsgame.jackpotmastercasino,,https://www.appbrain.com/app/jackpot-master%E2%84%A2-slots-casino/com.jmsgame.jackpotmastercasino
+2026-07-11,android,tw,台湾,grossing,82,Marble Sort! - Color Puzzle,com.microdose.balljam,,https://www.appbrain.com/app/marble-sort-color-puzzle/com.microdose.balljam
+2026-07-11,android,tw,台湾,grossing,83,Hollywood Merge,com.hollywood.merge,,https://www.appbrain.com/app/hollywood-merge/com.hollywood.merge
+2026-07-11,android,tw,台湾,grossing,84,Umamusume: Pretty Derby,com.cygames.umamusume,,https://www.appbrain.com/app/umamusume-pretty-derby/com.cygames.umamusume
+2026-07-11,android,tw,台湾,grossing,85,Merge Dragons!,com.gramgames.mergedragons,,https://www.appbrain.com/app/merge-dragons/com.gramgames.mergedragons
+2026-07-11,android,tw,台湾,grossing,86,Marvel Contest of Champions,com.kabam.marvelbattle,,https://www.appbrain.com/app/marvel-contest-of-champions/com.kabam.marvelbattle
+2026-07-11,android,tw,台湾,grossing,87,Cash Club Casino - Vegas Slots,com.unicornstudio.cashparty.slots.casino.vegas.free,,https://www.appbrain.com/app/cash-club-casino-vegas-slots/com.unicornstudio.cashparty.slots.casino.vegas.free
+2026-07-11,android,tw,台湾,grossing,88,Angry Birds 2,com.rovio.baba,,https://www.appbrain.com/app/angry-birds-2/com.rovio.baba
+2026-07-11,android,tw,台湾,grossing,89,Rise of Kingdoms: Lost Crusade,com.lilithgame.roc.gp,,https://www.appbrain.com/app/rise-of-kingdoms-lost-crusade/com.lilithgame.roc.gp
+2026-07-11,android,tw,台湾,grossing,90,Match Villains,com.goodjobgames.matchvillains,,https://www.appbrain.com/app/match-villains/com.goodjobgames.matchvillains
+2026-07-11,android,tw,台湾,grossing,91,Seaside Escape®: Merge & Story,com.gamedots.seasideescape,,https://www.appbrain.com/app/seaside-escape%C2%AE-merge-story/com.gamedots.seasideescape
+2026-07-11,android,tw,台湾,grossing,92,Magic: The Gathering Arena,com.wizards.mtga,,https://www.appbrain.com/app/magic-the-gathering-arena/com.wizards.mtga
+2026-07-11,android,tw,台湾,grossing,93,Castle Busters,com.epicoro.castleclashers,,https://www.appbrain.com/app/castle-busters/com.epicoro.castleclashers
+2026-07-11,android,tw,台湾,grossing,94,Isekai:Slow Life,com.iskslowtest.mislen,,https://www.appbrain.com/app/isekai-slow-life/com.iskslowtest.mislen
+2026-07-11,android,tw,台湾,grossing,95,Hunting Sniper,com.online.huntingsniper,,https://www.appbrain.com/app/hunting-sniper/com.online.huntingsniper
+2026-07-11,android,tw,台湾,grossing,96,Summoners War X Frieren,com.com2us.smon.normal.freefull.google.kr.android.common,,https://www.appbrain.com/app/summoners-war-x-frieren/com.com2us.smon.normal.freefull.google.kr.android.common
+2026-07-11,android,tw,台湾,grossing,97,MARVEL Strike Force: Squad RPG,com.foxnextgames.m3,,https://www.appbrain.com/app/marvel-strike-force-squad-rpg/com.foxnextgames.m3
+2026-07-11,android,tw,台湾,grossing,98,Merge Mansion: Puzzles & Story,com.everywear.game5,,https://www.appbrain.com/app/merge-mansion-puzzles-story/com.everywear.game5
+2026-07-11,android,tw,台湾,grossing,99,Moto Camera,com.motorola.cameraone,,https://www.appbrain.com/app/moto-camera/com.motorola.cameraone
+2026-07-11,android,tw,台湾,grossing,100,Krishna Photo Suit- Photo Suit,com.airtechinfosoft.krishnaphotosuit,,https://www.appbrain.com/app/krishna-photo-suit-photo-suit/com.airtechinfosoft.krishnaphotosuit
