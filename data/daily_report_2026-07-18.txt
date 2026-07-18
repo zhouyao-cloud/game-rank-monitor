@@ -1,0 +1,167 @@
+【台湾手游榜单监控日报 V2.5】
+日期：2026-07-18
+
+========== 今日业务摘要 ==========
+重点风险/机会：发现 3 条 P0 级重点异动，需要优先关注。
+重点产品：新熱血江湖：世界：iOS畅销榜第69（↓12，近3日连续下滑；近7日新低）；天堂W：iOS畅销榜第89（↓13，近3日连续下滑）；楓之谷M：iOS畅销榜第59（↓16，近3日连续下滑；近7日新低）；寒霜啟示錄：Google畅销榜第7（→，近7日新高）
+另有 1 个重点产品在下方详情中展示。
+优先查看：
+P0｜⚠️ 大幅下跌｜台湾｜iOS畅销榜｜楓之谷M - 奇幻冒險MMORPG：59（↓16）
+P0｜⚠️ 大幅下跌｜台湾｜iOS畅销榜｜天堂W：89（↓13）
+P0｜⚠️ 大幅下跌｜台湾｜iOS畅销榜｜新熱血江湖：世界：69（↓12）
+P1｜🔥 大幅上涨｜台湾｜iOS畅销榜｜心動小鎮：4（↑93）
+P1｜🔥 大幅上涨｜台湾｜iOS畅销榜｜Sky光·遇：17（↑72）
+
+========== 重点产品监控 ==========
+
+【新熱血江湖：世界】
+台湾｜iOS｜iOS畅销榜：69（↓12；近3日连续下滑；近7日新低）
+
+【天堂W】
+台湾｜iOS｜iOS畅销榜：89（↓13；近3日连续下滑）
+
+【楓之谷M】
+台湾｜iOS｜iOS畅销榜：59（↓16；近3日连续下滑；近7日新低）
+
+【寒霜啟示錄】
+台湾｜Google｜Google免费榜：84（↓8；近7日新低）
+台湾｜Google｜Google畅销榜：7（→；近7日新高）
+台湾｜iOS｜iOS免费榜：30（↓2；近7日新低）
+台湾｜iOS｜iOS畅销榜：3（↓1）
+
+【Last War: Survival】
+台湾｜Google｜Google畅销榜：9（→）
+台湾｜iOS｜iOS畅销榜：14（↓1）
+
+========== 榜单异动预警 ==========
+
+【P0｜重点产品大幅波动】
+⚠️ 大幅下跌｜台湾｜iOS畅销榜｜楓之谷M - 奇幻冒險MMORPG：59（↓16）
+⚠️ 大幅下跌｜台湾｜iOS畅销榜｜天堂W：89（↓13）
+⚠️ 大幅下跌｜台湾｜iOS畅销榜｜新熱血江湖：世界：69（↓12）
+
+【P1｜重点关注异动】
+🔥 大幅上涨｜台湾｜iOS畅销榜｜心動小鎮：4（↑93）
+🔥 大幅上涨｜台湾｜iOS畅销榜｜Sky光·遇：17（↑72）
+🔥 大幅上涨｜台湾｜iOS畅销榜｜Garena® 三角洲行動：11（↑43）
+
+【P2｜普通榜单异动】
+⚠️ 大幅下跌｜台湾｜iOS畅销榜｜戀與深空：95（↓56）
+🔥 大幅上涨｜台湾｜iOS畅销榜｜勇者來開團：48（↑51）
+🔥 大幅上涨｜台湾｜iOS畅销榜｜Arena Breakout：暗區突圍：40（↑50）
+🔥 大幅上涨｜台湾｜Google免费榜｜Dive Target: Perfect Splash：49（↑47）
+🔥 大幅上涨｜台湾｜iOS免费榜｜刃與三國：烽火爭霸：62（↑36）
+⚠️ 大幅下跌｜台湾｜Google免费榜｜Squishy Magic: ASMR Toy Maker：93（↓36）
+🆕 新进榜TOP50｜台湾｜iOS畅销榜｜16. 火炬之光：無限
+⚠️ 大幅下跌｜台湾｜iOS畅销榜｜逆水寒：83（↓34）
+🔥 大幅上涨｜台湾｜iOS畅销榜｜神魔之塔：53（↑32）
+⚠️ 大幅下跌｜台湾｜iOS畅销榜｜未定事件簿：79（↓32）
+🔥 大幅上涨｜台湾｜iOS免费榜｜好萊塢合成：星夢逆襲：39（↑30）
+⚠️ 大幅下跌｜台湾｜Google免费榜｜Jigsaw Drop: Solitaire Puzzle：98（↓30）
+⚠️ 大幅下跌｜台湾｜iOS畅销榜｜VAMPIR：血之繼承者：100（↓29）
+🔥 大幅上涨｜台湾｜iOS畅销榜｜決勝時刻: Mobile - Garena：42（↑26）
+🔥 大幅上涨｜台湾｜Google免费榜｜Word Connect Association：72（↑26）
+⚠️ 大幅下跌｜台湾｜iOS免费榜｜Sled Surfers：96（↓25）
+⚠️ 大幅下跌｜台湾｜iOS畅销榜｜SD鋼彈 G世代 永恆：57（↓24）
+🔥 大幅上涨｜台湾｜iOS免费榜｜Epic Stickman: 放置型 RPG 戰爭：60（↑24）
+⚠️ 大幅下跌｜台湾｜iOS畅销榜｜怪物彈珠：62（↓24）
+⚠️ 大幅下跌｜台湾｜Google免费榜｜Colorful Soda Sort：87（↓24）
+⚠️ 大幅下跌｜台湾｜Google免费榜｜Toon Blast：96（↓24）
+🆕 新进榜TOP50｜台湾｜Google免费榜｜28. Slow Mo Strike: Knives in Time
+⚠️ 大幅下跌｜台湾｜iOS免费榜｜Astro Arena : 恆星激鬥 PvP：49（↓23）
+⚠️ 大幅下跌｜台湾｜Google免费榜｜Animals & Coins Adventure Game：67（↓23）
+另有 51 条异动未展示。
+
+========== 台湾 ==========
+
+【iOS免费榜 TOP20】
+1. 天天拼詞王 →
+2. 潛龍：武俠像素RPG →
+3. 赵云与阿斗 ↑1
+4. Pikmin Bloom ↑1
+5. Smash Fest! ↑1
+6. 數碼寶貝 UP ↓3
+7. 家族物語 - 治癒系世代模擬 →
+8. 超能戰爭 →
+9. Bus Traffic Fever! ↑1
+10. Block Blast! ↑3
+11. Block Out! - Color Sort Puzzle ↑5
+12. Royal Kingdom ↓1
+13. Meowdoku! ↑17
+14. 食光旅行 →
+15. Roblox ↑2
+16. Vita 麻將 ↑6
+17. Magic Sort! ↑2
+18. 從前有條街 ↓3
+19. 流浪漢模擬器 ↓10
+20. 我在江湖開後宮 ↓8
+
+【iOS畅销榜 TOP20】
+1. Garena 傳說對決：冥定王牌版本 ↑5
+2. 星城-歡慶77幸運日 ↓1
+3. 寒霜啟示錄 ↓1
+4. 心動小鎮 ↑93
+5. Kingshot ↓2
+6. Pikmin Bloom ↑1
+7. 貓咪大戰爭 ↓3
+8. 麻將明星3缺1 ↑2
+9. PUBG MOBILE：絕地求生M →
+10. RO仙境傳説：世界之旅 ↓5
+11. Garena® 三角洲行動 ↑43
+12. 糖果傳奇 ↑4
+13. 緋聞港口：合併&故事 ↓1
+14. 最後的戰爭 - Last War ↓1
+15. 運氣拚輸贏 ↓1
+16. 火炬之光：無限 新入榜
+17. Sky光·遇 ↑72
+18. 崩壞：星穹鐵道 ↓10
+19. 豪神娛樂城 ↓2
+20. 嚦咕麻將-戰神賽特、雷神之錘、超八、賽馬、麻將、魚機、老虎機 ↑1
+
+【Google免费榜 TOP20】
+1. Smash Fest! ↑2
+2. Meowdoku: Brain Puzzle Games ↓1
+3. Roblox ↓1
+4. Arrows – Puzzle Escape →
+5. Vita Mahjong →
+6. Amaze GO! →
+7. Block Blast! →
+8. Township →
+9. Gossip Harbor: Merge & Story →
+10. Bus Traffic Fever! →
+11. Total Battle: War Strategy ↑10
+12. Color Block: Combo Blast ↑1
+13. Mahjong Blast ↑6
+14. Yarn Loop ↑1
+15. MONOPOLY GO! ↑3
+16. Arrow Puzzle: Tap Puzzle Games ↓5
+17. Subway Surfers ↑8
+18. Tile Explorer - Triple Match ↑9
+19. EA SPORTS FC Soccer Mobile 26 ↑3
+20. Jewel Coloring ↓6
+
+【Google畅销榜 TOP20】
+1. Pokémon GO →
+2. MONOPOLY GO! →
+3. Roblox →
+4. Kingshot →
+5. Candy Crush Saga →
+6. Royal Match →
+7. Whiteout Survival →
+8. Gossip Harbor: Merge & Story →
+9. Last War:Survival Game →
+10. Township →
+11. Coin Master →
+12. Royal Kingdom →
+13. Toon Blast →
+14. Last Z: Survival Shooter →
+15. PUBG MOBILE →
+16. Evony: The King's Return →
+17. Fate/Grand Order (English) →
+18. Jackpot Party Casino Slots →
+19. Sword x Staff →
+20. Gardenscapes →
+
+
+========== 重点产品趋势图 ==========
+暂无足够历史数据生成趋势图。
