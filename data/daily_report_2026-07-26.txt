@@ -1,0 +1,165 @@
+【台湾手游榜单监控日报 V2.5】
+日期：2026-07-26
+
+========== 今日业务摘要 ==========
+重点风险/机会：发现 1 条 P0 级重点异动，需要优先关注。
+重点产品：新熱血江湖：世界：iOS畅销榜第58（↑12，近7日新高）；天堂W：iOS畅销榜第72（↓4）；楓之谷M：iOS畅销榜第63（↓3）；寒霜啟示錄：Google畅销榜第10（→，近7日新低）
+另有 1 个重点产品在下方详情中展示。
+优先查看：
+P0｜🔥 大幅上涨｜台湾｜iOS畅销榜｜新熱血江湖：世界：58（↑12）
+P1｜🔥 大幅上涨｜台湾｜iOS畅销榜｜心動小鎮：2（↑45）
+P1｜🔥 大幅上涨｜台湾｜iOS畅销榜｜Pokémon GO：5（↑17）
+
+========== 重点产品监控 ==========
+
+【新熱血江湖：世界】
+台湾｜iOS｜iOS畅销榜：58（↑12；近7日新高）
+
+【天堂W】
+台湾｜iOS｜iOS畅销榜：72（↓4）
+
+【楓之谷M】
+台湾｜iOS｜iOS畅销榜：63（↓3）
+
+【寒霜啟示錄】
+台湾｜Google｜Google免费榜：97（↑2）
+台湾｜Google｜Google畅销榜：10（→；近7日新低）
+台湾｜iOS｜iOS免费榜：33（→；近7日新低）
+台湾｜iOS｜iOS畅销榜：6（↓4；近7日新低）
+
+【Last War: Survival】
+台湾｜Google｜Google畅销榜：9（→）
+台湾｜iOS｜iOS畅销榜：18（↑2）
+
+========== 榜单异动预警 ==========
+
+【P0｜重点产品大幅波动】
+🔥 大幅上涨｜台湾｜iOS畅销榜｜新熱血江湖：世界：58（↑12）
+
+【P1｜重点关注异动】
+🔥 大幅上涨｜台湾｜iOS畅销榜｜心動小鎮：2（↑45）
+🔥 大幅上涨｜台湾｜iOS畅销榜｜Pokémon GO：5（↑17）
+
+【P2｜普通榜单异动】
+🔥 大幅上涨｜台湾｜iOS免费榜｜Dark War:Survival：32（↑52）
+⚠️ 大幅下跌｜台湾｜iOS免费榜｜最終曙光（Last Light）：100（↓47）
+🔥 大幅上涨｜台湾｜iOS免费榜｜Toon Tone：29（↑45）
+⚠️ 大幅下跌｜台湾｜iOS免费榜｜從前有條街：96（↓41）
+🔥 大幅上涨｜台湾｜iOS免费榜｜槍手貓咪：放置射擊RPG：52（↑39）
+⚠️ 大幅下跌｜台湾｜iOS免费榜｜Cube Land Puzzle Game：93（↓36）
+🔥 大幅上涨｜台湾｜iOS畅销榜｜信長之野望 真戰：62（↑33）
+⚠️ 大幅下跌｜台湾｜iOS畅销榜｜火炬之光：無限：76（↓33）
+⚠️ 大幅下跌｜台湾｜iOS畅销榜｜NBA巔峰對決：93（↓32）
+⚠️ 大幅下跌｜台湾｜iOS免费榜｜Amaze GO! - 箭頭解謎：84（↓31）
+🔥 大幅上涨｜台湾｜iOS畅销榜｜弓箭傳說2：43（↑30）
+🔥 大幅上涨｜台湾｜iOS畅销榜｜無盡輪迴：鬼域摸金：45（↑30）
+🔥 大幅上涨｜台湾｜iOS畅销榜｜齒輪獸衛隊：68（↑30）
+⚠️ 大幅下跌｜台湾｜iOS免费榜｜迷霧小鎮: 合成遊戲 (Mystery Town)：95（↓29）
+⚠️ 大幅下跌｜台湾｜iOS免费榜｜莉莉的冒險衣櫥：44（↓27）
+🔥 大幅上涨｜台湾｜iOS免费榜｜我的法杖有點強：放置RPG：69（↑27）
+🔥 大幅上涨｜台湾｜iOS免费榜｜夢想小鎮 (Township)：72（↑27）
+🔥 大幅上涨｜台湾｜iOS免费榜｜好萊塢合成：星夢逆襲：23（↑25）
+🔥 大幅上涨｜台湾｜iOS免费榜｜三國志KING：74（↑24）
+⚠️ 大幅下跌｜台湾｜iOS免费榜｜EA SPORTS FC™ 足球 Mobile 2026：60（↓21）
+🔥 大幅上涨｜台湾｜iOS畅销榜｜夢想小鎮 (Township)：73（↑21）
+🔥 大幅上涨｜台湾｜iOS免费榜｜漫遊小鎮®：合併&故事：51（↑20）
+⚠️ 大幅下跌｜台湾｜iOS畅销榜｜全明星街球派對：89（↓18）
+🔥 大幅上涨｜台湾｜Google免费榜｜hololive Dreams：29（↑17）
+⚠️ 大幅下跌｜台湾｜iOS畅销榜｜生存33天：74（↓17）
+⚠️ 大幅下跌｜台湾｜iOS免费榜｜PUBG MOBILE：絕地求生M：75（↓17）
+🔥 大幅上涨｜台湾｜iOS免费榜｜魔法琴键3：77（↑17）
+另有 44 条异动未展示。
+
+========== 台湾 ==========
+
+【iOS免费榜 TOP20】
+1. Meowdoku! ↑3
+2. 天天拼詞王 ↓1
+3. 瑪奇 Mobile →
+4. 赵云与阿斗 ↑1
+5. hololive Dreams ↓3
+6. Pikmin Bloom ↑2
+7. 醫起救世界：鼠裡逃生 ↓1
+8. 家族物語 - 治癒系世代模擬 ↑1
+9. 蘇丹的遊戲 ↓2
+10. Smash Fest! →
+11. Royal Kingdom →
+12. 超能戰爭 ↑4
+13. Block Blast! ↑2
+14. Block Out! - Color Sort Puzzle ↓1
+15. Bus Traffic Fever! ↓1
+16. 肥鵝美食街 ↑2
+17. Roblox ↑2
+18. Castle Busters ↑4
+19. 食光旅行 ↑1
+20. 緋聞港口：合併&故事 ↑3
+
+【iOS畅销榜 TOP20】
+1. Garena 傳說對決：冥定王牌版本 ↑4
+2. 心動小鎮 ↑45
+3. 星城-歡慶77幸運日 ↓2
+4. Pikmin Bloom ↑2
+5. Pokémon GO ↑17
+6. 寒霜啟示錄 ↓4
+7. Kingshot →
+8. 瑪奇 Mobile ↓4
+9. hololive Dreams ↓6
+10. 麻將明星3缺1 ↓2
+11. 糖果傳奇 ↑1
+12. 緋聞港口：合併&故事 ↑3
+13. 豪神娛樂城 ↑4
+14. 包你發-王識賢、安心亞推薦休閒娛樂城-老虎機、捕魚機多款遊戲 ↑4
+15. 楓之谷：放置冒險記 ↓6
+16. PUBG MOBILE：絕地求生M ↓2
+17. EA SPORTS FC™ 足球 Mobile 2026 ↓1
+18. 最後的戰爭 - Last War ↑2
+19. 金好運 ↑4
+20. 嚦咕麻將-戰神賽特、雷神之錘、超八、賽馬、麻將、魚機、老虎機 ↓1
+
+【Google免费榜 TOP20】
+1. Smash Fest! →
+2. Roblox →
+3. Meowdoku: Brain Puzzle Games →
+4. Arrows – Puzzle Escape →
+5. Slow Mo Strike: Knives in Time →
+6. Vita Mahjong ↑1
+7. Block Blast! ↓1
+8. Royal Smash! - Physics Puzzle →
+9. Amaze GO! →
+10. Gossip Harbor: Merge & Story →
+11. Mahjong Blast →
+12. Township →
+13. Bus Traffic Fever! →
+14. Block Craft 3D：Building Game →
+15. Melon Sandbox ↑8
+16. Yarn Loop ↑2
+17. Sled Surfers ↓2
+18. MONOPOLY GO! ↓1
+19. Total Battle: War Strategy ↓3
+20. Magic Sort! ↑5
+
+【Google畅销榜 TOP20】
+1. MONOPOLY GO! →
+2. Roblox →
+3. Candy Crush Saga →
+4. Royal Match →
+5. Gossip Harbor: Merge & Story →
+6. Pokémon GO →
+7. Kingshot →
+8. Township →
+9. Last War:Survival Game →
+10. Whiteout Survival →
+11. Coin Master →
+12. Royal Kingdom →
+13. Last Z: Survival Shooter →
+14. Total Battle: War Strategy →
+15. Toon Blast →
+16. Evony: The King's Return →
+17. Free Fire: 9th Anniversary →
+18. Umamusume: Pretty Derby →
+19. Gardenscapes →
+20. Sword x Staff →
+
+
+========== 重点产品趋势图 ==========
+暂无足够历史数据生成趋势图。
