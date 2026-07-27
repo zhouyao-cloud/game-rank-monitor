@@ -2,6 +2,7 @@
 
 import os
 import re
+import json
 import requests
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -45,6 +46,7 @@ SUMMARY_ALERT_LIMIT = 5
 ALERT_DISPLAY_LIMIT = 30
 PRE_REGISTRATION_DISPLAY_LIMIT = 20
 PRE_REGISTRATION_DETAIL_LIMIT = 30
+APP_STORE_PRE_ORDER_DETAIL_LIMIT = 20
 
 PRE_REGISTRATION_SOURCES = [
     {
@@ -56,6 +58,14 @@ PRE_REGISTRATION_SOURCES = [
         "name": "Google Play游戏首页预注册",
         "platform": "android",
         "url": "https://play.google.com/store/games?gl=TW&hl=zh_TW",
+    },
+]
+
+APP_STORE_PRE_ORDER_SOURCES = [
+    {
+        "name": "App Store搶先預訂",
+        "platform": "ios",
+        "url": "https://apps.apple.com/tw/iphone/games",
     },
 ]
 
@@ -337,9 +347,90 @@ def to_absolute_google_play_url(href):
     return "https://play.google.com/" + href
 
 
+def extract_app_store_app_id(href):
+    match = re.search(r"/id(\d+)", href)
+    if not match:
+        return ""
+    return match.group(1).strip()
+
+
+def to_absolute_app_store_url(href):
+    if href.startswith("http"):
+        return href
+    if href.startswith("/"):
+        return "https://apps.apple.com" + href
+    return "https://apps.apple.com/" + href
+
+
 def contains_rpg_signal(*values):
     text = " ".join(str(value or "") for value in values).lower()
     return any(keyword.lower() in text for keyword in RPG_KEYWORDS)
+
+
+def compact_text(value):
+    if value is None:
+        return ""
+    try:
+        if pd.isna(value):
+            return ""
+    except TypeError:
+        pass
+    return re.sub(r"\s+", " ", str(value)).strip()
+
+
+def find_json_value(data, target_keys):
+    if isinstance(data, dict):
+        for key, value in data.items():
+            if key in target_keys and value:
+                if isinstance(value, (dict, list)):
+                    found = find_json_value(value, target_keys)
+                    if found:
+                        return found
+                    continue
+                return str(value)
+            found = find_json_value(value, target_keys)
+            if found:
+                return found
+    elif isinstance(data, list):
+        for item in data:
+            found = find_json_value(item, target_keys)
+            if found:
+                return found
+    return ""
+
+
+def find_json_named_child(data, parent_keys):
+    if isinstance(data, dict):
+        for key, value in data.items():
+            if key in parent_keys and value:
+                name = find_json_value(value, {"name"})
+                if name:
+                    return name
+            found = find_json_named_child(value, parent_keys)
+            if found:
+                return found
+    elif isinstance(data, list):
+        for item in data:
+            found = find_json_named_child(item, parent_keys)
+            if found:
+                return found
+    return ""
+
+
+def extract_app_store_release_date(page_text):
+    patterns = [
+        r"預計\s*([0-9]{4}\s*年\s*[0-9]{1,2}\s*月\s*[0-9]{1,2}\s*日)",
+        r"預計\s*([0-9]{4}\s*年\s*[0-9]{1,2}\s*月)",
+        r"Expected\s+([A-Z][a-z]{2,9}\s+[0-9]{1,2},\s+[0-9]{4})",
+        r"Expected\s+([A-Z][a-z]{2,9}\s+[0-9]{4})",
+    ]
+
+    for pattern in patterns:
+        match = re.search(pattern, page_text)
+        if match:
+            return compact_text(match.group(1))
+
+    return ""
 
 
 def fetch_google_play_app_detail(app_id, url):
@@ -348,6 +439,7 @@ def fetch_google_play_app_detail(app_id, url):
         "developer": "",
         "category": "",
         "is_rpg": False,
+        "release_date": "",
     }
 
     try:
@@ -390,7 +482,85 @@ def fetch_google_play_app_detail(app_id, url):
     return detail
 
 
-def fetch_pre_registration_games():
+def fetch_app_store_app_detail(app_id, url):
+    detail = {
+        "app_name": "",
+        "developer": "",
+        "category": "",
+        "is_rpg": False,
+        "release_date": "",
+        "is_pre_order": False,
+    }
+
+    try:
+        detail_url = url
+        if "l=" not in detail_url:
+            separator = "&" if "?" in detail_url else "?"
+            detail_url = f"{detail_url}{separator}l=zh-Hant-TW"
+
+        headers = {
+            "User-Agent": "Mozilla/5.0",
+            "Accept-Language": "zh-TW,zh;q=0.9,en;q=0.8",
+        }
+        resp = requests.get(detail_url, headers=headers, timeout=30)
+        resp.raise_for_status()
+        soup = BeautifulSoup(resp.text, "lxml")
+
+        title = soup.find("h1")
+        if title:
+            detail["app_name"] = title.get_text(" ", strip=True)
+
+        for script in soup.select("script[type='application/ld+json']"):
+            raw_json = script.string or script.get_text()
+            try:
+                payload = json.loads(raw_json)
+            except Exception:
+                continue
+
+            detail["app_name"] = detail["app_name"] or compact_text(find_json_value(payload, {"name"}))
+            detail["developer"] = detail["developer"] or compact_text(
+                find_json_named_child(payload, {"author", "publisher"})
+            )
+            detail["category"] = detail["category"] or compact_text(find_json_value(payload, {"applicationCategory", "genre"}))
+            detail["release_date"] = detail["release_date"] or compact_text(find_json_value(
+                payload,
+                {"expectedReleaseDate", "releaseDate", "datePublished"},
+            ))
+
+        page_text = soup.get_text("\n", strip=True)
+
+        if not detail["developer"]:
+            developer_match = re.search(r"(?:開發者|Developer)\s*\n?\s*([^\n]+)", page_text)
+            if developer_match:
+                detail["developer"] = compact_text(developer_match.group(1))
+
+        for category_name in ["角色扮演", "Role-Playing", "Role Playing", "冒險", "Adventure", "策略", "Strategy"]:
+            if category_name in page_text:
+                detail["category"] = category_name
+                break
+
+        detail["release_date"] = detail["release_date"] or extract_app_store_release_date(page_text)
+        detail["is_pre_order"] = any(
+            marker in page_text
+            for marker in ["搶先預訂", "預訂", "Expected", "Pre-Order", "Pre-order"]
+        )
+        detail["is_rpg"] = contains_rpg_signal(
+            detail["app_name"],
+            detail["category"],
+            page_text[:5000],
+        )
+
+    except Exception as e:
+        print(f"[WARN] App Store详情抓取失败 {app_id}: {e}")
+
+    if not detail["app_name"]:
+        detail["app_name"] = app_id
+
+    detail["url"] = url
+    return detail
+
+
+def fetch_google_play_pre_registration_games():
     rows = []
     seen = set()
 
@@ -446,6 +616,7 @@ def fetch_pre_registration_games():
                     "developer": detail.get("developer", ""),
                     "category": detail.get("category", ""),
                     "is_rpg": bool(detail.get("is_rpg")),
+                    "release_date": detail.get("release_date", ""),
                     "url": candidate["url"],
                 })
 
@@ -454,6 +625,95 @@ def fetch_pre_registration_games():
         except Exception as e:
             print(f"[ERROR] {source['name']}: {e}")
 
+    return rows
+
+
+def fetch_app_store_pre_order_games():
+    rows = []
+    seen = set()
+
+    for source in APP_STORE_PRE_ORDER_SOURCES:
+        if len(rows) >= APP_STORE_PRE_ORDER_DETAIL_LIMIT:
+            break
+
+        try:
+            remaining_slots = APP_STORE_PRE_ORDER_DETAIL_LIMIT - len(rows)
+            headers = {
+                "User-Agent": "Mozilla/5.0",
+                "Accept-Language": "zh-TW,zh;q=0.9,en;q=0.8",
+            }
+            resp = requests.get(source["url"], headers=headers, timeout=30)
+            resp.raise_for_status()
+
+            html = resp.text
+            section_start = html.find("搶先預訂")
+            section_html = html
+
+            if section_start >= 0:
+                section_end = len(html)
+                for marker in ["熱門 RPG", "熱門動作", "熱門休閒", "付費遊戲排行", "瀏覽類別"]:
+                    marker_pos = html.find(marker, section_start + 1)
+                    if marker_pos > 0:
+                        section_end = min(section_end, marker_pos)
+                section_html = html[section_start:section_end]
+
+            soup = BeautifulSoup(section_html, "lxml")
+            candidates = []
+
+            for link in soup.select("a[href*='/tw/app/'][href*='/id']"):
+                href = link.get("href", "")
+                app_id = extract_app_store_app_id(href)
+
+                if not app_id or app_id in seen:
+                    continue
+
+                app_name = link.get_text(" ", strip=True)
+                url = to_absolute_app_store_url(href.split("?")[0])
+                candidates.append({
+                    "app_id": app_id,
+                    "app_name": app_name,
+                    "url": url,
+                })
+                seen.add(app_id)
+
+                if len(candidates) >= remaining_slots:
+                    break
+
+            for candidate in candidates:
+                detail = fetch_app_store_app_detail(candidate["app_id"], candidate["url"])
+
+                if not detail.get("is_pre_order") and section_start < 0:
+                    continue
+
+                app_name = detail.get("app_name") or candidate["app_name"] or candidate["app_id"]
+                rows.append({
+                    "date": TODAY,
+                    "platform": source["platform"],
+                    "region": "tw",
+                    "region_name": REGIONS.get("tw", "台湾"),
+                    "source_name": source["name"],
+                    "source_url": source["url"],
+                    "app_name": app_name,
+                    "app_id": candidate["app_id"],
+                    "developer": detail.get("developer", ""),
+                    "category": detail.get("category", ""),
+                    "is_rpg": bool(detail.get("is_rpg")),
+                    "release_date": detail.get("release_date", ""),
+                    "url": candidate["url"],
+                })
+
+            print(f"[OK] {source['name']}: {len(rows)}")
+
+        except Exception as e:
+            print(f"[ERROR] {source['name']}: {e}")
+
+    return rows
+
+
+def fetch_pre_registration_games():
+    rows = []
+    rows.extend(fetch_google_play_pre_registration_games())
+    rows.extend(fetch_app_store_pre_order_games())
     return rows
 
 
@@ -516,6 +776,45 @@ def collect_new_pre_registrations(pre_registration_df, history):
         axis=1,
     )
     return current[current["is_new"]]
+
+
+def count_pre_registration_release_dates(pre_registration_df):
+    if pre_registration_df.empty or "release_date" not in pre_registration_df.columns:
+        return 0
+    return int(pre_registration_df["release_date"].apply(compact_text).astype(bool).sum())
+
+
+def format_pre_registration_platform(platform):
+    if platform == "ios":
+        return "iOS"
+    if platform == "android":
+        return "Google Play"
+    return compact_text(platform) or "未知平台"
+
+
+def format_pre_registration_item(row):
+    new_text = "新发现｜" if bool(row.get("is_new")) else ""
+    platform_text = format_pre_registration_platform(row.get("platform"))
+    category_text = compact_text(row.get("category"))
+    developer_text = compact_text(row.get("developer"))
+    release_date = compact_text(row.get("release_date"))
+    url = compact_text(row.get("url"))
+
+    parts = [
+        f"{new_text}{platform_text}",
+        compact_text(row.get("app_name")),
+    ]
+
+    if category_text:
+        parts.append(category_text)
+    if developer_text:
+        parts.append(developer_text)
+    if release_date:
+        parts.append(f"预计上线：{release_date}")
+    if url:
+        parts.append(url)
+
+    return "｜".join(parts)
 
 
 def has_previous_history(history):
@@ -842,12 +1141,22 @@ def build_business_summary(lines, today_df, history, pre_registration_df, pre_re
         lines.append("预注册：今日未抓取到预注册游戏数据。")
     elif not has_previous_pre_registration_history(pre_registration_history):
         rpg_count = int(pre_registration_df["is_rpg"].sum())
+        ios_count = int((pre_registration_df["platform"] == "ios").sum())
+        android_count = int((pre_registration_df["platform"] == "android").sum())
+        release_date_count = count_pre_registration_release_dates(pre_registration_df)
         lines.append(
-            f"预注册：今日建立基准，当前发现 {len(pre_registration_df)} 款预注册游戏，其中角色扮演相关 {rpg_count} 款。"
+            f"预注册：今日建立基准，当前发现 {len(pre_registration_df)} 款预注册游戏"
+            f"（iOS {ios_count} / Google Play {android_count}），角色扮演相关 {rpg_count} 款，"
+            f"已抓取预计上线日期 {release_date_count} 款。"
         )
     elif not new_pre_registrations.empty:
+        new_ios_count = int((new_pre_registrations["platform"] == "ios").sum())
+        new_android_count = int((new_pre_registrations["platform"] == "android").sum())
+        new_release_date_count = count_pre_registration_release_dates(new_pre_registrations)
         lines.append(
-            f"预注册：今日新发现 {len(new_pre_registrations)} 款预注册游戏，其中角色扮演相关 {len(new_rpg_pre_registrations)} 款。"
+            f"预注册：今日新发现 {len(new_pre_registrations)} 款预注册游戏"
+            f"（iOS {new_ios_count} / Google Play {new_android_count}），"
+            f"角色扮演相关 {len(new_rpg_pre_registrations)} 款，已抓取预计上线日期 {new_release_date_count} 款。"
         )
     else:
         lines.append("预注册：今日暂无新发现的预注册游戏。")
@@ -995,16 +1304,26 @@ def build_pre_registration_section(lines, pre_registration_df, pre_registration_
     new_items = current[current["is_new"]]
     rpg_items = current[current["is_rpg"]]
     new_rpg_items = new_items[new_items["is_rpg"]] if not new_items.empty else pd.DataFrame()
+    ios_count = int((current["platform"] == "ios").sum())
+    android_count = int((current["platform"] == "android").sum())
+    release_date_count = count_pre_registration_release_dates(current)
 
     if not has_previous_pre_registration_history(pre_registration_history):
         lines.append(
-            f"今日建立预注册基准：共发现 {len(current)} 款预注册游戏，其中角色扮演相关 {len(rpg_items)} 款。"
+            f"今日建立预注册基准：共发现 {len(current)} 款预注册游戏"
+            f"（iOS {ios_count} / Google Play {android_count}），其中角色扮演相关 {len(rpg_items)} 款，"
+            f"已抓取预计上线日期 {release_date_count} 款。"
         )
     elif new_items.empty:
         lines.append(f"今日暂无新发现的预注册游戏；当前仍在监控 {len(current)} 款。")
     else:
+        new_ios_count = int((new_items["platform"] == "ios").sum())
+        new_android_count = int((new_items["platform"] == "android").sum())
+        new_release_date_count = count_pre_registration_release_dates(new_items)
         lines.append(
-            f"今日新发现 {len(new_items)} 款预注册游戏，其中角色扮演相关 {len(new_rpg_items)} 款。"
+            f"今日新发现 {len(new_items)} 款预注册游戏"
+            f"（iOS {new_ios_count} / Google Play {new_android_count}），"
+            f"其中角色扮演相关 {len(new_rpg_items)} 款，已抓取预计上线日期 {new_release_date_count} 款。"
         )
 
     priority_items = pd.concat([new_rpg_items, rpg_items], ignore_index=True)
@@ -1014,12 +1333,7 @@ def build_pre_registration_section(lines, pre_registration_df, pre_registration_
         lines.append("【角色扮演优先关注】")
 
         for _, row in priority_items.head(PRE_REGISTRATION_DISPLAY_LIMIT).iterrows():
-            new_text = "新发现｜" if bool(row.get("is_new")) else ""
-            category_text = f"｜{row['category']}" if str(row.get("category", "")).strip() else ""
-            developer_text = f"｜{row['developer']}" if str(row.get("developer", "")).strip() else ""
-            lines.append(
-                f"{new_text}{row['app_name']}{category_text}{developer_text}｜{row['url']}"
-            )
+            lines.append(format_pre_registration_item(row))
     else:
         lines.append("当前未识别到角色扮演相关预注册游戏。")
 
@@ -1029,8 +1343,7 @@ def build_pre_registration_section(lines, pre_registration_df, pre_registration_
         lines.append("【其他新发现】")
 
         for _, row in other_new_items.head(10).iterrows():
-            category_text = f"｜{row['category']}" if str(row.get("category", "")).strip() else ""
-            lines.append(f"{row['app_name']}{category_text}｜{row['url']}")
+            lines.append(format_pre_registration_item(row))
 
     lines.append("")
 
@@ -1202,7 +1515,7 @@ def build_report(today_rows, pre_registration_rows):
     pre_registration_df = pd.DataFrame(pre_registration_rows)
 
     lines = []
-    lines.append("【台湾手游榜单监控日报 V2.6】")
+    lines.append("【台湾手游榜单监控日报 V2.7】")
     lines.append(f"日期：{TODAY}")
     lines.append("")
 
