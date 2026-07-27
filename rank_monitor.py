@@ -2,11 +2,11 @@
 
 import os
 import re
-from datetime import datetime, timedelta
-
-import matplotlib.pyplot as plt
-import pandas as pd
 import requests
+import pandas as pd
+import matplotlib.pyplot as plt
+
+from datetime import datetime, timedelta
 from bs4 import BeautifulSoup
 
 from config import (
@@ -22,10 +22,12 @@ from config import (
     FEISHU_WEBHOOK,
 )
 
+
 TODAY = datetime.now().strftime("%Y-%m-%d")
 DATA_DIR = "data"
 CHART_DIR = os.path.join(DATA_DIR, "charts")
 HISTORY_FILE = os.path.join(DATA_DIR, "rank_history.csv")
+PRE_REGISTRATION_HISTORY_FILE = os.path.join(DATA_DIR, "pre_registration_history.csv")
 
 CHART_RANK_LIMITS = {
     ("ios", "top-free"): 200,
@@ -41,6 +43,39 @@ KEY_CHARTS = {
 
 SUMMARY_ALERT_LIMIT = 5
 ALERT_DISPLAY_LIMIT = 30
+PRE_REGISTRATION_DISPLAY_LIMIT = 20
+PRE_REGISTRATION_DETAIL_LIMIT = 30
+
+PRE_REGISTRATION_SOURCES = [
+    {
+        "name": "Google Play预注册游戏",
+        "platform": "android",
+        "url": "https://play.google.com/store/apps/collection/promotion_3000000d51_pre_registration_games?gl=TW&hl=zh_TW",
+    },
+    {
+        "name": "Google Play游戏首页预注册",
+        "platform": "android",
+        "url": "https://play.google.com/store/games?gl=TW&hl=zh_TW",
+    },
+]
+
+RPG_KEYWORDS = [
+    "role playing",
+    "角色扮演",
+    "rpg",
+    "mmorpg",
+    "idle rpg",
+    "action rpg",
+    "card rpg",
+    "roguelike",
+    "fantasy",
+    "英雄",
+    "勇者",
+    "冒險",
+    "奇幻",
+    "魔法",
+]
+
 ANDROID_NON_GAME_KEYWORDS = [
     "all email",
     "app dual space",
@@ -67,15 +102,19 @@ def get_feishu_webhook():
 def get_github_base_url():
     repo = os.getenv("GITHUB_REPOSITORY", "")
     branch = os.getenv("GITHUB_REF_NAME", "main")
+
     if not repo:
         return ""
+
     return f"https://github.com/{repo}/blob/{branch}"
 
 
 def to_github_file_url(file_path):
     base_url = get_github_base_url()
+
     if not base_url:
         return ""
+
     normalized_path = file_path.replace(os.sep, "/")
     return f"{base_url}/{normalized_path}"
 
@@ -85,6 +124,7 @@ def fetch_ios_chart(region, chart_type, limit=200):
         "top-free": "topfreeapplications",
         "top-grossing": "topgrossingapplications",
     }
+
     rss_type = chart_map.get(chart_type)
     if not rss_type:
         return []
@@ -94,11 +134,14 @@ def fetch_ios_chart(region, chart_type, limit=200):
     try:
         resp = requests.get(url, timeout=30)
         resp.raise_for_status()
-        entries = resp.json().get("feed", {}).get("entry", [])
+        data = resp.json()
+
+        entries = data.get("feed", {}).get("entry", [])
         if isinstance(entries, dict):
             entries = [entries]
 
         rows = []
+
         for idx, item in enumerate(entries, start=1):
             rows.append({
                 "date": TODAY,
@@ -115,6 +158,7 @@ def fetch_ios_chart(region, chart_type, limit=200):
 
         print(f"[OK] iOS {region} {chart_type}: {len(rows)}")
         return rows
+
     except Exception as e:
         print(f"[ERROR] iOS {region} {chart_type}: {e}")
         return []
@@ -125,6 +169,7 @@ def fetch_android_chart(region, chart_type, limit=100):
         "free": f"https://www.appbrain.com/stats/google-play-rankings/top_free/game/{region}",
         "grossing": f"https://www.appbrain.com/stats/google-play-rankings/top_grossing/game/{region}",
     }
+
     url = chart_map.get(chart_type)
     if not url:
         return []
@@ -134,10 +179,11 @@ def fetch_android_chart(region, chart_type, limit=100):
             "User-Agent": "Mozilla/5.0",
             "Accept-Language": "zh-TW,zh;q=0.9,en;q=0.8",
         }
+
         resp = requests.get(url, headers=headers, timeout=30)
         resp.raise_for_status()
-        soup = BeautifulSoup(resp.text, "lxml")
 
+        soup = BeautifulSoup(resp.text, "lxml")
         rows = []
         seen = set()
         containers = soup.select("table, ol, ul, div")
@@ -151,18 +197,23 @@ def fetch_android_chart(region, chart_type, limit=100):
             for link in root.select("a[href^='/app/']"):
                 href = link.get("href", "")
                 text = link.get_text(strip=True)
+
                 if not text or text.startswith("View "):
                     continue
 
                 package_name = href.split("?")[0].rstrip("/").split("/")[-1].strip()
+
                 if not re.match(r"^[A-Za-z][A-Za-z0-9_]*(\.[A-Za-z0-9_]+)+$", package_name):
                     continue
+
                 if not is_android_game_candidate(text, package_name):
                     continue
+
                 if package_name in seen:
                     continue
 
                 seen.add(package_name)
+
                 rows.append({
                     "date": TODAY,
                     "platform": "android",
@@ -178,11 +229,13 @@ def fetch_android_chart(region, chart_type, limit=100):
 
                 if len(rows) >= limit:
                     break
+
             if len(rows) >= limit:
                 break
 
         print(f"[OK] Android {region} {chart_type}: {len(rows)}")
         return rows
+
     except Exception as e:
         print(f"[ERROR] Android {region} {chart_type}: {e}")
         return []
@@ -210,6 +263,7 @@ def clean_rank_rows(df):
 
     parts = []
     group_cols = ["date", "platform", "region", "chart_type"]
+
     for group_key, group in cleaned.groupby(group_cols, sort=False):
         _, platform, _, chart_type = group_key
         limit = get_chart_rank_limit(platform, chart_type)
@@ -217,12 +271,15 @@ def clean_rank_rows(df):
         group = group.sort_values(["rank", "_row_order"])
         group = group.drop_duplicates(subset=["rank"], keep="last")
         group = group.drop_duplicates(subset=["app_id"], keep="first")
-        parts.append(group.sort_values("rank").head(limit))
+        group = group.sort_values("rank").head(limit)
+        parts.append(group)
 
     if not parts:
         return cleaned.drop(columns=["_row_order"]).iloc[0:0]
 
-    return pd.concat(parts, ignore_index=True).drop(columns=["_row_order"])
+    cleaned = pd.concat(parts, ignore_index=True)
+    cleaned = cleaned.drop(columns=["_row_order"])
+    return cleaned
 
 
 def save_rows(rows):
@@ -231,12 +288,13 @@ def save_rows(rows):
         return
 
     df = clean_rank_rows(pd.DataFrame(rows))
+
     if os.path.exists(HISTORY_FILE):
         old = pd.read_csv(HISTORY_FILE)
         new_df = pd.concat([old, df], ignore_index=True)
         new_df = new_df.drop_duplicates(
             subset=["date", "platform", "region", "chart_type", "app_id"],
-            keep="last",
+            keep="last"
         )
         new_df = clean_rank_rows(new_df)
     else:
@@ -252,8 +310,218 @@ def load_history():
     return pd.read_csv(HISTORY_FILE)
 
 
+def load_pre_registration_history():
+    if not os.path.exists(PRE_REGISTRATION_HISTORY_FILE):
+        return pd.DataFrame()
+    return pd.read_csv(PRE_REGISTRATION_HISTORY_FILE)
+
+
+def has_previous_pre_registration_history(history):
+    if history.empty:
+        return False
+    return not history[history["date"] < TODAY].empty
+
+
+def extract_google_play_app_id(href):
+    match = re.search(r"[?&]id=([^&]+)", href)
+    if not match:
+        return ""
+    return match.group(1).strip()
+
+
+def to_absolute_google_play_url(href):
+    if href.startswith("http"):
+        return href
+    if href.startswith("/"):
+        return "https://play.google.com" + href
+    return "https://play.google.com/" + href
+
+
+def contains_rpg_signal(*values):
+    text = " ".join(str(value or "") for value in values).lower()
+    return any(keyword.lower() in text for keyword in RPG_KEYWORDS)
+
+
+def fetch_google_play_app_detail(app_id, url):
+    detail = {
+        "app_name": "",
+        "developer": "",
+        "category": "",
+        "is_rpg": False,
+    }
+
+    try:
+        detail_url = f"https://play.google.com/store/apps/details?id={app_id}&gl=TW&hl=zh_TW"
+        headers = {
+            "User-Agent": "Mozilla/5.0",
+            "Accept-Language": "zh-TW,zh;q=0.9,en;q=0.8",
+        }
+        resp = requests.get(detail_url, headers=headers, timeout=30)
+        resp.raise_for_status()
+        soup = BeautifulSoup(resp.text, "lxml")
+
+        title = soup.find("h1")
+        if title:
+            detail["app_name"] = title.get_text(" ", strip=True)
+
+        dev_link = soup.select_one("a[href*='/store/apps/dev']")
+        if dev_link:
+            detail["developer"] = dev_link.get_text(" ", strip=True)
+
+        page_text = soup.get_text("\n", strip=True)
+        for category_name in ["角色扮演", "Role Playing", "冒險", "Adventure", "策略", "Strategy"]:
+            if category_name in page_text:
+                detail["category"] = category_name
+                break
+
+        detail["is_rpg"] = contains_rpg_signal(
+            detail["app_name"],
+            detail["category"],
+            page_text[:5000],
+        )
+
+    except Exception as e:
+        print(f"[WARN] Google Play详情抓取失败 {app_id}: {e}")
+
+    if not detail["app_name"]:
+        detail["app_name"] = app_id
+
+    detail["url"] = url
+    return detail
+
+
+def fetch_pre_registration_games():
+    rows = []
+    seen = set()
+
+    for source in PRE_REGISTRATION_SOURCES:
+        if len(rows) >= PRE_REGISTRATION_DETAIL_LIMIT:
+            break
+
+        try:
+            remaining_slots = PRE_REGISTRATION_DETAIL_LIMIT - len(rows)
+            headers = {
+                "User-Agent": "Mozilla/5.0",
+                "Accept-Language": "zh-TW,zh;q=0.9,en;q=0.8",
+            }
+            resp = requests.get(source["url"], headers=headers, timeout=30)
+            resp.raise_for_status()
+            soup = BeautifulSoup(resp.text, "lxml")
+
+            links = soup.select("a[href*='/store/apps/details?id=']")
+            candidates = []
+
+            for link in links:
+                href = link.get("href", "")
+                app_id = extract_google_play_app_id(href)
+
+                if not app_id or app_id in seen:
+                    continue
+
+                app_name = link.get_text(" ", strip=True)
+                url = to_absolute_google_play_url(href.split("&")[0])
+                candidates.append({
+                    "app_id": app_id,
+                    "app_name": app_name,
+                    "url": url,
+                })
+                seen.add(app_id)
+
+                if len(candidates) >= remaining_slots:
+                    break
+
+            for candidate in candidates:
+                detail = fetch_google_play_app_detail(candidate["app_id"], candidate["url"])
+                app_name = detail.get("app_name") or candidate["app_name"] or candidate["app_id"]
+
+                rows.append({
+                    "date": TODAY,
+                    "platform": source["platform"],
+                    "region": "tw",
+                    "region_name": REGIONS.get("tw", "台湾"),
+                    "source_name": source["name"],
+                    "source_url": source["url"],
+                    "app_name": app_name,
+                    "app_id": candidate["app_id"],
+                    "developer": detail.get("developer", ""),
+                    "category": detail.get("category", ""),
+                    "is_rpg": bool(detail.get("is_rpg")),
+                    "url": candidate["url"],
+                })
+
+            print(f"[OK] {source['name']}: {len(candidates)}")
+
+        except Exception as e:
+            print(f"[ERROR] {source['name']}: {e}")
+
+    return rows
+
+
+def save_pre_registration_rows(rows):
+    if not rows:
+        print("[WARN] 无预注册数据可保存")
+        return
+
+    df = pd.DataFrame(rows)
+
+    if os.path.exists(PRE_REGISTRATION_HISTORY_FILE):
+        old = pd.read_csv(PRE_REGISTRATION_HISTORY_FILE)
+        first_seen_map = (
+            old.sort_values("date")
+            .drop_duplicates(subset=["platform", "region", "app_id"], keep="first")
+            .set_index(["platform", "region", "app_id"])["first_seen_date"]
+            .to_dict()
+            if "first_seen_date" in old.columns else {}
+        )
+        df["first_seen_date"] = df.apply(
+            lambda row: first_seen_map.get(
+                (row["platform"], row["region"], row["app_id"]),
+                TODAY,
+            ),
+            axis=1,
+        )
+        new_df = pd.concat([old, df], ignore_index=True)
+        new_df = new_df.drop_duplicates(
+            subset=["date", "platform", "region", "app_id"],
+            keep="last",
+        )
+    else:
+        df["first_seen_date"] = TODAY
+        new_df = df
+
+    new_df.to_csv(PRE_REGISTRATION_HISTORY_FILE, index=False, encoding="utf-8-sig")
+    print(f"[OK] 预注册数据已保存：{PRE_REGISTRATION_HISTORY_FILE}")
+
+
+def is_new_pre_registration(row, history):
+    if history.empty:
+        return True
+
+    sub = history[
+        (history["platform"] == row["platform"]) &
+        (history["region"] == row["region"]) &
+        (history["app_id"].astype(str) == str(row["app_id"])) &
+        (history["date"] < TODAY)
+    ]
+    return sub.empty
+
+
+def collect_new_pre_registrations(pre_registration_df, history):
+    if pre_registration_df.empty:
+        return pd.DataFrame()
+
+    current = pre_registration_df.copy()
+    current["is_new"] = current.apply(
+        lambda row: is_new_pre_registration(row, history),
+        axis=1,
+    )
+    return current[current["is_new"]]
+
+
 def has_previous_history(history):
-    return not history.empty and not history[history["date"] < TODAY].empty
+    if history.empty:
+        return False
+    return not history[history["date"] < TODAY].empty
 
 
 def get_previous_rank(history, platform, region, chart_type, app_id):
@@ -267,12 +535,16 @@ def get_previous_rank(history, platform, region, chart_type, app_id):
         (history["app_id"].astype(str) == str(app_id)) &
         (history["date"] < TODAY)
     ]
+
     if sub.empty:
         return None
 
-    latest = sub[sub["date"] == sub["date"].max()]
+    latest_date = sub["date"].max()
+    latest = sub[sub["date"] == latest_date]
+
     if latest.empty:
         return None
+
     return int(latest.iloc[0]["rank"])
 
 
@@ -281,6 +553,7 @@ def format_change(today_rank, previous_rank):
         return "新入榜"
 
     diff = previous_rank - today_rank
+
     if diff > 0:
         return f"↑{diff}"
     if diff < 0:
@@ -307,29 +580,57 @@ def is_key_chart(platform, chart_type):
 def match_keyword_exact_or_contains(app_name, keyword):
     app_name = str(app_name).strip()
     keyword = str(keyword).strip()
+
     if not app_name or not keyword:
         return False
-    return app_name == keyword or keyword.lower() in app_name.lower()
+
+    if app_name == keyword:
+        return True
+
+    return keyword.lower() in app_name.lower()
 
 
 def match_watch_app(df, watch):
+    if df.empty:
+        return pd.DataFrame()
+
     matched_parts = []
+
     apple_ids = [str(x) for x in watch.get("apple_ids", []) if str(x).strip()]
     google_packages = [str(x) for x in watch.get("google_packages", []) if str(x).strip()]
     keywords = [str(x) for x in watch.get("keywords", []) if str(x).strip()]
 
     if apple_ids:
-        matched_parts.append(df[(df["platform"] == "ios") & (df["app_id"].astype(str).isin(apple_ids))])
+        matched_parts.append(
+            df[
+                (df["platform"] == "ios") &
+                (df["app_id"].astype(str).isin(apple_ids))
+            ]
+        )
+
     if google_packages:
-        matched_parts.append(df[(df["platform"] == "android") & (df["app_id"].astype(str).isin(google_packages))])
+        matched_parts.append(
+            df[
+                (df["platform"] == "android") &
+                (df["app_id"].astype(str).isin(google_packages))
+            ]
+        )
+
     for keyword in keywords:
-        matched_parts.append(df[df["app_name"].apply(lambda x: match_keyword_exact_or_contains(x, keyword))])
+        mask = df["app_name"].apply(
+            lambda x: match_keyword_exact_or_contains(x, keyword)
+        )
+        matched_parts.append(df[mask])
 
     if not matched_parts:
         return pd.DataFrame()
 
     matched = pd.concat(matched_parts, ignore_index=True)
-    return matched.drop_duplicates(subset=["platform", "region", "chart_type", "app_id"])
+    matched = matched.drop_duplicates(
+        subset=["platform", "region", "chart_type", "app_id"]
+    )
+
+    return matched
 
 
 def row_identity(row):
@@ -342,11 +643,16 @@ def row_identity(row):
 
 
 def build_watch_lookup(today_df):
+    if today_df.empty:
+        return {}
+
     watch_lookup = {}
+
     for watch in WATCH_APPS:
         matched = match_watch_app(today_df, watch)
         for _, watch_row in matched.iterrows():
             watch_lookup[row_identity(watch_row)] = watch["name"]
+
     return watch_lookup
 
 
@@ -374,11 +680,13 @@ def get_rank_series(history, row, days=TREND_DAYS):
 
 def format_trend_note(history, row):
     series = get_rank_series(history, row, days=TREND_DAYS)
+
     if len(series) < 2:
         return ""
 
     notes = []
     recent = series.tail(3)
+
     if len(recent) == 3:
         ranks = recent["rank"].tolist()
         if ranks[0] > ranks[1] > ranks[2]:
@@ -387,9 +695,11 @@ def format_trend_note(history, row):
             notes.append("近3日连续下滑")
 
     today_rank = int(series.iloc[-1]["rank"])
+
     if len(series) >= 3:
         best_rank = int(series["rank"].min())
         worst_rank = int(series["rank"].max())
+
         if today_rank == best_rank:
             notes.append(f"近{TREND_DAYS}日新高")
         elif today_rank == worst_rank:
@@ -407,6 +717,7 @@ def classify_alert(rank, diff, is_watch_app, is_key_chart_value):
         return "P2"
 
     magnitude = abs(diff)
+
     if is_watch_app and magnitude >= 10:
         return "P0"
     if is_watch_app and magnitude >= 5:
@@ -415,15 +726,20 @@ def classify_alert(rank, diff, is_watch_app, is_key_chart_value):
         return "P1"
     if rank <= 10 and magnitude >= 10:
         return "P1"
+
     return "P2"
 
 
 def collect_alerts(today_df, history):
+    if today_df.empty:
+        return []
+
     if not has_previous_history(history):
         return []
 
     watch_lookup = build_watch_lookup(today_df)
     alerts = []
+
     for _, row in today_df.iterrows():
         rank = int(row["rank"])
         previous_rank = get_previous_rank(
@@ -431,7 +747,7 @@ def collect_alerts(today_df, history):
             row["platform"],
             row["region"],
             row["chart_type"],
-            row["app_id"],
+            row["app_id"]
         )
         diff = change_value(rank, previous_rank)
 
@@ -447,13 +763,25 @@ def collect_alerts(today_df, history):
         priority = classify_alert(rank, diff, is_watch_app, is_key_chart_value)
 
         if diff is None:
-            text = f"🆕 新进榜TOP{NEW_ENTRY_ALERT_RANK}｜{row['region_name']}｜{chart_name}｜{rank}. {row['app_name']}"
+            direction = "新进榜"
+            text = (
+                f"🆕 新进榜TOP{NEW_ENTRY_ALERT_RANK}｜{row['region_name']}｜"
+                f"{chart_name}｜{rank}. {row['app_name']}"
+            )
             magnitude = NEW_ENTRY_ALERT_RANK - rank + 1
         elif diff > 0:
-            text = f"🔥 大幅上涨｜{row['region_name']}｜{chart_name}｜{row['app_name']}：{rank}（↑{diff}）"
+            direction = "上涨"
+            text = (
+                f"🔥 大幅上涨｜{row['region_name']}｜{chart_name}｜"
+                f"{row['app_name']}：{rank}（↑{diff}）"
+            )
             magnitude = abs(diff)
         else:
-            text = f"⚠️ 大幅下跌｜{row['region_name']}｜{chart_name}｜{row['app_name']}：{rank}（↓{abs(diff)}）"
+            direction = "下跌"
+            text = (
+                f"⚠️ 大幅下跌｜{row['region_name']}｜{chart_name}｜"
+                f"{row['app_name']}：{rank}（↓{abs(diff)}）"
+            )
             magnitude = abs(diff)
 
         alerts.append({
@@ -462,8 +790,12 @@ def collect_alerts(today_df, history):
             "watch_name": watch_name,
             "is_watch_app": is_watch_app,
             "is_key_chart": is_key_chart_value,
+            "direction": direction,
             "magnitude": magnitude,
             "rank": rank,
+            "app_name": row["app_name"],
+            "chart_name": chart_name,
+            "region_name": row["region_name"],
         })
 
     return sorted(
@@ -473,20 +805,29 @@ def collect_alerts(today_df, history):
             0 if item["is_watch_app"] else 1,
             -item["magnitude"],
             item["rank"],
-        ),
+        )
     )
 
 
-def build_business_summary(lines, today_df, history):
+def build_business_summary(lines, today_df, history, pre_registration_df, pre_registration_history):
     lines.append("========== 今日业务摘要 ==========")
-    if today_df.empty:
-        lines.append("今日未抓取到榜单数据，暂无法判断业务异动。")
+
+    if today_df.empty and pre_registration_df.empty:
+        lines.append("今日未抓取到榜单和预注册数据，暂无法判断业务异动。")
         lines.append("")
         return
 
     alerts = collect_alerts(today_df, history)
     p0_alerts = [item for item in alerts if item["priority"] == "P0"]
     p1_alerts = [item for item in alerts if item["priority"] == "P1"]
+    new_pre_registrations = collect_new_pre_registrations(
+        pre_registration_df,
+        pre_registration_history,
+    )
+    new_rpg_pre_registrations = (
+        new_pre_registrations[new_pre_registrations["is_rpg"]]
+        if not new_pre_registrations.empty else pd.DataFrame()
+    )
 
     if not has_previous_history(history):
         lines.append("今日主要用于建立历史基准，明日起可输出涨跌和连续趋势判断。")
@@ -497,37 +838,52 @@ def build_business_summary(lines, today_df, history):
     else:
         lines.append("重点风险/机会：暂无高优先级异动，整体波动处于常规范围。")
 
+    if pre_registration_df.empty:
+        lines.append("预注册：今日未抓取到预注册游戏数据。")
+    elif not has_previous_pre_registration_history(pre_registration_history):
+        rpg_count = int(pre_registration_df["is_rpg"].sum())
+        lines.append(
+            f"预注册：今日建立基准，当前发现 {len(pre_registration_df)} 款预注册游戏，其中角色扮演相关 {rpg_count} 款。"
+        )
+    elif not new_pre_registrations.empty:
+        lines.append(
+            f"预注册：今日新发现 {len(new_pre_registrations)} 款预注册游戏，其中角色扮演相关 {len(new_rpg_pre_registrations)} 款。"
+        )
+    else:
+        lines.append("预注册：今日暂无新发现的预注册游戏。")
+
     watch_highlights = []
-    for watch in WATCH_APPS:
-        matched = match_watch_app(today_df, watch)
-        if matched.empty:
-            continue
+    if not today_df.empty:
+        for watch in WATCH_APPS:
+            matched = match_watch_app(today_df, watch)
+            if matched.empty:
+                continue
 
-        matched = matched.copy()
-        matched["is_key_chart"] = matched.apply(
-            lambda row: is_key_chart(row["platform"], row["chart_type"]),
-            axis=1,
-        )
-        matched = matched.sort_values(
-            ["is_key_chart", "platform", "rank"],
-            ascending=[False, True, True],
-        )
+            matched = matched.copy()
+            matched["is_key_chart"] = matched.apply(
+                lambda row: is_key_chart(row["platform"], row["chart_type"]),
+                axis=1
+            )
+            matched = matched.sort_values(
+                ["is_key_chart", "platform", "rank"],
+                ascending=[False, True, True]
+            )
 
-        row = matched.iloc[0]
-        previous_rank = get_previous_rank(
-            history,
-            row["platform"],
-            row["region"],
-            row["chart_type"],
-            row["app_id"],
-        )
-        change = format_change(int(row["rank"]), previous_rank)
-        trend_note = format_trend_note(history, row)
-        chart_name = get_chart_name(row["platform"], row["chart_type"])
-        suffix = f"，{trend_note}" if trend_note else ""
-        watch_highlights.append(
-            f"{watch['name']}：{chart_name}第{int(row['rank'])}（{change}{suffix}）"
-        )
+            row = matched.iloc[0]
+            previous_rank = get_previous_rank(
+                history,
+                row["platform"],
+                row["region"],
+                row["chart_type"],
+                row["app_id"]
+            )
+            change = format_change(int(row["rank"]), previous_rank)
+            trend_note = format_trend_note(history, row)
+            chart_name = get_chart_name(row["platform"], row["chart_type"])
+            suffix = f"，{trend_note}" if trend_note else ""
+            watch_highlights.append(
+                f"{watch['name']}：{chart_name}第{int(row['rank'])}（{change}{suffix}）"
+            )
 
     if watch_highlights:
         lines.append("重点产品：" + "；".join(watch_highlights[:4]))
@@ -550,7 +906,11 @@ def build_business_summary(lines, today_df, history):
 def build_top_section(lines, today_df, history):
     for region, region_name in REGIONS.items():
         lines.append(f"========== {region_name} ==========")
-        for platform, chart_map in [("ios", IOS_CHARTS), ("android", ANDROID_CHARTS)]:
+
+        for platform, chart_map in [
+            ("ios", IOS_CHARTS),
+            ("android", ANDROID_CHARTS),
+        ]:
             for chart_type, chart_name in chart_map.items():
                 sub = today_df[
                     (today_df["platform"] == platform) &
@@ -559,6 +919,7 @@ def build_top_section(lines, today_df, history):
                 ].sort_values("rank")
 
                 lines.append(f"\n【{chart_name} TOP{TOP_N}】")
+
                 if sub.empty:
                     lines.append("暂无数据")
                     continue
@@ -569,41 +930,109 @@ def build_top_section(lines, today_df, history):
                         row["platform"],
                         row["region"],
                         row["chart_type"],
-                        row["app_id"],
+                        row["app_id"]
                     )
                     change = format_change(int(row["rank"]), previous_rank)
                     lines.append(f"{int(row['rank'])}. {row['app_name']} {change}")
+
         lines.append("")
 
 
 def build_watch_section(lines, today_df, history):
     lines.append("========== 重点产品监控 ==========")
+
     has_watch_result = False
 
     for watch in WATCH_APPS:
         matched = match_watch_app(today_df, watch)
+
         if matched.empty:
             continue
 
         has_watch_result = True
         lines.append(f"\n【{watch['name']}】")
+
         for _, row in matched.sort_values(["region", "platform", "chart_type", "rank"]).iterrows():
             previous_rank = get_previous_rank(
                 history,
                 row["platform"],
                 row["region"],
                 row["chart_type"],
-                row["app_id"],
+                row["app_id"]
             )
             change = format_change(int(row["rank"]), previous_rank)
+
             platform_name = "iOS" if row["platform"] == "ios" else "Google"
             chart_name = get_chart_name(row["platform"], row["chart_type"])
             trend_note = format_trend_note(history, row)
             trend_text = f"；{trend_note}" if trend_note else ""
-            lines.append(f"{row['region_name']}｜{platform_name}｜{chart_name}：{int(row['rank'])}（{change}{trend_text}）")
+
+            lines.append(
+                f"{row['region_name']}｜{platform_name}｜{chart_name}："
+                f"{int(row['rank'])}（{change}{trend_text}）"
+            )
 
     if not has_watch_result:
         lines.append("今日重点产品未进入已抓取榜单范围。")
+
+
+def build_pre_registration_section(lines, pre_registration_df, pre_registration_history):
+    lines.append("")
+    lines.append("========== 新游预注册监控 ==========")
+
+    if pre_registration_df.empty:
+        lines.append("今日未抓取到预注册游戏数据。")
+        lines.append("")
+        return
+
+    current = pre_registration_df.copy()
+    current["is_new"] = current.apply(
+        lambda row: is_new_pre_registration(row, pre_registration_history),
+        axis=1,
+    )
+    current = current.sort_values(["is_new", "is_rpg", "app_name"], ascending=[False, False, True])
+
+    new_items = current[current["is_new"]]
+    rpg_items = current[current["is_rpg"]]
+    new_rpg_items = new_items[new_items["is_rpg"]] if not new_items.empty else pd.DataFrame()
+
+    if not has_previous_pre_registration_history(pre_registration_history):
+        lines.append(
+            f"今日建立预注册基准：共发现 {len(current)} 款预注册游戏，其中角色扮演相关 {len(rpg_items)} 款。"
+        )
+    elif new_items.empty:
+        lines.append(f"今日暂无新发现的预注册游戏；当前仍在监控 {len(current)} 款。")
+    else:
+        lines.append(
+            f"今日新发现 {len(new_items)} 款预注册游戏，其中角色扮演相关 {len(new_rpg_items)} 款。"
+        )
+
+    priority_items = pd.concat([new_rpg_items, rpg_items], ignore_index=True)
+    if not priority_items.empty:
+        priority_items = priority_items.drop_duplicates(subset=["platform", "region", "app_id"])
+        lines.append("")
+        lines.append("【角色扮演优先关注】")
+
+        for _, row in priority_items.head(PRE_REGISTRATION_DISPLAY_LIMIT).iterrows():
+            new_text = "新发现｜" if bool(row.get("is_new")) else ""
+            category_text = f"｜{row['category']}" if str(row.get("category", "")).strip() else ""
+            developer_text = f"｜{row['developer']}" if str(row.get("developer", "")).strip() else ""
+            lines.append(
+                f"{new_text}{row['app_name']}{category_text}{developer_text}｜{row['url']}"
+            )
+    else:
+        lines.append("当前未识别到角色扮演相关预注册游戏。")
+
+    other_new_items = new_items[~new_items["is_rpg"]] if not new_items.empty else pd.DataFrame()
+    if not other_new_items.empty:
+        lines.append("")
+        lines.append("【其他新发现】")
+
+        for _, row in other_new_items.head(10).iterrows():
+            category_text = f"｜{row['category']}" if str(row.get("category", "")).strip() else ""
+            lines.append(f"{row['app_name']}{category_text}｜{row['url']}")
+
+    lines.append("")
 
 
 def build_alert_section(lines, today_df, history):
@@ -616,25 +1045,30 @@ def build_alert_section(lines, today_df, history):
         return
 
     alerts = collect_alerts(today_df, history)
+
     if not alerts:
         lines.append("暂无明显异动。")
         lines.append("")
         return
 
     shown = 0
+
     for priority, title in [
         ("P0", "P0｜重点产品大幅波动"),
         ("P1", "P1｜重点关注异动"),
         ("P2", "P2｜普通榜单异动"),
     ]:
         priority_alerts = [item for item in alerts if item["priority"] == priority]
+
         if not priority_alerts:
             continue
 
         lines.append(f"\n【{title}】")
+
         for item in priority_alerts:
             if shown >= ALERT_DISPLAY_LIMIT:
                 break
+
             lines.append(item["text"])
             shown += 1
 
@@ -656,28 +1090,34 @@ def generate_trend_charts(history):
 
     for watch in WATCH_APPS:
         app_history = match_watch_app(history, watch)
+
         if app_history.empty:
             continue
 
         app_history = app_history[app_history["date"] >= start_date]
+
         if app_history.empty:
             continue
 
         for region in sorted(app_history["region"].dropna().unique()):
             region_history = app_history[app_history["region"] == region]
             region_name = REGIONS.get(region, region)
+
             for platform in ["ios", "android"]:
                 chart_types = ["top-grossing"] if platform == "ios" else ["grossing"]
+
                 for chart_type in chart_types:
                     sub = region_history[
                         (region_history["platform"] == platform) &
                         (region_history["chart_type"] == chart_type)
                     ].copy()
+
                     if sub.empty:
                         continue
 
                     sub = sub.sort_values("date")
                     sub["rank"] = sub["rank"].astype(int)
+
                     chart_title = f"{watch['name']} - {region_name} - {get_chart_name(platform, chart_type)} - 近{TREND_DAYS}日"
                     safe_name = re.sub(r"[^\w\u4e00-\u9fff]+", "_", watch["name"])
                     file_name = f"{TODAY}_{region}_{safe_name}_{platform}_{chart_type}.png"
@@ -719,19 +1159,33 @@ def build_trend_section(lines, chart_infos):
         return
 
     lines.append(f"已生成 {len(chart_infos)} 张趋势图：")
+
     for idx, item in enumerate(chart_infos[:20], start=1):
-        target = item["github_url"] or item["file_path"]
-        lines.append(f"{idx}. {item['watch_name']}｜{item['region_name']}｜{item['chart_name']}：{target}")
+        if item["github_url"]:
+            lines.append(
+                f"{idx}. {item['watch_name']}｜{item['region_name']}｜{item['chart_name']}：{item['github_url']}"
+            )
+        else:
+            lines.append(
+                f"{idx}. {item['watch_name']}｜{item['region_name']}｜{item['chart_name']}：{item['file_path']}"
+            )
 
 
 def send_feishu_text(text):
     webhook = get_feishu_webhook()
+
     if not webhook:
         print("[WARN] 未配置 FEISHU_WEBHOOK")
         print(text)
         return
 
-    payload = {"msg_type": "text", "content": {"text": text}}
+    payload = {
+        "msg_type": "text",
+        "content": {
+            "text": text
+        }
+    }
+
     try:
         resp = requests.post(webhook, json=payload, timeout=30)
         resp.raise_for_status()
@@ -741,36 +1195,57 @@ def send_feishu_text(text):
         print(text)
 
 
-def build_report(today_rows):
+def build_report(today_rows, pre_registration_rows):
     history = load_history()
+    pre_registration_history = load_pre_registration_history()
     today_df = pd.DataFrame(today_rows)
+    pre_registration_df = pd.DataFrame(pre_registration_rows)
 
-    lines = ["【台湾手游榜单监控日报 V2.5】", f"日期：{TODAY}", ""]
-    if today_df.empty:
-        lines.append("今日未抓取到榜单数据，请检查 GitHub Actions 日志。")
+    lines = []
+    lines.append("【台湾手游榜单监控日报 V2.6】")
+    lines.append(f"日期：{TODAY}")
+    lines.append("")
+
+    if today_df.empty and pre_registration_df.empty:
+        lines.append("今日未抓取到榜单和预注册数据，请检查 GitHub Actions 日志。")
         return "\n".join(lines)
 
-    build_business_summary(lines, today_df, history)
-    build_watch_section(lines, today_df, history)
-    build_alert_section(lines, today_df, history)
-    build_top_section(lines, today_df, history)
-    build_trend_section(lines, generate_trend_charts(history))
+    build_business_summary(lines, today_df, history, pre_registration_df, pre_registration_history)
+
+    if not today_df.empty:
+        build_watch_section(lines, today_df, history)
+
+    build_pre_registration_section(lines, pre_registration_df, pre_registration_history)
+
+    if not today_df.empty:
+        build_alert_section(lines, today_df, history)
+        build_top_section(lines, today_df, history)
+
+    chart_infos = generate_trend_charts(history)
+    build_trend_section(lines, chart_infos)
+
     return "\n".join(lines)
 
 
 def main():
     all_rows = []
+    pre_registration_rows = fetch_pre_registration_games()
+
     for region in REGIONS.keys():
         for chart_type in IOS_CHARTS.keys():
             all_rows.extend(fetch_ios_chart(region, chart_type))
+
         for chart_type in ANDROID_CHARTS.keys():
             all_rows.extend(fetch_android_chart(region, chart_type))
 
     all_rows = clean_rank_rows(pd.DataFrame(all_rows)).to_dict("records")
+
     print(f"TOTAL ROWS: {len(all_rows)}")
 
     save_rows(all_rows)
-    report = build_report(all_rows)
+    save_pre_registration_rows(pre_registration_rows)
+
+    report = build_report(all_rows, pre_registration_rows)
 
     report_path = os.path.join(DATA_DIR, f"daily_report_{TODAY}.txt")
     with open(report_path, "w", encoding="utf-8") as f:
