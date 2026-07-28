@@ -1,0 +1,196 @@
+【台湾手游榜单监控日报 V2.7】
+日期：2026-07-28
+
+========== 今日业务摘要 ==========
+重点风险/机会：发现 1 条 P1 级异动，建议关注是否由活动或投放导致。
+预注册：今日建立基准，当前发现 30 款预注册游戏（iOS 0 / Google Play 30），角色扮演相关 27 款，已抓取预计上线日期 0 款。
+重点产品：新熱血江湖：世界：iOS畅销榜第51（↑8，近7日新高）；天堂W：iOS畅销榜第91（↓5，近3日连续下滑；近7日新低）；楓之谷M：iOS畅销榜第67（↓1，近3日连续下滑；近7日新低）；RO仙境傳說：愛如初見：iOS畅销榜第99（↓8）
+另有 2 个重点产品在下方详情中展示。
+优先查看：
+P1｜🔥 大幅上涨｜台湾｜iOS畅销榜｜eFootball™：20（↑63）
+
+========== 重点产品监控 ==========
+
+【新熱血江湖：世界】
+台湾｜iOS｜iOS畅销榜：51（↑8；近7日新高）
+
+【天堂W】
+台湾｜iOS｜iOS畅销榜：91（↓5；近3日连续下滑；近7日新低）
+
+【楓之谷M】
+台湾｜iOS｜iOS畅销榜：67（↓1；近3日连续下滑；近7日新低）
+
+【RO仙境傳說：愛如初見】
+台湾｜iOS｜iOS畅销榜：99（↓8）
+
+【寒霜啟示錄】
+台湾｜Google｜Google免费榜：94（↑3；近3日连续上升；近7日新高）
+台湾｜Google｜Google畅销榜：10（↓1；近7日新低）
+台湾｜iOS｜iOS免费榜：31（↑6）
+台湾｜iOS｜iOS畅销榜：3（↑2；近3日连续上升）
+
+【Last War: Survival】
+台湾｜Google｜Google畅销榜：12（↓1；近3日连续下滑；近7日新低）
+台湾｜iOS｜iOS畅销榜：14（↑5）
+
+========== 新游预注册监控 ==========
+今日建立预注册基准：共发现 30 款预注册游戏（iOS 0 / Google Play 30），其中角色扮演相关 27 款，已抓取预计上线日期 0 款。
+
+【角色扮演优先关注】
+新发现｜Google Play｜ARES: THE IRON VANGUARD｜角色扮演｜Com2uS Holdings｜https://play.google.com/store/apps/details?id=com.com2usholdings.agwiv.android.google.global.normal
+新发现｜Google Play｜BanG Dream! 交織的樂章｜冒險｜BILIBILI｜https://play.google.com/store/apps/details?id=com.bilibili.sirius
+新发现｜Google Play｜Block Blast!｜冒險｜HungryStudio｜https://play.google.com/store/apps/details?id=com.block.juggle
+新发现｜Google Play｜Crash Cat : Zombie Survivor｜角色扮演｜CookApps｜https://play.google.com/store/apps/details?id=com.cookapps.catsurvivor
+新发现｜Google Play｜How Many Dudes?｜策略｜Butterscotch Shenanigans｜https://play.google.com/store/apps/details?id=com.bscotch.hmd
+新发现｜Google Play｜MAJO - 末日策略 RPG｜角色扮演｜DarkWind Ltd.｜https://play.google.com/store/apps/details?id=com.darkwind.majo
+新发现｜Google Play｜Never Grave｜冒險｜Pocketpair Publishing｜https://play.google.com/store/apps/details?id=com.Pocketpair.NeverGrave
+新发现｜Google Play｜Pikmin Bloom｜冒險｜Scopely Explore, Inc.｜https://play.google.com/store/apps/details?id=com.nianticlabs.pikmin
+新发现｜Google Play｜Pokémon GO｜冒險｜Scopely Explore, Inc.｜https://play.google.com/store/apps/details?id=com.nianticlabs.pokemongo
+新发现｜Google Play｜Roblox｜角色扮演｜Roblox Corporation｜https://play.google.com/store/apps/details?id=com.roblox.client
+新发现｜Google Play｜Royal Kingdom｜冒險｜Dream Games, Ltd.｜https://play.google.com/store/apps/details?id=com.dreamgames.royalkingdom
+新发现｜Google Play｜Servant of the Lake｜冒險｜Rusty Lake｜https://play.google.com/store/apps/details?id=com.RustyLake.ServantOfTheLake
+新发现｜Google Play｜Storypick｜冒險｜Day7｜https://play.google.com/store/apps/details?id=com.com2us.storypick.android.google.global.normal.storypick12
+新发现｜Google Play｜UnGodly｜角色扮演｜Azra Games｜https://play.google.com/store/apps/details?id=com.azragames.ungodly
+新发现｜Google Play｜Vita 麻將｜冒險｜Vita Studio.｜https://play.google.com/store/apps/details?id=com.vitastudio.mahjong
+新发现｜Google Play｜勁爆餐廳：合併&料理 - 療癒小鎮休閒單機不用網路的遊戲｜冒險｜Bigcool Games｜https://play.google.com/store/apps/details?id=com.bigcool.puzzle.merge.kitchen
+新发现｜Google Play｜協力魔法防衛戰：養成你的魔法師｜策略｜Teamsparta Inc.｜https://play.google.com/store/apps/details?id=com.TeamSparta.CSD
+新发现｜Google Play｜喵吱大作戰：放置類RPG｜角色扮演｜RIFF GAMES Co., Ltd.｜https://play.google.com/store/apps/details?id=com.blackdust.redblue
+新发现｜Google Play｜崩壞：星穹鐵道｜角色扮演｜COGNOSPHERE PTE. LTD.｜https://play.google.com/store/apps/details?id=com.HoYoverse.hkrpgoversea
+新发现｜Google Play｜撐住吧！領主大人！｜冒險｜Buff Studio Co.,Ltd.｜https://play.google.com/store/apps/details?id=com.buffstudio.holdonlord
+
+【其他新发现】
+新发现｜Google Play｜8 Ball Pool｜策略｜Miniclip.com｜https://play.google.com/store/apps/details?id=com.miniclip.eightballpool
+新发现｜Google Play｜地堡隨機防禦｜策略｜Teamsparta Inc.｜https://play.google.com/store/apps/details?id=com.TeamSparta.brd
+新发现｜Google Play｜王權：星途｜DevolverDigital｜https://play.google.com/store/apps/details?id=com.devolver.reignsbeyond
+
+
+========== 榜单异动预警 ==========
+
+【P1｜重点关注异动】
+🔥 大幅上涨｜台湾｜iOS畅销榜｜eFootball™：20（↑63）
+
+【P2｜普通榜单异动】
+🔥 大幅上涨｜台湾｜iOS免费榜｜Bus Escape: Traffic Jam：69（↑30）
+🔥 大幅上涨｜台湾｜iOS畅销榜｜鳴潮 - 前往玄方地界：70（↑25）
+🆕 新进榜TOP50｜台湾｜iOS免费榜｜27. 麻雞學院
+🔥 大幅上涨｜台湾｜iOS畅销榜｜好萊塢合成：星夢逆襲：77（↑22）
+⚠️ 大幅下跌｜台湾｜iOS免费榜｜我的花園世界：83（↓22）
+🔥 大幅上涨｜台湾｜Google畅销榜｜eFootball™：69（↑21）
+⚠️ 大幅下跌｜台湾｜iOS畅销榜｜拉斯維加斯娛樂城-捕魚,老虎機,拉霸,麻將,賭場遊戲：86（↓21）
+⚠️ 大幅下跌｜台湾｜iOS畅销榜｜信長之野望 真戰：93（↓21）
+⚠️ 大幅下跌｜台湾｜iOS免费榜｜Paper.io 2：95（↓20）
+⚠️ 大幅下跌｜台湾｜iOS免费榜｜Sled Surfers：99（↓20）
+⚠️ 大幅下跌｜台湾｜Google免费榜｜hololive Dreams：53（↓19）
+⚠️ 大幅下跌｜台湾｜iOS免费榜｜玩星派對：58（↓18）
+🔥 大幅上涨｜台湾｜iOS免费榜｜RUSH: Xtreme：65（↑18）
+🔥 大幅上涨｜台湾｜Google免费榜｜Coin Collector：29（↑17）
+🔥 大幅上涨｜台湾｜Google免费榜｜Painty Hide n Seek：33（↑17）
+⚠️ 大幅下跌｜台湾｜iOS免费榜｜Toon Tone：39（↓17）
+🔥 大幅上涨｜台湾｜iOS免费榜｜Find The Cat 2 - Spot It!：49（↑17）
+🔥 大幅上涨｜台湾｜iOS免费榜｜陰屍路：劫後餘生：57（↑17）
+🔥 大幅上涨｜台湾｜Google免费榜｜Kingshot：36（↑16）
+🔥 大幅上涨｜台湾｜iOS免费榜｜Crossmath 數學謎題休閒益智遊戲：52（↑16）
+🔥 大幅上涨｜台湾｜Google畅销榜｜Hay Day：76（↑16）
+⚠️ 大幅下跌｜台湾｜iOS畅销榜｜MLB 9局職棒 勁旅對決 26：66（↓15）
+⚠️ 大幅下跌｜台湾｜iOS免费榜｜魔法琴键3：80（↓15）
+⚠️ 大幅下跌｜台湾｜iOS畅销榜｜燕雲十六聲：42（↓14）
+🔥 大幅上涨｜台湾｜iOS畅销榜｜Last Z:Survival Shooter（倖存者逃亡）：44（↑14）
+🔥 大幅上涨｜台湾｜iOS畅销榜｜VAMPIR：血之繼承者：55（↑14）
+🔥 大幅上涨｜台湾｜iOS畅销榜｜超能戰爭：62（↑14）
+🔥 大幅上涨｜台湾｜iOS免费榜｜我的法杖有點強：放置RPG：63（↑14）
+🔥 大幅上涨｜台湾｜iOS畅销榜｜暗影英雄：突襲：83（↑14）
+另有 40 条异动未展示。
+
+========== 台湾 ==========
+
+【iOS免费榜 TOP20】
+1. Meowdoku! →
+2. 天天拼詞王 →
+3. 瑪奇 Mobile →
+4. 赵云与阿斗 →
+5. hololive Dreams →
+6. Pikmin Bloom →
+7. 家族物語 - 治癒系世代模擬 ↑1
+8. Bus Traffic Fever! ↑4
+9. 醫起救世界：鼠裡逃生 ↓2
+10. Smash Fest! →
+11. Royal Kingdom →
+12. 超能戰爭 ↓3
+13. Block Out! - Color Sort Puzzle ↑1
+14. Block Blast! ↓1
+15. 肥鵝美食街 →
+16. Roblox →
+17. 食光旅行 ↑2
+18. Jewel Coloring ↑10
+19. 新武俠大明星 ↓2
+20. Castle Busters →
+
+【iOS畅销榜 TOP20】
+1. Garena 傳說對決：冥定王牌版本 →
+2. 星城-歡慶77幸運日 ↑2
+3. 寒霜啟示錄 ↑2
+4. Pikmin Bloom ↓1
+5. Kingshot ↑1
+6. Pokémon GO ↓4
+7. 麻將明星3缺1 ↑1
+8. 瑪奇 Mobile ↑2
+9. 包你發-王識賢、安心亞推薦休閒娛樂城-老虎機、捕魚機多款遊戲 ↑6
+10. 緋聞港口：合併&故事 ↑1
+11. 楓之谷：放置冒險記 ↑1
+12. hololive Dreams ↓3
+13. 糖果傳奇 →
+14. 最後的戰爭 - Last War ↑5
+15. 豪神娛樂城 ↓1
+16. 心動小鎮 ↓9
+17. RO仙境傳説：世界之旅 ↓1
+18. 金好運 →
+19. 嚦咕麻將-戰神賽特、雷神之錘、超八、賽馬、麻將、魚機、老虎機 ↑3
+20. eFootball™ ↑63
+
+【Google免费榜 TOP20】
+1. Roblox →
+2. Smash Fest! →
+3. Meowdoku: Brain Puzzle Games →
+4. Arrows – Puzzle Escape →
+5. Slow Mo Strike: Knives in Time →
+6. Vita Mahjong ↑1
+7. Block Blast! ↓1
+8. Royal Smash! - Physics Puzzle →
+9. Amaze GO! →
+10. Gossip Harbor: Merge & Story →
+11. Mahjong Blast →
+12. Block Craft 3D：Building Game →
+13. Township →
+14. Melon Sandbox →
+15. Bus Traffic Fever! →
+16. Yarn Loop ↑1
+17. MONOPOLY GO! ↓1
+18. Level Devil - NOT A Troll Game →
+19. Total Battle: War Strategy ↑1
+20. EA SPORTS FC Soccer Mobile 26 ↓1
+
+【Google畅销榜 TOP20】
+1. MONOPOLY GO! →
+2. Roblox →
+3. Candy Crush Saga →
+4. Pokémon GO →
+5. Royal Match →
+6. Gossip Harbor: Merge & Story →
+7. Kingshot →
+8. Township →
+9. Royal Kingdom ↑1
+10. Whiteout Survival ↓1
+11. Coin Master ↑1
+12. Last War:Survival Game ↓1
+13. Last Z: Survival Shooter ↑1
+14. Toon Blast ↑1
+15. Total Battle: War Strategy ↓2
+16. Evony: The King's Return →
+17. Umamusume: Pretty Derby →
+18. Jackpot Party Casino Slots →
+19. PUBG MOBILE →
+20. Gardenscapes →
+
+
+========== 重点产品趋势图 ==========
+暂无足够历史数据生成趋势图。
