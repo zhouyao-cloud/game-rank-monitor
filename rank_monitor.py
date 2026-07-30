@@ -54,11 +54,6 @@ PRE_REGISTRATION_SOURCES = [
         "platform": "android",
         "url": "https://play.google.com/store/apps/collection/promotion_3000000d51_pre_registration_games?gl=TW&hl=zh_TW",
     },
-    {
-        "name": "Google Play游戏首页预注册",
-        "platform": "android",
-        "url": "https://play.google.com/store/games?gl=TW&hl=zh_TW",
-    },
 ]
 
 APP_STORE_PRE_ORDER_SOURCES = [
@@ -367,6 +362,45 @@ def contains_rpg_signal(*values):
     return any(keyword.lower() in text for keyword in RPG_KEYWORDS)
 
 
+def normalized_page_text(value):
+    return re.sub(r"\s+", " ", str(value or "")).strip().lower()
+
+
+def has_google_play_pre_registration_action(soup):
+    """Only trust an explicit pre-registration CTA, not page recommendations."""
+    markers = (
+        "預先註冊",
+        "预先注册",
+        "事前登錄",
+        "事前登录",
+        "pre-register",
+        "pre register",
+        "preregister",
+    )
+    action_texts = []
+
+    for element in soup.select("button, [role='button'], [aria-label]"):
+        action_texts.append(element.get_text(" ", strip=True))
+        action_texts.append(element.get("aria-label", ""))
+
+    return any(
+        marker in normalized_page_text(action_text)
+        for action_text in action_texts
+        for marker in markers
+    )
+
+
+def extract_google_play_category(soup):
+    """Read the app's own category link instead of scanning recommendation text."""
+    category_link = soup.select_one(
+        "a[href*='/store/apps/category/GAME_'], "
+        "a[href*='/store/apps/category/'][itemprop='genre']"
+    )
+    if not category_link:
+        return ""
+    return compact_text(category_link.get_text(" ", strip=True))
+
+
 def compact_text(value):
     if value is None:
         return ""
@@ -440,6 +474,7 @@ def fetch_google_play_app_detail(app_id, url):
         "category": "",
         "is_rpg": False,
         "release_date": "",
+        "is_pre_registration": False,
     }
 
     try:
@@ -460,16 +495,11 @@ def fetch_google_play_app_detail(app_id, url):
         if dev_link:
             detail["developer"] = dev_link.get_text(" ", strip=True)
 
-        page_text = soup.get_text("\n", strip=True)
-        for category_name in ["角色扮演", "Role Playing", "冒險", "Adventure", "策略", "Strategy"]:
-            if category_name in page_text:
-                detail["category"] = category_name
-                break
-
+        detail["category"] = extract_google_play_category(soup)
+        detail["is_pre_registration"] = has_google_play_pre_registration_action(soup)
         detail["is_rpg"] = contains_rpg_signal(
             detail["app_name"],
             detail["category"],
-            page_text[:5000],
         )
 
     except Exception as e:
@@ -602,6 +632,10 @@ def fetch_google_play_pre_registration_games():
 
             for candidate in candidates:
                 detail = fetch_google_play_app_detail(candidate["app_id"], candidate["url"])
+                if not detail.get("is_pre_registration"):
+                    print(f"[SKIP] 非预注册或状态无法确认: {candidate['app_id']}")
+                    continue
+
                 app_name = detail.get("app_name") or candidate["app_name"] or candidate["app_id"]
 
                 rows.append({
@@ -682,7 +716,7 @@ def fetch_app_store_pre_order_games():
             for candidate in candidates:
                 detail = fetch_app_store_app_detail(candidate["app_id"], candidate["url"])
 
-                if not detail.get("is_pre_order") and section_start < 0:
+                if not detail.get("is_pre_order"):
                     continue
 
                 app_name = detail.get("app_name") or candidate["app_name"] or candidate["app_id"]
