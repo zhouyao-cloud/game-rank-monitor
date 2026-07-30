@@ -3,7 +3,7 @@
 
 ========== 今日业务摘要 ==========
 重点风险/机会：发现 2 条 P0 级重点异动，需要优先关注。
-预注册：今日新发现 7 款预注册游戏（iOS 0 / Google Play 7），角色扮演相关 7 款，已抓取预计上线日期 0 款。
+预注册：今日未抓取到预注册游戏数据。
 重点产品：新熱血江湖：世界：iOS畅销榜第60（↓5，近3日连续下滑）；天堂W：iOS畅销榜第36（↑42，近3日连续上升；近7日新高）；楓之谷M：iOS畅销榜第90（↓32，近7日新低）；寒霜啟示錄：Google畅销榜第8（→，近7日新高）
 另有 1 个重点产品在下方详情中展示。
 优先查看：
@@ -32,29 +32,7 @@ P1｜🔥 大幅上涨｜台湾｜iOS畅销榜｜絕區零 - 週年慶：1（↑
 台湾｜iOS｜iOS畅销榜：13（↓3）
 
 ========== 新游预注册监控 ==========
-今日新发现 7 款预注册游戏（iOS 0 / Google Play 7），其中角色扮演相关 7 款，已抓取预计上线日期 0 款。
-
-【角色扮演优先关注】
-新发现｜Google Play｜EA SPORTS FC™ 足球 Mobile 2026｜ELECTRONIC ARTS｜https://play.google.com/store/apps/details?id=com.ea.gp.fifamobile
-新发现｜Google Play｜Garena 傳說對決：冥定王牌版本｜策略｜Garena Games Online｜https://play.google.com/store/apps/details?id=com.garena.game.kgtw
-新发现｜Google Play｜Tile Explorer - Triple Match｜冒險｜Oakever Games｜https://play.google.com/store/apps/details?id=com.oakever.tiletrip
-新发现｜Google Play｜楓之谷：放置冒險記｜角色扮演｜NEXON Company｜https://play.google.com/store/apps/details?id=com.nexon.ma
-新发现｜Google Play｜神魔之塔｜角色扮演｜Mad Head Limited｜https://play.google.com/store/apps/details?id=com.madhead.tos.zh
-新发现｜Google Play｜絕區零 - 週年慶｜角色扮演｜COGNOSPHERE PTE. LTD.｜https://play.google.com/store/apps/details?id=com.HoYoverse.Nap
-新发现｜Google Play｜點點大作戰｜冒險｜FunPlus International AG｜https://play.google.com/store/apps/details?id=com.funplus.ts.global
-Google Play｜ARES: THE IRON VANGUARD｜角色扮演｜Com2uS Holdings｜https://play.google.com/store/apps/details?id=com.com2usholdings.agwiv.android.google.global.normal
-Google Play｜BanG Dream! 交織的樂章｜冒險｜BILIBILI｜https://play.google.com/store/apps/details?id=com.bilibili.sirius
-Google Play｜Crash Cat : Zombie Survivor｜角色扮演｜CookApps｜https://play.google.com/store/apps/details?id=com.cookapps.catsurvivor
-Google Play｜How Many Dudes?｜策略｜Butterscotch Shenanigans｜https://play.google.com/store/apps/details?id=com.bscotch.hmd
-Google Play｜MAJO - 末日策略 RPG｜角色扮演｜DarkWind Ltd.｜https://play.google.com/store/apps/details?id=com.darkwind.majo
-Google Play｜Never Grave｜冒險｜Pocketpair Publishing｜https://play.google.com/store/apps/details?id=com.Pocketpair.NeverGrave
-Google Play｜Pokémon GO｜冒險｜Scopely Explore, Inc.｜https://play.google.com/store/apps/details?id=com.nianticlabs.pokemongo
-Google Play｜Roblox｜角色扮演｜Roblox Corporation｜https://play.google.com/store/apps/details?id=com.roblox.client
-Google Play｜Royal Kingdom｜冒險｜Dream Games, Ltd.｜https://play.google.com/store/apps/details?id=com.dreamgames.royalkingdom
-Google Play｜Servant of the Lake｜冒險｜Rusty Lake｜https://play.google.com/store/apps/details?id=com.RustyLake.ServantOfTheLake
-Google Play｜Storypick｜冒險｜Day7｜https://play.google.com/store/apps/details?id=com.com2us.storypick.android.google.global.normal.storypick12
-Google Play｜UnGodly｜角色扮演｜Azra Games｜https://play.google.com/store/apps/details?id=com.azragames.ungodly
-Google Play｜勁爆餐廳：合併&料理 - 療癒小鎮休閒單機不用網路的遊戲｜冒險｜Bigcool Games｜https://play.google.com/store/apps/details?id=com.bigcool.puzzle.merge.kitchen
+今日未抓取到预注册游戏数据。
 
 
 ========== 榜单异动预警 ==========
