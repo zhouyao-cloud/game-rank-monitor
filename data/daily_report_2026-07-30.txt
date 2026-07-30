@@ -3,12 +3,12 @@
 
 ========== 今日业务摘要 ==========
 重点风险/机会：发现 2 条 P0 级重点异动，需要优先关注。
-预注册：今日新发现 9 款预注册游戏（iOS 0 / Google Play 9），角色扮演相关 7 款，已抓取预计上线日期 0 款。
-重点产品：新熱血江湖：世界：iOS畅销榜第60（↓5，近3日连续下滑）；天堂W：iOS畅销榜第35（↑43，近3日连续上升；近7日新高）；楓之谷M：iOS畅销榜第83（↓25，近7日新低）；寒霜啟示錄：Google畅销榜第8（→，近7日新高）
+预注册：今日新发现 7 款预注册游戏（iOS 0 / Google Play 7），角色扮演相关 7 款，已抓取预计上线日期 0 款。
+重点产品：新熱血江湖：世界：iOS畅销榜第60（↓5，近3日连续下滑）；天堂W：iOS畅销榜第36（↑42，近3日连续上升；近7日新高）；楓之谷M：iOS畅销榜第90（↓32，近7日新低）；寒霜啟示錄：Google畅销榜第8（→，近7日新高）
 另有 1 个重点产品在下方详情中展示。
 优先查看：
-P0｜🔥 大幅上涨｜台湾｜iOS畅销榜｜天堂W：35（↑43）
-P0｜⚠️ 大幅下跌｜台湾｜iOS畅销榜｜楓之谷M - 奇幻冒險MMORPG：83（↓25）
+P0｜🔥 大幅上涨｜台湾｜iOS畅销榜｜天堂W：36（↑42）
+P0｜⚠️ 大幅下跌｜台湾｜iOS畅销榜｜楓之谷M - 奇幻冒險MMORPG：90（↓32）
 P1｜🔥 大幅上涨｜台湾｜iOS畅销榜｜絕區零 - 週年慶：1（↑55）
 
 ========== 重点产品监控 ==========
@@ -17,55 +17,51 @@ P1｜🔥 大幅上涨｜台湾｜iOS畅销榜｜絕區零 - 週年慶：1（↑
 台湾｜iOS｜iOS畅销榜：60（↓5；近3日连续下滑）
 
 【天堂W】
-台湾｜iOS｜iOS畅销榜：35（↑43；近3日连续上升；近7日新高）
+台湾｜iOS｜iOS畅销榜：36（↑42；近3日连续上升；近7日新高）
 
 【楓之谷M】
-台湾｜iOS｜iOS畅销榜：83（↓25；近7日新低）
+台湾｜iOS｜iOS畅销榜：90（↓32；近7日新低）
 
 【寒霜啟示錄】
 台湾｜Google｜Google畅销榜：8（→；近7日新高）
-台湾｜iOS｜iOS免费榜：26（↑1；近3日连续上升；近7日新高）
-台湾｜iOS｜iOS畅销榜：5（↓1；近3日连续下滑）
+台湾｜iOS｜iOS免费榜：24（↑3；近3日连续上升；近7日新高）
+台湾｜iOS｜iOS畅销榜：4（→）
 
 【Last War: Survival】
 台湾｜Google｜Google畅销榜：9（↑1；近3日连续上升；近7日新高）
-台湾｜iOS｜iOS畅销榜：12（↓2）
+台湾｜iOS｜iOS畅销榜：13（↓3）
 
 ========== 新游预注册监控 ==========
-今日新发现 9 款预注册游戏（iOS 0 / Google Play 9），其中角色扮演相关 7 款，已抓取预计上线日期 0 款。
+今日新发现 7 款预注册游戏（iOS 0 / Google Play 7），其中角色扮演相关 7 款，已抓取预计上线日期 0 款。
 
 【角色扮演优先关注】
 新发现｜Google Play｜EA SPORTS FC™ 足球 Mobile 2026｜ELECTRONIC ARTS｜https://play.google.com/store/apps/details?id=com.ea.gp.fifamobile
 新发现｜Google Play｜Garena 傳說對決：冥定王牌版本｜策略｜Garena Games Online｜https://play.google.com/store/apps/details?id=com.garena.game.kgtw
 新发现｜Google Play｜Tile Explorer - Triple Match｜冒險｜Oakever Games｜https://play.google.com/store/apps/details?id=com.oakever.tiletrip
-新发现｜Google Play｜元氣騎士｜角色扮演｜ChillyRoom｜https://play.google.com/store/apps/details?id=com.ChillyRoom.DungeonShooter
-新发现｜Google Play｜口袋奇兵（Top War）-超休閒的策略遊戲｜策略｜RiverGame｜https://play.google.com/store/apps/details?id=com.topwar.gp
+新发现｜Google Play｜楓之谷：放置冒險記｜角色扮演｜NEXON Company｜https://play.google.com/store/apps/details?id=com.nexon.ma
 新发现｜Google Play｜神魔之塔｜角色扮演｜Mad Head Limited｜https://play.google.com/store/apps/details?id=com.madhead.tos.zh
-新发现｜Google Play｜糖果蘇打傳奇｜冒險｜King｜https://play.google.com/store/apps/details?id=com.king.candycrushsodasaga
+新发现｜Google Play｜絕區零 - 週年慶｜角色扮演｜COGNOSPHERE PTE. LTD.｜https://play.google.com/store/apps/details?id=com.HoYoverse.Nap
+新发现｜Google Play｜點點大作戰｜冒險｜FunPlus International AG｜https://play.google.com/store/apps/details?id=com.funplus.ts.global
 Google Play｜ARES: THE IRON VANGUARD｜角色扮演｜Com2uS Holdings｜https://play.google.com/store/apps/details?id=com.com2usholdings.agwiv.android.google.global.normal
 Google Play｜BanG Dream! 交織的樂章｜冒險｜BILIBILI｜https://play.google.com/store/apps/details?id=com.bilibili.sirius
 Google Play｜Crash Cat : Zombie Survivor｜角色扮演｜CookApps｜https://play.google.com/store/apps/details?id=com.cookapps.catsurvivor
 Google Play｜How Many Dudes?｜策略｜Butterscotch Shenanigans｜https://play.google.com/store/apps/details?id=com.bscotch.hmd
 Google Play｜MAJO - 末日策略 RPG｜角色扮演｜DarkWind Ltd.｜https://play.google.com/store/apps/details?id=com.darkwind.majo
 Google Play｜Never Grave｜冒險｜Pocketpair Publishing｜https://play.google.com/store/apps/details?id=com.Pocketpair.NeverGrave
+Google Play｜Pokémon GO｜冒險｜Scopely Explore, Inc.｜https://play.google.com/store/apps/details?id=com.nianticlabs.pokemongo
 Google Play｜Roblox｜角色扮演｜Roblox Corporation｜https://play.google.com/store/apps/details?id=com.roblox.client
+Google Play｜Royal Kingdom｜冒險｜Dream Games, Ltd.｜https://play.google.com/store/apps/details?id=com.dreamgames.royalkingdom
 Google Play｜Servant of the Lake｜冒險｜Rusty Lake｜https://play.google.com/store/apps/details?id=com.RustyLake.ServantOfTheLake
 Google Play｜Storypick｜冒險｜Day7｜https://play.google.com/store/apps/details?id=com.com2us.storypick.android.google.global.normal.storypick12
 Google Play｜UnGodly｜角色扮演｜Azra Games｜https://play.google.com/store/apps/details?id=com.azragames.ungodly
 Google Play｜勁爆餐廳：合併&料理 - 療癒小鎮休閒單機不用網路的遊戲｜冒險｜Bigcool Games｜https://play.google.com/store/apps/details?id=com.bigcool.puzzle.merge.kitchen
-Google Play｜協力魔法防衛戰：養成你的魔法師｜策略｜Teamsparta Inc.｜https://play.google.com/store/apps/details?id=com.TeamSparta.CSD
-Google Play｜喵吱大作戰：放置類RPG｜角色扮演｜RIFF GAMES Co., Ltd.｜https://play.google.com/store/apps/details?id=com.blackdust.redblue
-
-【其他新发现】
-新发现｜Google Play｜Arrows – Puzzle Escape｜策略｜Lessmore GmbH｜https://play.google.com/store/apps/details?id=com.ecffri.arrows
-新发现｜Google Play｜Soccer Superstar - 足球巨星｜策略｜Real Freestyle Soccer｜https://play.google.com/store/apps/details?id=com.soccer.score.star
 
 
 ========== 榜单异动预警 ==========
 
 【P0｜重点产品大幅波动】
-🔥 大幅上涨｜台湾｜iOS畅销榜｜天堂W：35（↑43）
-⚠️ 大幅下跌｜台湾｜iOS畅销榜｜楓之谷M - 奇幻冒險MMORPG：83（↓25）
+🔥 大幅上涨｜台湾｜iOS畅销榜｜天堂W：36（↑42）
+⚠️ 大幅下跌｜台湾｜iOS畅销榜｜楓之谷M - 奇幻冒險MMORPG：90（↓32）
 
 【P1｜重点关注异动】
 🔥 大幅上涨｜台湾｜iOS畅销榜｜絕區零 - 週年慶：1（↑55）
@@ -74,50 +70,50 @@ Google Play｜喵吱大作戰：放置類RPG｜角色扮演｜RIFF GAMES Co., Lt
 🔥 大幅上涨｜台湾｜iOS畅销榜｜超時空街球對決：21（↑78）
 🔥 大幅上涨｜台湾｜iOS畅销榜｜異環：22（↑66）
 🔥 大幅上涨｜台湾｜iOS畅销榜｜跑跑薑餅人：烤箱大逃亡：24（↑64）
-🔥 大幅上涨｜台湾｜iOS畅销榜｜JUMP 全明星亂鬥：36（↑55）
-⚠️ 大幅下跌｜台湾｜iOS畅销榜｜MLB 9局職棒 勁旅對決 26：95（↓51）
-🆕 新进榜TOP50｜台湾｜iOS免费榜｜3. 薑餅人放置大戰爭 - 餅乾養成RPG
+🔥 大幅上涨｜台湾｜iOS畅销榜｜JUMP 全明星亂鬥：35（↑56）
+🆕 新进榜TOP50｜台湾｜iOS免费榜｜2. 薑餅人放置大戰爭 - 餅乾養成RPG
 🆕 新进榜TOP50｜台湾｜iOS免费榜｜5. 開局一座島-送真海鮮！
+🔥 大幅上涨｜台湾｜iOS免费榜｜槍手貓咪：放置射擊RPG：43（↑46）
+⚠️ 大幅下跌｜台湾｜iOS畅销榜｜MLB 9局職棒 勁旅對決 26：89（↓45）
 🔥 大幅上涨｜台湾｜Google畅销榜｜Fate/Grand Order (English)：40（↑44）
-🔥 大幅上涨｜台湾｜iOS畅销榜｜薑餅人王國：43（↑41）
+🔥 大幅上涨｜台湾｜iOS畅销榜｜薑餅人王國：45（↑39）
 🔥 大幅上涨｜台湾｜Google免费榜｜Stack Smash - Block 3D Puzzle：35（↑36）
-🔥 大幅上涨｜台湾｜iOS畅销榜｜VAMPIR：血之繼承者：47（↑35）
+🔥 大幅上涨｜台湾｜iOS畅销榜｜勝利女神：妮姬：46（↑34）
+🔥 大幅上涨｜台湾｜iOS畅销榜｜《暗黑破壞神 永生不朽》：66（↑34）
 ⚠️ 大幅下跌｜台湾｜iOS畅销榜｜棒球殿堂Live：97（↓32）
-🔥 大幅上涨｜台湾｜iOS畅销榜｜《暗黑破壞神 永生不朽》：69（↑31）
-⚠️ 大幅下跌｜台湾｜iOS畅销榜｜DRAGON BALL Z -七龍珠爆裂激戰-：96（↓31）
-⚠️ 大幅下跌｜台湾｜iOS免费榜｜這個男人叫小帥：93（↓30）
+🔥 大幅上涨｜台湾｜iOS畅销榜｜VAMPIR：血之繼承者：53（↑29）
 🔥 大幅上涨｜台湾｜Google免费榜｜Colorful Soda Sort：70（↑29）
-⚠️ 大幅下跌｜台湾｜iOS畅销榜｜車車屍搭普 - 足球狂歡季來臨！：98（↓28）
-⚠️ 大幅下跌｜台湾｜iOS畅销榜｜MLB：9局職棒26：99（↓28）
-🔥 大幅上涨｜台湾｜iOS免费榜｜誰來救救我：64（↑27）
-🔥 大幅上涨｜台湾｜iOS畅销榜｜蛋仔派對：67（↑25）
-⚠️ 大幅下跌｜台湾｜iOS畅销榜｜無盡輪迴：鬼域摸金：66（↓24）
-⚠️ 大幅下跌｜台湾｜iOS免费榜｜Hole.io：91（↓24）
-⚠️ 大幅下跌｜台湾｜iOS畅销榜｜逆水寒：72（↓23）
+⚠️ 大幅下跌｜台湾｜iOS畅销榜｜青丘世界：緣起：64（↓27）
+⚠️ 大幅下跌｜台湾｜iOS畅销榜｜《英雄聯盟：激鬥峽谷》：67（↓27）
+⚠️ 大幅下跌｜台湾｜iOS畅销榜｜天堂2M：80（↓25）
+⚠️ 大幅下跌｜台湾｜iOS免费榜｜Hole.io：92（↓25）
+⚠️ 大幅下跌｜台湾｜iOS畅销榜｜車車屍搭普 - 足球狂歡季來臨！：94（↓24）
+⚠️ 大幅下跌｜台湾｜iOS畅销榜｜DRAGON BALL LEGENDS -七龍珠 激戰傳說-：99（↓24）
+⚠️ 大幅下跌｜台湾｜iOS免费榜｜守護！森友家園：58（↓23）
+⚠️ 大幅下跌｜台湾｜iOS畅销榜｜無盡輪迴：鬼域摸金：65（↓23）
+🔥 大幅上涨｜台湾｜iOS免费榜｜我的花園世界：73（↑23）
+🔥 大幅上涨｜台湾｜iOS免费榜｜誰來救救我：69（↑22）
 ⚠️ 大幅下跌｜台湾｜iOS畅销榜｜叫我大掌櫃：85（↓22）
-🔥 大幅上涨｜台湾｜iOS畅销榜｜鳴潮 - 前往玄方地界：46（↑21）
-⚠️ 大幅下跌｜台湾｜iOS畅销榜｜天堂2M：76（↓21）
-⚠️ 大幅下跌｜台湾｜iOS畅销榜｜青丘世界：緣起：56（↓19）
-另有 60 条异动未展示。
+另有 65 条异动未展示。
 
 ========== 台湾 ==========
 
 【iOS免费榜 TOP20】
 1. Meowdoku! →
-2. 天天拼詞王 →
-3. 薑餅人放置大戰爭 - 餅乾養成RPG 新入榜
+2. 薑餅人放置大戰爭 - 餅乾養成RPG 新入榜
+3. 天天拼詞王 ↓1
 4. 赵云与阿斗 →
 5. 開局一座島-送真海鮮！ 新入榜
 6. 瑪奇 Mobile ↓3
 7. hololive Dreams ↓2
-8. Bus Traffic Fever! ↓1
-9. Pikmin Bloom ↓3
+8. Pikmin Bloom ↓2
+9. Bus Traffic Fever! ↓2
 10. 家族物語 - 治癒系世代模擬 ↓2
 11. Smash Fest! ↓2
 12. 醫起救世界：鼠裡逃生 ↓2
 13. Royal Kingdom ↓2
-14. 超能戰爭 ↓1
-15. Block Out! - Color Sort Puzzle ↓3
+14. Block Out! - Color Sort Puzzle ↓2
+15. 超能戰爭 ↓2
 16. Block Blast! ↓1
 17. 完蛋！我被美少女攻略了 ↓1
 18. Roblox ↓1
@@ -128,23 +124,23 @@ Google Play｜喵吱大作戰：放置類RPG｜角色扮演｜RIFF GAMES Co., Lt
 1. 絕區零 - 週年慶 ↑55
 2. 星城-歡慶77幸運日 ↑1
 3. Garena 傳說對決：冥定王牌版本 ↓1
-4. hololive Dreams ↓3
-5. 寒霜啟示錄 ↓1
-6. Pikmin Bloom ↓1
-7. Kingshot ↑1
+4. 寒霜啟示錄 →
+5. hololive Dreams ↓4
+6. Kingshot ↑2
+7. Pikmin Bloom ↓2
 8. 麻將明星3缺1 ↓2
 9. 瑪奇 Mobile ↓2
 10. 包你發-王識賢、安心亞推薦休閒娛樂城-老虎機、捕魚機多款遊戲 ↓1
-11. 糖果傳奇 ↑1
-12. 最後的戰爭 - Last War ↓2
-13. 楓之谷：放置冒險記 →
-14. 緋聞港口：合併&故事 →
+11. 緋聞港口：合併&故事 ↑3
+12. 糖果傳奇 →
+13. 最後的戰爭 - Last War ↓3
+14. 楓之谷：放置冒險記 ↓1
 15. 豪神娛樂城 ↓4
-16. RO仙境傳説：世界之旅 ↑1
-17. 金好運 ↓1
-18. 貓咪大戰爭 ↑11
-19. PUBG MOBILE：絕地求生M ↓1
-20. 嚦咕麻將-戰神賽特、雷神之錘、超八、賽馬、麻將、魚機、老虎機 ↓1
+16. 嚦咕麻將-戰神賽特、雷神之錘、超八、賽馬、麻將、魚機、老虎機 ↑3
+17. 貓咪大戰爭 ↑12
+18. 金好運 ↓2
+19. RO仙境傳説：世界之旅 ↓2
+20. PUBG MOBILE：絕地求生M ↓2
 
 【Google免费榜 TOP20】
 1. Smash Fest! ↑2
