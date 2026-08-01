@@ -1,0 +1,171 @@
+【台湾手游榜单监控日报 V2.7】
+日期：2026-08-01
+
+========== 今日业务摘要 ==========
+重点风险/机会：发现 2 条 P0 级重点异动，需要优先关注。
+预注册：今日未抓取到预注册游戏数据。
+重点产品：新熱血江湖：世界：iOS畅销榜第69（↑6）；天堂W：iOS畅销榜第51（↑12）；楓之谷M：iOS畅销榜第4（↓3）；寒霜啟示錄：Google畅销榜第10（→，近7日新低）
+另有 1 个重点产品在下方详情中展示。
+优先查看：
+P0｜🔥 大幅上涨｜台湾｜Google免费榜｜Whiteout Survival：72（↑22）
+P0｜🔥 大幅上涨｜台湾｜iOS畅销榜｜天堂W：51（↑12）
+P1｜🔥 大幅上涨｜台湾｜iOS畅销榜｜SD鋼彈 G世代 永恆：10（↑75）
+P1｜🔥 大幅上涨｜台湾｜iOS免费榜｜泥鰍山小便利商店：10（↑21）
+
+========== 重点产品监控 ==========
+
+【新熱血江湖：世界】
+台湾｜iOS｜iOS畅销榜：69（↑6）
+
+【天堂W】
+台湾｜iOS｜iOS畅销榜：51（↑12）
+
+【楓之谷M】
+台湾｜iOS｜iOS畅销榜：4（↓3）
+
+【寒霜啟示錄】
+台湾｜Google｜Google免费榜：72（↑22；近7日新高）
+台湾｜Google｜Google畅销榜：10（→；近7日新低）
+台湾｜iOS｜iOS免费榜：34（↓5；近3日连续下滑）
+台湾｜iOS｜iOS畅销榜：6（→；近7日新低）
+
+【Last War: Survival】
+台湾｜Google｜Google畅销榜：9（↓1）
+台湾｜iOS｜iOS畅销榜：22（↓4；近3日连续下滑；近7日新低）
+
+========== 新游预注册监控 ==========
+今日未抓取到预注册游戏数据。
+
+
+========== 榜单异动预警 ==========
+
+【P0｜重点产品大幅波动】
+🔥 大幅上涨｜台湾｜Google免费榜｜Whiteout Survival：72（↑22）
+🔥 大幅上涨｜台湾｜iOS畅销榜｜天堂W：51（↑12）
+
+【P1｜重点关注异动】
+🔥 大幅上涨｜台湾｜iOS畅销榜｜SD鋼彈 G世代 永恆：10（↑75）
+🔥 大幅上涨｜台湾｜iOS免费榜｜泥鰍山小便利商店：10（↑21）
+
+【P2｜普通榜单异动】
+🔥 大幅上涨｜台湾｜iOS畅销榜｜《LINE Rangers》×動畫「怪獸8號」合作活動：23（↑77）
+⚠️ 大幅下跌｜台湾｜iOS畅销榜｜Wizardry Variants Daphne：94（↓49）
+⚠️ 大幅下跌｜台湾｜Google免费榜｜Geometry Dash Lite：98（↓49）
+🔥 大幅上涨｜台湾｜iOS免费榜｜Dark War:Survival：46（↑44）
+⚠️ 大幅下跌｜台湾｜Google免费榜｜Snake Clash!：81（↓43）
+⚠️ 大幅下跌｜台湾｜iOS畅销榜｜異環：89（↓41）
+⚠️ 大幅下跌｜台湾｜iOS畅销榜｜龍村 3：95（↓39）
+⚠️ 大幅下跌｜台湾｜Google免费榜｜Toca Boca World：68（↓37）
+⚠️ 大幅下跌｜台湾｜iOS畅销榜｜JUMP 全明星亂鬥：91（↓37）
+🔥 大幅上涨｜台湾｜iOS免费榜｜注音冒險王：48（↑36）
+⚠️ 大幅下跌｜台湾｜iOS畅销榜｜世界計畫 繽紛舞台！feat. 初音未來：97（↓36）
+⚠️ 大幅下跌｜台湾｜Google免费榜｜Pocket Sort: Coin Merge Puzzle：62（↓34）
+⚠️ 大幅下跌｜台湾｜Google免费榜｜Woodoku Blast：70（↓34）
+🔥 大幅上涨｜台湾｜iOS免费榜｜迷霧小鎮: 合成遊戲 (Mystery Town)：67（↑33）
+⚠️ 大幅下跌｜台湾｜iOS免费榜｜2 Player Games : Offline Games：88（↓32）
+⚠️ 大幅下跌｜台湾｜Google免费榜｜Color Block: Combo Blast：63（↓31）
+⚠️ 大幅下跌｜台湾｜Google免费榜｜Mob Control：65（↓31）
+🔥 大幅上涨｜台湾｜iOS畅销榜｜MLB 9局職棒 勁旅對決 26：59（↑30）
+⚠️ 大幅下跌｜台湾｜Google免费榜｜Castle Busters：77（↓30）
+🔥 大幅上涨｜台湾｜iOS免费榜｜Rogue Legend - Roguelike RPG：21（↑29）
+🔥 大幅上涨｜台湾｜iOS畅销榜｜大福Online-老虎機、捕魚、推幣機、刮刮樂、拉霸 娛樂城：66（↑29）
+⚠️ 大幅下跌｜台湾｜iOS免费榜｜Royal Match：68（↓28）
+⚠️ 大幅下跌｜台湾｜iOS免费榜｜天命：六道輪迴：100（↓28）
+⚠️ 大幅下跌｜台湾｜Google免费榜｜MONOPOLY GO!：47（↓27）
+⚠️ 大幅下跌｜台湾｜Google免费榜｜Township：44（↓26）
+🔥 大幅上涨｜台湾｜iOS免费榜｜Draft Showdown：55（↑26）
+另有 86 条异动未展示。
+
+========== 台湾 ==========
+
+【iOS免费榜 TOP20】
+1. Meowdoku! →
+2. 天天拼詞王 ↑1
+3. 赵云与阿斗 ↑2
+4. 薑餅人放置大戰爭 - 餅乾養成RPG ↓2
+5. 真三國無雙・霸 ↓1
+6. 瑪奇 Mobile ↑1
+7. 開局一座島-送真海鮮！ ↓1
+8. Pikmin Bloom →
+9. 家族物語 - 治癒系世代模擬 ↑1
+10. 泥鰍山小便利商店 ↑21
+11. Bus Traffic Fever! →
+12. Smash Fest! →
+13. hololive Dreams ↓4
+14. 醫起救世界：鼠裡逃生 ↓1
+15. 超能戰爭 →
+16. Block Blast! ↓2
+17. Royal Kingdom ↓1
+18. 新武俠大明星 ↑7
+19. Block Out! - Color Sort Puzzle ↓2
+20. 肥鵝美食街 ↓2
+
+【iOS畅销榜 TOP20】
+1. 星城-歡慶77幸運日 ↑3
+2. Pikmin Bloom ↑1
+3. Garena 傳說對決：冥定王牌版本 ↑4
+4. 楓之谷M - 奇幻冒險MMORPG ↓3
+5. RO仙境傳説：世界之旅 ↓3
+6. 寒霜啟示錄 →
+7. 麻將明星3缺1 ↑5
+8. 包你發-王識賢、安心亞推薦休閒娛樂城-老虎機、捕魚機多款遊戲 ↑8
+9. 豪神娛樂城 ↑6
+10. SD鋼彈 G世代 永恆 ↑75
+11. 鳴潮 - 前往玄方地界 ↓6
+12. 瑪奇 Mobile ↑1
+13. Kingshot ↓5
+14. PUBG MOBILE：絕地求生M ↑9
+15. 絕區零 - 週年慶 ↓6
+16. 薑餅人放置大戰爭 - 餅乾養成RPG ↓2
+17. 糖果傳奇 →
+18. 嚦咕麻將-戰神賽特、雷神之錘、超八、賽馬、麻將、魚機、老虎機 ↑6
+19. 緋聞港口：合併&故事 →
+20. 楓之谷：放置冒險記 ↑1
+
+【Google免费榜 TOP20】
+1. Meowdoku: Brain Puzzle Games ↑1
+2. Roblox ↓1
+3. Arrows – Puzzle Escape ↑1
+4. Vita Mahjong ↑1
+5. Block Blast! ↑1
+6. Mahjong Blast ↑6
+7. Gossip Harbor: Merge & Story ↑4
+8. Slow Mo Strike: Knives in Time →
+9. Amaze GO! ↑5
+10. Level Devil - NOT A Troll Game ↑6
+11. Melon Sandbox ↑4
+12. Royal Smash! - Physics Puzzle ↓9
+13. Arrow Puzzle: Tap Puzzle Games ↑6
+14. Pixel Flow! ↓1
+15. Block Craft 3D：Building Game ↓8
+16. EA SPORTS FC Soccer Mobile 26 ↑5
+17. Magic Sort! ↓8
+18. Total Battle: War Strategy ↑5
+19. Sled Surfers ↑3
+20. OOC: The Playable Anime ↑5
+
+【Google畅销榜 TOP20】
+1. MONOPOLY GO! →
+2. Roblox →
+3. Candy Crush Saga →
+4. Royal Match →
+5. Gossip Harbor: Merge & Story →
+6. Pokémon GO →
+7. Kingshot →
+8. Township ↑1
+9. Last War:Survival Game ↓1
+10. Whiteout Survival →
+11. Coin Master ↑1
+12. Royal Kingdom ↓1
+13. Toon Blast →
+14. Last Z: Survival Shooter →
+15. Total Battle: War Strategy →
+16. Evony: The King's Return →
+17. Sword x Staff →
+18. Free Fire: 9th Anniversary ↑1
+19. PUBG MOBILE ↓1
+20. Gardenscapes →
+
+
+========== 重点产品趋势图 ==========
+暂无足够历史数据生成趋势图。
