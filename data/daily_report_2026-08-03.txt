@@ -1,0 +1,170 @@
+【台湾手游榜单监控日报 V2.7】
+日期：2026-08-03
+
+========== 今日业务摘要 ==========
+重点风险/机会：发现 1 条 P0 级重点异动，需要优先关注。
+预注册：今日未抓取到预注册游戏数据。
+重点产品：新熱血江湖：世界：iOS畅销榜第64（↑16）；天堂W：iOS畅销榜第68（↓4，近3日连续下滑）；楓之谷M：iOS畅销榜第5（→）；寒霜啟示錄：Google畅销榜第11（↑1）
+另有 1 个重点产品在下方详情中展示。
+优先查看：
+P0｜🔥 大幅上涨｜台湾｜iOS畅销榜｜新熱血江湖：世界：64（↑16）
+P1｜🔥 大幅上涨｜台湾｜Google免费榜｜CookieRun: Crumble - Idle RPG：4（↑49）
+P1｜🔥 大幅上涨｜台湾｜Google免费榜｜Magic Sort!：5（↑12）
+P1｜🔥 大幅上涨｜台湾｜Google免费榜｜Bus Traffic Fever!：10（↑11）
+
+========== 重点产品监控 ==========
+
+【新熱血江湖：世界】
+台湾｜iOS｜iOS畅销榜：64（↑16）
+
+【天堂W】
+台湾｜iOS｜iOS畅销榜：68（↓4；近3日连续下滑）
+
+【楓之谷M】
+台湾｜iOS｜iOS畅销榜：5（→）
+
+【寒霜啟示錄】
+台湾｜Google｜Google畅销榜：11（↑1）
+台湾｜iOS｜iOS免费榜：27（↑3；近3日连续上升）
+台湾｜iOS｜iOS畅销榜：14（↓2；近3日连续下滑；近7日新低）
+
+【Last War: Survival】
+台湾｜Google｜Google畅销榜：7（→；近7日新高）
+台湾｜iOS｜iOS畅销榜：21（↑2）
+
+========== 新游预注册监控 ==========
+今日未抓取到预注册游戏数据。
+
+
+========== 榜单异动预警 ==========
+
+【P0｜重点产品大幅波动】
+🔥 大幅上涨｜台湾｜iOS畅销榜｜新熱血江湖：世界：64（↑16）
+
+【P1｜重点关注异动】
+🔥 大幅上涨｜台湾｜Google免费榜｜CookieRun: Crumble - Idle RPG：4（↑49）
+🔥 大幅上涨｜台湾｜Google免费榜｜Magic Sort!：5（↑12）
+🔥 大幅上涨｜台湾｜Google免费榜｜Bus Traffic Fever!：10（↑11）
+
+【P2｜普通榜单异动】
+🔥 大幅上涨｜台湾｜Google免费榜｜Geometry Dash Lite：46（↑52）
+🔥 大幅上涨｜台湾｜Google免费榜｜Toca Boca World：24（↑44）
+⚠️ 大幅下跌｜台湾｜Google免费榜｜Asphalt Legends - Racing Game：72（↓44）
+🔥 大幅上涨｜台湾｜Google免费榜｜Snake Clash!：40（↑41）
+🔥 大幅上涨｜台湾｜iOS免费榜｜Lordrush：54（↑37）
+🆕 新进榜TOP50｜台湾｜Google免费榜｜15. Mini Soccer: Football Cup 2026
+🔥 大幅上涨｜台湾｜Google免费榜｜Warline: Sniper Strike：59（↑34）
+⚠️ 大幅下跌｜台湾｜Google免费榜｜Tile Explorer - Triple Match：80（↓34）
+🔥 大幅上涨｜台湾｜Google免费榜｜Color Block: Combo Blast：31（↑32）
+🔥 大幅上涨｜台湾｜Google免费榜｜Castle Busters：45（↑32）
+⚠️ 大幅下跌｜台湾｜iOS畅销榜｜超異域公主連結！Re:Dive：90（↓31）
+⚠️ 大幅下跌｜台湾｜Google免费榜｜My Talking Tom 2: Pet Game：91（↓31）
+⚠️ 大幅下跌｜台湾｜iOS免费榜｜誰來救救我：99（↓31）
+⚠️ 大幅下跌｜台湾｜Google免费榜｜Pokémon GO：79（↓30）
+🔥 大幅上涨｜台湾｜Google免费榜｜Pocket Sort: Coin Merge Puzzle：33（↑29）
+🔥 大幅上涨｜台湾｜iOS免费榜｜鬼雄三國：主公有夠鬼：70（↑29）
+⚠️ 大幅下跌｜台湾｜iOS免费榜｜Tanplore 探寶：55（↓28）
+⚠️ 大幅下跌｜台湾｜iOS免费榜｜Color Maze - Puzzle Game：98（↓28）
+🔥 大幅上涨｜台湾｜Google免费榜｜Mob Control：38（↑27）
+⚠️ 大幅下跌｜台湾｜Google免费榜｜8 Ball Pool：78（↓27）
+🔥 大幅上涨｜台湾｜Google免费榜｜Woodoku Blast：44（↑26）
+🔥 大幅上涨｜台湾｜iOS免费榜｜車車屍搭普 - 足球狂歡季來臨！：58（↑26）
+🔥 大幅上涨｜台湾｜Google免费榜｜Township：19（↑25）
+🔥 大幅上涨｜台湾｜Google免费榜｜MONOPOLY GO!：22（↑25）
+⚠️ 大幅下跌｜台湾｜Google免费榜｜EA SPORTS FC Soccer Mobile 26：41（↓25）
+🔥 大幅上涨｜台湾｜Google免费榜｜Offline Games - No Wifi Games：51（↑25）
+另有 77 条异动未展示。
+
+========== 台湾 ==========
+
+【iOS免费榜 TOP20】
+1. Meowdoku! →
+2. 天天拼詞王 →
+3. 赵云与阿斗 →
+4. Pikmin Bloom ↑2
+5. 瑪奇 Mobile →
+6. 薑餅人放置大戰爭 - 餅乾養成RPG ↓2
+7. 開局一座島-送真海鮮！ →
+8. Bus Traffic Fever! →
+9. 家族物語 - 治癒系世代模擬 →
+10. hololive Dreams ↑1
+11. Smash Fest! ↑1
+12. 超能戰爭 ↑5
+13. Block Blast! ↑2
+14. 好萊塢合成：星夢逆襲 ↑14
+15. Royal Kingdom ↑5
+16. 真三國無雙・霸 ↓6
+17. 肥鵝美食街 ↑5
+18. 新武俠大明星 ↓4
+19. Block Out! - Color Sort Puzzle ↑2
+20. Roblox ↓2
+
+【iOS畅销榜 TOP20】
+1. Garena 傳說對決：膽大黨聯動開啟！ →
+2. 星城-歡慶77幸運日 →
+3. Pikmin Bloom →
+4. 三國志・戰略版 ↑2
+5. 楓之谷M - 奇幻冒險MMORPG →
+6. PUBG MOBILE：絕地求生M ↓2
+7. 麻將明星3缺1 →
+8. 瑪奇 Mobile →
+9. 包你發-王識賢、安心亞推薦休閒娛樂城-老虎機、捕魚機多款遊戲 →
+10. 糖果傳奇 ↑4
+11. 豪神娛樂城 ↓1
+12. 楓之谷：放置冒險記 ↑5
+13. 緋聞港口：合併&故事 ↑5
+14. 寒霜啟示錄 ↓2
+15. RO仙境傳説：世界之旅 ↓2
+16. 薑餅人放置大戰爭 - 餅乾養成RPG ↑4
+17. Kingshot ↓1
+18. 嚦咕麻將-戰神賽特、雷神之錘、超八、賽馬、麻將、魚機、老虎機 ↓3
+19. 金好運 →
+20. Coin Master ↑13
+
+【Google免费榜 TOP20】
+1. Roblox ↑1
+2. Meowdoku: Brain Puzzle Games ↓1
+3. Royal Smash! - Physics Puzzle ↑9
+4. CookieRun: Crumble - Idle RPG ↑49
+5. Magic Sort! ↑12
+6. Block Craft 3D：Building Game ↑9
+7. Block Blast! ↓2
+8. Arrows – Puzzle Escape ↓5
+9. Vita Mahjong ↓5
+10. Bus Traffic Fever! ↑11
+11. Mahjong Blast ↓5
+12. Gossip Harbor: Merge & Story ↓5
+13. Amaze GO! ↓4
+14. Slow Mo Strike: Knives in Time ↓6
+15. Mini Soccer: Football Cup 2026 新入榜
+16. Level Devil - NOT A Troll Game ↓6
+17. Melon Sandbox ↓6
+18. OOC: The Playable Anime ↑2
+19. Township ↑25
+20. Arrow Puzzle: Tap Puzzle Games ↓7
+
+【Google畅销榜 TOP20】
+1. MONOPOLY GO! →
+2. Roblox →
+3. Candy Crush Saga →
+4. Royal Match →
+5. Gossip Harbor: Merge & Story →
+6. Township →
+7. Last War:Survival Game →
+8. Kingshot →
+9. Royal Kingdom ↑2
+10. Coin Master →
+11. Whiteout Survival ↑1
+12. Toon Blast ↑1
+13. Pokémon GO ↓4
+14. Last Z: Survival Shooter →
+15. Pokémon TCG Pocket - Card Game ↑4
+16. Total Battle: War Strategy ↓1
+17. Sword x Staff ↑1
+18. Evony: The King's Return ↓2
+19. Free Fire: 9th Anniversary ↑1
+20. PUBG MOBILE ↓3
+
+
+========== 重点产品趋势图 ==========
+暂无足够历史数据生成趋势图。
