@@ -1,0 +1,168 @@
+【台湾手游榜单监控日报 V2.7】
+日期：2026-08-10
+
+========== 今日业务摘要 ==========
+重点风险/机会：发现 2 条 P0 级重点异动，需要优先关注。
+预注册：今日暂无新发现的预注册游戏。
+重点产品：新熱血江湖：世界：iOS畅销榜第75（↑2，近3日连续上升）；天堂W：iOS畅销榜第74（↓20，近3日连续下滑；近7日新低）；楓之谷M：iOS畅销榜第19（↓4，近7日新低）；寒霜啟示錄：Google畅销榜第7（→，近7日新高）
+另有 1 个重点产品在下方详情中展示。
+优先查看：
+P0｜⚠️ 大幅下跌｜台湾｜iOS畅销榜｜天堂W：74（↓20）
+P0｜⚠️ 大幅下跌｜台湾｜Google免费榜｜Whiteout Survival：84（↓14）
+
+========== 重点产品监控 ==========
+
+【新熱血江湖：世界】
+台湾｜iOS｜iOS畅销榜：75（↑2；近3日连续上升）
+
+【天堂W】
+台湾｜iOS｜iOS畅销榜：74（↓20；近3日连续下滑；近7日新低）
+
+【楓之谷M】
+台湾｜iOS｜iOS畅销榜：19（↓4；近7日新低）
+
+【寒霜啟示錄】
+台湾｜Google｜Google免费榜：84（↓14）
+台湾｜Google｜Google畅销榜：7（→；近7日新高）
+台湾｜iOS｜iOS免费榜：25（↑4；近3日连续上升）
+台湾｜iOS｜iOS畅销榜：4（→）
+
+【Last War: Survival】
+台湾｜Google｜Google畅销榜：9（→；近7日新低）
+台湾｜iOS｜iOS畅销榜：17（→；近7日新低）
+
+========== 新游预注册监控 ==========
+今日暂无新发现的预注册游戏；当前仍在监控 1 款。
+当前未识别到角色扮演相关预注册游戏。
+
+
+========== 榜单异动预警 ==========
+
+【P0｜重点产品大幅波动】
+⚠️ 大幅下跌｜台湾｜iOS畅销榜｜天堂W：74（↓20）
+⚠️ 大幅下跌｜台湾｜Google免费榜｜Whiteout Survival：84（↓14）
+
+【P2｜普通榜单异动】
+🔥 大幅上涨｜台湾｜iOS畅销榜｜明日方舟：終末地：21（↑79）
+⚠️ 大幅下跌｜台湾｜iOS免费榜｜魂墜深境：83（↓52）
+🔥 大幅上涨｜台湾｜iOS免费榜｜HotPot Master: Food Puzzle：53（↑44）
+⚠️ 大幅下跌｜台湾｜Google免费榜｜CookieRun: Crumble - Idle RPG：75（↓42）
+⚠️ 大幅下跌｜台湾｜iOS免费榜｜Chillquarium：92（↓40）
+⚠️ 大幅下跌｜台湾｜iOS畅销榜｜世界之外：96（↓37）
+🔥 大幅上涨｜台湾｜Google免费榜｜Music Piano 7: Tiles Song Game：59（↑35）
+🔥 大幅上涨｜台湾｜iOS免费榜｜Dark War:Survival：42（↑34）
+⚠️ 大幅下跌｜台湾｜Google免费榜｜Offline Games No WiFi internet：97（↓33）
+🔥 大幅上涨｜台湾｜Google免费榜｜Gardenscapes：51（↑31）
+⚠️ 大幅下跌｜台湾｜iOS畅销榜｜錢街Online-麻將、捕魚機、老虎機、紅包雨、娛樂城：99（↓29）
+🔥 大幅上涨｜台湾｜iOS畅销榜｜點點大作戰：70（↑27）
+🔥 大幅上涨｜台湾｜iOS畅销榜｜Rogue Legend - Roguelike RPG：43（↑24）
+⚠️ 大幅下跌｜台湾｜Google免费榜｜Wheelie Master: Moto Ride 3D：73（↓24）
+🔥 大幅上涨｜台湾｜iOS免费榜｜王國之歌（Top Heroes）：75（↑24）
+⚠️ 大幅下跌｜台湾｜iOS畅销榜｜信長之野望 真戰：61（↓23）
+⚠️ 大幅下跌｜台湾｜Google免费榜｜Block Color Mania, Puzzle Game：95（↓22）
+⚠️ 大幅下跌｜台湾｜Google免费榜｜Keyboard Obby: ASMR Speed Run：91（↓21）
+⚠️ 大幅下跌｜台湾｜Google免费榜｜Color by Number：Coloring Games：96（↓21）
+🔥 大幅上涨｜台湾｜Google免费榜｜Geometry Dash Lite：39（↑18）
+🔥 大幅上涨｜台湾｜iOS免费榜｜Brain Puzzle: Tricky Quest：70（↑18）
+⚠️ 大幅下跌｜台湾｜Google免费榜｜Mini Soccer: Football Cup 2026：71（↓18）
+⚠️ 大幅下跌｜台湾｜iOS免费榜｜這個男人叫小帥：81（↓18）
+⚠️ 大幅下跌｜台湾｜iOS免费榜｜Draft Showdown：84（↓18）
+⚠️ 大幅下跌｜台湾｜Google免费榜｜Solitaire Associations Journey：94（↓18）
+🔥 大幅上涨｜台湾｜iOS畅销榜｜新武俠大明星：56（↑16）
+🔥 大幅上涨｜台湾｜iOS畅销榜｜無盡輪迴：鬼域摸金：76（↑16）
+🔥 大幅上涨｜台湾｜iOS畅销榜｜原神·空月之歌：83（↑16）
+另有 43 条异动未展示。
+
+========== 台湾 ==========
+
+【iOS免费榜 TOP20】
+1. Meowdoku! →
+2. 猛鬼三國 →
+3. 天天拼詞王 →
+4. 赵云与阿斗 ↑1
+5. 我的英雄學院：UNITED SURVIVAL ↓1
+6. Titan Rush: Survival ↑3
+7. Pikmin Bloom ↓1
+8. 瑪奇 Mobile ↓1
+9. 薑餅人放置大戰爭 - 餅乾養成RPG ↓1
+10. 爆走摸魚君 →
+11. Bus Traffic Fever! →
+12. 家族物語 - 治癒系世代模擬 ↑1
+13. Block Blast! ↑3
+14. Block Out! - Color Sort Puzzle →
+15. 開局一座島-送真海鮮！ ↓3
+16. Roblox ↑1
+17. Smash Fest! ↑2
+18. 新武俠大明星 ↑3
+19. Royal Kingdom ↓4
+20. Castle Busters ↑6
+
+【iOS畅销榜 TOP20】
+1. Garena 傳說對決：膽大黨聯動開啟！ →
+2. 星城-賓果行星大賽開跑 →
+3. Pikmin Bloom →
+4. 寒霜啟示錄 →
+5. Kingshot ↑1
+6. 麻將明星3缺1 ↑2
+7. 緋聞港口：合併&故事 ↑3
+8. 瑪奇 Mobile ↑4
+9. 糖果傳奇 ↑2
+10. 包你發-王識賢、安心亞推薦休閒娛樂城-老虎機、捕魚機多款遊戲 ↑3
+11. PUBG MOBILE：絕地求生M ↑3
+12. 三國：謀定天下 ↓7
+13. hololive Dreams ↓6
+14. 楓之谷：放置冒險記 ↑2
+15. Coin Master ↑8
+16. 豪神娛樂城 ↓7
+17. 最後的戰爭 - Last War →
+18. 金好運 ↑6
+19. 楓之谷M - 奇幻冒險MMORPG ↓4
+20. 嚦咕麻將-戰神賽特、雷神之錘、超八、賽馬、麻將、魚機、老虎機 →
+
+【Google免费榜 TOP20】
+1. Roblox →
+2. Meowdoku: Brain Puzzle Games →
+3. Block Blast! →
+4. Block Craft 3D：Building Game →
+5. Vita Mahjong →
+6. Amaze GO! ↑3
+7. Subway Surfers ↑3
+8. Gossip Harbor: Merge & Story ↓1
+9. Magic Sort! ↓1
+10. Arrows – Puzzle Escape ↓4
+11. Royal Smash! - Physics Puzzle →
+12. MONOPOLY GO! ↑1
+13. Arrow Puzzle: Tap Puzzle Games ↑3
+14. Township ↑1
+15. Yarn Loop ↑4
+16. Toca Boca World ↑2
+17. Paper.io 2 ↑7
+18. Bus Traffic Fever! ↓1
+19. Mahjong Blast ↓7
+20. Total Battle: War Strategy ↓6
+
+【Google畅销榜 TOP20】
+1. MONOPOLY GO! →
+2. Roblox →
+3. Candy Crush Saga →
+4. Kingshot →
+5. Royal Match →
+6. Gossip Harbor: Merge & Story →
+7. Whiteout Survival →
+8. Township →
+9. Last War:Survival Game →
+10. Royal Kingdom →
+11. Coin Master →
+12. Pokémon GO →
+13. Last Z: Survival Shooter →
+14. Evony: The King's Return →
+15. Toon Blast →
+16. Total Battle: War Strategy →
+17. Sword x Staff →
+18. Gardenscapes →
+19. Jackpot Party Casino Slots →
+20. Lightning Link Casino Slots →
+
+
+========== 重点产品趋势图 ==========
+暂无足够历史数据生成趋势图。
