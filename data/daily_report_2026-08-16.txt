@@ -1,0 +1,173 @@
+【台湾手游榜单监控日报 V2.7】
+日期：2026-08-16
+
+========== 今日业务摘要 ==========
+重点风险/机会：发现 1 条 P0 级重点异动，需要优先关注。
+预注册：今日暂无新发现的预注册游戏。
+重点产品：新熱血江湖：世界：iOS畅销榜第93（↑1）；天堂W：iOS畅销榜第75（↓8，近3日连续下滑）；楓之谷M：iOS畅销榜第20（↓2，近3日连续下滑）；寒霜啟示錄：Google畅销榜第7（→，近7日新低）
+另有 1 个重点产品在下方详情中展示。
+优先查看：
+P0｜🔥 大幅上涨｜台湾｜Google免费榜｜Whiteout Survival：50（↑49）
+P1｜🔥 大幅上涨｜台湾｜iOS畅销榜｜心動小鎮：5（↑73）
+P1｜🔥 大幅上涨｜台湾｜Google免费榜｜Mystery Dumpling: Unbox ASMR：8（↑35）
+P1｜🔥 大幅上涨｜台湾｜Google免费榜｜Royal Smash! - Physics Puzzle：7（↑19）
+P1｜🔥 大幅上涨｜台湾｜Google免费榜｜Amaze GO!：5（↑15）
+
+========== 重点产品监控 ==========
+
+【新熱血江湖：世界】
+台湾｜iOS｜iOS畅销榜：93（↑1）
+
+【天堂W】
+台湾｜iOS｜iOS畅销榜：75（↓8；近3日连续下滑）
+
+【楓之谷M】
+台湾｜iOS｜iOS畅销榜：20（↓2；近3日连续下滑）
+
+【寒霜啟示錄】
+台湾｜Google｜Google免费榜：50（↑49；近7日新高）
+台湾｜Google｜Google畅销榜：7（→；近7日新低）
+台湾｜iOS｜iOS免费榜：27（↑4；近3日连续上升）
+台湾｜iOS｜iOS畅销榜：10（↑1）
+
+【Last War: Survival】
+台湾｜Google｜Google畅销榜：8（→；近7日新高）
+台湾｜iOS｜iOS畅销榜：23（↓3；近3日连续下滑；近7日新低）
+
+========== 新游预注册监控 ==========
+今日暂无新发现的预注册游戏；当前仍在监控 1 款。
+当前未识别到角色扮演相关预注册游戏。
+
+
+========== 榜单异动预警 ==========
+
+【P0｜重点产品大幅波动】
+🔥 大幅上涨｜台湾｜Google免费榜｜Whiteout Survival：50（↑49）
+
+【P1｜重点关注异动】
+🔥 大幅上涨｜台湾｜iOS畅销榜｜心動小鎮：5（↑73）
+🔥 大幅上涨｜台湾｜Google免费榜｜Mystery Dumpling: Unbox ASMR：8（↑35）
+🔥 大幅上涨｜台湾｜Google免费榜｜Royal Smash! - Physics Puzzle：7（↑19）
+🔥 大幅上涨｜台湾｜Google免费榜｜Amaze GO!：5（↑15）
+
+【P2｜普通榜单异动】
+⚠️ 大幅下跌｜台湾｜iOS畅销榜｜光與夜之戀：98（↓40）
+🔥 大幅上涨｜台湾｜iOS免费榜｜RAN - Royal Academy Nations：15（↑38）
+🔥 大幅上涨｜台湾｜Google免费榜｜Last Asylum: Plague：47（↑38）
+⚠️ 大幅下跌｜台湾｜iOS畅销榜｜LINE 熊大農場：91（↓38）
+⚠️ 大幅下跌｜台湾｜Google免费榜｜Pokémon TCG Pocket - Card Game：98（↓37）
+⚠️ 大幅下跌｜台湾｜Google免费榜｜Slow Mo Strike: Knives in Time：57（↓36）
+🔥 大幅上涨｜台湾｜Google免费榜｜EA SPORTS FC Soccer Mobile 26：56（↑35）
+🔥 大幅上涨｜台湾｜iOS畅销榜｜燕雲十六聲：54（↑34）
+⚠️ 大幅下跌｜台湾｜Google免费榜｜Yarn Loop：51（↓33）
+⚠️ 大幅下跌｜台湾｜Google免费榜｜Kingshot：62（↓33）
+⚠️ 大幅下跌｜台湾｜Google免费榜｜Geometry Dash Lite：78（↓32）
+🔥 大幅上涨｜台湾｜Google免费榜｜Yarn Fever! Unravel Puzzle：68（↑31）
+⚠️ 大幅下跌｜台湾｜iOS畅销榜｜NBA巔峰對決：83（↓31）
+🔥 大幅上涨｜台湾｜Google免费榜｜Loop Sort：24（↑30）
+🔥 大幅上涨｜台湾｜Google免费榜｜Fishdom：61（↑30）
+🔥 大幅上涨｜台湾｜iOS免费榜｜拼圖疊疊樂：62（↑30）
+⚠️ 大幅下跌｜台湾｜Google免费榜｜Courtyard Zen: Quest：83（↓30）
+🔥 大幅上涨｜台湾｜iOS畅销榜｜弓箭傳說2：43（↑29）
+🔥 大幅上涨｜台湾｜Google免费榜｜eFootball™：48（↑28）
+🔥 大幅上涨｜台湾｜iOS免费榜｜Dark War:Survival：35（↑26）
+⚠️ 大幅下跌｜台湾｜Google免费榜｜CubeAway - 3DPuzzle：67（↓26）
+⚠️ 大幅下跌｜台湾｜iOS畅销榜｜《LINE Rangers》×動畫「怪獸8號」合作活動：85（↓26）
+🔥 大幅上涨｜台湾｜Google免费榜｜My Talking Tom Friends：70（↑25）
+🔥 大幅上涨｜台湾｜Google免费榜｜Jigsawcard Solitaire Puzzle：66（↑24）
+⚠️ 大幅下跌｜台湾｜Google免费榜｜I Am Cat：84（↓24）
+另有 72 条异动未展示。
+
+========== 台湾 ==========
+
+【iOS免费榜 TOP20】
+1. Meowdoku! ↑2
+2. 三國群英傳：策定九州 ↓1
+3. 賽爾號：巔峰之戰 ↓1
+4. 搞鬼M →
+5. 天天拼詞王 ↑1
+6. 隨機骰子2 ↓1
+7. 時尚百貨城 ↑2
+8. 趙雲與阿斗 →
+9. 森之歌：世界 ↓2
+10. Pikmin Bloom ↑4
+11. 超能戰爭 ↑2
+12. 猛鬼三國 ↓1
+13. 家族物語 - 治癒系世代模擬 ↓1
+14. Block Out! - Color Sort Puzzle ↑1
+15. RAN - Royal Academy Nations ↑38
+16. Bus Traffic Fever! →
+17. 瑪奇 Mobile ↑1
+18. 機甲突襲：Titan Rush ↑2
+19. 三國觀滄海 ↓9
+20. Roblox ↑6
+
+【iOS畅销榜 TOP20】
+1. 星城-萊格冒險．決戰羽蛇神 ↑1
+2. Garena 傳說對決：膽大黨聯動開啟！ ↑1
+3. Pikmin Bloom ↑4
+4. 《英雄聯盟：激鬥峽谷》 ↓3
+5. 心動小鎮 ↑73
+6. 賽爾號：巔峰之戰 ↓2
+7. 楓之谷：放置冒險記 ↓2
+8. 麻將明星3缺1 →
+9. 搞鬼M ↑1
+10. 寒霜啟示錄 ↑1
+11. 緋聞港口：合併&故事 ↑6
+12. 糖果傳奇 ↑1
+13. Kingshot ↓4
+14. 貓咪大戰爭 ↓8
+15. 瑪奇 Mobile ↓1
+16. 包你發-王識賢、安心亞推薦休閒娛樂城-老虎機、捕魚機多款遊戲 →
+17. EA SPORTS FC™ 足球 Mobile 2026 ↑5
+18. Garena® 三角洲行動 ↓6
+19. 麻將 神來也麻將－台灣16張、麻雀 ↑8
+20. 楓之谷M - 奇幻冒險MMORPG ↓2
+
+【Google免费榜 TOP20】
+1. Roblox →
+2. Meowdoku: Brain Puzzle Games →
+3. Vita Mahjong ↑1
+4. Block Blast! ↑1
+5. Amaze GO! ↑15
+6. Gossip Harbor: Merge & Story ↓3
+7. Royal Smash! - Physics Puzzle ↑19
+8. Mystery Dumpling: Unbox ASMR ↑35
+9. Block Craft 3D：Building Game ↓3
+10. Arrow Puzzle: Tap Puzzle Games ↓2
+11. Arrows – Puzzle Escape ↑11
+12. Mahjong Blast →
+13. Township ↓2
+14. MONOPOLY GO! →
+15. Fortnite ↑10
+16. Magic Sort! ↓9
+17. Pixel Flow! →
+18. Woodoku Blast ↑1
+19. Subway Surfers ↓4
+20. Tile Explorer - Triple Match ↑12
+
+【Google畅销榜 TOP20】
+1. MONOPOLY GO! →
+2. Roblox →
+3. Candy Crush Saga →
+4. Kingshot →
+5. Royal Match →
+6. Gossip Harbor: Merge & Story →
+7. Whiteout Survival →
+8. Last War:Survival Game →
+9. Township →
+10. Coin Master →
+11. Royal Kingdom →
+12. Last Z: Survival Shooter →
+13. Toon Blast ↑3
+14. Pokémon GO ↓1
+15. Evony: The King's Return ↓1
+16. Total Battle: War Strategy ↓1
+17. Last Asylum: Plague →
+18. Jackpot Party Casino Slots ↑1
+19. Gardenscapes ↓1
+20. Sword x Staff →
+
+
+========== 重点产品趋势图 ==========
+暂无足够历史数据生成趋势图。
