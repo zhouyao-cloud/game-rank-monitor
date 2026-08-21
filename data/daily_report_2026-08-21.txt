@@ -1,0 +1,173 @@
+【台湾手游榜单监控日报 V2.7】
+日期：2026-08-21
+
+========== 今日业务摘要 ==========
+重点风险/机会：发现 2 条 P0 级重点异动，需要优先关注。
+预注册：今日暂无新发现的预注册游戏。
+重点产品：新熱血江湖：世界：iOS畅销榜第82（↑14，近7日新高）；天堂W：iOS畅销榜第77（↓24，近7日新低）；楓之谷M：iOS畅销榜第36（↓8，近7日新低）；寒霜啟示錄：Google畅销榜第9（↓1，近7日新低）
+另有 1 个重点产品在下方详情中展示。
+优先查看：
+P0｜⚠️ 大幅下跌｜台湾｜iOS畅销榜｜天堂W：77（↓24）
+P0｜🔥 大幅上涨｜台湾｜iOS畅销榜｜新熱血江湖：世界：82（↑14）
+P1｜🔥 大幅上涨｜台湾｜iOS畅销榜｜鳴潮：3（↑81）
+P1｜🔥 大幅上涨｜台湾｜iOS畅销榜｜燕雲十六聲：9（↑70）
+P1｜🆕 新进榜TOP50｜台湾｜iOS畅销榜｜1. 鬥破蒼穹M：少年崛起--動畫正版授權
+
+========== 重点产品监控 ==========
+
+【新熱血江湖：世界】
+台湾｜iOS｜iOS畅销榜：82（↑14；近7日新高）
+
+【天堂W】
+台湾｜iOS｜iOS畅销榜：77（↓24；近7日新低）
+
+【楓之谷M】
+台湾｜iOS｜iOS畅销榜：36（↓8；近7日新低）
+
+【寒霜啟示錄】
+台湾｜Google｜Google免费榜：58（↑8）
+台湾｜Google｜Google畅销榜：9（↓1；近7日新低）
+台湾｜iOS｜iOS免费榜：34（↓8；近7日新低）
+台湾｜iOS｜iOS畅销榜：5（↓1）
+
+【Last War: Survival】
+台湾｜Google｜Google畅销榜：11（↓2；近7日新低）
+台湾｜iOS｜iOS畅销榜：26（↓4；近3日连续下滑；近7日新低）
+
+========== 新游预注册监控 ==========
+今日暂无新发现的预注册游戏；当前仍在监控 1 款。
+当前未识别到角色扮演相关预注册游戏。
+
+
+========== 榜单异动预警 ==========
+
+【P0｜重点产品大幅波动】
+⚠️ 大幅下跌｜台湾｜iOS畅销榜｜天堂W：77（↓24）
+🔥 大幅上涨｜台湾｜iOS畅销榜｜新熱血江湖：世界：82（↑14）
+
+【P1｜重点关注异动】
+🔥 大幅上涨｜台湾｜iOS畅销榜｜鳴潮：3（↑81）
+🔥 大幅上涨｜台湾｜iOS畅销榜｜燕雲十六聲：9（↑70）
+🆕 新进榜TOP50｜台湾｜iOS畅销榜｜1. 鬥破蒼穹M：少年崛起--動畫正版授權
+🔥 大幅上涨｜台湾｜Google免费榜｜Fruit Ninja®：7（↑49）
+
+【P2｜普通榜单异动】
+🔥 大幅上涨｜台湾｜Google免费榜｜RAID: Shadow Legends：14（↑78）
+🔥 大幅上涨｜台湾｜iOS畅销榜｜NBA巔峰對決：29（↑57）
+🔥 大幅上涨｜台湾｜iOS畅销榜｜第五人格：50（↑49）
+🔥 大幅上涨｜台湾｜iOS畅销榜｜勝利女神：妮姬：47（↑46）
+🔥 大幅上涨｜台湾｜iOS免费榜｜最強領主：27（↑35）
+🔥 大幅上涨｜台湾｜iOS畅销榜｜巔峰極速：28（↑34）
+🆕 新进榜TOP50｜台湾｜Google免费榜｜18. Bendy's Nightmare Run
+🔥 大幅上涨｜台湾｜iOS畅销榜｜天天玩樂園 (Play Together)：44（↑33）
+⚠️ 大幅下跌｜台湾｜iOS畅销榜｜靠裝勇者：背包合成RPG：96（↓32）
+🔥 大幅上涨｜台湾｜iOS免费榜｜我欲修仙：塔防肉鸽：53（↑29）
+⚠️ 大幅下跌｜台湾｜iOS畅销榜｜決勝時刻: Mobile - Garena：95（↓29）
+🔥 大幅上涨｜台湾｜iOS畅销榜｜三國觀滄海：67（↑28）
+⚠️ 大幅下跌｜台湾｜iOS畅销榜｜戀與深空：64（↓27）
+⚠️ 大幅下跌｜台湾｜iOS畅销榜｜卡厄思夢境：72（↓27）
+⚠️ 大幅下跌｜台湾｜Google免费榜｜Goods Puzzle: 3D Sorting Games：98（↓27）
+🆕 新进榜TOP50｜台湾｜iOS免费榜｜26. 三國志：群雄之弈
+⚠️ 大幅下跌｜台湾｜iOS畅销榜｜絕區零 - 週年慶：62（↓24）
+🔥 大幅上涨｜台湾｜iOS畅销榜｜MLB 制勝時刻 26：69（↑24）
+⚠️ 大幅下跌｜台湾｜Google免费榜｜Lamar - Idle Vlogger：75（↓24）
+⚠️ 大幅下跌｜台湾｜iOS畅销榜｜漫遊小鎮®：合併&故事：89（↓24）
+🆕 新进榜TOP50｜台湾｜Google免费榜｜28. Magic Jigsaw Puzzles－Games HD
+🔥 大幅上涨｜台湾｜Google免费榜｜Knock Out：41（↑23）
+🔥 大幅上涨｜台湾｜Google畅销榜｜Zenless Zone Zero - Anniv.：70（↑23）
+⚠️ 大幅下跌｜台湾｜Google免费榜｜Block World - Craft City：94（↓23）
+另有 70 条异动未展示。
+
+========== 台湾 ==========
+
+【iOS免费榜 TOP20】
+1. 鬥破蒼穹M：少年崛起--動畫正版授權 →
+2. Meowdoku! →
+3. 天天拼詞王 →
+4. 趙雲與阿斗 →
+5. 賽爾號：巔峰之戰 →
+6. RAN - Royal Academy Nations ↑1
+7. 時尚百貨城 ↓1
+8. 超能戰爭 →
+9. Block Out! - Color Sort Puzzle ↑1
+10. Bus Traffic Fever! ↑1
+11. 隨機骰子2 ↓2
+12. Pikmin Bloom ↑1
+13. 家族物語 - 治癒系世代模擬 ↓1
+14. Slime Up！ ↑4
+15. 三國群英傳：策定九州 ↓1
+16. Smash Fest! ↓1
+17. Block Blast! ↑4
+18. Royal Kingdom ↑2
+19. Royal Smash! - Physics Puzzle ↓3
+20. Roblox ↑3
+
+【iOS畅销榜 TOP20】
+1. 鬥破蒼穹M：少年崛起--動畫正版授權 新入榜
+2. 星城-萊格冒險．決戰羽蛇神 ↓1
+3. 鳴潮 ↑81
+4. 神魔之塔 ↑2
+5. 寒霜啟示錄 ↓1
+6. 楓之谷：放置冒險記 ↑5
+7. 瑪奇 Mobile ↓5
+8. 麻將明星3缺1 ↓3
+9. 燕雲十六聲 ↑70
+10. Pikmin Bloom ↓2
+11. 全明星街球派對 ↓8
+12. Garena 傳說對決：膽大黨聯動開啟！ ↓3
+13. 賽爾號：巔峰之戰 ↓3
+14. 包你發-王識賢、安心亞推薦休閒娛樂城-老虎機、捕魚機多款遊戲 →
+15. 緋聞港口：合併&故事 ↓3
+16. 糖果傳奇 ↑2
+17. RO仙境傳説：世界之旅 ↓1
+18. 豪神娛樂城 ↓3
+19. Pokémon GO ↓2
+20. 金好運 ↑1
+
+【Google免费榜 TOP20】
+1. Meowdoku: Brain Puzzle Games ↑1
+2. Roblox ↓1
+3. Magic Sort! ↑3
+4. Vita Mahjong ↑1
+5. Royal Smash! - Physics Puzzle ↓1
+6. Amaze GO! ↑3
+7. Fruit Ninja® ↑49
+8. Block Craft 3D：Building Game →
+9. Block Blast! ↓2
+10. Mystery Dumpling: Unbox ASMR ↓7
+11. Pocket Sort: Coin Merge Puzzle →
+12. Arrows – Puzzle Escape →
+13. Fortnite ↓3
+14. RAID: Shadow Legends ↑78
+15. Arrow Puzzle: Tap Puzzle Games ↑1
+16. Jigsaw Drop: Solitaire Puzzle ↑2
+17. Sled Surfers ↓4
+18. Bendy's Nightmare Run 新入榜
+19. Loop Sort ↓4
+20. Mahjong Blast →
+
+【Google畅销榜 TOP20】
+1. MONOPOLY GO! →
+2. Roblox →
+3. Candy Crush Saga →
+4. Gossip Harbor: Merge & Story →
+5. Royal Match →
+6. Township ↑1
+7. Kingshot ↓1
+8. Royal Kingdom ↑2
+9. Whiteout Survival ↓1
+10. Coin Master ↑1
+11. Last War:Survival Game ↓2
+12. Pokémon GO →
+13. Last Z: Survival Shooter →
+14. Toon Blast →
+15. Evony: The King's Return →
+16. Total Battle: War Strategy →
+17. Free Fire: 9th Anniversary →
+18. Jackpot Party Casino Slots →
+19. Gardenscapes →
+20. Sword x Staff ↑3
+
+
+========== 重点产品趋势图 ==========
+暂无足够历史数据生成趋势图。
