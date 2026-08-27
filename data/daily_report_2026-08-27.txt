@@ -1,0 +1,169 @@
+【台湾手游榜单监控日报 V2.7】
+日期：2026-08-27
+
+========== 今日业务摘要 ==========
+重点风险/机会：发现 2 条 P0 级重点异动，需要优先关注。
+预注册：今日暂无新发现的预注册游戏。
+重点产品：天堂W：iOS畅销榜第44（↑49，近3日连续上升；近7日新高）；楓之谷M：iOS畅销榜第3（↑31，近7日新高）；寒霜啟示錄：Google畅销榜第9（↓1）；Last War: Survival：Google畅销榜第12（↓1，近7日新低）
+优先查看：
+P0｜🔥 大幅上涨｜台湾｜iOS畅销榜｜天堂W：44（↑49）
+P0｜🔥 大幅上涨｜台湾｜iOS畅销榜｜楓之谷M - 奇幻冒險MMORPG：3（↑31）
+P1｜🔥 大幅上涨｜台湾｜iOS畅销榜｜世界之外：6（↑87）
+P1｜🔥 大幅上涨｜台湾｜iOS畅销榜｜Pokémon TCG Pocket：10（↑87）
+P1｜🔥 大幅上涨｜台湾｜iOS畅销榜｜崩壞：星穹鐵道：13（↑66）
+
+========== 重点产品监控 ==========
+
+【天堂W】
+台湾｜iOS｜iOS畅销榜：44（↑49；近3日连续上升；近7日新高）
+
+【楓之谷M】
+台湾｜iOS｜iOS畅销榜：3（↑31；近7日新高）
+
+【寒霜啟示錄】
+台湾｜Google｜Google免费榜：55（↓6）
+台湾｜Google｜Google畅销榜：9（↓1）
+台湾｜iOS｜iOS免费榜：29（↓3）
+台湾｜iOS｜iOS畅销榜：4（↓1）
+
+【Last War: Survival】
+台湾｜Google｜Google畅销榜：12（↓1；近7日新低）
+台湾｜iOS｜iOS畅销榜：19（↓4）
+
+========== 新游预注册监控 ==========
+今日暂无新发现的预注册游戏；当前仍在监控 1 款。
+当前未识别到角色扮演相关预注册游戏。
+
+
+========== 榜单异动预警 ==========
+
+【P0｜重点产品大幅波动】
+🔥 大幅上涨｜台湾｜iOS畅销榜｜天堂W：44（↑49）
+🔥 大幅上涨｜台湾｜iOS畅销榜｜楓之谷M - 奇幻冒險MMORPG：3（↑31）
+
+【P1｜重点关注异动】
+🔥 大幅上涨｜台湾｜iOS畅销榜｜世界之外：6（↑87）
+🔥 大幅上涨｜台湾｜iOS畅销榜｜Pokémon TCG Pocket：10（↑87）
+🔥 大幅上涨｜台湾｜iOS畅销榜｜崩壞：星穹鐵道：13（↑66）
+🔥 大幅上涨｜台湾｜iOS畅销榜｜RO仙境傳説：世界之旅：5（↑13）
+
+【P2｜普通榜单异动】
+🔥 大幅上涨｜台湾｜iOS畅销榜｜JUMP 全明星亂鬥：40（↑55）
+🔥 大幅上涨｜台湾｜Google畅销榜｜Honkai: Star Rail：40（↑51）
+🆕 新进榜TOP50｜台湾｜iOS免费榜｜1. 塔塔冒險隊
+⚠️ 大幅下跌｜台湾｜iOS畅销榜｜無雙戰機：90（↓50）
+🆕 新进榜TOP50｜台湾｜iOS免费榜｜7. 果燃很派
+🆕 新进榜TOP50｜台湾｜iOS免费榜｜8. 別砸了！是精靈啦
+⚠️ 大幅下跌｜台湾｜Google免费榜｜Warline: Sniper Strike：96（↓41）
+⚠️ 大幅下跌｜台湾｜iOS畅销榜｜細胞保衛戰 - 生存射擊大亂鬥：83（↓35）
+🔥 大幅上涨｜台湾｜Google免费榜｜You Know: Associations：32（↑34）
+⚠️ 大幅下跌｜台湾｜iOS畅销榜｜戀與深空：61（↓33）
+⚠️ 大幅下跌｜台湾｜Google畅销榜｜Zenless Zone Zero - Anniv.：88（↓32）
+🔥 大幅上涨｜台湾｜iOS免费榜｜迷霧小鎮: 合成遊戲 (Mystery Town)：52（↑31）
+🔥 大幅上涨｜台湾｜iOS畅销榜｜MLB：9局職棒26：48（↑30）
+⚠️ 大幅下跌｜台湾｜iOS畅销榜｜車車屍搭普 - 超激爽末日刷怪！：89（↓29）
+⚠️ 大幅下跌｜台湾｜iOS畅销榜｜心動小鎮：96（↓29）
+🆕 新进榜TOP50｜台湾｜Google免费榜｜23. NBA 2K HQ
+⚠️ 大幅下跌｜台湾｜iOS免费榜｜2 Player Games : Offline Games：89（↓28）
+⚠️ 大幅下跌｜台湾｜iOS畅销榜｜一念逍遙：涅槃重生：52（↓25）
+🆕 新进榜TOP50｜台湾｜iOS免费榜｜28. 美男戰國 - 穿越時空之戀—永緣—
+⚠️ 大幅下跌｜台湾｜iOS畅销榜｜鳴潮：65（↓23）
+🔥 大幅上涨｜台湾｜iOS畅销榜｜EA SPORTS FC™ 足球 Mobile 2026：24（↑22）
+⚠️ 大幅下跌｜台湾｜iOS免费榜｜三國群英傳：策定九州：54（↓22）
+⚠️ 大幅下跌｜台湾｜iOS畅销榜｜勝利女神：妮姬：94（↓22）
+⚠️ 大幅下跌｜台湾｜iOS畅销榜｜原神-至冬開放：99（↓22）
+另有 70 条异动未展示。
+
+========== 台湾 ==========
+
+【iOS免费榜 TOP20】
+1. 塔塔冒險隊 新入榜
+2. Meowdoku! ↓1
+3. 時尚百貨城 ↑3
+4. 趙雲與阿斗 ↓2
+5. 天天拼詞王 ↓1
+6. Slime Up！ ↑1
+7. 果燃很派 新入榜
+8. 別砸了！是精靈啦 新入榜
+9. 鬥破蒼穹M：少年崛起--動畫正版授權 ↓6
+10. 我欲修仙：塔防肉鸽 ↑1
+11. Block Out! - Color Sort Puzzle ↓3
+12. 猛鬼三國-三國暗黑卡牌RPG ↓7
+13. 解憂夢幻島 ↓4
+14. 隨機骰子2 ↑3
+15. 賽爾號：巔峰之戰 ↑7
+16. 最強領主 ↓2
+17. Smash Fest! ↓5
+18. Bus Traffic Fever! ↓8
+19. Royal Kingdom ↓3
+20. Pikmin Bloom ↓2
+
+【iOS畅销榜 TOP20】
+1. 鬥破蒼穹M：少年崛起--動畫正版授權 →
+2. 星城-萊格冒險．決戰羽蛇神 →
+3. 楓之谷M - 奇幻冒險MMORPG ↑31
+4. 寒霜啟示錄 ↓1
+5. RO仙境傳説：世界之旅 ↑13
+6. 世界之外 ↑87
+7. Pikmin Bloom ↓2
+8. Kingshot ↓2
+9. 緋聞港口：合併&故事 ↑1
+10. Pokémon TCG Pocket ↑87
+11. 麻將明星3缺1 ↓7
+12. PUBG MOBILE：絕地求生M ↑7
+13. 崩壞：星穹鐵道 ↑66
+14. Garena 傳說對決：膽大黨聯動開啟！ ↓7
+15. 糖果傳奇 ↓7
+16. 楓之谷：放置冒險記 ↓5
+17. 嚦咕麻將-戰神賽特、雷神之錘、超八、賽馬、麻將、魚機、老虎機 ↓1
+18. 瑪奇 Mobile ↓6
+19. 最後的戰爭 - Last War ↓4
+20. 包你發-王識賢、安心亞推薦休閒娛樂城-老虎機、捕魚機多款遊戲 ↓3
+
+【Google免费榜 TOP20】
+1. Meowdoku: Brain Puzzle Games →
+2. Roblox →
+3. Magic Sort! ↑1
+4. Fruit Ninja® ↑1
+5. Royal Smash! - Physics Puzzle ↓2
+6. Vita Mahjong →
+7. Loop Sort →
+8. Amaze GO! →
+9. Pocket Sort: Coin Merge Puzzle ↑2
+10. Block Blast! →
+11. Mahjong Blast ↓2
+12. Sled Surfers ↑1
+13. Township ↑5
+14. Arrow Puzzle: Tap Puzzle Games ↑5
+15. Fortnite ↓3
+16. Arrows – Puzzle Escape ↑1
+17. Jigsaw Drop: Solitaire Puzzle ↓1
+18. 82-0.com ↑4
+19. Subway Surfers ↑1
+20. Mystery Dumpling: Unbox ASMR ↓5
+
+【Google畅销榜 TOP20】
+1. MONOPOLY GO! →
+2. Roblox →
+3. Candy Crush Saga →
+4. Royal Match →
+5. Gossip Harbor: Merge & Story →
+6. Township →
+7. Pokémon GO →
+8. Kingshot ↓1
+9. Whiteout Survival ↓1
+10. Coin Master ↓1
+11. Royal Kingdom ↓1
+12. Last War:Survival Game ↓1
+13. Toon Blast →
+14. Last Z: Survival Shooter ↓2
+15. Total Battle: War Strategy ↓1
+16. Evony: The King's Return →
+17. Free Fire: 9th Anniversary ↓2
+18. Jackpot Party Casino Slots ↓1
+19. Gardenscapes ↓1
+20. PUBG MOBILE ↑6
+
+
+========== 重点产品趋势图 ==========
+暂无足够历史数据生成趋势图。
