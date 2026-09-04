@@ -1,0 +1,168 @@
+【台湾手游榜单监控日报 V2.7】
+日期：2026-09-04
+
+========== 今日业务摘要 ==========
+重点风险/机会：发现 1 条 P0 级重点异动，需要优先关注。
+预注册：今日暂无新发现的预注册游戏。
+重点产品：天堂W：iOS畅销榜第99（↓40）；楓之谷M：iOS畅销榜第16（→）；寒霜啟示錄：Google畅销榜第11（→，近7日新低）；Last War: Survival：Google畅销榜第12（→，近7日新高）
+优先查看：
+P0｜⚠️ 大幅下跌｜台湾｜iOS畅销榜｜天堂W：99（↓40）
+P1｜🔥 大幅上涨｜台湾｜iOS畅销榜｜《荒野亂鬥》：8（↑29）
+P1｜🔥 大幅上涨｜台湾｜Google免费榜｜Smash Land!：8（↑17）
+P1｜🔥 大幅上涨｜台湾｜iOS畅销榜｜楓之谷：放置冒險記：3（↑14）
+P1｜🔥 大幅上涨｜台湾｜Google免费榜｜Bus Traffic Fever!：6（↑10）
+
+========== 重点产品监控 ==========
+
+【天堂W】
+台湾｜iOS｜iOS畅销榜：99（↓40）
+
+【楓之谷M】
+台湾｜iOS｜iOS畅销榜：16（→）
+
+【寒霜啟示錄】
+台湾｜Google｜Google畅销榜：11（→；近7日新低）
+台湾｜iOS｜iOS免费榜：31（↑5；近3日连续上升）
+台湾｜iOS｜iOS畅销榜：4（→）
+
+【Last War: Survival】
+台湾｜Google｜Google畅销榜：12（→；近7日新高）
+台湾｜iOS｜iOS畅销榜：23（↑2）
+
+========== 新游预注册监控 ==========
+今日暂无新发现的预注册游戏；当前仍在监控 1 款。
+当前未识别到角色扮演相关预注册游戏。
+
+
+========== 榜单异动预警 ==========
+
+【P0｜重点产品大幅波动】
+⚠️ 大幅下跌｜台湾｜iOS畅销榜｜天堂W：99（↓40）
+
+【P1｜重点关注异动】
+🔥 大幅上涨｜台湾｜iOS畅销榜｜《荒野亂鬥》：8（↑29）
+🔥 大幅上涨｜台湾｜Google免费榜｜Smash Land!：8（↑17）
+🔥 大幅上涨｜台湾｜iOS畅销榜｜楓之谷：放置冒險記：3（↑14）
+🔥 大幅上涨｜台湾｜Google免费榜｜Bus Traffic Fever!：6（↑10）
+
+【P2｜普通榜单异动】
+🔥 大幅上涨｜台湾｜iOS畅销榜｜細胞保衛戰 - 生存射擊大亂鬥：36（↑57）
+🔥 大幅上涨｜台湾｜iOS畅销榜｜MLB 9局職棒 勁旅對決 26：33（↑49）
+🔥 大幅上涨｜台湾｜iOS畅销榜｜超自然行動組：45（↑49）
+⚠️ 大幅下跌｜台湾｜Google免费榜｜Hole.io：98（↓47）
+🔥 大幅上涨｜台湾｜Google免费榜｜Solitaire：53（↑45）
+🔥 大幅上涨｜台湾｜Google免费榜｜Lamar - Idle Vlogger：54（↑45）
+🔥 大幅上涨｜台湾｜Google免费榜｜Apex Hunter: Animal Shooting：30（↑44）
+🔥 大幅上涨｜台湾｜Google免费榜｜Jewel Coloring：46（↑44）
+🔥 大幅上涨｜台湾｜Google免费榜｜Pizza Ready!：48（↑44）
+🔥 大幅上涨｜台湾｜Google免费榜｜Last Shelter: War Z：49（↑44）
+🔥 大幅上涨｜台湾｜Google免费榜｜Last Asylum: Plague：50（↑44）
+🔥 大幅上涨｜台湾｜Google免费榜｜Cars Royale: League of Rocket：51（↑44）
+⚠️ 大幅下跌｜台湾｜Google免费榜｜Among Us：88（↓44）
+🔥 大幅上涨｜台湾｜Google免费榜｜Mahjong Master: Daily Match：41（↑43）
+🔥 大幅上涨｜台湾｜Google免费榜｜Color Block Jam：42（↑43）
+🔥 大幅上涨｜台湾｜Google免费榜｜Lordrush：45（↑43）
+🔥 大幅上涨｜台湾｜iOS免费榜｜最後的迴響：54（↑43）
+⚠️ 大幅下跌｜台湾｜Google免费榜｜Tile Explorer - Triple Match：95（↓43）
+🔥 大幅上涨｜台湾｜Google免费榜｜Fluffy Drop - No Timer：36（↑42）
+🔥 大幅上涨｜台湾｜Google免费榜｜Get Color Pack: Sort Puzzle：37（↑42）
+🔥 大幅上涨｜台湾｜Google免费榜｜Craft Battle: Block Wars：40（↑42）
+⚠️ 大幅下跌｜台湾｜Google免费榜｜Block Crush!：94（↓41）
+⚠️ 大幅下跌｜台湾｜Google免费榜｜Paper.io 2：83（↓40）
+⚠️ 大幅下跌｜台湾｜Google免费榜｜Melon Sandbox：80（↓39）
+⚠️ 大幅下跌｜台湾｜Google免费榜｜Royal Kingdom：84（↓39）
+另有 101 条异动未展示。
+
+========== 台湾 ==========
+
+【iOS免费榜 TOP20】
+1. 嘎嘎特攻 →
+2. Meowdoku! ↑2
+3. 塔塔冒險隊 →
+4. 時尚百貨城 ↑1
+5. 瘋狂水世界 ↓3
+6. Pikmin Bloom →
+7. 天天拼詞王 ↑1
+8. 解憂夢幻島 ↑1
+9. Top Force: Commander ↑2
+10. Smash Fest! ↑3
+11. Block Out! - Color Sort Puzzle ↑3
+12. 隨機骰子2 ↓2
+13. Bus Traffic Fever! ↓1
+14. 諸天之上 ↓7
+15. 我欲修仙：塔防肉鸽 →
+16. 趙雲與阿斗 →
+17. 最強領主 ↑1
+18. ArrowCube - 3DPuzzle ↑4
+19. Hole Stars: 謎題挑戰 ↑16
+20. Royal Kingdom →
+
+【iOS畅销榜 TOP20】
+1. 星城-大運西遊．紅孩兒登場 →
+2. 嘎嘎特攻 ↑1
+3. 楓之谷：放置冒險記 ↑14
+4. 寒霜啟示錄 →
+5. Pikmin Bloom ↓3
+6. 塔塔冒險隊 →
+7. 鬥破蒼穹M：少年崛起--動畫正版授權 ↓2
+8. 《荒野亂鬥》 ↑29
+9. 麻將明星3缺1 ↓2
+10. Kingshot ↓1
+11. 豪神娛樂城 ↓1
+12. 糖果傳奇 ↑1
+13. Pokémon GO ↓5
+14. 包你發-王識賢、安心亞推薦休閒娛樂城-老虎機、捕魚機多款遊戲 ↓2
+15. 嚦咕麻將-戰神賽特、雷神之錘、超八、賽馬、麻將、魚機、老虎機 →
+16. 楓之谷M - 奇幻冒險MMORPG →
+17. RO仙境傳説：世界之旅 ↑7
+18. 金好運 ↓4
+19. 緋聞港口：合併&故事 ↑2
+20. Coin Master ↑3
+
+【Google免费榜 TOP20】
+1. Meowdoku: Brain Puzzle Games →
+2. Roblox →
+3. Pocket Sort: Coin Merge Puzzle ↑9
+4. Sled Surfers ↑9
+5. Evony: The King's Return ↓2
+6. Bus Traffic Fever! ↑10
+7. Royal Smash! - Physics Puzzle ↓3
+8. Smash Land! ↑17
+9. Vita Mahjong ↓3
+10. Magic Sort! ↓5
+11. CubeAway - 3DPuzzle ↑18
+12. Mahjong Blast ↓5
+13. Cube Land Puzzle Game ↑19
+14. Color Block: Combo Blast ↑19
+15. Warline: Sniper Strike ↑21
+16. Yarn Loop ↑22
+17. Block Blast! ↓9
+18. Amaze GO! ↓7
+19. Block Craft 3D：Building Game ↓9
+20. Mystery Dumpling: Unbox ASMR ↓11
+
+【Google畅销榜 TOP20】
+1. MONOPOLY GO! →
+2. Pokémon GO ↑1
+3. Roblox ↓1
+4. Candy Crush Saga →
+5. Royal Match →
+6. Gossip Harbor: Merge & Story →
+7. Township →
+8. Coin Master ↑1
+9. Kingshot ↓1
+10. Royal Kingdom →
+11. Whiteout Survival →
+12. Last War:Survival Game →
+13. Evony: The King's Return →
+14. DRAGON BALL Z DOKKAN BATTLE ↑1
+15. Toon Blast ↓1
+16. Last Z: Survival Shooter →
+17. Total Battle: War Strategy ↑2
+18. Jackpot Party Casino Slots ↓1
+19. Gardenscapes ↓1
+20. Clash of Clans ↑4
+
+
+========== 重点产品趋势图 ==========
+暂无足够历史数据生成趋势图。
