@@ -1,0 +1,171 @@
+【台湾手游榜单监控日报 V2.7】
+日期：2026-09-05
+
+========== 今日业务摘要 ==========
+重点风险/机会：发现 1 条 P0 级重点异动，需要优先关注。
+预注册：今日暂无新发现的预注册游戏。
+重点产品：新熱血江湖：世界：iOS畅销榜第97（↓9，近3日连续下滑）；天堂W：iOS畅销榜第74（↑25）；楓之谷M：iOS畅销榜第20（↓4，近7日新低）；寒霜啟示錄：Google畅销榜第10（↑1）
+另有 1 个重点产品在下方详情中展示。
+优先查看：
+P0｜🔥 大幅上涨｜台湾｜iOS畅销榜｜天堂W：74（↑25）
+P1｜🔥 大幅上涨｜台湾｜iOS畅销榜｜貓咪大戰爭：11（↑83）
+P1｜🔥 大幅上涨｜台湾｜iOS畅销榜｜Garena 傳說對決：冥定王牌版本：2（↑25）
+P1｜🔥 大幅上涨｜台湾｜Google免费榜｜82-0.com：7（↑17）
+
+========== 重点产品监控 ==========
+
+【新熱血江湖：世界】
+台湾｜iOS｜iOS畅销榜：97（↓9；近3日连续下滑）
+
+【天堂W】
+台湾｜iOS｜iOS畅销榜：74（↑25）
+
+【楓之谷M】
+台湾｜iOS｜iOS畅销榜：20（↓4；近7日新低）
+
+【寒霜啟示錄】
+台湾｜Google｜Google畅销榜：10（↑1）
+台湾｜iOS｜iOS免费榜：24（↑7；近3日连续上升；近7日新高）
+台湾｜iOS｜iOS畅销榜：5（↓1）
+
+【Last War: Survival】
+台湾｜Google｜Google畅销榜：13（↓1；近7日新低）
+台湾｜iOS｜iOS畅销榜：27（↓4）
+
+========== 新游预注册监控 ==========
+今日暂无新发现的预注册游戏；当前仍在监控 1 款。
+当前未识别到角色扮演相关预注册游戏。
+
+
+========== 榜单异动预警 ==========
+
+【P0｜重点产品大幅波动】
+🔥 大幅上涨｜台湾｜iOS畅销榜｜天堂W：74（↑25）
+
+【P1｜重点关注异动】
+🔥 大幅上涨｜台湾｜iOS畅销榜｜貓咪大戰爭：11（↑83）
+🔥 大幅上涨｜台湾｜iOS畅销榜｜Garena 傳說對決：冥定王牌版本：2（↑25）
+🔥 大幅上涨｜台湾｜Google免费榜｜82-0.com：7（↑17）
+
+【P2｜普通榜单异动】
+🔥 大幅上涨｜台湾｜Google免费榜｜Hole.io：23（↑75）
+🔥 大幅上涨｜台湾｜iOS免费榜｜好萊塢合成：星夢逆襲：20（↑54）
+🔥 大幅上涨｜台湾｜Google免费榜｜Brain Puzzle 3: Crazy Mind：20（↑50）
+⚠️ 大幅下跌｜台湾｜iOS免费榜｜蘇丹的遊戲：78（↓44）
+🔥 大幅上涨｜台湾｜Google免费榜｜Search It - Hidden Objects：43（↑40）
+🔥 大幅上涨｜台湾｜Google免费榜｜Epic Plane Evolution：57（↑39）
+⚠️ 大幅下跌｜台湾｜iOS免费榜｜漫遊小鎮®：合併&故事：100（↓39）
+⚠️ 大幅下跌｜台湾｜iOS畅销榜｜三國觀滄海：85（↓36）
+⚠️ 大幅下跌｜台湾｜iOS免费榜｜超能戰爭：88（↓35）
+⚠️ 大幅下跌｜台湾｜iOS畅销榜｜逆水寒：81（↓33）
+⚠️ 大幅下跌｜台湾｜Google畅销榜｜Merge Mansion: Puzzles & Story：98（↓33）
+🔥 大幅上涨｜台湾｜Google免费榜｜Slow Mo Strike: Knives in Time：11（↑32）
+🔥 大幅上涨｜台湾｜Google免费榜｜Pixel Flow!：12（↑32）
+🔥 大幅上涨｜台湾｜Google免费榜｜Jigsaw Drop: Solitaire Puzzle：26（↑29）
+🔥 大幅上涨｜台湾｜iOS畅销榜｜Rogue Legend - Roguelike RPG：70（↑28）
+⚠️ 大幅下跌｜台湾｜iOS畅销榜｜三國志・戰略版：95（↓28）
+⚠️ 大幅下跌｜台湾｜iOS畅销榜｜Mobile Legends: Bang Bang：100（↓28）
+⚠️ 大幅下跌｜台湾｜iOS畅销榜｜天天玩樂園 (Play Together)：80（↓27）
+⚠️ 大幅下跌｜台湾｜iOS免费榜｜新武俠大明星-文字大亂鬥：71（↓26）
+⚠️ 大幅下跌｜台湾｜iOS畅销榜｜勝利女神：妮姬：98（↓26）
+🔥 大幅上涨｜台湾｜iOS畅销榜｜Travel Town - Merge Adventure：75（↑25）
+🔥 大幅上涨｜台湾｜iOS畅销榜｜青丘世界：緣起：63（↑24）
+⚠️ 大幅下跌｜台湾｜iOS免费榜｜幻想三國：武姬集結：55（↓23）
+🔥 大幅上涨｜台湾｜iOS畅销榜｜拉斯維加斯娛樂城-捕魚,老虎機,拉霸,麻將,賭場遊戲：61（↑23）
+⚠️ 大幅下跌｜台湾｜iOS畅销榜｜VAMPIR：血之繼承者：94（↓22）
+🔥 大幅上涨｜台湾｜iOS免费榜｜最終曙光（Last Light）：25（↑21）
+另有 66 条异动未展示。
+
+========== 台湾 ==========
+
+【iOS免费榜 TOP20】
+1. 嘎嘎特攻 →
+2. Meowdoku! →
+3. 時尚百貨城 ↑1
+4. 塔塔冒險隊 ↓1
+5. 瘋狂水世界 →
+6. Pikmin Bloom →
+7. 天天拼詞王 →
+8. 解憂夢幻島 →
+9. Block Out! - Color Sort Puzzle ↑2
+10. Top Force: Commander ↓1
+11. Smash Fest! ↓1
+12. Bus Traffic Fever! ↑1
+13. 隨機骰子2 ↓1
+14. Royal Kingdom ↑6
+15. 諸天之上 ↓1
+16. 最強領主 ↑1
+17. 趙雲與阿斗 ↓1
+18. 我欲修仙：塔防肉鸽 ↓3
+19. ArrowCube - 3DPuzzle ↓1
+20. 好萊塢合成：星夢逆襲 ↑54
+
+【iOS畅销榜 TOP20】
+1. 星城-大運西遊．紅孩兒登場 →
+2. Garena 傳說對決：冥定王牌版本 ↑25
+3. 嘎嘎特攻 ↓1
+4. Pokémon GO ↑9
+5. 寒霜啟示錄 ↓1
+6. Pikmin Bloom ↓1
+7. 鬥破蒼穹M：少年崛起--動畫正版授權 →
+8. 塔塔冒險隊 ↓2
+9. 楓之谷：放置冒險記 ↓6
+10. 麻將明星3缺1 ↓1
+11. 貓咪大戰爭 ↑83
+12. 糖果傳奇 →
+13. 緋聞港口：合併&故事 ↑6
+14. Kingshot ↓4
+15. 《荒野亂鬥》 ↓7
+16. 豪神娛樂城 ↓5
+17. 包你發-王識賢、安心亞推薦休閒娛樂城-老虎機、捕魚機多款遊戲 ↓3
+18. 嚦咕麻將-戰神賽特、月兔、雷神之錘、麻將、魚機、老虎機 ↓3
+19. Coin Master ↑1
+20. 楓之谷M - 奇幻冒險MMORPG ↓4
+
+【Google免费榜 TOP20】
+1. Royal Smash! - Physics Puzzle ↑6
+2. Magic Sort! ↑8
+3. Meowdoku: Brain Puzzle Games ↓2
+4. Roblox ↓2
+5. Pocket Sort: Coin Merge Puzzle ↓2
+6. Sled Surfers ↓2
+7. 82-0.com ↑17
+8. Bus Traffic Fever! ↓2
+9. Evony: The King's Return ↓4
+10. Smash Land! ↓2
+11. Slow Mo Strike: Knives in Time ↑32
+12. Pixel Flow! ↑32
+13. CubeAway - 3DPuzzle ↓2
+14. Vita Mahjong ↓5
+15. Color Block: Combo Blast ↓1
+16. Cube Land Puzzle Game ↓3
+17. Warline: Sniper Strike ↓2
+18. Yarn Loop ↓2
+19. Mahjong Blast ↓7
+20. Brain Puzzle 3: Crazy Mind ↑50
+
+【Google畅销榜 TOP20】
+1. MONOPOLY GO! →
+2. Pokémon GO →
+3. Roblox →
+4. Candy Crush Saga →
+5. Royal Match →
+6. Gossip Harbor: Merge & Story →
+7. Coin Master ↑1
+8. Township ↓1
+9. Kingshot →
+10. Whiteout Survival ↑1
+11. Royal Kingdom ↓1
+12. Evony: The King's Return ↑1
+13. Last War:Survival Game ↓1
+14. DRAGON BALL Z DOKKAN BATTLE →
+15. Toon Blast →
+16. Last Z: Survival Shooter →
+17. Total Battle: War Strategy →
+18. Jackpot Party Casino Slots →
+19. Clash of Clans ↑1
+20. Gardenscapes ↓1
+
+
+========== 重点产品趋势图 ==========
+暂无足够历史数据生成趋势图。
