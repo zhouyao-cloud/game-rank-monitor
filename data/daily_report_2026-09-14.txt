@@ -1,0 +1,162 @@
+【台湾手游榜单监控日报 V2.7】
+日期：2026-09-14
+
+========== 今日业务摘要 ==========
+重点风险/机会：发现 3 条 P1 级异动，建议关注是否由活动或投放导致。
+预注册：今日暂无新发现的预注册游戏。
+重点产品：楓之谷M：iOS畅销榜第33（↓5，近3日连续下滑；近7日新低）；寒霜啟示錄：Google畅销榜第8（→，近7日新高）；Last War: Survival：Google畅销榜第12（→，近7日新高）
+优先查看：
+P1｜🔥 大幅上涨｜台湾｜iOS畅销榜｜DRAGON BALL Z -七龍珠爆裂激戰-：19（↑78）
+P1｜🔥 大幅上涨｜台湾｜Google畅销榜｜DRAGON BALL Z DOKKAN BATTLE：19（↑52）
+P1｜🔥 大幅上涨｜台湾｜iOS畅销榜｜楓之谷：放置冒險記：6（↑15）
+
+========== 重点产品监控 ==========
+
+【楓之谷M】
+台湾｜iOS｜iOS畅销榜：33（↓5；近3日连续下滑；近7日新低）
+
+【寒霜啟示錄】
+台湾｜Google｜Google免费榜：76（↑3）
+台湾｜Google｜Google畅销榜：8（→；近7日新高）
+台湾｜iOS｜iOS免费榜：36（→）
+台湾｜iOS｜iOS畅销榜：4（↑1；近7日新高）
+
+【Last War: Survival】
+台湾｜Google｜Google畅销榜：12（→；近7日新高）
+台湾｜iOS｜iOS畅销榜：28（↑7）
+
+========== 新游预注册监控 ==========
+今日暂无新发现的预注册游戏；当前仍在监控 1 款。
+当前未识别到角色扮演相关预注册游戏。
+
+
+========== 榜单异动预警 ==========
+
+【P1｜重点关注异动】
+🔥 大幅上涨｜台湾｜iOS畅销榜｜DRAGON BALL Z -七龍珠爆裂激戰-：19（↑78）
+🔥 大幅上涨｜台湾｜Google畅销榜｜DRAGON BALL Z DOKKAN BATTLE：19（↑52）
+🔥 大幅上涨｜台湾｜iOS畅销榜｜楓之谷：放置冒險記：6（↑15）
+
+【P2｜普通榜单异动】
+🆕 新进榜TOP50｜台湾｜iOS免费榜｜4. 締造者：放逐之境
+🔥 大幅上涨｜台湾｜iOS畅销榜｜MLB：9局職棒26：49（↑26）
+🔥 大幅上涨｜台湾｜iOS畅销榜｜最強領主：68（↑25）
+⚠️ 大幅下跌｜台湾｜iOS畅销榜｜蛋仔派對：98（↓25）
+🔥 大幅上涨｜台湾｜iOS畅销榜｜我的花園世界：73（↑23）
+⚠️ 大幅下跌｜台湾｜iOS畅销榜｜大福Online-老虎機、捕魚、推幣機、刮刮樂、拉霸 娛樂城：84（↓23）
+⚠️ 大幅下跌｜台湾｜iOS免费榜｜最終曙光（Last Light）：72（↓22）
+⚠️ 大幅下跌｜台湾｜iOS畅销榜｜弓箭傳說2：79（↓22）
+⚠️ 大幅下跌｜台湾｜Google免费榜｜Solitaire Associations Journey：99（↓22）
+⚠️ 大幅下跌｜台湾｜iOS免费榜｜迷霧小鎮: 合成遊戲 (Mystery Town)：100（↓21）
+⚠️ 大幅下跌｜台湾｜iOS畅销榜｜崩壞：星穹鐵道：38（↓20）
+⚠️ 大幅下跌｜台湾｜iOS畅销榜｜點點英雄：骰子傳說：97（↓20）
+🔥 大幅上涨｜台湾｜Google畅销榜｜Honkai: Star Rail：46（↑19）
+🔥 大幅上涨｜台湾｜iOS畅销榜｜德州撲克 神來也德州撲克(Texas Poker)：76（↑19）
+⚠️ 大幅下跌｜台湾｜iOS畅销榜｜神來也暗棋2、象棋麻將：99（↓19）
+⚠️ 大幅下跌｜台湾｜iOS畅销榜｜NBA巔峰對決：72（↓18）
+🔥 大幅上涨｜台湾｜iOS畅销榜｜火辣餐廳：合併&烹飪：77（↑18）
+⚠️ 大幅下跌｜台湾｜iOS畅销榜｜三國群英傳：策定九州：91（↓17）
+⚠️ 大幅下跌｜台湾｜iOS畅销榜｜信長之野望 真戰：26（↓16）
+⚠️ 大幅下跌｜台湾｜iOS免费榜｜瑪奇 Mobile：74（↓15）
+🔥 大幅上涨｜台湾｜iOS畅销榜｜Travel Town - Merge Adventure：74（↑15）
+⚠️ 大幅下跌｜台湾｜iOS畅销榜｜猛鬼三國-三國暗黑卡牌RPG：93（↓15）
+⚠️ 大幅下跌｜台湾｜iOS畅销榜｜MLB 9局職棒 勁旅對決 26：96（↓15）
+🔥 大幅上涨｜台湾｜iOS免费榜｜Colony Flow!：27（↑14）
+🔥 大幅上涨｜台湾｜iOS畅销榜｜細胞保衛戰 - 生存射擊大亂鬥：51（↑14）
+⚠️ 大幅下跌｜台湾｜iOS畅销榜｜心動小鎮：62（↓14）
+🔥 大幅上涨｜台湾｜iOS免费榜｜Critical Strike CS: 射擊遊戲：64（↑14）
+另有 24 条异动未展示。
+
+========== 台湾 ==========
+
+【iOS免费榜 TOP20】
+1. 瘋狂水世界 →
+2. Meowdoku! ↑1
+3. 嘎嘎特攻 ↓1
+4. 締造者：放逐之境 新入榜
+5. 時尚百貨城 ↓1
+6. 塔塔冒險隊 →
+7. 孔明與阿斗 ↓2
+8. 最強領主 →
+9. Pikmin Bloom ↓2
+10. Block Out! - Color Sort Puzzle ↑3
+11. 天天拼詞王 ↓2
+12. Royal Kingdom ↓1
+13. 腦洞諧音梗 ↑2
+14. 好萊塢合成：星夢逆襲 ↓4
+15. 修真遊俠 ↓3
+16. Bus Traffic Fever! ↓2
+17. 解憂夢幻島 →
+18. 趙雲與阿斗 ↑2
+19. Roblox ↓1
+20. Last Shelter: War Z ↑5
+
+【iOS畅销榜 TOP20】
+1. 星城-大運西遊．紅孩兒登場 →
+2. 嘎嘎特攻 →
+3. Pikmin Bloom →
+4. 寒霜啟示錄 ↑1
+5. 塔塔冒險隊 ↓1
+6. 楓之谷：放置冒險記 ↑15
+7. 緋聞港口：合併&故事 ↓1
+8. 麻將明星3缺1 →
+9. 包你發－王識賢、安心亞推薦休閒娛樂城－麻雀無雙至尊版全新升級 ↓2
+10. Kingshot ↑5
+11. 瘋狂水世界 ↑8
+12. 糖果傳奇 →
+13. 豪神娛樂城 ↑1
+14. 決勝時刻: Mobile - Garena ↑2
+15. Garena 傳說對決：冥定王牌版本 ↓6
+16. 鬥破蒼穹M：少年崛起--動畫正版授權 ↓3
+17. 神魔之塔 ↑13
+18. Pokémon GO ↓7
+19. DRAGON BALL Z -七龍珠爆裂激戰- ↑78
+20. Roblox →
+
+【Google免费榜 TOP20】
+1. Meowdoku: Brain Puzzle Games →
+2. MiniMuse →
+3. Roblox →
+4. Royal Smash! - Physics Puzzle →
+5. Vita Mahjong →
+6. Magic Sort! →
+7. Block Blast! →
+8. Bus Fever Party! →
+9. Fish Sort Puzzle →
+10. Block Craft 3D：Building Game →
+11. Amaze GO! →
+12. Mahjong Blast →
+13. Gossip Harbor: Merge & Story →
+14. Smash Land! ↑1
+15. Sled Surfers ↓1
+16. Block Crush! →
+17. Word Search Explorer →
+18. Loop Sort →
+19. Cube Land Puzzle Game ↑1
+20. Candy Crush Saga ↓1
+
+【Google畅销榜 TOP20】
+1. MONOPOLY GO! →
+2. Candy Crush Saga →
+3. Roblox →
+4. Gossip Harbor: Merge & Story ↑3
+5. Royal Match →
+6. Kingshot →
+7. Township ↑2
+8. Whiteout Survival →
+9. Pokémon GO ↓5
+10. Coin Master →
+11. Royal Kingdom →
+12. Last War:Survival Game →
+13. Toon Blast ↑1
+14. Evony: The King's Return ↓1
+15. Last Z: Survival Shooter →
+16. Jackpot Party Casino Slots →
+17. Gardenscapes ↑1
+18. Match Factory! ↓1
+19. DRAGON BALL Z DOKKAN BATTLE ↑52
+20. Bingo Blitz™️ - Bingo Games →
+
+
+========== 重点产品趋势图 ==========
+暂无足够历史数据生成趋势图。
