@@ -1,0 +1,168 @@
+【台湾手游榜单监控日报 V2.7】
+日期：2026-09-16
+
+========== 今日业务摘要 ==========
+重点风险/机会：发现 2 条 P0 级重点异动，需要优先关注。
+预注册：今日暂无新发现的预注册游戏。
+重点产品：天堂W：iOS畅销榜第53（↑34，近7日新高）；楓之谷M：iOS畅销榜第16（↑12，近3日连续上升；近7日新高）；寒霜啟示錄：Google畅销榜第8（→，近7日新高）；Last War: Survival：Google畅销榜第12（→，近7日新高）
+优先查看：
+P0｜🔥 大幅上涨｜台湾｜iOS畅销榜｜天堂W：53（↑34）
+P0｜🔥 大幅上涨｜台湾｜iOS畅销榜｜楓之谷M - 奇幻冒險MMORPG：16（↑12）
+P1｜🔥 大幅上涨｜台湾｜iOS畅销榜｜Fate/Grand Order：13（↑45）
+P1｜🔥 大幅上涨｜台湾｜iOS畅销榜｜Garena 傳說對決：冥定王牌版本：3（↑13）
+
+========== 重点产品监控 ==========
+
+【天堂W】
+台湾｜iOS｜iOS畅销榜：53（↑34；近7日新高）
+
+【楓之谷M】
+台湾｜iOS｜iOS畅销榜：16（↑12；近3日连续上升；近7日新高）
+
+【寒霜啟示錄】
+台湾｜Google｜Google免费榜：85（↓2；近3日连续下滑；近7日新低）
+台湾｜Google｜Google畅销榜：8（→；近7日新高）
+台湾｜iOS｜iOS免费榜：44（↓8；近7日新低）
+台湾｜iOS｜iOS畅销榜：5（→；近7日新低）
+
+【Last War: Survival】
+台湾｜Google｜Google畅销榜：12（→；近7日新高）
+台湾｜iOS｜iOS畅销榜：19（↑4；近3日连续上升；近7日新高）
+
+========== 新游预注册监控 ==========
+今日暂无新发现的预注册游戏；当前仍在监控 1 款。
+当前未识别到角色扮演相关预注册游戏。
+
+
+========== 榜单异动预警 ==========
+
+【P0｜重点产品大幅波动】
+🔥 大幅上涨｜台湾｜iOS畅销榜｜天堂W：53（↑34）
+🔥 大幅上涨｜台湾｜iOS畅销榜｜楓之谷M - 奇幻冒險MMORPG：16（↑12）
+
+【P1｜重点关注异动】
+🔥 大幅上涨｜台湾｜iOS畅销榜｜Fate/Grand Order：13（↑45）
+🔥 大幅上涨｜台湾｜iOS畅销榜｜Garena 傳說對決：冥定王牌版本：3（↑13）
+
+【P2｜普通榜单异动】
+🔥 大幅上涨｜台湾｜Google免费榜｜Kick the Buddy－Fun Action Game：47（↑51）
+🆕 新进榜TOP50｜台湾｜iOS免费榜｜1. 不良人：破局
+🔥 大幅上涨｜台湾｜Google免费榜｜Brainy Escape Quest：36（↑48）
+⚠️ 大幅下跌｜台湾｜iOS畅销榜｜Pokémon Masters EX：99（↓48）
+⚠️ 大幅下跌｜台湾｜Google免费榜｜17-0 Football Manager：90（↓46）
+🔥 大幅上涨｜台湾｜iOS免费榜｜靠裝勇者：背包合成RPG：57（↑38）
+🔥 大幅上涨｜台湾｜iOS畅销榜｜拉斯維加斯娛樂城-捕魚,老虎機,拉霸,麻將,賭場遊戲：52（↑37）
+⚠️ 大幅下跌｜台湾｜Google免费榜｜Lordrush：84（↓36）
+⚠️ 大幅下跌｜台湾｜Google免费榜｜Warline: Sniper Strike：94（↓36）
+⚠️ 大幅下跌｜台湾｜Google免费榜｜Cube Land Puzzle Game：41（↓35）
+🔥 大幅上涨｜台湾｜Google免费榜｜Offline Games - No Wifi Games：61（↑34）
+⚠️ 大幅下跌｜台湾｜Google畅销榜｜Brawl Stars：92（↓34）
+⚠️ 大幅下跌｜台湾｜iOS免费榜｜Bus Simulator : Ultimate：62（↓33）
+🆕 新进榜TOP50｜台湾｜iOS免费榜｜19. くるくるたこ焼き ソース味 おまけつき
+🔥 大幅上涨｜台湾｜Google免费榜｜Car Evolve：27（↑32）
+🔥 大幅上涨｜台湾｜Google免费榜｜Toca Boca World：45（↑31）
+🔥 大幅上涨｜台湾｜Google免费榜｜Brain Puzzle 3: Crazy Mind：20（↑30）
+🔥 大幅上涨｜台湾｜iOS畅销榜｜MLB 9局職棒 勁旅對決 26：44（↑29）
+🔥 大幅上涨｜台湾｜Google免费榜｜Bulldozer Master: Crush & Mine：44（↑29）
+🔥 大幅上涨｜台湾｜iOS畅销榜｜青丘世界：緣起：59（↑27）
+🔥 大幅上涨｜台湾｜Google免费榜｜Block Craft 3D: Realm Builder：62（↑27）
+🔥 大幅上涨｜台湾｜Google免费榜｜Melon Sandbox：37（↑25）
+🔥 大幅上涨｜台湾｜Google免费榜｜Magic Tiles 3™ - Piano Game：18（↑24）
+🆕 新进榜TOP50｜台湾｜iOS免费榜｜27. Happy Sandwich Cafe
+🔥 大幅上涨｜台湾｜Google免费榜｜Annoying Uncle Punch Game®：75（↑24）
+⚠️ 大幅下跌｜台湾｜Google免费榜｜Kick & Break The Ragdoll Games：95（↓24）
+另有 78 条异动未展示。
+
+========== 台湾 ==========
+
+【iOS免费榜 TOP20】
+1. 不良人：破局 新入榜
+2. 瘋狂水世界 ↓1
+3. Meowdoku! ↓1
+4. 嘎嘎特攻 →
+5. 時尚百貨城 →
+6. 塔塔冒險隊 ↑1
+7. World of Airports ↓4
+8. 最強領主 ↑2
+9. 孔明與阿斗 →
+10. 締造者：放逐之境 ↓2
+11. 小貓咪大史記－黃阿瑪聯動中！ ↓5
+12. 腦洞諧音梗 →
+13. Coin Master - Board Adventure ↑1
+14. 解憂夢幻島 ↑5
+15. Block Out! - Color Sort Puzzle ↓2
+16. Royal Kingdom ↑2
+17. Smash Fest! →
+18. 好萊塢合成：星夢逆襲 ↑6
+19. くるくるたこ焼き ソース味 おまけつき 新入榜
+20. ArrowCube - 3DPuzzle ↑2
+
+【iOS畅销榜 TOP20】
+1. 星城-大運西遊．紅孩兒登場 ↑1
+2. 神魔之塔 ↓1
+3. Garena 傳說對決：冥定王牌版本 ↑13
+4. 嘎嘎特攻 ↓1
+5. 寒霜啟示錄 →
+6. Pikmin Bloom ↓2
+7. 塔塔冒險隊 ↓1
+8. 麻將明星3缺1 ↑1
+9. Kingshot ↓2
+10. 瘋狂水世界 ↑1
+11. 緋聞港口：合併&故事 ↓1
+12. 包你發－王識賢、安心亞推薦休閒娛樂城－麻雀無雙至尊版全新升級 →
+13. Fate/Grand Order ↑45
+14. 豪神娛樂城 →
+15. 楓之谷：放置冒險記 ↓7
+16. 楓之谷M - 奇幻冒險MMORPG ↑12
+17. 糖果傳奇 ↓4
+18. 金好運-老虎機、捕魚機、戰神賽特、吉宗、麻將、柏青哥娛樂首選 ↓1
+19. 最後的戰爭 - Last War ↑4
+20. 鬥破蒼穹M：少年崛起--動畫正版授權 ↓5
+
+【Google免费榜 TOP20】
+1. Meowdoku: Brain Puzzle Games ↑2
+2. Roblox ↑2
+3. MiniMuse ↓2
+4. Royal Smash! - Physics Puzzle ↓2
+5. Magic Sort! ↑2
+6. Block Blast! ↑2
+7. Vita Mahjong ↓2
+8. Block Craft 3D：Building Game ↑2
+9. Bus Fever Party! →
+10. Gossip Harbor: Merge & Story ↑3
+11. Fish Sort Puzzle →
+12. Colony Flow! ↑3
+13. Amaze GO! ↓1
+14. Sled Surfers ↑3
+15. Gugu Gaga: Keyboard Escape ↑19
+16. Slow Mo Strike: Knives in Time ↑19
+17. Word Search Explorer ↑2
+18. Magic Tiles 3™ - Piano Game ↑24
+19. Mahjong Blast ↓5
+20. Brain Puzzle 3: Crazy Mind ↑30
+
+【Google畅销榜 TOP20】
+1. MONOPOLY GO! →
+2. Roblox →
+3. Candy Crush Saga →
+4. Gossip Harbor: Merge & Story →
+5. Royal Match →
+6. Kingshot →
+7. Township →
+8. Whiteout Survival →
+9. Coin Master ↑1
+10. Royal Kingdom ↑1
+11. Pokémon GO ↓2
+12. Last War:Survival Game →
+13. Toon Blast →
+14. Last Z: Survival Shooter →
+15. DRAGON BALL Z DOKKAN BATTLE →
+16. Evony: The King's Return →
+17. Total Battle: War Strategy →
+18. Jackpot Party Casino Slots →
+19. Gardenscapes ↑1
+20. Match Factory! ↓1
+
+
+========== 重点产品趋势图 ==========
+暂无足够历史数据生成趋势图。
