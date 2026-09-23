@@ -1,0 +1,169 @@
+【台湾手游榜单监控日报 V2.7】
+日期：2026-09-23
+
+========== 今日业务摘要 ==========
+重点风险/机会：发现 1 条 P0 级重点异动，需要优先关注。
+预注册：今日暂无新发现的预注册游戏。
+重点产品：天堂W：iOS畅销榜第67（↑15）；楓之谷M：iOS畅销榜第30（↓5，近3日连续下滑）；寒霜啟示錄：Google畅销榜第8（→，近7日新高）；Last War: Survival：Google畅销榜第12（↑1，近7日新高）
+优先查看：
+P0｜🔥 大幅上涨｜台湾｜iOS畅销榜｜天堂W：67（↑15）
+P1｜🔥 大幅上涨｜台湾｜Google免费榜｜8 Ball Pool：3（↑80）
+P1｜🔥 大幅上涨｜台湾｜iOS畅销榜｜同盟塔防戰：並肩作戰：7（↑33）
+P1｜🔥 大幅上涨｜台湾｜iOS畅销榜｜戀與深空：4（↑18）
+P1｜🔥 大幅上涨｜台湾｜iOS畅销榜｜楓之谷：放置冒險記：3（↑14）
+
+========== 重点产品监控 ==========
+
+【天堂W】
+台湾｜iOS｜iOS畅销榜：67（↑15）
+
+【楓之谷M】
+台湾｜iOS｜iOS畅销榜：30（↓5；近3日连续下滑）
+
+【寒霜啟示錄】
+台湾｜Google｜Google免费榜：88（↓8）
+台湾｜Google｜Google畅销榜：8（→；近7日新高）
+台湾｜iOS｜iOS免费榜：41（↑2；近7日新高）
+台湾｜iOS｜iOS畅销榜：1（→；近7日新高）
+
+【Last War: Survival】
+台湾｜Google｜Google畅销榜：12（↑1；近7日新高）
+台湾｜iOS｜iOS畅销榜：24（↑4；近3日连续上升）
+
+========== 新游预注册监控 ==========
+今日暂无新发现的预注册游戏；当前仍在监控 1 款。
+当前未识别到角色扮演相关预注册游戏。
+
+
+========== 榜单异动预警 ==========
+
+【P0｜重点产品大幅波动】
+🔥 大幅上涨｜台湾｜iOS畅销榜｜天堂W：67（↑15）
+
+【P1｜重点关注异动】
+🔥 大幅上涨｜台湾｜Google免费榜｜8 Ball Pool：3（↑80）
+🔥 大幅上涨｜台湾｜iOS畅销榜｜同盟塔防戰：並肩作戰：7（↑33）
+🔥 大幅上涨｜台湾｜iOS畅销榜｜戀與深空：4（↑18）
+🔥 大幅上涨｜台湾｜iOS畅销榜｜楓之谷：放置冒險記：3（↑14）
+
+【P2｜普通榜单异动】
+🔥 大幅上涨｜台湾｜iOS畅销榜｜我的花園世界：31（↑66）
+🔥 大幅上涨｜台湾｜Google畅销榜｜Star Wars™: Galaxy of Heroes：53（↑40）
+🔥 大幅上涨｜台湾｜iOS畅销榜｜MLB 9局職棒 勁旅對決 26：23（↑34）
+🆕 新进榜TOP50｜台湾｜iOS畅销榜｜22. 半夜別修仙
+🔥 大幅上涨｜台湾｜iOS畅销榜｜《英雄聯盟：激鬥峽谷》：25（↑28）
+⚠️ 大幅下跌｜台湾｜iOS畅销榜｜原神-六週年：100（↓28）
+🔥 大幅上涨｜台湾｜Google免费榜｜Brain Puzzle 2: Logic Twist：71（↑27）
+🔥 大幅上涨｜台湾｜iOS畅销榜｜信長之野望 真戰：53（↑26）
+⚠️ 大幅下跌｜台湾｜Google免费榜｜MiniMuse：89（↓26）
+⚠️ 大幅下跌｜台湾｜iOS畅销榜｜燕雲十六聲：94（↓25）
+⚠️ 大幅下跌｜台湾｜iOS畅销榜｜Sky光·遇：71（↓24）
+⚠️ 大幅下跌｜台湾｜Google免费榜｜Find It Out® - Hidden Object：99（↓24）
+⚠️ 大幅下跌｜台湾｜iOS免费榜｜美食之星:合併與烹飪：100（↓23）
+⚠️ 大幅下跌｜台湾｜iOS免费榜｜墮落之美：合成與故事：79（↓22）
+🔥 大幅上涨｜台湾｜Google免费榜｜Jigsawcard Solitaire Puzzle：15（↑21）
+🔥 大幅上涨｜台湾｜Google免费榜｜CubeAway - 3DPuzzle：19（↑21）
+⚠️ 大幅下跌｜台湾｜Google免费榜｜ARES: THE IRON VANGUARD：51（↓20）
+⚠️ 大幅下跌｜台湾｜iOS畅销榜｜大福Online-老虎機、捕魚、推幣機、刮刮樂、拉霸 娛樂城：88（↓20）
+🔥 大幅上涨｜台湾｜iOS免费榜｜Top Force: Commander：27（↑19）
+⚠️ 大幅下跌｜台湾｜Google免费榜｜Offline Games: No WiFi - FunOn：95（↓18）
+⚠️ 大幅下跌｜台湾｜Google免费榜｜Lumi Master：41（↓17）
+⚠️ 大幅下跌｜台湾｜Google免费榜｜Annoying Uncle Punch Game®：97（↓16）
+⚠️ 大幅下跌｜台湾｜iOS免费榜｜Critical Strike CS: 射擊遊戲：97（↓15）
+🔥 大幅上涨｜台湾｜iOS畅销榜｜瑪奇 Mobile：13（↑14）
+🔥 大幅上涨｜台湾｜iOS免费榜｜Jigsawcard Solitaire Puzzle：16（↑14）
+另有 43 条异动未展示。
+
+========== 台湾 ==========
+
+【iOS免费榜 TOP20】
+1. 伊莫 →
+2. 半夜別修仙 →
+3. 瘋狂水世界 ↑1
+4. Meowdoku! ↑1
+5. BanG Dream! 交織的樂章 ↓2
+6. 2026 中職王牌GO! →
+7. 腦洞諧音梗 ↑1
+8. 嘎嘎特攻 ↓1
+9. 時尚百貨城 ↑1
+10. 閃耀吧！嚕咪 ↓1
+11. DAVE THE DIVER →
+12. 塔塔冒險隊 →
+13. Royal Kingdom →
+14. ArrowCube - 3DPuzzle ↑1
+15. Colony Flow! ↓1
+16. Jigsawcard Solitaire Puzzle ↑14
+17. Block Out! - Color Sort Puzzle ↓1
+18. Bus Fever Party! ↑2
+19. 槍手貓咪：放置射擊RPG ↑3
+20. 孔明與阿斗 ↓2
+
+【iOS畅销榜 TOP20】
+1. 寒霜啟示錄 →
+2. 星城-大運西遊．紅孩兒登場 →
+3. 楓之谷：放置冒險記 ↑14
+4. 戀與深空 ↑18
+5. Kingshot ↓2
+6. 嘎嘎特攻 ↓2
+7. 同盟塔防戰：並肩作戰 ↑33
+8. 麻將明星3缺1 →
+9. 瘋狂水世界 ↑2
+10. 包你發－王識賢、安心亞推薦休閒娛樂城－麻雀無雙至尊版全新升級 ↓3
+11. Pikmin Bloom ↓6
+12. Garena 傳說對決：十週年裂隙穿梭版本 ↓6
+13. 瑪奇 Mobile ↑14
+14. 豪神娛樂城 ↑4
+15. 塔塔冒險隊 ↓5
+16. 緋聞港口：合併&故事 ↓7
+17. RO仙境傳説：世界之旅 ↓4
+18. 糖果傳奇 ↓4
+19. 神魔之塔 ↓7
+20. 嚦咕麻將-戰神賽特、月兔、雷神之錘、麻將、魚機、老虎機 ↓4
+
+【Google免费榜 TOP20】
+1. Meowdoku: Brain Puzzle Games →
+2. Roblox →
+3. 8 Ball Pool ↑80
+4. Royal Smash! - Physics Puzzle →
+5. Vita Mahjong →
+6. Block Blast! →
+7. Magic Sort! →
+8. Bus Fever Party! ↑1
+9. Block Craft 3D：Building Game ↓1
+10. Mobile Legends: Bang Bang.US ↓7
+11. Amaze GO! ↓1
+12. Brain Puzzle 3: Crazy Mind ↑3
+13. Gossip Harbor: Merge & Story ↓1
+14. Smash Land! ↓3
+15. Jigsawcard Solitaire Puzzle ↑21
+16. Word Search Explorer ↓3
+17. Colony Flow! ↓3
+18. Mahjong Blast ↑1
+19. CubeAway - 3DPuzzle ↑21
+20. Slow Mo Strike: Knives in Time →
+
+【Google畅销榜 TOP20】
+1. MONOPOLY GO! →
+2. Roblox →
+3. Candy Crush Saga →
+4. Gossip Harbor: Merge & Story →
+5. Royal Match →
+6. Kingshot →
+7. Township →
+8. Whiteout Survival →
+9. Coin Master →
+10. Royal Kingdom →
+11. Pokémon GO →
+12. Last War:Survival Game ↑1
+13. Last Z: Survival Shooter ↓1
+14. Toon Blast →
+15. Evony: The King's Return →
+16. Free Fire x NARUTO SHIPPUDEN →
+17. Total Battle: War Strategy ↑3
+18. Last Asylum: Plague ↓1
+19. Jackpot Party Casino Slots ↓1
+20. Gardenscapes ↓1
+
+
+========== 重点产品趋势图 ==========
+暂无足够历史数据生成趋势图。
