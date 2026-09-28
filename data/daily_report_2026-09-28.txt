@@ -1,0 +1,164 @@
+【台湾手游榜单监控日报 V2.7】
+日期：2026-09-28
+
+========== 今日业务摘要 ==========
+重点风险/机会：发现 1 条 P0 级重点异动，需要优先关注。
+预注册：今日暂无新发现的预注册游戏。
+重点产品：楓之谷M：iOS畅销榜第33（↓5，近3日连续下滑；近7日新低）；寒霜啟示錄：Google畅销榜第7（→，近7日新高）；Last War: Survival：Google畅销榜第11（→，近7日新高）
+优先查看：
+P0｜🔥 大幅上涨｜台湾｜Google免费榜｜Whiteout Survival：42（↑49）
+P1｜🔥 大幅上涨｜台湾｜Google免费榜｜Mobile Legends: Bang Bang.US：10（↑16）
+P1｜🔥 大幅上涨｜台湾｜iOS免费榜｜Rotate Rings：8（↑13）
+
+========== 重点产品监控 ==========
+
+【楓之谷M】
+台湾｜iOS｜iOS畅销榜：33（↓5；近3日连续下滑；近7日新低）
+
+【寒霜啟示錄】
+台湾｜Google｜Google免费榜：42（↑49；近3日连续上升；近7日新高）
+台湾｜Google｜Google畅销榜：7（→；近7日新高）
+台湾｜iOS｜iOS免费榜：38（→；近7日新高）
+台湾｜iOS｜iOS畅销榜：1（↑2；近3日连续上升；近7日新高）
+
+【Last War: Survival】
+台湾｜Google｜Google畅销榜：11（→；近7日新高）
+台湾｜iOS｜iOS畅销榜：27（→）
+
+========== 新游预注册监控 ==========
+今日暂无新发现的预注册游戏；当前仍在监控 1 款。
+当前未识别到角色扮演相关预注册游戏。
+
+
+========== 榜单异动预警 ==========
+
+【P0｜重点产品大幅波动】
+🔥 大幅上涨｜台湾｜Google免费榜｜Whiteout Survival：42（↑49）
+
+【P1｜重点关注异动】
+🔥 大幅上涨｜台湾｜Google免费榜｜Mobile Legends: Bang Bang.US：10（↑16）
+🔥 大幅上涨｜台湾｜iOS免费榜｜Rotate Rings：8（↑13）
+
+【P2｜普通榜单异动】
+⚠️ 大幅下跌｜台湾｜Google免费榜｜Keyboard Escape: +1 Speed ASMR：100（↓76）
+⚠️ 大幅下跌｜台湾｜Google免费榜｜Yarn Loop：95（↓66）
+🔥 大幅上涨｜台湾｜Google免费榜｜Mystery Dumpling: Unbox ASMR：34（↑60）
+⚠️ 大幅下跌｜台湾｜Google免费榜｜Mob Control：78（↓58）
+🔥 大幅上涨｜台湾｜Google免费榜｜Toca Boca World：23（↑56）
+🔥 大幅上涨｜台湾｜Google免费榜｜EA SPORTS FC Soccer Mobile 27：33（↑56）
+🔥 大幅上涨｜台湾｜Google免费榜｜Minion Rush: Running Game：35（↑54）
+⚠️ 大幅下跌｜台湾｜Google免费榜｜Royal Match：75（↓54）
+🔥 大幅上涨｜台湾｜Google免费榜｜Delta Force: 2nd Anniversary：28（↑47）
+🆕 新进榜TOP50｜台湾｜Google免费榜｜6. Castlevania: 40th Anniversary
+⚠️ 大幅下跌｜台湾｜Google免费榜｜Brainy Escape Quest：70（↓45）
+🔥 大幅上涨｜台湾｜Google免费榜｜Melon Sandbox：19（↑43）
+🔥 大幅上涨｜台湾｜Google免费榜｜Subway Surfers：32（↑41）
+🔥 大幅上涨｜台湾｜Google免费榜｜Sudoku.com - Sudoku Puzzle：51（↑41）
+🔥 大幅上涨｜台湾｜Google免费榜｜Screw Out 3D: Nut Sort Jam：53（↑41）
+🔥 大幅上涨｜台湾｜Google免费榜｜Free Fire x NARUTO SHIPPUDEN：48（↑40）
+🔥 大幅上涨｜台湾｜Google免费榜｜Offline Games: No WiFi - FunOn：57（↑40）
+🔥 大幅上涨｜台湾｜Google免费榜｜Glow Fashion Idol：61（↑38）
+🔥 大幅上涨｜台湾｜Google免费榜｜Paper.io 2：17（↑37）
+🔥 大幅上涨｜台湾｜Google免费榜｜Dot Link - Connect the Dots：58（↑37）
+⚠️ 大幅下跌｜台湾｜Google免费榜｜CubeAway - 3DPuzzle：76（↓37）
+🔥 大幅上涨｜台湾｜Google免费榜｜Candy Crush Saga：29（↑35）
+⚠️ 大幅下跌｜台湾｜Google免费榜｜Solitaire - Classic Card Games：87（↓35）
+⚠️ 大幅下跌｜台湾｜Google免费榜｜Color by Number：Coloring Games：91（↓35）
+⚠️ 大幅下跌｜台湾｜Google免费榜｜CarLoop：68（↓34）
+🔥 大幅上涨｜台湾｜Google免费榜｜Hidden Object Games: Seek It：47（↑33）
+⚠️ 大幅下跌｜台湾｜Google免费榜｜Pixel Flow!：72（↓32）
+另有 80 条异动未展示。
+
+========== 台湾 ==========
+
+【iOS免费榜 TOP20】
+1. 半夜別修仙 ↑1
+2. 瘋狂水世界 ↑1
+3. Meowdoku! ↑1
+4. 喵吱大作戰：放置類RPG ↓3
+5. 腦洞諧音梗 ↑4
+6. 伊莫 ↑1
+7. 時尚百貨城 ↑1
+8. Rotate Rings ↑13
+9. Castlevania: 40th Anniversary ↓4
+10. 塔塔冒險隊 ↑2
+11. 三國群英傳：策定九州 ↓5
+12. Block Out! - Color Sort Puzzle ↑4
+13. 嘎嘎特攻 ↑2
+14. 最強領主 →
+15. 癲狂三國：少年無雙--風雲漫畫授權聯動 ↓5
+16. Royal Kingdom ↑2
+17. Block Blast! ↑3
+18. Roblox ↓1
+19. Pikmin Bloom ↑3
+20. 燒肉模擬器（Yakiniku Simulator） ↓9
+
+【iOS畅销榜 TOP20】
+1. 寒霜啟示錄 ↑2
+2. 星城-大運西遊．紅孩兒登場 →
+3. Pikmin Bloom ↑2
+4. 塔塔冒險隊 ↑4
+5. 神魔之塔 ↓4
+6. 嘎嘎特攻 ↑3
+7. 瘋狂水世界 ↑5
+8. 楓之谷：放置冒險記 ↑7
+9. 緋聞港口：合併&故事 ↑9
+10. Garena 傳說對決：十週年裂隙穿梭版本 ↓3
+11. Kingshot ↓1
+12. RO仙境傳説：世界之旅 ↓6
+13. 麻將明星3缺1 →
+14. 半夜別修仙 ↑5
+15. 糖果傳奇 ↑2
+16. 包你發－王識賢、安心亞推薦休閒娛樂城－麻雀無雙至尊版全新升級 →
+17. 心動小鎮 ↓13
+18. 豪神娛樂城 ↑2
+19. 嚦咕麻將-戰神賽特、月兔、雷神之錘、麻將、魚機、老虎機 ↑6
+20. Garena® 三角洲行動 ↓6
+
+【Google免费榜 TOP20】
+1. Meowdoku: Brain Puzzle Games ↑1
+2. 8 Ball Pool ↓1
+3. Roblox ↑2
+4. Block Blast! →
+5. Vita Mahjong ↑3
+6. Castlevania: 40th Anniversary 新入榜
+7. Block Craft 3D：Building Game ↑9
+8. Bus Fever Party! ↑5
+9. Amaze GO! ↑6
+10. Mobile Legends: Bang Bang.US ↑16
+11. Mahjong Blast ↑1
+12. Word Search Explorer ↓3
+13. Fish Sort Puzzle ↑15
+14. Magic Sort! ↓7
+15. Royal Smash! - Physics Puzzle ↓12
+16. Smash Land! ↓10
+17. Paper.io 2 ↑37
+18. Jigsawcard Solitaire Puzzle ↓1
+19. Melon Sandbox ↑43
+20. Rotate Rings 新入榜
+
+【Google畅销榜 TOP20】
+1. MONOPOLY GO! →
+2. Candy Crush Saga →
+3. Roblox →
+4. Gossip Harbor: Merge & Story →
+5. Royal Match →
+6. Kingshot →
+7. Whiteout Survival →
+8. Township →
+9. Royal Kingdom ↑1
+10. Coin Master ↓1
+11. Last War:Survival Game →
+12. Pokémon GO →
+13. Toon Blast →
+14. Last Z: Survival Shooter →
+15. Last Asylum: Plague →
+16. Total Battle: War Strategy ↑1
+17. Evony: The King's Return ↓1
+18. Free Fire x NARUTO SHIPPUDEN →
+19. Jackpot Party Casino Slots →
+20. Gardenscapes →
+
+
+========== 重点产品趋势图 ==========
+暂无足够历史数据生成趋势图。
