@@ -1,0 +1,167 @@
+【台湾手游榜单监控日报 V2.7】
+日期：2026-10-07
+
+========== 今日业务摘要 ==========
+重点风险/机会：发现 1 条 P0 级重点异动，需要优先关注。
+预注册：今日暂无新发现的预注册游戏。
+重点产品：天堂W：iOS畅销榜第78（↑21，近7日新高）；楓之谷M：iOS畅销榜第25（↑2）；寒霜啟示錄：Google畅销榜第10（→，近7日新高）；Last War: Survival：Google畅销榜第12（→，近7日新低）
+优先查看：
+P0｜🔥 大幅上涨｜台湾｜iOS畅销榜｜天堂W：78（↑21）
+P1｜🔥 大幅上涨｜台湾｜iOS免费榜｜Bacon – The Game：7（↑11）
+P1｜🔥 大幅上涨｜台湾｜iOS免费榜｜Bacon in Zane：5（↑10）
+
+========== 重点产品监控 ==========
+
+【天堂W】
+台湾｜iOS｜iOS畅销榜：78（↑21；近7日新高）
+
+【楓之谷M】
+台湾｜iOS｜iOS畅销榜：25（↑2）
+
+【寒霜啟示錄】
+台湾｜Google｜Google免费榜：64（→）
+台湾｜Google｜Google畅销榜：10（→；近7日新高）
+台湾｜iOS｜iOS免费榜：39（↓8；近3日连续下滑）
+台湾｜iOS｜iOS畅销榜：4（↓1）
+
+【Last War: Survival】
+台湾｜Google｜Google畅销榜：12（→；近7日新低）
+台湾｜iOS｜iOS畅销榜：23（↓7）
+
+========== 新游预注册监控 ==========
+今日暂无新发现的预注册游戏；当前仍在监控 1 款。
+当前未识别到角色扮演相关预注册游戏。
+
+
+========== 榜单异动预警 ==========
+
+【P0｜重点产品大幅波动】
+🔥 大幅上涨｜台湾｜iOS畅销榜｜天堂W：78（↑21）
+
+【P1｜重点关注异动】
+🔥 大幅上涨｜台湾｜iOS免费榜｜Bacon – The Game：7（↑11）
+🔥 大幅上涨｜台湾｜iOS免费榜｜Bacon in Zane：5（↑10）
+
+【P2｜普通榜单异动】
+🔥 大幅上涨｜台湾｜iOS免费榜｜墮落之美：合成與故事：34（↑49）
+⚠️ 大幅下跌｜台湾｜iOS免费榜｜小蝦米闖江湖：開局野球拳到天下第一：93（↓49）
+🔥 大幅上涨｜台湾｜Google免费榜｜Free Fire x NARUTO SHIPPUDEN：50（↑34）
+⚠️ 大幅下跌｜台湾｜iOS免费榜｜貓咪大救援：箭頭解謎：98（↓31）
+🔥 大幅上涨｜台湾｜iOS免费榜｜Hole Stars: 謎題挑戰：65（↑27）
+⚠️ 大幅下跌｜台湾｜iOS免费榜｜花物語：97（↓27）
+🆕 新进榜TOP50｜台湾｜iOS免费榜｜25. Disney Solitaire
+⚠️ 大幅下跌｜台湾｜iOS畅销榜｜小蝦米闖江湖：開局野球拳到天下第一：93（↓24）
+🔥 大幅上涨｜台湾｜iOS免费榜｜2026 中職王牌GO!：31（↑23）
+🔥 大幅上涨｜台湾｜Google免费榜｜Fast Cash Farkle：70（↑22）
+🔥 大幅上涨｜台湾｜Google免费榜｜Dice Dreams™️：71（↑21）
+⚠️ 大幅下跌｜台湾｜iOS畅销榜｜EA SPORTS FC™ 足球 Mobile 27：94（↓20）
+⚠️ 大幅下跌｜台湾｜Google畅销榜｜Wuthering Waves：57（↓18）
+⚠️ 大幅下跌｜台湾｜Google畅销榜｜DRAGON BALL Z DOKKAN BATTLE：30（↓17）
+🔥 大幅上涨｜台湾｜iOS免费榜｜Bus Traffic Fever!：70（↑17）
+🔥 大幅上涨｜台湾｜iOS免费榜｜Match Factory!：73（↑17）
+🔥 大幅上涨｜台湾｜iOS畅销榜｜三國群英傳：策定九州：83（↑17）
+⚠️ 大幅下跌｜台湾｜Google畅销榜｜PUBG MOBILE：89（↓17）
+⚠️ 大幅下跌｜台湾｜Google免费榜｜Kick the Buddy－Fun Action Game：89（↓16）
+⚠️ 大幅下跌｜台湾｜Google免费榜｜Annoying Uncle Punch Game®：93（↓16）
+⚠️ 大幅下跌｜台湾｜iOS畅销榜｜大福Online-老虎機、捕魚、推幣機、刮刮樂、拉霸 娛樂城：96（↓16）
+⚠️ 大幅下跌｜台湾｜iOS畅销榜｜NBA巔峰對決：100（↓16）
+🔥 大幅上涨｜台湾｜Google畅销榜｜Clash Royale：49（↑14）
+⚠️ 大幅下跌｜台湾｜iOS免费榜｜蠟筆小新：62（↓14）
+🔥 大幅上涨｜台湾｜iOS畅销榜｜勝利女神：妮姬：76（↑14）
+⚠️ 大幅下跌｜台湾｜iOS畅销榜｜Top Force: 最強統帥：85（↓14）
+🔥 大幅上涨｜台湾｜iOS畅销榜｜不良人：破局：73（↑13）
+另有 25 条异动未展示。
+
+========== 台湾 ==========
+
+【iOS免费榜 TOP20】
+1. Meowdoku! →
+2. 半夜別修仙 →
+3. 瘋狂水世界 →
+4. 塔塔冒險隊 →
+5. Bacon in Zane ↑10
+6. 時尚百貨城 ↓1
+7. Bacon – The Game ↑11
+8. 腦洞諧音梗 ↓2
+9. 最強領主 ↓2
+10. Rotate Rings ↓2
+11. Block Out! - Color Sort Puzzle ↓2
+12. Sand Blocks: Drop Puzzle ↓2
+13. Bus Fever Party! →
+14. Pikmin Bloom ↓3
+15. 嘎嘎特攻 ↓3
+16. Royal Kingdom ↑1
+17. 孔明與阿斗 ↓1
+18. Colony Flow! ↑2
+19. ArrowCube - 3DPuzzle ↑2
+20. Vita 麻將 ↑6
+
+【iOS畅销榜 TOP20】
+1. 星城-大運西遊．紅孩兒登場 →
+2. Pikmin Bloom →
+3. 塔塔冒險隊 ↑1
+4. 寒霜啟示錄 ↓1
+5. 半夜別修仙 ↑3
+6. Kingshot ↓1
+7. 瘋狂水世界 →
+8. 麻將明星3缺1 ↑2
+9. 包你發－王識賢、安心亞推薦休閒娛樂城－麻雀無雙至尊版全新升級 →
+10. 緋聞港口：合併&故事 ↓4
+11. 豪神娛樂城 ↑3
+12. 糖果傳奇 ↑3
+13. 嘎嘎特攻 ↓2
+14. 楓之谷：放置冒險記 ↓1
+15. 嚦咕麻將-戰神賽特、月兔、雷神之錘、麻將、魚機、老虎機 ↑2
+16. 時尚百貨城 ↑3
+17. RO仙境傳説：世界之旅 ↑4
+18. 金好運-老虎機、捕魚機、戰神賽特、吉宗、麻將、柏青哥娛樂首選 ↑6
+19. 鳴潮 ↓1
+20. 貓咪大戰爭 ↓8
+
+【Google免费榜 TOP20】
+1. Rotate Rings →
+2. Meowdoku: Brain Puzzle Games →
+3. Roblox →
+4. MemeMix Challenge: Funny Party →
+5. Angry Birds 2 →
+6. Vita Mahjong →
+7. Block Blast! →
+8. Smash Land! →
+9. Magic Sort! ↑3
+10. Block Craft 3D：Building Game →
+11. Bus Fever Party! →
+12. Royal Smash! - Physics Puzzle ↓3
+13. Woodoku Blast →
+14. Brain Puzzle 3: Crazy Mind →
+15. Amaze GO! →
+16. Gossip Harbor: Merge & Story ↑2
+17. Word Search Explorer ↓1
+18. Paper.io 2 ↓1
+19. Township →
+20. Mahjong Blast ↑3
+
+【Google畅销榜 TOP20】
+1. MONOPOLY GO! →
+2. Roblox →
+3. Candy Crush Saga →
+4. Royal Match →
+5. Gossip Harbor: Merge & Story ↑1
+6. Coin Master ↓1
+7. Township →
+8. Kingshot →
+9. Royal Kingdom →
+10. Whiteout Survival →
+11. Pokémon GO →
+12. Last War:Survival Game →
+13. Toon Blast ↑1
+14. Evony: The King's Return ↑1
+15. Last Z: Survival Shooter ↑1
+16. Total Battle: War Strategy ↑1
+17. RAID: Shadow Legends ↑1
+18. Bingo Blitz™️ - Bingo Games ↑2
+19. Dice Dreams™️ →
+20. Jackpot Party Casino Slots ↑2
+
+
+========== 重点产品趋势图 ==========
+暂无足够历史数据生成趋势图。
