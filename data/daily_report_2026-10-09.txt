@@ -1,0 +1,168 @@
+【台湾手游榜单监控日报 V2.7】
+日期：2026-10-09
+
+========== 今日业务摘要 ==========
+重点风险/机会：发现 2 条 P0 级重点异动，需要优先关注。
+预注册：今日暂无新发现的预注册游戏。
+重点产品：天堂W：iOS畅销榜第79（↓37，近7日新低）；楓之谷M：iOS畅销榜第31（↓6，近7日新低）；寒霜啟示錄：Google畅销榜第9（↑1，近7日新高）；Last War: Survival：Google畅销榜第12（→，近7日新低）
+优先查看：
+P0｜⚠️ 大幅下跌｜台湾｜iOS畅销榜｜天堂W：79（↓37）
+P0｜⚠️ 大幅下跌｜台湾｜Google免费榜｜Whiteout Survival：95（↓31）
+P1｜🔥 大幅上涨｜台湾｜iOS畅销榜｜PUBG MOBILE：絕地求生M：10（↑50）
+P1｜🔥 大幅上涨｜台湾｜iOS畅销榜｜神魔之塔：3（↑25）
+
+========== 重点产品监控 ==========
+
+【天堂W】
+台湾｜iOS｜iOS畅销榜：79（↓37；近7日新低）
+
+【楓之谷M】
+台湾｜iOS｜iOS畅销榜：31（↓6；近7日新低）
+
+【寒霜啟示錄】
+台湾｜Google｜Google免费榜：95（↓31；近7日新低）
+台湾｜Google｜Google畅销榜：9（↑1；近7日新高）
+台湾｜iOS｜iOS免费榜：27（↑7；近3日连续上升；近7日新高）
+台湾｜iOS｜iOS畅销榜：4（↑1）
+
+【Last War: Survival】
+台湾｜Google｜Google畅销榜：12（→；近7日新低）
+台湾｜iOS｜iOS畅销榜：17（↑4；近3日连续上升）
+
+========== 新游预注册监控 ==========
+今日暂无新发现的预注册游戏；当前仍在监控 1 款。
+当前未识别到角色扮演相关预注册游戏。
+
+
+========== 榜单异动预警 ==========
+
+【P0｜重点产品大幅波动】
+⚠️ 大幅下跌｜台湾｜iOS畅销榜｜天堂W：79（↓37）
+⚠️ 大幅下跌｜台湾｜Google免费榜｜Whiteout Survival：95（↓31）
+
+【P1｜重点关注异动】
+🔥 大幅上涨｜台湾｜iOS畅销榜｜PUBG MOBILE：絕地求生M：10（↑50）
+🔥 大幅上涨｜台湾｜iOS畅销榜｜神魔之塔：3（↑25）
+
+【P2｜普通榜单异动】
+🆕 新进榜TOP50｜台湾｜iOS免费榜｜1. SSS冒險家
+🔥 大幅上涨｜台湾｜iOS畅销榜｜細胞保衛戰 - 生存射擊割草大亂鬥：45（↑50）
+🔥 大幅上涨｜台湾｜iOS畅销榜｜EA SPORTS FC™ 足球 Mobile 27：49（↑45）
+🆕 新进榜TOP50｜台湾｜iOS免费榜｜7. 屍控防線 - Zomline Survival
+🔥 大幅上涨｜台湾｜Google免费榜｜Wool Crush™：37（↑44）
+🆕 新进榜TOP50｜台湾｜iOS免费榜｜8. 少女迷境
+🔥 大幅上涨｜台湾｜iOS畅销榜｜薑餅人放置大戰爭 - 餅乾養成RPG：48（↑43）
+⚠️ 大幅下跌｜台湾｜iOS免费榜｜UnGodly：90（↓41）
+⚠️ 大幅下跌｜台湾｜Google畅销榜｜Wuthering Waves：98（↓41）
+🔥 大幅上涨｜台湾｜iOS免费榜｜音樂遊戲 9: 音遊, 節奏大師, 聲音遊戲, kpop鋼琴：58（↑39）
+🔥 大幅上涨｜台湾｜iOS免费榜｜Hole Stars: 謎題挑戰：47（↑38）
+⚠️ 大幅下跌｜台湾｜Google畅销榜｜Brawl Stars：96（↓33）
+⚠️ 大幅下跌｜台湾｜iOS免费榜｜2026 中職王牌GO!：62（↓32）
+🔥 大幅上涨｜台湾｜iOS免费榜｜Reality Bay: 合成與發現：68（↑32）
+🔥 大幅上涨｜台湾｜iOS免费榜｜墮落之美：合成與故事：15（↑31）
+🔥 大幅上涨｜台湾｜Google免费榜｜Free Fire x NARUTO SHIPPUDEN：19（↑31）
+⚠️ 大幅下跌｜台湾｜Google免费榜｜Color by Number：Coloring Games：55（↓30）
+🔥 大幅上涨｜台湾｜iOS畅销榜｜運氣拚輸贏：23（↑29）
+🔥 大幅上涨｜台湾｜iOS畅销榜｜救世者之樹：新世界：44（↑28）
+🔥 大幅上涨｜台湾｜Google免费榜｜Color Block Jam：24（↑27）
+⚠️ 大幅下跌｜台湾｜iOS畅销榜｜hololive Dreams：41（↓27）
+⚠️ 大幅下跌｜台湾｜iOS畅销榜｜Rangers ×「CODE GEASS 反叛的魯路修」合作：95（↓27）
+🔥 大幅上涨｜台湾｜iOS畅销榜｜Top Force: 最強統帥：56（↑26）
+⚠️ 大幅下跌｜台湾｜iOS免费榜｜Block Crush!：84（↓26）
+🔥 大幅上涨｜台湾｜iOS畅销榜｜棒球殿堂Live：52（↑25）
+🔥 大幅上涨｜台湾｜iOS畅销榜｜超時空街球對決：71（↑25）
+另有 100 条异动未展示。
+
+========== 台湾 ==========
+
+【iOS免费榜 TOP20】
+1. SSS冒險家 新入榜
+2. Meowdoku! ↓1
+3. 半夜別修仙 ↓1
+4. 瘋狂水世界 ↓1
+5. 塔塔冒險隊 ↓1
+6. 時尚百貨城 →
+7. 屍控防線 - Zomline Survival 新入榜
+8. 少女迷境 新入榜
+9. 腦洞諧音梗 ↑1
+10. 最強領主 ↓1
+11. Rotate Rings ↓3
+12. Block Out! - Color Sort Puzzle ↑3
+13. 嘎嘎特攻 ↓1
+14. Pikmin Bloom ↓3
+15. 墮落之美：合成與故事 ↑31
+16. Royal Kingdom ↑1
+17. Bacon in Zane ↓12
+18. Block Blast! ↑2
+19. Sand Blocks: Drop Puzzle ↓6
+20. Bus Fever Party! ↓4
+
+【iOS畅销榜 TOP20】
+1. 星城-大運西遊．紅孩兒登場 →
+2. 塔塔冒險隊 →
+3. 神魔之塔 ↑25
+4. 寒霜啟示錄 ↑1
+5. Pikmin Bloom ↓2
+6. Kingshot ↑3
+7. 半夜別修仙 ↓3
+8. 嘎嘎特攻 ↓2
+9. 麻將明星3缺1 ↓2
+10. PUBG MOBILE：絕地求生M ↑50
+11. 緋聞港口：合併&故事 ↑1
+12. 瘋狂水世界 ↓2
+13. 糖果傳奇 →
+14. 包你發－王識賢、安心亞推薦休閒娛樂城－麻雀無雙至尊版全新升級 ↓6
+15. 豪神娛樂城 ↓4
+16. 楓之谷：放置冒險記 →
+17. 最後的戰爭 - Last War ↑4
+18. Garena 傳說對決：十週年裂隙穿梭版本 ↑4
+19. 嚦咕麻將-戰神賽特、月兔、雷神之錘、麻將、魚機、老虎機 ↓4
+20. 時尚百貨城 ↓2
+
+【Google免费榜 TOP20】
+1. Rotate Rings →
+2. Meowdoku: Brain Puzzle Games →
+3. Roblox →
+4. Vita Mahjong ↑2
+5. Block Blast! ↑2
+6. Magic Sort! ↑3
+7. Royal Smash! - Physics Puzzle ↑5
+8. Bus Fever Party! ↑3
+9. Amaze GO! ↑6
+10. Smash Land! ↓2
+11. Brain Puzzle 3: Crazy Mind ↑3
+12. Block Craft 3D：Building Game ↓2
+13. Angry Birds 2 ↓8
+14. Fish Sort Puzzle ↑8
+15. MemeMix Challenge: Funny Party ↓11
+16. Colony Flow! ↑10
+17. Gossip Harbor: Merge & Story ↓1
+18. Word Search Explorer ↓1
+19. Free Fire x NARUTO SHIPPUDEN ↑31
+20. Mahjong Blast →
+
+【Google畅销榜 TOP20】
+1. MONOPOLY GO! →
+2. Roblox →
+3. Candy Crush Saga →
+4. Royal Match →
+5. Kingshot ↑3
+6. Gossip Harbor: Merge & Story ↓1
+7. Coin Master ↓1
+8. Township ↓1
+9. Whiteout Survival ↑1
+10. Pokémon GO ↑1
+11. Royal Kingdom ↓2
+12. Last War:Survival Game →
+13. Toon Blast →
+14. Evony: The King's Return →
+15. Last Z: Survival Shooter →
+16. Total Battle: War Strategy →
+17. Dice Dreams™️ ↑2
+18. Bingo Blitz™️ - Bingo Games →
+19. Jackpot Party Casino Slots ↑1
+20. Match Factory! ↑5
+
+
+========== 重点产品趋势图 ==========
+暂无足够历史数据生成趋势图。
