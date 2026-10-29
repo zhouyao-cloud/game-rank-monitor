@@ -1,0 +1,166 @@
+【台湾手游榜单监控日报 V2.7】
+日期：2026-10-29
+
+========== 今日业务摘要 ==========
+重点风险/机会：发现 1 条 P0 级重点异动，需要优先关注。
+预注册：今日暂无新发现的预注册游戏。
+重点产品：天堂W：iOS畅销榜第49（↑26，近3日连续上升；近7日新高）；楓之谷M：iOS畅销榜第28（↑8，近3日连续上升）；寒霜啟示錄：Google畅销榜第8（↑1，近7日新高）；Last War: Survival：Google畅销榜第11（→，近7日新高）
+优先查看：
+P0｜🔥 大幅上涨｜台湾｜iOS畅销榜｜天堂W：49（↑26）
+P1｜🔥 大幅上涨｜台湾｜iOS畅销榜｜勝利女神：妮姬：3（↑74）
+
+========== 重点产品监控 ==========
+
+【天堂W】
+台湾｜iOS｜iOS畅销榜：49（↑26；近3日连续上升；近7日新高）
+
+【楓之谷M】
+台湾｜iOS｜iOS畅销榜：28（↑8；近3日连续上升）
+
+【寒霜啟示錄】
+台湾｜Google｜Google免费榜：100（↓4；近3日连续下滑；近7日新低）
+台湾｜Google｜Google畅销榜：8（↑1；近7日新高）
+台湾｜iOS｜iOS免费榜：44（↓2；近3日连续下滑；近7日新低）
+台湾｜iOS｜iOS畅销榜：1（→；近7日新高）
+
+【Last War: Survival】
+台湾｜Google｜Google畅销榜：11（→；近7日新高）
+台湾｜iOS｜iOS畅销榜：27（↓6）
+
+========== 新游预注册监控 ==========
+今日暂无新发现的预注册游戏；当前仍在监控 1 款。
+当前未识别到角色扮演相关预注册游戏。
+
+
+========== 榜单异动预警 ==========
+
+【P0｜重点产品大幅波动】
+🔥 大幅上涨｜台湾｜iOS畅销榜｜天堂W：49（↑26）
+
+【P1｜重点关注异动】
+🔥 大幅上涨｜台湾｜iOS畅销榜｜勝利女神：妮姬：3（↑74）
+
+【P2｜普通榜单异动】
+🔥 大幅上涨｜台湾｜iOS免费榜｜Royal Smash! - Physics Puzzle：30（↑62）
+⚠️ 大幅下跌｜台湾｜iOS免费榜｜再一下：鹽酥雞：90（↓60）
+🔥 大幅上涨｜台湾｜iOS畅销榜｜Pokémon TCG Pocket：40（↑52）
+🆕 新进榜TOP50｜台湾｜iOS免费榜｜1. 魔物獵人：旅人
+⚠️ 大幅下跌｜台湾｜iOS畅销榜｜戀與深空：84（↓42）
+🔥 大幅上涨｜台湾｜iOS畅销榜｜NBA巔峰對決：48（↑40）
+🆕 新进榜TOP50｜台湾｜iOS免费榜｜12. No Man's Sky
+⚠️ 大幅下跌｜台湾｜Google畅销榜｜Chaos Zero Nightmare：81（↓38）
+🔥 大幅上涨｜台湾｜iOS免费榜｜靠裝勇者：背包合成RPG：64（↑36）
+⚠️ 大幅下跌｜台湾｜iOS免费榜｜兩人遊戲：68（↓33）
+⚠️ 大幅下跌｜台湾｜Google免费榜｜Fidget Trading: Dumpling Party：72（↓31）
+🔥 大幅上涨｜台湾｜iOS畅销榜｜Butcher Hero: Monster Idle RPG：60（↑29）
+⚠️ 大幅下跌｜台湾｜iOS畅销榜｜果燃很派：61（↓28）
+🆕 新进榜TOP50｜台湾｜iOS畅销榜｜24. 魔物獵人：旅人
+⚠️ 大幅下跌｜台湾｜Google免费榜｜CubeAway - 3DPuzzle：78（↓27）
+⚠️ 大幅下跌｜台湾｜Google免费榜｜Surprise Dumpling: ASMR Box：67（↓24）
+⚠️ 大幅下跌｜台湾｜Google畅销榜｜Star Wars™: Galaxy of Heroes：95（↓23）
+🆕 新进榜TOP50｜台湾｜iOS免费榜｜29. 捷運規劃大師
+⚠️ 大幅下跌｜台湾｜Google畅销榜｜Clash of Critters：85（↓22）
+⚠️ 大幅下跌｜台湾｜iOS畅销榜｜燕雲十六聲：86（↓22）
+⚠️ 大幅下跌｜台湾｜Google免费榜｜Hit Fortune - Casino Slots：97（↓22）
+⚠️ 大幅下跌｜台湾｜iOS畅销榜｜我的花園世界：98（↓22）
+🔥 大幅上涨｜台湾｜iOS畅销榜｜瑪奇 Mobile：33（↑21）
+⚠️ 大幅下跌｜台湾｜iOS畅销榜｜EA SPORTS FC™ 足球 Mobile 27：73（↓21）
+⚠️ 大幅下跌｜台湾｜iOS畅销榜｜Monster Hunter Now：87（↓21）
+🔥 大幅上涨｜台湾｜iOS畅销榜｜Shadowverse: Worlds Beyond：58（↑20）
+⚠️ 大幅下跌｜台湾｜iOS畅销榜｜Sky光·遇：88（↓20）
+⚠️ 大幅下跌｜台湾｜iOS免费榜｜Amaze GO!™ - 箭頭解謎：52（↓19）
+另有 65 条异动未展示。
+
+========== 台湾 ==========
+
+【iOS免费榜 TOP20】
+1. 魔物獵人：旅人 新入榜
+2. 凹嗚殺:狼人在身邊 →
+3. BLEACH Mirrors High ↑1
+4. Meowdoku! ↓1
+5. 瘋狂水世界 ↑1
+6. 地獄停車場 ↓5
+7. 米卡：地城背包客 →
+8. 噠噠戰機 ↓3
+9. 兵器王者：鍛造放置RPG ↓1
+10. 半夜別修仙 ↓1
+11. 塔塔冒險隊 ↓1
+12. No Man's Sky 新入榜
+13. 時尚百貨城 →
+14. 最強領主 ↑1
+15. Bus Fever Party! 巴士塞車交通解謎 ↓4
+16. Block Out! - Color Sort Puzzle ↓2
+17. Rotate Rings ↓1
+18. Roblox ↓1
+19. 好萊塢合成：星夢逆襲 ↓1
+20. RO仙境傳說：口袋戰記 ↓8
+
+【iOS畅销榜 TOP20】
+1. 寒霜啟示錄 →
+2. 星城-大運西遊．紅孩兒登場 →
+3. 勝利女神：妮姬 ↑74
+4. 瘋狂水世界 ↑4
+5. Pikmin Bloom ↑1
+6. Kingshot ↓2
+7. 塔塔冒險隊 ↓2
+8. Garena 傳說對決：十週年裂隙穿梭版本 ↓5
+9. 半夜別修仙 ↓2
+10. 緋聞港口：合併&故事 ↑1
+11. 麻將明星3缺1 ↓2
+12. 糖果傳奇 →
+13. Coin Master ↑4
+14. 包你發－王識賢、安心亞推薦休閒娛樂城－魔龍機台全新上線 ↓4
+15. 豪神娛樂城 ↑1
+16. 嚦咕麻將-戰神賽特、月兔、雷神之錘、麻將、魚機、老虎機 ↓2
+17. 最強領主 ↓4
+18. 時尚百貨城 ↓3
+19. Pokémon GO ↓1
+20. 麻將 神來也麻將－台灣16張、麻雀 ↑6
+
+【Google免费榜 TOP20】
+1. Meowdoku: Brain Puzzle Games →
+2. Royal Smash! - Physics Puzzle →
+3. Rotate Rings →
+4. Block Blast! ↑1
+5. Gossip Harbor: Merge & Story ↓1
+6. Roblox →
+7. Vita Mahjong →
+8. Magic Sort! ↑1
+9. Tank Busters: Cannon Battle ↓1
+10. Amaze GO!™ →
+11. Bus Fever Party! →
+12. Brain Puzzle 3: Crazy Mind ↑2
+13. Word Tiles - Relaxing Puzzle ↓1
+14. Paper.io 2 ↓1
+15. MONOPOLY GO! ↑2
+16. Bulldozer Master: Crush & Mine ↓1
+17. Yarn Loop ↑1
+18. MemeMix Challenge: Funny Party ↓2
+19. Word Search Explorer ↑1
+20. Mahjong Blast ↑3
+
+【Google畅销榜 TOP20】
+1. MONOPOLY GO! →
+2. Roblox →
+3. Candy Crush Saga →
+4. Gossip Harbor: Merge & Story →
+5. Coin Master ↑1
+6. Royal Match ↓1
+7. Township →
+8. Whiteout Survival ↑1
+9. Kingshot ↓1
+10. Royal Kingdom →
+11. Last War:Survival Game →
+12. Pokémon GO ↑4
+13. Last Z: Survival Shooter ↓1
+14. RAID: Shadow Legends ↑1
+15. Total Battle: War Strategy ↓1
+16. Toon Blast ↓3
+17. Last Asylum: Plague ↑1
+18. Evony: The King's Return ↓1
+19. Gardenscapes ↑1
+20. Free Fire x NARUTO SHIPPUDEN ↓1
+
+
+========== 重点产品趋势图 ==========
+暂无足够历史数据生成趋势图。
