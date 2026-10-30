@@ -1,0 +1,169 @@
+【台湾手游榜单监控日报 V2.7】
+日期：2026-10-30
+
+========== 今日业务摘要 ==========
+重点风险/机会：发现 1 条 P0 级重点异动，需要优先关注。
+预注册：今日暂无新发现的预注册游戏。
+重点产品：天堂W：iOS畅销榜第80（↓31）；楓之谷M：iOS畅销榜第21（↑7，近3日连续上升；近7日新高）；寒霜啟示錄：Google畅销榜第7（↑1，近3日连续上升；近7日新高）；Last War: Survival：Google畅销榜第11（→，近7日新高）
+优先查看：
+P0｜⚠️ 大幅下跌｜台湾｜iOS畅销榜｜天堂W：80（↓31）
+P1｜🔥 大幅上涨｜台湾｜Google免费榜｜Pokémon TCG Pocket：10（↑88）
+P1｜🔥 大幅上涨｜台湾｜iOS畅销榜｜hololive Dreams：15（↑72）
+P1｜🔥 大幅上涨｜台湾｜iOS畅销榜｜NBA巔峰對決：14（↑34）
+P1｜🔥 大幅上涨｜台湾｜iOS畅销榜｜Pokémon TCG Pocket：7（↑33）
+
+========== 重点产品监控 ==========
+
+【天堂W】
+台湾｜iOS｜iOS畅销榜：80（↓31）
+
+【楓之谷M】
+台湾｜iOS｜iOS畅销榜：21（↑7；近3日连续上升；近7日新高）
+
+【寒霜啟示錄】
+台湾｜Google｜Google免费榜：93（↑7）
+台湾｜Google｜Google畅销榜：7（↑1；近3日连续上升；近7日新高）
+台湾｜iOS｜iOS免费榜：50（↓6；近3日连续下滑；近7日新低）
+台湾｜iOS｜iOS畅销榜：3（↓2）
+
+【Last War: Survival】
+台湾｜Google｜Google畅销榜：11（→；近7日新高）
+台湾｜iOS｜iOS畅销榜：27（→）
+
+========== 新游预注册监控 ==========
+今日暂无新发现的预注册游戏；当前仍在监控 1 款。
+当前未识别到角色扮演相关预注册游戏。
+
+
+========== 榜单异动预警 ==========
+
+【P0｜重点产品大幅波动】
+⚠️ 大幅下跌｜台湾｜iOS畅销榜｜天堂W：80（↓31）
+
+【P1｜重点关注异动】
+🔥 大幅上涨｜台湾｜Google免费榜｜Pokémon TCG Pocket：10（↑88）
+🔥 大幅上涨｜台湾｜iOS畅销榜｜hololive Dreams：15（↑72）
+🔥 大幅上涨｜台湾｜iOS畅销榜｜NBA巔峰對決：14（↑34）
+🔥 大幅上涨｜台湾｜iOS畅销榜｜Pokémon TCG Pocket：7（↑33）
+🔥 大幅上涨｜台湾｜iOS畅销榜｜魔物獵人：旅人：2（↑22）
+🔥 大幅上涨｜台湾｜iOS免费榜｜捷運規劃大師：8（↑21）
+
+【P2｜普通榜单异动】
+🔥 大幅上涨｜台湾｜iOS畅销榜｜伊莫：31（↑65）
+🔥 大幅上涨｜台湾｜iOS免费榜｜80億分之一 - 人生模擬器：12（↑60）
+⚠️ 大幅下跌｜台湾｜iOS免费榜｜Royal Smash! - Physics Puzzle：85（↓55）
+🔥 大幅上涨｜台湾｜iOS畅销榜｜eFootball™：30（↑54）
+🆕 新进榜TOP50｜台湾｜iOS免费榜｜2. 捉詭 : 江湖異聞
+🔥 大幅上涨｜台湾｜iOS畅销榜｜MLB 制勝時刻 26：48（↑48）
+🆕 新进榜TOP50｜台湾｜iOS免费榜｜4. 劍之川
+🔥 大幅上涨｜台湾｜iOS畅销榜｜MLB：9局職棒26：34（↑46）
+🔥 大幅上涨｜台湾｜Google畅销榜｜GODDESS OF VICTORY: NIKKE：39（↑45）
+🔥 大幅上涨｜台湾｜iOS免费榜｜NBA巔峰對決：42（↑43）
+🔥 大幅上涨｜台湾｜Google免费榜｜BLEACH Mirrors High：18（↑42）
+⚠️ 大幅下跌｜台湾｜iOS免费榜｜來自地獄的約定：91（↓41）
+⚠️ 大幅下跌｜台湾｜iOS畅销榜｜Shadowverse: Worlds Beyond：99（↓41）
+🔥 大幅上涨｜台湾｜iOS畅销榜｜賽馬娘Pretty Derby：38（↑40）
+🆕 新进榜TOP50｜台湾｜Google免费榜｜12. Monster Hunter Outlanders
+⚠️ 大幅下跌｜台湾｜Google免费榜｜Relax Mini Games：76（↓36）
+🆕 新进榜TOP50｜台湾｜iOS免费榜｜17. 大富豪3：商業帝國
+🔥 大幅上涨｜台湾｜iOS免费榜｜Dungeon Slasher：像素動作RPG：59（↑33）
+🔥 大幅上涨｜台湾｜Google免费榜｜Clean Perfect OCD：66（↑33）
+🔥 大幅上涨｜台湾｜iOS畅销榜｜第五人格：63（↑32）
+⚠️ 大幅下跌｜台湾｜iOS畅销榜｜果燃很派：93（↓32）
+⚠️ 大幅下跌｜台湾｜iOS免费榜｜市長選舉模擬：94（↓32）
+⚠️ 大幅下跌｜台湾｜iOS畅销榜｜漫遊小鎮®：合併&故事：95（↓30）
+另有 85 条异动未展示。
+
+========== 台湾 ==========
+
+【iOS免费榜 TOP20】
+1. 魔物獵人：旅人 →
+2. 捉詭 : 江湖異聞 新入榜
+3. Meowdoku! ↑1
+4. 劍之川 新入榜
+5. 凹嗚殺:狼人在身邊 ↓3
+6. 瘋狂水世界 ↓1
+7. BLEACH Mirrors High ↓4
+8. 捷運規劃大師 ↑21
+9. 米卡：地城背包客 ↓2
+10. 兵器王者：鍛造放置RPG ↓1
+11. 噠噠戰機 ↓3
+12. 80億分之一 - 人生模擬器 ↑60
+13. 地獄停車場 ↓7
+14. 半夜別修仙 ↓4
+15. 塔塔冒險隊 ↓4
+16. 最強領主 ↓2
+17. 大富豪3：商業帝國 新入榜
+18. 時尚百貨城 ↓5
+19. Block Out! - Color Sort Puzzle ↓3
+20. 美食之星:合併與烹飪 ↑7
+
+【iOS畅销榜 TOP20】
+1. 勝利女神：妮姬 ↑2
+2. 魔物獵人：旅人 ↑22
+3. 寒霜啟示錄 ↓2
+4. 星城-大運西遊．紅孩兒登場 ↓2
+5. 瘋狂水世界 ↓1
+6. Pikmin Bloom ↓1
+7. Pokémon TCG Pocket ↑33
+8. 塔塔冒險隊 ↓1
+9. 緋聞港口：合併&故事 ↑1
+10. 麻將明星3缺1 ↑1
+11. Kingshot ↓5
+12. 半夜別修仙 ↓3
+13. Garena 傳說對決：十週年裂隙穿梭版本 ↓5
+14. NBA巔峰對決 ↑34
+15. hololive Dreams ↑72
+16. 糖果傳奇 ↓4
+17. 豪神娛樂城 ↓2
+18. Coin Master ↓5
+19. 包你發－王識賢、安心亞推薦休閒娛樂城－魔龍機台全新上線 ↓5
+20. 嚦咕麻將-戰神賽特、月兔、雷神之錘、麻將、魚機、老虎機 ↓4
+
+【Google免费榜 TOP20】
+1. Meowdoku: Brain Puzzle Games →
+2. Rotate Rings ↑1
+3. Royal Smash! - Physics Puzzle ↓1
+4. Block Blast! →
+5. Roblox ↑1
+6. Gossip Harbor: Merge & Story ↓1
+7. Vita Mahjong →
+8. Magic Sort! →
+9. Tank Busters: Cannon Battle →
+10. Pokémon TCG Pocket ↑88
+11. Amaze GO!™ ↓1
+12. Monster Hunter Outlanders 新入榜
+13. Bus Fever Party! ↓2
+14. Brain Puzzle 3: Crazy Mind ↓2
+15. Paper.io 2 ↓1
+16. Word Tiles - Relaxing Puzzle ↓3
+17. MONOPOLY GO! ↓2
+18. BLEACH Mirrors High ↑42
+19. MemeMix Challenge: Funny Party ↓1
+20. Bulldozer Master: Crush & Mine ↓4
+
+【Google畅销榜 TOP20】
+1. MONOPOLY GO! →
+2. Roblox →
+3. Candy Crush Saga →
+4. Gossip Harbor: Merge & Story →
+5. Coin Master →
+6. Royal Match →
+7. Whiteout Survival ↑1
+8. Township ↓1
+9. Kingshot →
+10. Royal Kingdom →
+11. Last War:Survival Game →
+12. Pokémon GO →
+13. Last Z: Survival Shooter →
+14. RAID: Shadow Legends →
+15. Last Asylum: Plague ↑2
+16. Toon Blast →
+17. Evony: The King's Return ↑1
+18. Total Battle: War Strategy ↓3
+19. Gardenscapes →
+20. Free Fire x NARUTO SHIPPUDEN →
+
+
+========== 重点产品趋势图 ==========
+暂无足够历史数据生成趋势图。
