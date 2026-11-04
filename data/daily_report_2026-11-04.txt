@@ -1,0 +1,168 @@
+【台湾手游榜单监控日报 V2.7】
+日期：2026-11-04
+
+========== 今日业务摘要 ==========
+重点风险/机会：发现 3 条 P0 级重点异动，需要优先关注。
+预注册：今日暂无新发现的预注册游戏。
+重点产品：天堂W：iOS畅销榜第43（↑52，近7日新高）；楓之谷M：iOS畅销榜第34（↓4，近3日连续下滑）；寒霜啟示錄：Google畅销榜第6（→，近7日新高）；Last War: Survival：Google畅销榜第12（→，近7日新低）
+优先查看：
+P0｜🔥 大幅上涨｜台湾｜iOS畅销榜｜天堂W：43（↑52）
+P0｜🔥 大幅上涨｜台湾｜iOS畅销榜｜最後的戰爭 - Last War：21（↑12）
+P0｜⚠️ 大幅下跌｜台湾｜Google免费榜｜Whiteout Survival：75（↓12）
+P1｜🔥 大幅上涨｜台湾｜iOS畅销榜｜《英雄聯盟：激鬥峽谷》：15（↑67）
+
+========== 重点产品监控 ==========
+
+【天堂W】
+台湾｜iOS｜iOS畅销榜：43（↑52；近7日新高）
+
+【楓之谷M】
+台湾｜iOS｜iOS畅销榜：34（↓4；近3日连续下滑）
+
+【寒霜啟示錄】
+台湾｜Google｜Google免费榜：75（↓12）
+台湾｜Google｜Google畅销榜：6（→；近7日新高）
+台湾｜iOS｜iOS免费榜：53（↓2；近3日连续下滑；近7日新低）
+台湾｜iOS｜iOS畅销榜：3（→）
+
+【Last War: Survival】
+台湾｜Google｜Google畅销榜：12（→；近7日新低）
+台湾｜iOS｜iOS畅销榜：21（↑12；近7日新高）
+
+========== 新游预注册监控 ==========
+今日暂无新发现的预注册游戏；当前仍在监控 1 款。
+当前未识别到角色扮演相关预注册游戏。
+
+
+========== 榜单异动预警 ==========
+
+【P0｜重点产品大幅波动】
+🔥 大幅上涨｜台湾｜iOS畅销榜｜天堂W：43（↑52）
+🔥 大幅上涨｜台湾｜iOS畅销榜｜最後的戰爭 - Last War：21（↑12）
+⚠️ 大幅下跌｜台湾｜Google免费榜｜Whiteout Survival：75（↓12）
+
+【P1｜重点关注异动】
+🔥 大幅上涨｜台湾｜iOS畅销榜｜《英雄聯盟：激鬥峽谷》：15（↑67）
+
+【P2｜普通榜单异动】
+🔥 大幅上涨｜台湾｜iOS免费榜｜Viking Island: Merge Adventure：47（↑52）
+🆕 新进榜TOP50｜台湾｜iOS免费榜｜1. 格鬥天王：拳面出擊 - SNK正版授權
+⚠️ 大幅下跌｜台湾｜iOS畅销榜｜怪物彈珠：86（↓37）
+🔥 大幅上涨｜台湾｜iOS畅销榜｜夢幻茶樓：55（↑36）
+⚠️ 大幅下跌｜台湾｜iOS畅销榜｜hololive Dreams：100（↓35）
+🔥 大幅上涨｜台湾｜iOS免费榜｜Woodle Screw™ Pin： 螺帽與螺栓：50（↑34）
+⚠️ 大幅下跌｜台湾｜iOS畅销榜｜部落衝突 (Clash of Clans)：89（↓33）
+⚠️ 大幅下跌｜台湾｜iOS畅销榜｜超能戰爭：92（↓33）
+⚠️ 大幅下跌｜台湾｜iOS畅销榜｜逆水寒：82（↓31）
+🔥 大幅上涨｜台湾｜Google免费榜｜Cube Land Puzzle Game：51（↑30）
+🔥 大幅上涨｜台湾｜iOS畅销榜｜蠟筆小新：GO！：48（↑27）
+🔥 大幅上涨｜台湾｜iOS畅销榜｜夢幻模擬戰：70（↑27）
+⚠️ 大幅下跌｜台湾｜iOS畅销榜｜野蠻世界-HUGA、捕魚機、麻將：96（↓26）
+⚠️ 大幅下跌｜台湾｜iOS免费榜｜Find The Cat 2 - Spot It!：97（↓26）
+🔥 大幅上涨｜台湾｜iOS免费榜｜夢幻茶樓：55（↑25）
+🔥 大幅上涨｜台湾｜Google免费榜｜Pixel Flow!：66（↑24）
+⚠️ 大幅下跌｜台湾｜iOS畅销榜｜信長之野望 真戰：67（↓23）
+🔥 大幅上涨｜台湾｜Google畅销榜｜Hunting Sniper：69（↑23）
+⚠️ 大幅下跌｜台湾｜iOS畅销榜｜締造者：放逐之境：94（↓23）
+⚠️ 大幅下跌｜台湾｜iOS畅销榜｜貓咪大戰爭：59（↓22）
+🔥 大幅上涨｜台湾｜iOS畅销榜｜Butcher Hero: Monster Idle RPG：74（↑22）
+⚠️ 大幅下跌｜台湾｜iOS畅销榜｜Last Z:Survival Shooter（倖存者逃亡）：76（↓22）
+⚠️ 大幅下跌｜台湾｜iOS免费榜｜Amaze GO!™ - 箭頭解謎：88（↓22）
+⚠️ 大幅下跌｜台湾｜iOS免费榜｜My Bakery Town：96（↓21）
+🔥 大幅上涨｜台湾｜iOS畅销榜｜《荒野亂鬥》：41（↑20）
+🔥 大幅上涨｜台湾｜Google免费榜｜Home Pin 4: Pull the Pin：62（↑20）
+另有 49 条异动未展示。
+
+========== 台湾 ==========
+
+【iOS免费榜 TOP20】
+1. 格鬥天王：拳面出擊 - SNK正版授權 新入榜
+2. 魔物獵人：旅人 ↓1
+3. Meowdoku! ↓1
+4. 瘋狂水世界 ↓1
+5. 凹嗚殺:狼人在身邊 ↓1
+6. 兵器王者：鍛造放置RPG ↓1
+7. 影劍風雲傳 →
+8. 噠噠戰機 ↑1
+9. 捷運規劃大師 ↑2
+10. 最強劍尊：吃最軟的飯，做最硬的劍 ↓4
+11. 半夜別修仙 - 少年歌行聯動 ↓1
+12. 塔塔冒險隊 ↑1
+13. 食光旅行 ↑14
+14. Block Out! - Color Sort Puzzle →
+15. 最強領主 →
+16. BLEACH Mirrors High ↓4
+17. 捉詭 : 江湖異聞 ↓9
+18. Pikmin Bloom ↓2
+19. Rotate Rings →
+20. 時尚百貨城 ↓2
+
+【iOS畅销榜 TOP20】
+1. Garena 傳說對決：十週年裂隙穿梭版本 →
+2. 星城-大運西遊．紅孩兒登場 →
+3. 寒霜啟示錄 →
+4. 魔物獵人：旅人 ↑1
+5. Pikmin Bloom ↑1
+6. 半夜別修仙 - 少年歌行聯動 ↑8
+7. 瘋狂水世界 ↑3
+8. Kingshot ↓1
+9. 包你發－王識賢、安心亞推薦休閒娛樂城－阿波羅2新機台上線 ↓1
+10. 塔塔冒險隊 ↓1
+11. 明日方舟 ↓7
+12. 麻將明星3缺1 ↑1
+13. 豪神娛樂城 ↓1
+14. 緋聞港口：合併&故事 ↓3
+15. 《英雄聯盟：激鬥峽谷》 ↑67
+16. 嚦咕麻將-戰神賽特、月兔、雷神之錘、麻將、魚機、老虎機 ↓1
+17. 糖果傳奇 ↑1
+18. Pokémon GO ↑8
+19. 金好運-老虎機、捕魚機、戰神賽特、吉宗、麻將、柏青哥娛樂首選 ↓2
+20. 時尚百貨城 ↑1
+
+【Google免费榜 TOP20】
+1. Meowdoku: Brain Puzzle Games →
+2. Block Blast! →
+3. Rotate Rings →
+4. Roblox →
+5. Royal Smash! - Physics Puzzle ↑5
+6. MemeMix Challenge: Funny Party ↑3
+7. Tank Busters: Cannon Battle ↓1
+8. Gossip Harbor: Merge & Story →
+9. Paper.io 2 ↑2
+10. Magic Sort! ↑4
+11. Monster Hunter Outlanders ↓4
+12. Pokémon TCG Pocket ↓7
+13. Vita Mahjong ↓1
+14. Parking Loop ↑5
+15. Amaze GO!™ ↓2
+16. Brain Puzzle 3: Crazy Mind ↓1
+17. Bulldozer Master: Crush & Mine →
+18. Fortnite ↑6
+19. Magic Tiles 3™ - Piano Game ↓3
+20. Block Craft 3D：Building Game ↓2
+
+【Google畅销榜 TOP20】
+1. MONOPOLY GO! →
+2. Roblox →
+3. Candy Crush Saga →
+4. Coin Master →
+5. Gossip Harbor: Merge & Story →
+6. Whiteout Survival →
+7. Royal Match →
+8. Kingshot →
+9. Township →
+10. Royal Kingdom ↑1
+11. Pokémon GO ↓1
+12. Last War:Survival Game →
+13. Total Battle: War Strategy ↑5
+14. Last Z: Survival Shooter ↓1
+15. Evony: The King's Return →
+16. RAID: Shadow Legends ↓2
+17. Toon Blast ↓1
+18. Pokémon TCG Pocket ↓1
+19. GODDESS OF VICTORY: NIKKE ↑1
+20. Last Asylum: Plague ↓1
+
+
+========== 重点产品趋势图 ==========
+暂无足够历史数据生成趋势图。
