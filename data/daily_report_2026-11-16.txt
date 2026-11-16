@@ -1,0 +1,163 @@
+【台湾手游榜单监控日报 V2.7】
+日期：2026-11-16
+
+========== 今日业务摘要 ==========
+重点风险/机会：发现 1 条 P0 级重点异动，需要优先关注。
+预注册：今日暂无新发现的预注册游戏。
+重点产品：天堂W：iOS畅销榜第71（↓7）；楓之谷M：iOS畅销榜第25（↓4，近3日连续下滑）；寒霜啟示錄：Google畅销榜第12（→，近7日新低）；Last War: Survival：Google畅销榜第13（→，近7日新低）
+优先查看：
+P0｜⚠️ 大幅下跌｜台湾｜Google免费榜｜Whiteout Survival：90（↓11）
+
+========== 重点产品监控 ==========
+
+【天堂W】
+台湾｜iOS｜iOS畅销榜：71（↓7）
+
+【楓之谷M】
+台湾｜iOS｜iOS畅销榜：25（↓4；近3日连续下滑）
+
+【寒霜啟示錄】
+台湾｜Google｜Google免费榜：90（↓11）
+台湾｜Google｜Google畅销榜：12（→；近7日新低）
+台湾｜iOS｜iOS免费榜：39（↑2；近3日连续上升；近7日新高）
+台湾｜iOS｜iOS畅销榜：4（↑2；近3日连续上升；近7日新高）
+
+【Last War: Survival】
+台湾｜Google｜Google畅销榜：13（→；近7日新低）
+台湾｜iOS｜iOS畅销榜：30（↑8；近3日连续上升）
+
+========== 新游预注册监控 ==========
+今日暂无新发现的预注册游戏；当前仍在监控 1 款。
+当前未识别到角色扮演相关预注册游戏。
+
+
+========== 榜单异动预警 ==========
+
+【P0｜重点产品大幅波动】
+⚠️ 大幅下跌｜台湾｜Google免费榜｜Whiteout Survival：90（↓11）
+
+【P2｜普通榜单异动】
+🔥 大幅上涨｜台湾｜Google免费榜｜Snake Clash!：39（↑51）
+🔥 大幅上涨｜台湾｜Google免费榜｜Surprise Dumpling: ASMR Box：48（↑47）
+🔥 大幅上涨｜台湾｜Google免费榜｜Tile Explorer - Triple Match：47（↑42）
+🔥 大幅上涨｜台湾｜iOS畅销榜｜怪物彈珠：56（↑37）
+⚠️ 大幅下跌｜台湾｜Google免费榜｜Arrow Puzzle: Tap Puzzle Games：83（↓35）
+🔥 大幅上涨｜台湾｜Google免费榜｜Mini Games: Calm & Relax：61（↑34）
+⚠️ 大幅下跌｜台湾｜Google免费榜｜Screw Out 3D: Nut Sort Jam：85（↓34）
+⚠️ 大幅下跌｜台湾｜Google免费榜｜82-0.com：72（↓33）
+⚠️ 大幅下跌｜台湾｜Google免费榜｜Arrows – Puzzle Escape：91（↓33）
+⚠️ 大幅下跌｜台湾｜iOS畅销榜｜LINE 熊大農場：98（↓33）
+🔥 大幅上涨｜台湾｜iOS免费榜｜天黑請閉眼：42（↑32）
+🔥 大幅上涨｜台湾｜iOS免费榜｜ArrowCube - 3DPuzzle：54（↑32）
+⚠️ 大幅下跌｜台湾｜Google免费榜｜Cutie Sort: Kitten Games：79（↓32）
+⚠️ 大幅下跌｜台湾｜Google免费榜｜Ghost Sniper: War FPS Shooter：92（↓30）
+🔥 大幅上涨｜台湾｜Google免费榜｜Gym Idle Clicker: Fitness Hero：56（↑29）
+🔥 大幅上涨｜台湾｜Google免费榜｜Sand Blocks: Drop Puzzle：65（↑28）
+⚠️ 大幅下跌｜台湾｜Google免费榜｜Royal Kingdom：82（↓28）
+🔥 大幅上涨｜台湾｜iOS畅销榜｜大頭家娛樂城 - 週週上新機：65（↑27）
+⚠️ 大幅下跌｜台湾｜Google免费榜｜Word Connect Association：88（↓27）
+🔥 大幅上涨｜台湾｜Google免费榜｜Melon Sandbox：52（↑26）
+⚠️ 大幅下跌｜台湾｜iOS畅销榜｜三國群英傳：策定九州：79（↓26）
+⚠️ 大幅下跌｜台湾｜Google免费榜｜Block Out! - Color Sort Puzzle：80（↓25）
+⚠️ 大幅下跌｜台湾｜Google免费榜｜Solitaire - Classic Card Games：89（↓25）
+⚠️ 大幅下跌｜台湾｜iOS畅销榜｜卡厄思夢境：92（↓25）
+🔥 大幅上涨｜台湾｜Google免费榜｜Brain Puzzle 3: Crazy Mind：26（↑24）
+🔥 大幅上涨｜台湾｜Google免费榜｜Among Us：68（↑23）
+⚠️ 大幅下跌｜台湾｜iOS畅销榜｜hololive Dreams：51（↓22）
+⚠️ 大幅下跌｜台湾｜Google免费榜｜Tiny Ride：66（↓21）
+⚠️ 大幅下跌｜台湾｜iOS畅销榜｜最強劍尊：吃最軟的飯，做最硬的劍：81（↓21）
+另有 70 条异动未展示。
+
+========== 台湾 ==========
+
+【iOS免费榜 TOP20】
+1. 遺棄之地TD →
+2. 瘋狂水世界 ↑1
+3. 瘋狂世界Crazy-World ↓1
+4. 來種水果吧！-甄嬛傳聯動 →
+5. 兵器王者：鍛造放置RPG →
+6. 魔物獵人：旅人 →
+7. 最強領主 ↑1
+8. 凹嗚殺:狼人在身邊 ↑2
+9. Meowdoku! →
+10. 機動三國-送你5000抽不要太激動 ↓3
+11. 塔塔冒險隊 ↑1
+12. Roblox ↓1
+13. Bus Fever Party! 巴士塞車 ↑3
+14. Block Out! - Color Sort Puzzle ↑1
+15. 噠噠戰機 ↑2
+16. 食光旅行 ↓3
+17. 半夜別修仙 - 少年歌行聯動 ↑1
+18. Pokémon GO ↓4
+19. 砍價大偵探：放大鏡找茬腦筋急轉彎 →
+20. Magic Sort! →
+
+【iOS畅销榜 TOP20】
+1. Pokémon GO →
+2. 星城－推金城堡．推幣滿載而歸 ↑1
+3. 三國志・戰略版 ↓1
+4. 寒霜啟示錄 ↑2
+5. 緋聞港口：合併&故事 ↑4
+6. Garena 傳說對決：十週年裂隙穿梭版本 ↓2
+7. Pikmin Bloom ↓2
+8. 瘋狂水世界 ↑2
+9. 麻將明星3缺1 ↑6
+10. Kingshot ↑1
+11. 半夜別修仙 - 少年歌行聯動 ↑2
+12. 塔塔冒險隊 ↓4
+13. 糖果傳奇 ↑1
+14. 楓之谷：放置冒險記 ↑8
+15. Roblox ↓3
+16. 燕雲十六聲 ↓9
+17. 金好運-老虎機、捕魚機、戰神賽特、吉宗、麻將、柏青哥娛樂首選 ↑11
+18. 時尚百貨城 ↑1
+19. 包你發－王識賢、安心亞推薦休閒娛樂城－阿波羅2新機台上線 ↓1
+20. 豪神娛樂城 ↓4
+
+【Google免费榜 TOP20】
+1. PUBG MOBILE FLASH ↑3
+2. Meowdoku: Brain Puzzle Games ↓1
+3. Roblox →
+4. Block Blast! ↓2
+5. Gossip Harbor: Merge & Story →
+6. Rotate Rings →
+7. Magic Sort! →
+8. Paper.io 2 ↑7
+9. Royal Smash! - Physics Puzzle ↓1
+10. Cube Land Puzzle Game ↑8
+11. The Bazaar ↑1
+12. Tank Busters: Cannon Battle ↓2
+13. Vita Mahjong ↑1
+14. Bolt Out - Puzzle Game ↓5
+15. Mochiroom Puzzle:Room Sort ↑15
+16. Word Tiles - Relaxing Puzzle →
+17. Fortnite ↓4
+18. Sort Streak: Color Puzzle ↑7
+19. Bus Fever Party! ↓8
+20. Block Blast Lite ↑18
+
+【Google畅销榜 TOP20】
+1. MONOPOLY GO! →
+2. Pokémon GO →
+3. Roblox →
+4. Candy Crush Saga →
+5. Gossip Harbor: Merge & Story →
+6. Royal Match →
+7. Township →
+8. Total Battle: War Strategy ↑3
+9. Coin Master ↓1
+10. Royal Kingdom ↓1
+11. Kingshot ↓1
+12. Whiteout Survival →
+13. Last War:Survival Game →
+14. Honkai: Star Rail →
+15. Last Z: Survival Shooter ↑1
+16. Evony: The King's Return ↑2
+17. Toon Blast ↓2
+18. RAID: Shadow Legends ↓1
+19. Dice Dreams™️ →
+20. Disney Solitaire →
+
+
+========== 重点产品趋势图 ==========
+暂无足够历史数据生成趋势图。
