@@ -1,0 +1,163 @@
+【台湾手游榜单监控日报 V2.7】
+日期：2026-11-17
+
+========== 今日业务摘要 ==========
+重点风险/机会：发现 1 条 P0 级重点异动，需要优先关注。
+预注册：今日暂无新发现的预注册游戏。
+重点产品：天堂W：iOS畅销榜第87（↓16，近3日连续下滑；近7日新低）；楓之谷M：iOS畅销榜第31（↓6，近3日连续下滑）；寒霜啟示錄：Google畅销榜第12（→，近7日新低）；Last War: Survival：Google畅销榜第14（↓1，近7日新低）
+优先查看：
+P0｜⚠️ 大幅下跌｜台湾｜iOS畅销榜｜天堂W：87（↓16）
+
+========== 重点产品监控 ==========
+
+【天堂W】
+台湾｜iOS｜iOS畅销榜：87（↓16；近3日连续下滑；近7日新低）
+
+【楓之谷M】
+台湾｜iOS｜iOS畅销榜：31（↓6；近3日连续下滑）
+
+【寒霜啟示錄】
+台湾｜Google｜Google免费榜：85（↑5）
+台湾｜Google｜Google畅销榜：12（→；近7日新低）
+台湾｜iOS｜iOS免费榜：44（↓5）
+台湾｜iOS｜iOS畅销榜：3（↑1；近3日连续上升；近7日新高）
+
+【Last War: Survival】
+台湾｜Google｜Google畅销榜：14（↓1；近7日新低）
+台湾｜iOS｜iOS畅销榜：24（↑6；近3日连续上升；近7日新高）
+
+========== 新游预注册监控 ==========
+今日暂无新发现的预注册游戏；当前仍在监控 1 款。
+当前未识别到角色扮演相关预注册游戏。
+
+
+========== 榜单异动预警 ==========
+
+【P0｜重点产品大幅波动】
+⚠️ 大幅下跌｜台湾｜iOS畅销榜｜天堂W：87（↓16）
+
+【P2｜普通榜单异动】
+🔥 大幅上涨｜台湾｜iOS畅销榜｜部落衝突 (Clash of Clans)：42（↑57）
+🆕 新进榜TOP50｜台湾｜iOS免费榜｜1. 王國W：血盟之誓
+⚠️ 大幅下跌｜台湾｜Google免费榜｜Jam Bus:Sandfall：96（↓45）
+🔥 大幅上涨｜台湾｜Google免费榜｜We Are Cooking: Taste of Life：59（↑39）
+⚠️ 大幅下跌｜台湾｜Google免费榜｜Woodoku Blast：88（↓38）
+⚠️ 大幅下跌｜台湾｜iOS免费榜｜超玩美派對：腦洞穿搭解謎：90（↓34）
+🔥 大幅上涨｜台湾｜iOS免费榜｜卡利茲傳說：暢享新世界：58（↑33）
+⚠️ 大幅下跌｜台湾｜iOS畅销榜｜怪物彈珠：89（↓33）
+⚠️ 大幅下跌｜台湾｜Google免费榜｜Pixel Flow!：78（↓32）
+⚠️ 大幅下跌｜台湾｜Google免费榜｜Crown Crush：75（↓31）
+⚠️ 大幅下跌｜台湾｜Google免费榜｜CubeAway - 3DPuzzle：89（↓31）
+⚠️ 大幅下跌｜台湾｜iOS畅销榜｜弓箭傳說2：93（↓29）
+🔥 大幅上涨｜台湾｜Google免费榜｜Color by Number：Coloring Games：49（↑27）
+🔥 大幅上涨｜台湾｜iOS免费榜｜齒輪獸衛隊：56（↑27）
+⚠️ 大幅下跌｜台湾｜Google免费榜｜Tile Explorer - Triple Match：73（↓26）
+⚠️ 大幅下跌｜台湾｜Google免费榜｜Among Us：94（↓26）
+🔥 大幅上涨｜台湾｜iOS畅销榜｜戀與深空：51（↑25）
+🔥 大幅上涨｜台湾｜iOS畅销榜｜超能戰爭：61（↑25）
+⚠️ 大幅下跌｜台湾｜Google免费榜｜Sand Blocks: Drop Puzzle：90（↓25）
+⚠️ 大幅下跌｜台湾｜Google免费榜｜Underdog: Sports, Games & Rips：65（↓24）
+⚠️ 大幅下跌｜台湾｜iOS免费榜｜MONOPOLY GO! (大富翁 GO!)：93（↓24）
+⚠️ 大幅下跌｜台湾｜iOS畅销榜｜RO仙境傳說：守護永恆的愛 Classic：100（↓23）
+🔥 大幅上涨｜台湾｜Google免费榜｜Happy Color®: Color by Number：51（↑22）
+🔥 大幅上涨｜台湾｜Google免费榜｜Just a Rock：46（↑21）
+⚠️ 大幅下跌｜台湾｜Google免费榜｜Crossword Go!：63（↓21）
+🔥 大幅上涨｜台湾｜Google免费榜｜Solitaire - Classic Card Games：69（↑20）
+🔥 大幅上涨｜台湾｜Google免费榜｜Ghost Sniper: War FPS Shooter：72（↑20）
+⚠️ 大幅下跌｜台湾｜iOS畅销榜｜影劍風雲傳:萬界無限輪迴穿越：98（↓20）
+🔥 大幅上涨｜台湾｜Google免费榜｜Block Out! - Color Sort Puzzle：61（↑19）
+另有 72 条异动未展示。
+
+========== 台湾 ==========
+
+【iOS免费榜 TOP20】
+1. 王國W：血盟之誓 新入榜
+2. 遺棄之地TD ↓1
+3. 瘋狂水世界 ↓1
+4. 來種水果吧！-甄嬛傳聯動 →
+5. 兵器王者：鍛造放置RPG →
+6. 凹嗚殺:狼人在身邊 ↑2
+7. 瘋狂世界Crazy-World ↓4
+8. 魔物獵人：旅人 ↓2
+9. 最強領主 ↓2
+10. Meowdoku! ↓1
+11. 塔塔冒險隊 →
+12. 食光旅行 ↑4
+13. Bus Fever Party! 巴士塞車 →
+14. Roblox ↓2
+15. 砍價大偵探：放大鏡找茬腦筋急轉彎 ↑4
+16. 半夜別修仙 - 少年歌行聯動 ↑1
+17. 噠噠戰機 ↓2
+18. Block Out! - Color Sort Puzzle ↓4
+19. 機動三國-送你5000抽不要太激動 ↓9
+20. 孔明與阿斗 ↑1
+
+【iOS畅销榜 TOP20】
+1. 星城－推金城堡．推幣滿載而歸 ↑1
+2. Pokémon GO ↓1
+3. 寒霜啟示錄 ↑1
+4. 緋聞港口：合併&故事 ↑1
+5. Kingshot ↑5
+6. 瘋狂水世界 ↑2
+7. 半夜別修仙 - 少年歌行聯動 ↑4
+8. 塔塔冒險隊 ↑4
+9. Pikmin Bloom ↓2
+10. 麻將明星3缺1 ↓1
+11. Garena 傳說對決：十週年裂隙穿梭版本 ↓5
+12. 豪神娛樂城 ↑8
+13. 楓之谷：放置冒險記 ↑1
+14. 最強領主 ↑13
+15. 三國志・戰略版 ↓12
+16. 時尚百貨城 ↑2
+17. 包你發－王識賢、安心亞推薦休閒娛樂城－阿波羅2新機台上線 ↑2
+18. 糖果傳奇 ↓5
+19. 嚦咕麻將-戰神賽特、月兔、雷神之錘、麻將、魚機、老虎機 ↑4
+20. Coin Master ↑2
+
+【Google免费榜 TOP20】
+1. Meowdoku: Brain Puzzle Games ↑1
+2. PUBG MOBILE FLASH ↓1
+3. Roblox →
+4. Block Blast! →
+5. Gossip Harbor: Merge & Story →
+6. Cube Land Puzzle Game ↑4
+7. Rotate Rings ↓1
+8. Paper.io 2 →
+9. Amochiroom Puzzle: Room Sort ↑6
+10. Magic Sort! ↓3
+11. Royal Smash! - Physics Puzzle ↓2
+12. The Bazaar ↓1
+13. Fortnite ↑4
+14. Bus Fever Party! ↑5
+15. Vita Mahjong ↓2
+16. Tank Busters: Cannon Battle ↓4
+17. Bolt Out - Puzzle Game ↓3
+18. Word Tiles - Relaxing Puzzle ↓2
+19. Block Blast Lite ↑1
+20. Sort Streak: Color Puzzle ↓2
+
+【Google畅销榜 TOP20】
+1. MONOPOLY GO! →
+2. Pokémon GO →
+3. Roblox →
+4. Candy Crush Saga →
+5. Gossip Harbor: Merge & Story →
+6. Royal Match →
+7. Township →
+8. Coin Master ↑1
+9. Total Battle: War Strategy ↓1
+10. Royal Kingdom →
+11. Kingshot →
+12. Whiteout Survival →
+13. Honkai: Star Rail ↑1
+14. Last War:Survival Game ↓1
+15. Toon Blast ↑2
+16. Evony: The King's Return →
+17. Last Z: Survival Shooter ↓2
+18. RAID: Shadow Legends →
+19. Dice Dreams™️ →
+20. Disney Solitaire →
+
+
+========== 重点产品趋势图 ==========
+暂无足够历史数据生成趋势图。
