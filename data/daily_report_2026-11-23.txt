@@ -1,0 +1,164 @@
+【台湾手游榜单监控日报 V2.7】
+日期：2026-11-23
+
+========== 今日业务摘要 ==========
+重点风险/机会：发现 2 条 P0 级重点异动，需要优先关注。
+预注册：今日暂无新发现的预注册游戏。
+重点产品：楓之谷M：iOS畅销榜第54（↓7，近3日连续下滑；近7日新低）；寒霜啟示錄：Google畅销榜第12（→，近7日新高）；Last War: Survival：Google畅销榜第13（→，近7日新高）
+优先查看：
+P0｜🔥 大幅上涨｜台湾｜iOS畅销榜｜最後的戰爭 - Last War：17（↑16）
+P0｜🔥 大幅上涨｜台湾｜iOS畅销榜｜寒霜啟示錄：3（↑14）
+P1｜🔥 大幅上涨｜台湾｜iOS畅销榜｜Kingshot：8（↑12）
+
+========== 重点产品监控 ==========
+
+【楓之谷M】
+台湾｜iOS｜iOS畅销榜：54（↓7；近3日连续下滑；近7日新低）
+
+【寒霜啟示錄】
+台湾｜Google｜Google免费榜：80（↑3；近3日连续上升；近7日新高）
+台湾｜Google｜Google畅销榜：12（→；近7日新高）
+台湾｜iOS｜iOS免费榜：50（↓9；近7日新低）
+台湾｜iOS｜iOS畅销榜：3（↑14）
+
+【Last War: Survival】
+台湾｜Google｜Google畅销榜：13（→；近7日新高）
+台湾｜iOS｜iOS畅销榜：17（↑16；近7日新高）
+
+========== 新游预注册监控 ==========
+今日暂无新发现的预注册游戏；当前仍在监控 1 款。
+当前未识别到角色扮演相关预注册游戏。
+
+
+========== 榜单异动预警 ==========
+
+【P0｜重点产品大幅波动】
+🔥 大幅上涨｜台湾｜iOS畅销榜｜最後的戰爭 - Last War：17（↑16）
+🔥 大幅上涨｜台湾｜iOS畅销榜｜寒霜啟示錄：3（↑14）
+
+【P1｜重点关注异动】
+🔥 大幅上涨｜台湾｜iOS畅销榜｜Kingshot：8（↑12）
+
+【P2｜普通榜单异动】
+🔥 大幅上涨｜台湾｜Google免费榜｜Color by Number：Coloring Games：41（↑38）
+🔥 大幅上涨｜台湾｜iOS免费榜｜Arrows – Puzzle Escape：52（↑30）
+🔥 大幅上涨｜台湾｜iOS免费榜｜星辰騎士：像素二次元RPG：28（↑25）
+⚠️ 大幅下跌｜台湾｜iOS畅销榜｜三國：謀定天下：35（↓25）
+🔥 大幅上涨｜台湾｜Google免费榜｜Solar Smash：72（↑25）
+⚠️ 大幅下跌｜台湾｜iOS免费榜｜無盡輪迴：鬼域摸金：75（↓25）
+⚠️ 大幅下跌｜台湾｜iOS免费榜｜緋聞港口：合併&故事：98（↓25）
+🔥 大幅上涨｜台湾｜Google免费榜｜Toca Boca World：50（↑24）
+🔥 大幅上涨｜台湾｜Google免费榜｜Melon Sandbox：57（↑24）
+⚠️ 大幅下跌｜台湾｜Google免费榜｜Parking Loop：64（↓23）
+🔥 大幅上涨｜台湾｜iOS免费榜｜Colony Flow!：73（↑23）
+⚠️ 大幅下跌｜台湾｜iOS畅销榜｜薑餅人放置大戰爭 - 餅乾養成RPG：95（↓23）
+🔥 大幅上涨｜台湾｜iOS免费榜｜青丘世界：黄泉契-孫淑媚傾情代言：38（↑21）
+⚠️ 大幅下跌｜台湾｜iOS免费榜｜NBA巔峰對決：99（↓21）
+⚠️ 大幅下跌｜台湾｜iOS畅销榜｜嘎嘎特攻：70（↓20）
+⚠️ 大幅下跌｜台湾｜iOS畅销榜｜心動小鎮：24（↓19）
+🔥 大幅上涨｜台湾｜iOS畅销榜｜好萊塢合成：星夢逆襲：47（↑19）
+⚠️ 大幅下跌｜台湾｜iOS免费榜｜Garena® 三角洲行動：59（↓19）
+🔥 大幅上涨｜台湾｜Google免费榜｜Lordrush：68（↑19）
+🔥 大幅上涨｜台湾｜iOS免费榜｜Cutie Sort - 顏色分類排序益智謎題 收納整理大師：45（↑18）
+🔥 大幅上涨｜台湾｜iOS免费榜｜Tank Busters: Cannon Battle：58（↑18）
+🔥 大幅上涨｜台湾｜iOS畅销榜｜戀與深空：56（↑17）
+🔥 大幅上涨｜台湾｜Google免费榜｜Hollywood Merge：81（↑17）
+⚠️ 大幅下跌｜台湾｜iOS畅销榜｜影劍風雲傳:萬界無限輪迴穿越：91（↓17）
+⚠️ 大幅下跌｜台湾｜Google畅销榜｜WSOP Poker: Texas Holdem Game：94（↓17）
+🔥 大幅上涨｜台湾｜iOS畅销榜｜楓之谷：放置冒險記：21（↑16）
+🔥 大幅上涨｜台湾｜Google免费榜｜Color Block Jam：48（↑16）
+另有 56 条异动未展示。
+
+========== 台湾 ==========
+
+【iOS免费榜 TOP20】
+1. 瘋狂水世界 ↑1
+2. 王國W：血盟之誓 ↓1
+3. 來種水果吧！-甄嬛傳聯動 ↑4
+4. 最強領主 ↑2
+5. 遺棄之地TD ↑4
+6. 兵器王者：鍛造放置RPG ↑2
+7. 凹嗚殺:狼人在身邊 ↑4
+8. POP紀元：文明爆走中 ↑2
+9. 食光旅行 ↑3
+10. 砍價大偵探：放大鏡找茬腦筋急轉彎 ↑3
+11. Bus Traffic Fever! ↑8
+12. Meowdoku! ↑3
+13. 瘋狂世界Crazy-World ↓8
+14. 塔塔冒險隊 ↑2
+15. 裝備仔: OVERGEARED ↓12
+16. Roblox ↓2
+17. 萌混成仙 ↓13
+18. Bus Fever Party! 巴士塞車 →
+19. 半夜別修仙 - 少年歌行聯動 ↑1
+20. 魔物獵人：旅人 ↑2
+
+【iOS畅销榜 TOP20】
+1. 星城－推金城堡．推幣滿載而歸 ↑1
+2. Pokémon GO ↓1
+3. 寒霜啟示錄 ↑14
+4. 塔塔冒險隊 ↑8
+5. 緋聞港口：合併&故事 ↑2
+6. 瘋狂水世界 →
+7. Pikmin Bloom ↓4
+8. Kingshot ↑12
+9. 麻將明星3缺1 ↓1
+10. Garena 傳說對決：十週年裂隙穿梭版本 ↓6
+11. 豪神娛樂城 ↑2
+12. 糖果傳奇 ↑3
+13. 半夜別修仙 - 少年歌行聯動 ↓2
+14. 嚦咕麻將-戰神賽特、月兔、雷神之錘、麻將、魚機、老虎機 ↑5
+15. PUBG MOBILE：絕地求生M ↓6
+16. Coin Master ↑9
+17. 最後的戰爭 - Last War ↑16
+18. Roblox →
+19. 包你發－王識賢、安心亞推薦休閒娛樂城－阿波羅2新機台上線 ↓5
+20. RO仙境傳説：世界之旅 ↑2
+
+【Google免费榜 TOP20】
+1. Amochiroom Puzzle: Room Sort →
+2. Block Blast Lite →
+3. Roblox ↑1
+4. Meowdoku: Brain Puzzle Games ↓1
+5. Block Blast! ↑2
+6. Arknights: Endfield ↑4
+7. Rotate Rings ↓1
+8. Sort Streak: Color Puzzle →
+9. Cube Land Puzzle Game ↓4
+10. Gossip Harbor: Merge & Story ↓1
+11. Word Tiles - Relaxing Puzzle →
+12. Vita Mahjong ↑1
+13. Paper.io 2 ↑9
+14. Block Craft 3D：Building Game ↑9
+15. Royal Smash! - Physics Puzzle ↓1
+16. PUBG MOBILE FLASH ↓4
+17. Bus Fever Party! ↓2
+18. Chess - Play and Learn Online →
+19. Fortnite →
+20. Mahjong Blast ↑1
+
+【Google畅销榜 TOP20】
+1. MONOPOLY GO! →
+2. Roblox →
+3. Candy Crush Saga →
+4. Royal Match ↑2
+5. Gossip Harbor: Merge & Story →
+6. Township ↑1
+7. Coin Master ↑1
+8. Pokémon GO ↓4
+9. Royal Kingdom →
+10. Total Battle: War Strategy →
+11. Kingshot →
+12. Whiteout Survival →
+13. Last War:Survival Game →
+14. Toon Blast →
+15. Last Z: Survival Shooter →
+16. Clash of Clans →
+17. Gardenscapes →
+18. Disney Solitaire ↑1
+19. Evony: The King's Return ↓1
+20. RAID: Shadow Legends ↑1
+
+
+========== 重点产品趋势图 ==========
+暂无足够历史数据生成趋势图。
