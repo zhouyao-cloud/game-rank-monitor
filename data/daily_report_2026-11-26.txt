@@ -1,0 +1,165 @@
+【台湾手游榜单监控日报 V2.7】
+日期：2026-11-26
+
+========== 今日业务摘要 ==========
+重点风险/机会：发现 4 条 P1 级异动，建议关注是否由活动或投放导致。
+预注册：今日暂无新发现的预注册游戏。
+重点产品：天堂W：iOS畅销榜第49（↓3）；楓之谷M：iOS畅销榜第53（↓2，近3日连续下滑）；寒霜啟示錄：Google畅销榜第11（↑1，近7日新高）；Last War: Survival：Google畅销榜第13（→，近7日新高）
+优先查看：
+P1｜🔥 大幅上涨｜台湾｜iOS畅销榜｜hololive Dreams：18（↑82）
+P1｜🔥 大幅上涨｜台湾｜iOS免费榜｜Jelly Busters: 方塊大作戰：8（↑71）
+P1｜🔥 大幅上涨｜台湾｜iOS畅销榜｜楓之谷：放置冒險記：3（↑25）
+P1｜🔥 大幅上涨｜台湾｜iOS畅销榜｜天外星原：魔女覺醒：9（↑15）
+
+========== 重点产品监控 ==========
+
+【天堂W】
+台湾｜iOS｜iOS畅销榜：49（↓3）
+
+【楓之谷M】
+台湾｜iOS｜iOS畅销榜：53（↓2；近3日连续下滑）
+
+【寒霜啟示錄】
+台湾｜Google｜Google畅销榜：11（↑1；近7日新高）
+台湾｜iOS｜iOS免费榜：61（↓9；近7日新低）
+台湾｜iOS｜iOS畅销榜：1（→；近7日新高）
+
+【Last War: Survival】
+台湾｜Google｜Google畅销榜：13（→；近7日新高）
+台湾｜iOS｜iOS畅销榜：30（↑4）
+
+========== 新游预注册监控 ==========
+今日暂无新发现的预注册游戏；当前仍在监控 1 款。
+当前未识别到角色扮演相关预注册游戏。
+
+
+========== 榜单异动预警 ==========
+
+【P1｜重点关注异动】
+🔥 大幅上涨｜台湾｜iOS畅销榜｜hololive Dreams：18（↑82）
+🔥 大幅上涨｜台湾｜iOS免费榜｜Jelly Busters: 方塊大作戰：8（↑71）
+🔥 大幅上涨｜台湾｜iOS畅销榜｜楓之谷：放置冒險記：3（↑25）
+🔥 大幅上涨｜台湾｜iOS畅销榜｜天外星原：魔女覺醒：9（↑15）
+
+【P2｜普通榜单异动】
+🔥 大幅上涨｜台湾｜Google免费榜｜Gangster Miami RP: Grand City：26（↑72）
+🔥 大幅上涨｜台湾｜iOS畅销榜｜救世者之樹：新世界：32（↑63）
+🔥 大幅上涨｜台湾｜iOS畅销榜｜燕雲十六聲：25（↑57）
+🔥 大幅上涨｜台湾｜iOS免费榜｜Minou - 為黑貓編織：21（↑48）
+🆕 新进榜TOP50｜台湾｜iOS免费榜｜4. DIGIMON ALYSION
+🔥 大幅上涨｜台湾｜iOS畅销榜｜我的花園世界：48（↑47）
+🔥 大幅上涨｜台湾｜iOS畅销榜｜貓咪大戰爭：44（↑45）
+🆕 新进榜TOP50｜台湾｜iOS免费榜｜10. Fresh Today: Cozy Supermarket
+🔥 大幅上涨｜台湾｜iOS畅销榜｜解憂夢幻島：55（↑39）
+⚠️ 大幅下跌｜台湾｜iOS畅销榜｜果燃很派：93（↓37）
+⚠️ 大幅下跌｜台湾｜iOS畅销榜｜原神：84（↓36）
+⚠️ 大幅下跌｜台湾｜iOS免费榜｜Cube Land Puzzle Game：90（↓34）
+🔥 大幅上涨｜台湾｜Google免费榜｜Tidy Room!：43（↑32）
+🔥 大幅上涨｜台湾｜iOS畅销榜｜Last Z:Survival Shooter（倖存者逃亡）：37（↑31）
+⚠️ 大幅下跌｜台湾｜iOS免费榜｜星辰騎士：像素二次元RPG：65（↓31）
+⚠️ 大幅下跌｜台湾｜iOS畅销榜｜三國：謀定天下：95（↓31）
+🔥 大幅上涨｜台湾｜Google免费榜｜Word Jam - Screw Puzzle：21（↑29）
+🔥 大幅上涨｜台湾｜iOS免费榜｜MONSTER HUNTER RISE NETFLIX：11（↑28）
+⚠️ 大幅下跌｜台湾｜iOS免费榜｜Sudoku a Day - Number Puzzle：71（↓28）
+⚠️ 大幅下跌｜台湾｜iOS免费榜｜萌混成仙：87（↓27）
+🔥 大幅上涨｜台湾｜Google免费榜｜Relax Mini Games：67（↑25）
+⚠️ 大幅下跌｜台湾｜iOS畅销榜｜七騎士 Re:BIRTH：94（↓25）
+⚠️ 大幅下跌｜台湾｜Google免费榜｜Word Connect Association：95（↓25）
+⚠️ 大幅下跌｜台湾｜Google免费榜｜Arknights: Endfield：37（↓24）
+⚠️ 大幅下跌｜台湾｜iOS畅销榜｜RO仙境傳説：世界之旅：57（↓24）
+⚠️ 大幅下跌｜台湾｜iOS畅销榜｜心動小鎮：77（↓24）
+另有 82 条异动未展示。
+
+========== 台湾 ==========
+
+【iOS免费榜 TOP20】
+1. 天外星原：魔女覺醒 →
+2. 藍色星原：旅謠 →
+3. 無職轉生 ～到了異世界就拿出真本事～ 迴響編年史 →
+4. DIGIMON ALYSION 新入榜
+5. StepHaven：計步器小鎮・療癒走路遊戲 ↓1
+6. 瘋狂水世界 ↓1
+7. 裝備仔: OVERGEARED ↑6
+8. Jelly Busters: 方塊大作戰 ↑71
+9. 最強領主 ↓3
+10. Fresh Today: Cozy Supermarket 新入榜
+11. MONSTER HUNTER RISE NETFLIX ↑28
+12. 遺棄之地TD ↓4
+13. Block Out! - Color Sort Puzzle ↑3
+14. Bus Traffic Fever! ↓4
+15. 凹嗚殺:狼人在身邊 ↓4
+16. 王國W：血盟之誓 ↓9
+17. 來種水果吧！-甄嬛傳聯動 ↓8
+18. 砍價大偵探：放大鏡找茬腦筋急轉彎 ↓6
+19. 兵器王者：鍛造放置RPG ↓5
+20. 塔塔冒險隊 ↓3
+
+【iOS畅销榜 TOP20】
+1. 寒霜啟示錄 →
+2. 星城－推金城堡．推幣滿載而歸 →
+3. 楓之谷：放置冒險記 ↑25
+4. 瑪奇 Mobile ↓1
+5. 塔塔冒險隊 ↑2
+6. 瘋狂水世界 ↑2
+7. Kingshot ↓2
+8. Pikmin Bloom ↓4
+9. 天外星原：魔女覺醒 ↑15
+10. 緋聞港口：合併&故事 ↓1
+11. Coin Master →
+12. 麻將明星3缺1 ↓2
+13. PUBG MOBILE：絕地求生M ↓7
+14. Garena 傳說對決：十週年裂隙穿梭版本 →
+15. 包你發－王識賢、安心亞推薦休閒娛樂城－阿波羅2新機台上線 ↓3
+16. 最強領主 ↑3
+17. 糖果傳奇 ↑1
+18. hololive Dreams ↑82
+19. 嚦咕麻將-戰神賽特、月兔、雷神之錘、麻將、魚機、老虎機 ↓3
+20. 半夜別修仙 - 少年歌行聯動 ↓3
+
+【Google免费榜 TOP20】
+1. Block Blast Lite ↑1
+2. Roblox ↑1
+3. Meowdoku: Brain Puzzle Games ↑1
+4. Amochiroom Puzzle: Room Sort ↓3
+5. Sort Streak: Color Puzzle ↑2
+6. Block Blast! ↓1
+7. Rotate Rings ↓1
+8. Gossip Harbor: Merge & Story →
+9. Block Craft 3D：Building Game →
+10. Vita Mahjong ↑1
+11. Bus Fever Party! ↑3
+12. Word Tiles - Relaxing Puzzle →
+13. Paper.io 2 ↓3
+14. Mahjong Blast ↑3
+15. Royal Smash! - Physics Puzzle →
+16. Chess - Play and Learn Online ↑2
+17. Pocket Sort: Coin Merge Puzzle ↑19
+18. Magic Tiles 3™ - Piano Game ↑3
+19. Brain Puzzle 3: Crazy Mind ↑7
+20. MemeMix Challenge: Funny Party ↑11
+
+【Google畅销榜 TOP20】
+1. MONOPOLY GO! →
+2. Roblox →
+3. Candy Crush Saga →
+4. Coin Master ↑2
+5. Gossip Harbor: Merge & Story →
+6. Royal Match ↓2
+7. Township →
+8. Pokémon GO ↑1
+9. Royal Kingdom ↓1
+10. Kingshot →
+11. Whiteout Survival ↑1
+12. Total Battle: War Strategy ↓1
+13. Last War:Survival Game →
+14. Toon Blast →
+15. RAID: Shadow Legends ↑2
+16. Gardenscapes →
+17. Last Z: Survival Shooter ↓2
+18. Disney Solitaire →
+19. Evony: The King's Return ↑1
+20. Dice Dreams™️ ↓1
+
+
+========== 重点产品趋势图 ==========
+暂无足够历史数据生成趋势图。
